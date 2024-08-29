@@ -1,0 +1,25 @@
+@import "../../theme/breakpoints";
+
+.navbar {
+  display: flex;
+}
+
+.navbar__nav-items {
+  display: flex;
+  list-style-type: none;
+  gap: 8px;
+}
+
+.navbar__nav-item {
+  font-size: var(--font-size-subtitle);
+  color:var(--grey-deep);
+  &:visited {
+  color:inherit;
+  }
+}
+
+@media screen and (min-width: $mobile-bp) {
+  .navbar__nav-item {
+    font-size: var(--font-size-h3);
+  }
+}

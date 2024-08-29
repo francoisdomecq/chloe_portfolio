@@ -1,0 +1,31 @@
+@import "../../theme/breakpoints";
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.header__title {
+  font-family: var(--title-font);
+  font-size: var(--font-size-h4);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media screen and (min-width: $mobile-bp) {
+  .header{
+    padding : 16px 24px;
+    max-height: 72px;
+    gap: 24px;
+    justify-content: space-between;
+  }
+
+  .header__title {
+    font-size: var(--font-size-h3);
+  }
+}
