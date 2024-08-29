@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1",
+    "title": "Odette",
+    "description": "caca",
+    "content": [
+      {
+        "id": "1",
+        "type": "image",
+        "source" : "/projects/ODETTE-WEB/ODETTE-31.jpg"
+      },
+      {
+        "id": "2",
+        "type": "image",
+        "source" : "/projects/ODETTE-WEB/ODETTE-34.jpg"
+      },
+      {
+        "id": "3",
+        "type": "video",
+        "source" : "ODETTE-WEB/TYPO.mp4"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Non",
+    "description": "Non"
+  }
+]

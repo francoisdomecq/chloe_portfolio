@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
 
 import Navbar from "../navbar/navbar.tsx";
 
@@ -6,9 +7,11 @@ import "./header.scss";
 
 
 const Header = () => {
+    const navigate = useNavigate();
     const { t } = useTranslation("core");
 
     const handleClickHeaderTitle = () => {
+        navigate("/");
         window.scroll(0, 0);
     };
 

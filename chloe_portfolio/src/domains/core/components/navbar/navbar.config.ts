@@ -1,15 +1,17 @@
+import { NavTabs } from "../../types";
+
 const NAV_TABS = [
     {
         key: "works",
-        tagId: "works"
+        tagId: NavTabs.WORKS
     },
     {
         key: "about",
-        tagId: "about"
+        tagId: NavTabs.ABOUT
     },
     {
         key: "contact",
-        tagId: "contact"
+        tagId: NavTabs.CONTACT
     }
 ];
 
