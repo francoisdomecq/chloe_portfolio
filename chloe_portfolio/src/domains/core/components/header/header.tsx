@@ -5,7 +5,6 @@ import Navbar from "../navbar/navbar.tsx";
 
 import "./header.scss";
 
-
 const Header = () => {
     const navigate = useNavigate();
     const { t } = useTranslation("core");

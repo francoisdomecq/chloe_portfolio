@@ -3,11 +3,13 @@
 .portfolio-page{
   display: flex;
   flex-direction: column;
-  padding: 56px 20px;
+  padding: 56px 24px;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 
 @media screen and (min-width: $mobile-bp) {
   .portfolio-page{
-    padding: 80px 40px;
+    padding: 80px 24px;
   }
 }

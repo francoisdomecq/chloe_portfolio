@@ -1,4 +1,19 @@
+@import "src/domains/core/theme/breakpoints";
+
 .project-details{
   display: flex;
   flex-direction: column;
+}
+
+.project-details__content{
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+@media screen and (min-width: $mobile-bp){
+
+  .project-details__content{
+    max-width: none;
+  }
 }

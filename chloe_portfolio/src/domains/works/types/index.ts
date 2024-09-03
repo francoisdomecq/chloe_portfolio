@@ -2,6 +2,7 @@ interface Project {
   id:string;
   title: string;
   description: string;
+  carouselImage:string;
   content: ProjectContent[];
 }
 

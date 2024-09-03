@@ -1,13 +1,15 @@
 import { useParams } from "react-router-dom";
 
+import { PortfolioPage } from "../../../core";
 import PROJECTS from "../../config/works.json";
 import { Project, ProjectContent, ProjectContentMediaType } from "../../types";
 
+import ImageDisplayer from "./components/image-displayer/image-displayer.tsx";
 import VideoPlayer from "./components/video-player/video-player.tsx";
 
-import "./project-details.scss";
 
-import ImageDisplayer from "./components/image-displayer/image-displayer.tsx";
+
+import "./project-details.scss";
 
 
 const ProjectDetails = () => {
@@ -23,11 +25,13 @@ const ProjectDetails = () => {
     };
 
     return  (
-        <div className="project-details">
+        <PortfolioPage className="project-details">
             <h1>{foundProject.title}</h1>
             <p>{foundProject.description}</p>
-            {foundProject.content.map(renderProjectContent)}
-        </div>
+            <div className="project-details__content">
+                {foundProject.content.map(renderProjectContent)}
+            </div>
+        </PortfolioPage>
     );
 };
 

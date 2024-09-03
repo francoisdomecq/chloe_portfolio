@@ -3,27 +3,134 @@
     "id": "1",
     "title": "Odette",
     "description": "caca",
+    "carouselImage": "/projects/ODETTE-WEB/ODETTE-1.jpg",
     "content": [
       {
         "id": "1",
         "type": "image",
-        "source" : "/projects/ODETTE-WEB/ODETTE-31.jpg"
+        "source" : "/projects/ODETTE-WEB/ODETTE-1.jpg"
       },
       {
         "id": "2",
         "type": "image",
-        "source" : "/projects/ODETTE-WEB/ODETTE-34.jpg"
+        "source" : "/projects/ODETTE-WEB/ODETTE-2.jpg"
       },
       {
         "id": "3",
+        "type": "image",
+        "source" : "/projects/ODETTE-WEB/ODETTE-3.jpg"
+      },
+      {
+        "id": "4",
         "type": "video",
         "source" : "ODETTE-WEB/TYPO.mp4"
+      },
+      {
+        "id": "5",
+        "type": "image",
+        "source" : "/projects/ODETTE-WEB/ODETTE-4.jpg"
+      },
+      {
+        "id": "6",
+        "type": "image",
+        "source" : "/projects/ODETTE-WEB/ODETTE-5.jpg"
+      },
+      {
+        "id": "8",
+        "type": "image",
+        "source" : "/projects/ODETTE-WEB/ODETTE-6.jpg"
+      },
+      {
+        "id": "9",
+        "type": "image",
+        "source" : "/projects/ODETTE-WEB/ODETTE-7.jpg"
+      },
+      {
+        "id": "10",
+        "type": "image",
+        "source" : "/projects/ODETTE-WEB/ODETTE-8.jpg"
+      },
+      {
+        "id": "11",
+        "type": "image",
+        "source" : "/projects/ODETTE-WEB/ODETTE-9.jpg"
+      },
+      {
+        "id": "12",
+        "type": "image",
+        "source" : "/projects/ODETTE-WEB/ODETTE-10.jpg"
+      },
+      {
+        "id": "13",
+        "type": "image",
+        "source" : "/projects/ODETTE-WEB/ODETTE-11.jpg"
+      },
+      {
+        "id": "14",
+        "type": "image",
+        "source" : "/projects/ODETTE-WEB/ODETTE-12.jpg"
+      },
+      {
+        "id": "15",
+        "type": "image",
+        "source" : "/projects/ODETTE-WEB/ODETTE-13.jpg"
+      },
+      {
+        "id": "16",
+        "type": "image",
+        "source" : "/projects/ODETTE-WEB/ODETTE-14.jpg"
+      },
+      {
+        "id": "17",
+        "type": "video",
+        "source" : "ODETTE-WEB/ODETTE_BOOK.mp4"
+      },
+      {
+        "id": "18",
+        "type": "image",
+        "source" : "/projects/ODETTE-WEB/ODETTE-15.jpg"
+      },
+      {
+        "id": "19",
+        "type": "image",
+        "source" : "/projects/ODETTE-WEB/ODETTE-16.jpg"
       }
     ]
   },
   {
     "id": "2",
-    "title": "Non",
-    "description": "Non"
+    "title": "FullMoon",
+    "description": "Non",
+    "carouselImage": "/projects/ODETTE-WEB/ODETTE-16.jpg"
+  },
+  {
+    "id": "3",
+    "title": "Casa",
+    "description": "Description 3",
+    "carouselImage": "/projects/ODETTE-WEB/ODETTE-15.jpg"
+  },
+  {
+    "id": "4",
+    "title": "QUATRO",
+    "description": "Description 4",
+    "carouselImage": "/projects/ODETTE-WEB/ODETTE-14.jpg"
+  },
+  {
+    "id": "5",
+    "title": "Casa",
+    "description": "Non",
+    "carouselImage": "/projects/ODETTE-WEB/ODETTE-13.jpg"
+  },
+  {
+    "id": "6",
+    "title": "Casa",
+    "description": "Non",
+    "carouselImage": "/projects/ODETTE-WEB/ODETTE-12.jpg"
+  },
+  {
+    "id": "7",
+    "title": "Casa",
+    "description": "Non",
+    "carouselImage": "/projects/ODETTE-WEB/ODETTE-16.jpg"
   }
 ]

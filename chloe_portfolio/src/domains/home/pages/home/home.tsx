@@ -1,14 +1,16 @@
 import { About } from "../../../about";
 import { Contact } from "../../../contact";
 import PortfolioPage from "../../../core/components/portfolio-page/portfolio-page.tsx";
-import { Works } from "../../../works";
+import { Projects } from "../../../works";
 import HomePage from "../home-page/home-page.tsx";
+
+import "./home.scss";
 
 const Home = ()=>{
     return (
         <PortfolioPage>
             <HomePage/>
-            <Works/>
+            <Projects/>
             <About/>
             <Contact/>
         </PortfolioPage>

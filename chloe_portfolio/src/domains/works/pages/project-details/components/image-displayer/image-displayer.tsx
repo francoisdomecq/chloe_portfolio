@@ -7,7 +7,7 @@ interface ImageDisplayerProps{
 const ImageDisplayer = ({ source }: ImageDisplayerProps) => {
     return (
         <div className="image-displayer">
-            <img width={300}src={source} alt="project"/>
+            <img src={source}  width="100%" height="100%" className="image-displayer__image" alt="project"/>
         </div>
     );
 };
