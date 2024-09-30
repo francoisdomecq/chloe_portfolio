@@ -1,18 +1,19 @@
 import React from "react";
 
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/effect-creative";
+import WORKS from "../../../config/works.json";
 
 import "./carousel.scss";
 
+import { Project } from "../../../types";
 
-const Carousel = ()=> {
+const ProjectCarousel = () => {
+
+    const images = WORKS.map((project:Project )=> project.carouselImage);
+
     return (
-        <div>
-    
+        <div className="">
         </div>
     );
 };
 
-export default Carousel;
+export default ProjectCarousel;

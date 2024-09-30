@@ -11,15 +11,15 @@ const Navbar = () => {
 
     const { t } = useTranslation("core");
 
-    const handleClickHeaderTitle = (tagId) => {
-        navigate("/");
+    const handleClickHeaderTitle = (tagId:string) => {
+        navigate(tagId);
     };
     return (
         <nav className="navbar">
             <ul className="navbar__nav-items">
                 {NAV_TABS.map(tab =>
-                    <li key={tab.key} onClick={handleClickHeaderTitle}>
-                        <a className="navbar__nav-item" href={`#${tab.tagId}`}>{t(`navbar.tabs.${tab.key}`)}</a>
+                    <li key={tab.key} onClick={()=>handleClickHeaderTitle(tab.tagId)}>
+                        <span className="navbar__nav-item">{t(`navbar.tabs.${tab.key}`)}</span>
                     </li>
                 )}
             </ul>

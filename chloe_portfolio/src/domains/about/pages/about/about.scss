@@ -1,3 +1,11 @@
 .about{
   height: 100vh;
+  gap: 64px;
+}
+
+.about__introduction{
+  display: flex;
+  max-width: 550px;
+  font-size: var(--font-size-body-m);
+  margin-bottom: 64px;
 }

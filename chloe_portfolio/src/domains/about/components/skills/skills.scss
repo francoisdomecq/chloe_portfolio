@@ -1,0 +1,16 @@
+.skills{
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills__list{
+  display: grid;
+  width: 100%;
+  gap:16px;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  margin-top: 8px;
+}
+
+.skills__list-item{
+  font-size: var(--font-size-body-m);
+}

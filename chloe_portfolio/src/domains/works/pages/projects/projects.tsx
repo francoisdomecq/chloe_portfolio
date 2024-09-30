@@ -1,14 +1,16 @@
+import { NavTabs } from "../../../core/types";
+import ProjectDisplay from "../../components/project-display/project-display.tsx";
+import WORKS from "../../config/works.json";
+import { Project } from "../../types";
+
 import "./projects.scss";
 
-import "swiper/css";
-
-import Carousel from "./carousel/carousel.tsx";
 
 const Projects = () => {
     return (
-        <div style={{ paddingTop:2000 }}>
-            <Carousel/>
-        </div>
+        <section className="projects" id={NavTabs.WORKS}>
+            {WORKS.map((work:Project) => <ProjectDisplay key={work.id} work={work}/>)}
+        </section>
     );
 };
 

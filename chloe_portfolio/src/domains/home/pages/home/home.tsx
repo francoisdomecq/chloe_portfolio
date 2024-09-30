@@ -1,18 +1,17 @@
-import { About } from "../../../about";
-import { Contact } from "../../../contact";
 import PortfolioPage from "../../../core/components/portfolio-page/portfolio-page.tsx";
-import { Projects } from "../../../works";
-import HomePage from "../home-page/home-page.tsx";
 
 import "./home.scss";
 
+import { useTranslation } from "react-i18next";
+
 const Home = ()=>{
+    const { t } = useTranslation("home");
     return (
         <PortfolioPage>
-            <HomePage/>
-            <Projects/>
-            <About/>
-            <Contact/>
+            <h1 className="home-page__title">{t("home.title")}</h1>
+            <div>
+                <p>{t("home.portfolio-description")}</p>
+            </div>
         </PortfolioPage>
     );
 };

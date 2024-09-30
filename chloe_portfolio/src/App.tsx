@@ -8,6 +8,10 @@ import ProjectDetails from "./domains/works/pages/project-details/project-detail
 
 import "./App.scss";
 
+import { About } from "./domains/about";
+import { Contact } from "./domains/contact";
+import Footer from "./domains/core/components/footer/footer.tsx";
+
 function App() {
     return (
         <div>
@@ -16,7 +20,10 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/works/:id" element={<ProjectDetails/>}/>
+                <Route path="/about" element={<About />} />
+                <Route path="/contact" element={<Contact/>} />
             </Routes>
+            <Footer/>
         </div>
     );
 }
