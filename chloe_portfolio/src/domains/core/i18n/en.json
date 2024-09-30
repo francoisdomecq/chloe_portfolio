@@ -8,5 +8,10 @@
       "about": "ABOUT",
       "contact": "CONTACT"
     }
+  },
+  "footer": {
+    "instagram": "INSTAGRAM",
+    "behance": "BEHANCE",
+    "linkedin": "LINKEDIN"
   }
 }

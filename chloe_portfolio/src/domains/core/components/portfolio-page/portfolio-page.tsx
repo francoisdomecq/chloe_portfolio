@@ -1,3 +1,5 @@
+import { Footer, Header } from "../../index.ts";
+
 import "./portfolio-page.scss";
 
 interface PortfolioPageProps {
@@ -5,10 +7,14 @@ interface PortfolioPageProps {
     className?:string;
 }
 
-const PortfolioPage = ({ children,className }:PortfolioPageProps) => {
+const PortfolioPage = ({ children,className="" }:PortfolioPageProps) => {
     return (
         <div className={`portfolio-page ${className}`}>
-            {children}
+            <Header/>
+            <div className="portfolio-page__content">
+                {children}
+            </div>
+            <Footer/>
         </div>
     );
 };

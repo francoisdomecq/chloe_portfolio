@@ -1,3 +1,35 @@
-.contact{
-  height: 100vh;
+.contact__content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 560px;
+    gap: 8px;
+}
+
+.contact__title{
+  font-size: var(--font-size-h4);
+  color:var(--grey-deep);
+}
+
+.contact__contact{
+  font-size: var(--font-size-h1);
+}
+
+.contact__collaboration-message{
+  color: var(--grey-deep);
+  font-size: var(--font-size-body-l);
+}
+
+.contact__links{
+  display: flex;
+  gap: 16px;
+}
+
+.contact__link{
+  color:black;
+  font-family: var(--title-font);
+  font-size: var(--font-size-body-s);
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 700;
 }

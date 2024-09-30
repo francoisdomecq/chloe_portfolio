@@ -12,7 +12,7 @@ const Navbar = () => {
     const { t } = useTranslation("core");
 
     const handleClickHeaderTitle = (tagId:string) => {
-        navigate(tagId);
+        navigate(`/${tagId}`);
     };
     return (
         <nav className="navbar">

@@ -1,16 +1,24 @@
-import "./contact.scss";
+import { useTranslation } from "react-i18next";
 
 import { PortfolioPage } from "../../../core";
 
-import { useTranslation } from "react-i18next";
+import "./contact.scss";
 
 const Contact = () => {
     const { t } = useTranslation("contact");
     return (
         <PortfolioPage className="contact">
-            <h2>Contact</h2>
-            <h2>Get in touch</h2>
-            <p>If you want to collaborate and discuss a project, please contact me. I’m usually based in Paris, but I am open to work anywhere in the world</p>
+            <div className="contact__content">
+                <p className="contact__title">{t("title")}</p>
+                <h2 className="contact__contact">{t("contact")}</h2>
+                <p className="contact__collaboration-message">{t("collaboration-message")}</p>
+                <div className="contact__links">
+                    <a className="contact__link">{t("instagram")}</a>
+                    <a className="contact__link">{t("linkedin")}</a>
+                    <a className="contact__link">{t("mail")}</a>
+                </div>
+            </div>
+
         </PortfolioPage>
     );
 };

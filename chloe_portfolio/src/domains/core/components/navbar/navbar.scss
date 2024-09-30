@@ -13,6 +13,7 @@
 .navbar__nav-item {
   font-size: var(--font-size-subtitle);
   color:var(--grey-deep);
+  cursor: pointer;
   &:visited {
   color:inherit;
   }

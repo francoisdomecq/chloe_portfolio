@@ -7,6 +7,13 @@
   width: 100vw;
 }
 
+.portfolio-page__content{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  height: 100%;
+}
+
 @media screen and (min-width: $mobile-bp) {
   .portfolio-page{
     padding: 80px 24px;
