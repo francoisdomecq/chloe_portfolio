@@ -1,8 +1,12 @@
 @import "src/domains/core/theme/breakpoints";
 
 .project-details{
-  display: flex;
-  flex-direction: column;
+  height: 100%;
+}
+
+.project-details__title{
+  font-family: var(--title-font);
+  font-size: var(--font-size-h1);
 }
 
 .project-details__content{

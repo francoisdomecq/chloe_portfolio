@@ -1,16 +1,19 @@
 import { useTranslation } from "react-i18next";
 
-import "./experiences.scss";
+
+import HoveredTitle from "../../../core/components/hovered-title/hovered-title.tsx";
+import Experience from "../experience/experiences.tsx";
 
 import { experiences } from "./experiences.config.ts";
 
-import Experience from "../experience/experiences.tsx";
+
+import "./experiences.scss";
 
 const Experiences = ()=>{
     const { t }=useTranslation("about");
     return (
         <div className="experiences">
-            <h1>{t("experiences")}</h1>
+            <HoveredTitle title={t("experiences")}/>
             <table className="experiences__list">
                 {experiences.map((experience, index) => <Experience experience={experience} key={index}/>)}
             </table>

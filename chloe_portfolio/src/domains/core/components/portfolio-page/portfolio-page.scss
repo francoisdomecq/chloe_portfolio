@@ -5,17 +5,18 @@
   flex-direction: column;
   padding: 56px 24px;
   width: 100vw;
+  min-height: 100vh;
 }
 
 .portfolio-page__content{
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  height: 100%;
+  flex-grow: 1;
 }
 
 @media screen and (min-width: $mobile-bp) {
   .portfolio-page{
-    padding: 80px 24px;
+    padding: 80px 24px 0;
   }
 }

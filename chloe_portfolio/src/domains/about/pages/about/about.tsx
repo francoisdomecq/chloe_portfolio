@@ -8,7 +8,6 @@ import Skills from "../../components/skills/skills.tsx";
 
 import "./about.scss";
 
-
 const About = () => {
     const { t }=useTranslation("about");
     return (

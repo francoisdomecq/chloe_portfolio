@@ -7,12 +7,14 @@ import { schools } from "./schools.config.ts";
 
 import "./schools.scss";
 
+import HoveredTitle from "../../../core/components/hovered-title/hovered-title.tsx";
+
 
 const Schools = ()=>{
     const { t }=useTranslation("about");
     return (
         <div className="schools">
-            <h1>{t("school")}</h1>
+            <HoveredTitle title= {t("school")}/>
             <table className="schools_list">
                 {schools.map((school, index) => <Experience experience={school} key={index}/>)}
             </table>

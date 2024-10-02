@@ -5,6 +5,8 @@ import Navbar from "../navbar/navbar.tsx";
 
 import "./header.scss";
 
+import { useEffect } from "react";
+
 const Header = () => {
     const navigate = useNavigate();
     const { t } = useTranslation("core");
@@ -14,8 +16,32 @@ const Header = () => {
         window.scroll(0, 0);
     };
 
+    useEffect(() => {
+        let prevScrollpos = window.pageYOffset;
+        window.onscroll =  ()=> {
+            const currentScrollPos = window.pageYOffset;
+            if (window.innerWidth > 900) {
+                const navbar = document.getElementById("header");
+                if (prevScrollpos > currentScrollPos) {
+                    if (currentScrollPos < 100) {
+                        navbar.classList.remove("background-color");
+                        navbar.classList.add("background-transparent");
+                    } else {
+                        navbar.classList.add("background-color");
+                    }
+                    navbar.style.top = "0";
+                } else if (currentScrollPos <= 100) {
+                    navbar.classList.add("background-color");
+                } else {
+                    navbar.style.top = "-10%";
+                }
+                prevScrollpos = currentScrollPos;
+            }
+        };
+    });
+
     return (
-        <header className="header">
+        <header className="header" id="header">
             <div onClick={handleClickHeaderTitle}>
                 <h1 className="header__title" >{t("header.name")}</h1>
             </div>

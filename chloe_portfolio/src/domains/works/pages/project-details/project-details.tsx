@@ -7,10 +7,7 @@ import { Project, ProjectContent, ProjectContentMediaType } from "../../types";
 import ImageDisplayer from "./components/image-displayer/image-displayer.tsx";
 import VideoPlayer from "./components/video-player/video-player.tsx";
 
-
-
 import "./project-details.scss";
-
 
 const ProjectDetails = () => {
     const projectId = useParams().id;
@@ -26,7 +23,7 @@ const ProjectDetails = () => {
 
     return  (
         <PortfolioPage className="project-details">
-            <h1>{foundProject.title}</h1>
+            <h1 className="project-details__title">{foundProject.title}</h1>
             <p>{foundProject.description}</p>
             <div className="project-details__content">
                 {foundProject.content.map(renderProjectContent)}
