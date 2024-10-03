@@ -11,13 +11,15 @@ import "./about.scss";
 const About = () => {
     const { t }=useTranslation("about");
     return (
-        <PortfolioPage className="about" id={NavTabs.ABOUT}>
-            <div className="about__introduction">
-                <p>{t("introduction")}</p>
+        <PortfolioPage  id={NavTabs.ABOUT}>
+            <div className="about">
+                <div className="about__introduction">
+                    <p>{t("introduction")}</p>
+                </div>
+                <Skills/>
+                <Experiences/>
+                <Schools/>
             </div>
-            <Skills/>
-            <Experiences/>
-            <Schools/>
         </PortfolioPage>
     );
 };

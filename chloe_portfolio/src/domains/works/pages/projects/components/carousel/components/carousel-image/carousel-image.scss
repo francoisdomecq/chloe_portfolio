@@ -1,0 +1,31 @@
+.carousel-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:relative;
+  overflow-x: hidden;
+  min-width: 350px;
+}
+
+.carousel-image__container{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+.carousel-image__image{
+  object-fit: cover;
+}
+
+.carousel-image__overlay{
+  display: flex;
+}
+
+.carousel-image__overlay-empty{
+  visibility: hidden;
+}
+
+.carousel-image__overla{
+  opacity: 1;
+  top: - 64px;
+}

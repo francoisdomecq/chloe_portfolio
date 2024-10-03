@@ -2,10 +2,10 @@ import { useContext, useEffect, useState } from "react";
 
 import { motion } from "framer-motion";
 
-import "./mouse-cursor.scss";
 
 import { AppContext } from "../../../../config/contexts/app-context.tsx";
 
+import "./mouse-cursor.scss";
 
 const MouseCursor = () => {
     const { isTextHovered }=useContext(AppContext);
@@ -39,7 +39,7 @@ const MouseCursor = () => {
     };
 
     const cursorVariant = isTextHovered ? "text" : "default";
-    console.log(cursorVariant,isTextHovered);
+
     return (
         <motion.div className="cursor" variants={variants} animate={cursorVariant}/>
     );

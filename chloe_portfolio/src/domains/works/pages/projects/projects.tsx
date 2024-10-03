@@ -1,16 +1,16 @@
-import { NavTabs } from "../../../core/types";
-import ProjectDisplay from "../../components/project-display/project-display.tsx";
-import WORKS from "../../config/works.json";
-import { Project } from "../../types";
+import { PortfolioPage } from "../../../core";
+
+import Carousel from "./components/carousel/carousel.tsx";
 
 import "./projects.scss";
 
-
 const Projects = () => {
     return (
-        <section className="projects" id={NavTabs.WORKS}>
-            {WORKS.map((work:Project) => <ProjectDisplay key={work.id} work={work}/>)}
-        </section>
+        <PortfolioPage className="projects">
+            <div className="projects__carousel">
+                <Carousel/>
+            </div>
+        </PortfolioPage>
     );
 };
 

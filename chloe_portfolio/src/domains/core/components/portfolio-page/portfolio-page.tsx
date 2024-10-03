@@ -8,6 +8,7 @@ interface PortfolioPageProps {
 }
 
 const PortfolioPage = ({ children,className="" }:PortfolioPageProps) => {
+
     return (
         <div className={`portfolio-page ${className}`}>
             <Header/>

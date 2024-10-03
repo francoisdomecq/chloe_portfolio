@@ -4,7 +4,8 @@ import { useTranslation } from "react-i18next";
 
 import { AppContext } from "../../../../config/contexts/app-context.tsx";
 import HoveredTitle from "../../../core/components/hovered-title/hovered-title.tsx";
-import { skills } from "../skills/skills.config.ts";
+
+import { skills } from "./skills.config.ts";
 
 import "./skills.scss";
 

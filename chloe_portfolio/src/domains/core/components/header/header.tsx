@@ -7,7 +7,10 @@ import "./header.scss";
 
 import { useEffect } from "react";
 
+import { motion, useScroll } from "framer-motion";
+
 const Header = () => {
+    const { scrollY } = useScroll();
     const navigate = useNavigate();
     const { t } = useTranslation("core");
 
@@ -41,12 +44,12 @@ const Header = () => {
     });
 
     return (
-        <header className="header" id="header">
+        <motion.header className="header" id="header">
             <div onClick={handleClickHeaderTitle}>
                 <h1 className="header__title" >{t("header.name")}</h1>
             </div>
             <Navbar/>
-        </header>
+        </motion.header>
     );
 };
 

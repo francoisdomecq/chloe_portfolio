@@ -8,7 +8,7 @@ interface VideoPlayerProps{
 }
 
 const VideoPlayer = ({ source }:VideoPlayerProps)=>{
-    const sourceParsed = `/projects/${source}`;
+    const sourceParsed = `${source}`;
 
     return (
         <div className="video-player">

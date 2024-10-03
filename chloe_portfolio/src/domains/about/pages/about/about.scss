@@ -1,5 +1,7 @@
 .about{
-  gap: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
 }
 
 .about__introduction{

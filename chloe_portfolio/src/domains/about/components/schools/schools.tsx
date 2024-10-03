@@ -1,24 +1,24 @@
 import { useTranslation } from "react-i18next";
 
+import { motion } from "framer-motion";
 
+import HoveredTitle from "../../../core/components/hovered-title/hovered-title.tsx";
 import Experience from "../experience/experiences.tsx";
 
 import { schools } from "./schools.config.ts";
 
+
 import "./schools.scss";
-
-import HoveredTitle from "../../../core/components/hovered-title/hovered-title.tsx";
-
 
 const Schools = ()=>{
     const { t }=useTranslation("about");
     return (
-        <div className="schools">
+        <motion.div className="schools" initial={{ opacity:0 }} whileInView={{ opacity: 1 }} viewport={{ once: true ,amount: 1 }}>
             <HoveredTitle title= {t("school")}/>
             <table className="schools_list">
                 {schools.map((school, index) => <Experience experience={school} key={index}/>)}
             </table>
-        </div>
+        </motion.div>
     );
 };
 
