@@ -10,12 +10,12 @@ import CarouselImage from "./components/carousel-image/carousel-image.tsx";
 import "./carousel.scss";
 
 const ProjectCarousel = () => {
-    let [ref,{ width }]= useMeasure();
-    const xTranslation = useMotionValue(0);
+    const [ref,{ width }]= useMeasure();
 
+    const xTranslation = useMotionValue(0);
     useEffect(() => {
         const finalPosition = - width /2 -8;
-        const controls = animate(xTranslation,[0,finalPosition],{
+        const controls = animate(xTranslation,[0, finalPosition],{
             ease:"linear",
             duration:25,
             repeat:Infinity,
@@ -26,9 +26,9 @@ const ProjectCarousel = () => {
     }, [xTranslation,width]);
 
     return (
-        <motion.div className="carousel" ref={ref} style={{ x :xTranslation }}>
+        <motion.div className="carousel" ref={ref} style={{ x:xTranslation }}>
             {[...projects,...projects].map((project, index) =>
-                <CarouselImage key={index} project={project}/>
+                <CarouselImage key={index} project={project}  />
             )}
         </motion.div>
     );

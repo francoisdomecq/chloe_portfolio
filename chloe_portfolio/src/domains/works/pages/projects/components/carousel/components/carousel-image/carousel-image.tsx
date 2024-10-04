@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 import { motion } from "framer-motion";
@@ -9,7 +9,7 @@ import { Project } from "../../../../../../types";
 import "./carousel-image.scss";
 
 interface CarouselImageProps {
-  project :Project
+  project :Project;
 }
 
 const CarouselImage = ({ project }:CarouselImageProps)=>{
@@ -27,11 +27,32 @@ const CarouselImage = ({ project }:CarouselImageProps)=>{
 
     const imageOverlayVariant = showOverlay ? "visible" : "hidden";
 
+    const variants = {
+        hover:{
+            scale:1.1
+        },
+        notHovered:{
+            scale:1
+        }
+    };
+
+
+    const imageVariant=useMemo(()=>{
+        if (showOverlay){
+            return "hover";
+        } else {
+            return "notHovered";
+        }
+    },[showOverlay]);
+
     return (
         <motion.div className="carousel-image"
+            initial={"default"}
             onHoverStart={()=>setShowOverlay(true)}
             onHoverEnd={()=>setShowOverlay(false)}
             onClick={handleNavigate}
+            variants={variants}
+            animate={imageVariant}
         >
             <div className="carousel-image__container">
                 <motion.div className={"carousel-image__overlay"}
@@ -43,7 +64,7 @@ const CarouselImage = ({ project }:CarouselImageProps)=>{
                         <h2>{project.description}</h2>
                     </div>
                 </motion.div>
-                <img width="100%" height="100%" className="carousel-image__image" src={project.carouselImage}/>
+                <motion.img width="100%" height="100%" className="carousel-image__image" src={project.carouselImage}/>
             </div>
 
         </motion.div>
