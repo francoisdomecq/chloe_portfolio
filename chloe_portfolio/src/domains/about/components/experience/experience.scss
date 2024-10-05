@@ -1,27 +1,10 @@
-.experience{
-  display: flex;
-  flex-direction: column;
-  max-width: 700px;
-  margin-top: 8px;
-  gap: 12px;
+.experience__content{
+  font-family: var(--text-font);
+  font-size: var(--font-size-body-l);
 }
-
-.experience__info{
-  font-size: var(--font-size-body-m);
-}
-
-.experience__title, .experience__company{
-  width:250px;
-  text-align: start;
-}
-
-.experience__dates{
-  width: 250px;
-  text-align: end;
-}
-
 
 .experience__separator{
   border:0.5px solid black;
+  width: 0;
 }
 

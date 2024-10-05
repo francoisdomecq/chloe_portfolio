@@ -9,14 +9,15 @@ experience : ExperienceType
 const Experience = (props: ExperienceProps) => {
     const { experience } = props;
     return (
-        <tbody className="experience">
+        <>
             <tr className="experience__info">
-                <th className="experience__title">{experience.title}</th>
-                <th className="experience__company">{experience.company}</th>
-                <th className="experience__dates">{experience.dates}</th>
+                <th scope="row" className="experience__content">{experience.title}</th>
+                <th className="experience__content">{experience.company}</th>
+                <th className="experience__content">{experience.dates}</th>
             </tr>
-            <span className="experience__separator"></span>
-        </tbody>
+            <tr className="experience__separator"></tr>
+        </>
+
     );
 };
 

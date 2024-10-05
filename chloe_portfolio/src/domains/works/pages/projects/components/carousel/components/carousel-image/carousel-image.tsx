@@ -61,10 +61,12 @@ const CarouselImage = ({ project }:CarouselImageProps)=>{
                 >
                     <div className="carousel-image__overla">
                         <motion.h1>{project.title}</motion.h1>
-                        <h2>{project.description}</h2>
+                        <h2>{project.date}</h2>
                     </div>
                 </motion.div>
-                <motion.img width="100%" height="100%" className="carousel-image__image" src={project.carouselImage}/>
+                <div className="carousel-image__image">
+                    <img width="100%" height="100%" src={project.carouselImage}/>
+                </div>
             </div>
 
         </motion.div>

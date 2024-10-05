@@ -1,10 +1,12 @@
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 
+import { motion } from "framer-motion";
+
 import { NAV_TABS } from "./navbar.config.ts";
 
-import "./navbar.scss";
 
+import "./navbar.scss";
 
 const Navbar = () => {
     const navigate = useNavigate();
@@ -18,9 +20,9 @@ const Navbar = () => {
         <nav className="navbar">
             <ul className="navbar__nav-items">
                 {NAV_TABS.map(tab =>
-                    <li key={tab.key} onClick={()=>handleClickHeaderTitle(tab.tagId)}>
-                        <span className="navbar__nav-item">{t(`navbar.tabs.${tab.key}`)}</span>
-                    </li>
+                    <motion.li whileHover={{ scale:1.1 }} key={tab.key} onClick={()=>handleClickHeaderTitle(tab.tagId)}>
+                        <span  className="navbar__nav-item">{t(`navbar.tabs.${tab.key}`)}</span>
+                    </motion.li>
                 )}
             </ul>
         </nav>

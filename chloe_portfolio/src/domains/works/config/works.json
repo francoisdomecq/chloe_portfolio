@@ -4,6 +4,7 @@
     "title": "Odette",
     "description": "description",
     "carouselImage": "/projects/VIGNETAGE_CARROUSEL/ODETTE.jpg",
+    "date": "2023-2024",
     "content": [
       {
         "id": "1",
@@ -95,8 +96,9 @@
   {
     "id": "2",
     "title": "FullMoon",
-    "description": "Non",
+    "description": "Fullmoon is a project that I made in 2022. It is a series of images that I took during the night. I wanted to capture the beauty of the moon and the stars. I used a long exposure technique to create these images. I hope you enjoy them!",
     "carouselImage": "/projects/VIGNETAGE_CARROUSEL/FULLMOON.jpg",
+    "date": "2022-2023",
     "content": [
         {
             "id": "1",
@@ -144,6 +146,7 @@
     "id": "3",
     "title": "Chloe",
     "description": "Description 3",
+    "date": "2022-2023",
     "carouselImage": "/projects/VIGNETAGE_CARROUSEL/CHLOE.jpg",
     "content": [
       {
@@ -207,6 +210,7 @@
     "id": "4",
     "title": "Hermès",
     "description": "Description 4",
+    "date": "2022-2023",
     "carouselImage": "/projects/VIGNETAGE_CARROUSEL/HERMES.jpg",
     "content": [
 {
@@ -260,6 +264,7 @@
     "id": "5",
     "title": "Jardins Statuaires",
     "description": "Non",
+    "date": "2022-2023",
     "carouselImage": "/projects/VIGNETAGE_CARROUSEL/JARDINS_STATUAIRES.jpg",
     "content": [
 {
@@ -308,6 +313,7 @@
     "id": "6",
     "title": "Buns",
     "description": "Non",
+    "date": "2022-2023",
     "carouselImage": "/projects/VIGNETAGE_CARROUSEL/BUNS.jpg",
     "content": [
 {
@@ -366,6 +372,7 @@
     "id": "7",
     "title": "PPF",
     "description": "Non",
+    "date": "2022-2023",
     "carouselImage": "/projects/VIGNETAGE_CARROUSEL/PPF.jpg",
     "content": [
 {
@@ -409,6 +416,7 @@
     "id": "8",
     "title": "XTRM",
     "description": "Non",
+    "date": "2022-2023",
     "carouselImage": "/projects/VIGNETAGE_CARROUSEL/XTRM.jpg",
     "content": [
 {

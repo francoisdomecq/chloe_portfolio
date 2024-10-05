@@ -8,17 +8,22 @@ import Skills from "../../components/skills/skills.tsx";
 
 import "./about.scss";
 
+import HoveredTitle from "../../../core/components/hovered-title/hovered-title.tsx";
+
 const About = () => {
     const { t }=useTranslation("about");
     return (
         <PortfolioPage  id={NavTabs.ABOUT}>
             <div className="about">
-                <div className="about__introduction">
-                    <p>{t("introduction")}</p>
+                <div className="about__intro-container">
+                    <HoveredTitle className="about__title" title={t("title")}/>
+                    <div className="about__introduction">
+                        <p>{t("introduction")}</p>
+                    </div>
                 </div>
                 <Skills/>
-                <Experiences/>
                 <Schools/>
+                <Experiences/>
             </div>
         </PortfolioPage>
     );

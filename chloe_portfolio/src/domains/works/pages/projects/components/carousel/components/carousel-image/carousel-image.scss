@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   position:relative;
-  min-width: 350px;
+  width: auto;
   overflow:visible;
 }
 
@@ -13,6 +13,7 @@
 }
 
 .carousel-image__image{
+  width:350px;
 }
 
 .carousel-image__overla{
