@@ -1,8 +1,10 @@
+@import 'src/domains/core/theme/breakpoints.scss';
+
 .about{
   display: flex;
   flex-direction: column;
-  padding: 0 176px 32px;
-  gap: 40px;
+  padding: 56px 24px 32px;
+  gap: 24px;
 }
 
 .about__intro-container{
@@ -19,4 +21,16 @@
 .about__introduction{
   display: flex;
   font-size: var(--font-size-body-l);
+}
+
+@media screen and (min-width:$tablet-bp){
+  .about{
+    padding: 0 32px 32px;
+  }
+}
+
+@media screen and (min-width:$desktop-bp){
+  .about{
+    padding: 0 176px 32px;
+  }
 }

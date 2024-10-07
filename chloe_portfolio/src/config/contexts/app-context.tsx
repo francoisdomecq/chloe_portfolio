@@ -5,24 +5,24 @@ interface AppContextProps {
 }
 
 interface AppContextInterface{
-  isTextHovered:boolean;
-  hoverText:()=>void;
-  unhoverText:()=>void;
+  isHovering:boolean;
+  hoverElement:()=>void;
+  unhoverElement:()=>void;
 }
 
 const AppContext = React.createContext <(AppContextInterface)>({} as AppContextInterface);
 
 const AppContextProvider=({ children }:AppContextProps)=>{
-    const [isTextHovered, setIsTextHovered] = useState(false);
+    const [isHovering, setIsHovering] = useState<"text"|"image"|undefined>(undefined);
 
-    const hoverText = useCallback(()=> setIsTextHovered(true),[]);
-    const unhoverText = useCallback(()=> setIsTextHovered(false),[]);
+    const hoverElement= useCallback((element:"text"|"image")=> setIsHovering(element ),[]);
+    const unhoverElement = useCallback(()=> setIsHovering(undefined),[]);
 
     const contextValue = useMemo(()=>({
-        isTextHovered,
-        hoverText,
-        unhoverText
-    }),[isTextHovered, hoverText, unhoverText]);
+        isHovering,
+        hoverElement,
+        unhoverElement
+    }),[isHovering, hoverElement, unhoverElement]);
 
     return (
         <AppContext.Provider value={contextValue}>

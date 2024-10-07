@@ -1,8 +1,10 @@
+@import 'src/domains/core/theme/breakpoints.scss';
+
 .contact__content{
     display: flex;
     flex-direction: column;
     gap: 8px;
-    margin: 80px 500px;
+    margin: 64px 24px;
 }
 
 .contact__title{
@@ -32,4 +34,16 @@
   &:hover{
     color: black;
   }
+}
+
+@media screen  and (min-width: $mobile-bp) and (max-width: $tablet-bp){
+    .contact__content{
+        margin: 200px 200px;
+    }
+}
+
+@media screen and (min-width: $desktop-bp){
+    .contact__content{
+        margin: 80px 500px;
+    }
 }

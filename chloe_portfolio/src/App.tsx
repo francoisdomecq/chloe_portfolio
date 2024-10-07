@@ -12,19 +12,23 @@ import MouseCursor from "./domains/core/components/mouse-cursor/mouse-cursor.tsx
 import { AppContextProvider } from "./config/contexts/app-context.tsx";
 import { Projects } from "./domains/works";
 
+import { AnimatePresence } from "framer-motion";
+
 function App() {
 
     return (
         <div>
             <ScrollToTop/>
             <AppContextProvider>
-                <Routes>
-                    <Route path="/" element={<Home/>} />
-                    <Route path="/works" element={<Projects/>}/>
-                    <Route path="/works/:id" element={<ProjectDetails/>}/>
-                    <Route path="/about" element={<About />} />
-                    <Route path="/contact" element={<Contact/>} />
-                </Routes>
+                <AnimatePresence mode="wait">
+                    <Routes>
+                        <Route path="/" element={<Home/>} />
+                        <Route path="/works" element={<Projects/>}/>
+                        <Route path="/works/:id" element={<ProjectDetails/>}/>
+                        <Route path="/about" element={<About />} />
+                        <Route path="/contact" element={<Contact/>} />
+                    </Routes>
+                </AnimatePresence>
                 <MouseCursor/>
             </AppContextProvider>
 

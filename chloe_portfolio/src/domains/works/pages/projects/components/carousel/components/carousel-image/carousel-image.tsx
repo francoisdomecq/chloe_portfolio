@@ -1,10 +1,12 @@
-import { useMemo, useState } from "react";
+import { useContext, useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 import { motion } from "framer-motion";
 
 
+import { AppContext } from "../../../../../../../../config/contexts/app-context.tsx";
 import { Project } from "../../../../../../types";
+
 
 import "./carousel-image.scss";
 
@@ -14,6 +16,7 @@ interface CarouselImageProps {
 
 const CarouselImage = ({ project }:CarouselImageProps)=>{
     const navigate = useNavigate();
+    const { hoverElement,unhoverElement }=useContext(AppContext);
     const [showOverlay, setShowOverlay] = useState(false);
 
     const handleNavigate = ()=>{
@@ -48,8 +51,15 @@ const CarouselImage = ({ project }:CarouselImageProps)=>{
     return (
         <motion.div className="carousel-image"
             initial={"default"}
-            onHoverStart={()=>setShowOverlay(true)}
-            onHoverEnd={()=>setShowOverlay(false)}
+            onHoverStart={()=>{
+                setShowOverlay(true);
+                hoverElement("image");
+            }}
+            onHoverEnd={()=>{
+                setShowOverlay(false);
+                unhoverElement();
+            }
+            }
             onClick={handleNavigate}
             variants={variants}
             animate={imageVariant}
@@ -68,7 +78,6 @@ const CarouselImage = ({ project }:CarouselImageProps)=>{
                     <img width="100%" height="100%" src={project.carouselImage}/>
                 </div>
             </div>
-
         </motion.div>
     );
 };

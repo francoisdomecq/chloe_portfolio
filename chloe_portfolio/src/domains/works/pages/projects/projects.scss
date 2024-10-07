@@ -1,10 +1,29 @@
+@import 'src/domains/core/theme/breakpoints.scss';
+
 .projects{
+  display: flex;
+}
+
+.projects__list{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 48px 24px;
+  gap:24px
 }
 
 .projects__carousel{
-  margin-top: 60px;
+  display: none;
+}
+
+@media screen and (min-width:$mobile-bp){
+  .projects__carousel{
+    display: inline;
+    margin-top: 60px;
+  }
+
+  .projects__list{
+    display: none;
+  }
 }

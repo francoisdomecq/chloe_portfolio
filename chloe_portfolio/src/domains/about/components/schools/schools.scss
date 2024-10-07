@@ -1,9 +1,18 @@
+@import "src/domains/core/theme/breakpoints.scss";
+
 .schools{
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   width: 100%;
 }
 
 .schools_list{
   align-self: flex-end;
+}
+
+@media screen and (min-width: $mobile-bp) {
+  .schools{
+    flex-direction: row;
+  }
 }
