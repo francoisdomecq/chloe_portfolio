@@ -1,3 +1,6 @@
 {
-
+  "project-navigator": {
+    "next" : "Next project",
+    "previous" : "Previous project"
+  }
 }

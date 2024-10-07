@@ -1,0 +1,10 @@
+.project__navigation-item{
+  font-family: var(--text-font);
+  font-size: var(--font-size-body-l);
+  text-decoration: none;
+  color: #2c2c2c;
+  &:hover{
+    color: black;
+  }
+
+}

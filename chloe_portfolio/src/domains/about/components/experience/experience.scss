@@ -1,4 +1,23 @@
+@import "src/domains/core/theme/breakpoints.scss";
+
+.experience__info{
+  display: grid;
+  grid-template-areas: "a c" "b b";
+  justify-content: space-between;
+  padding: 4px 0;
+}
+
+.company__mobile{
+  color:var(--grey-deep-2)
+}
+
+.company__tablet{
+  display: none;
+}
+
 .experience__content{
+  text-align: start;
+  line-height: 2rem;
   font-family: var(--text-font);
   font-size: var(--font-size-body-l);
 }
@@ -8,20 +27,31 @@
   width: 0;
 }
 
+@media screen and (min-width: $mobile-bp) {
 
-td, th {
-  padding: 8px 8px;
+  .company__tablet{
+    display: block;
+  }
+
+  .company__mobile{
+    display: none;
+  }
+
+  td, th {
+    padding: 8px 8px;
+  }
+
+  th {
+    text-align: start;
+  }
+
+  th:last-child{
+    text-align: end;
+  }
+
+  td {
+    text-align: center;
+  }
+
+
 }
-
-th {
-  text-align: start;
-}
-
-th:last-child{
-  text-align: end;
-}
-
-td {
-  text-align: center;
-}
-

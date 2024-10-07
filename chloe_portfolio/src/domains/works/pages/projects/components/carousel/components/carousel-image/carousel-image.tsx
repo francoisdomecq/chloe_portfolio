@@ -75,7 +75,7 @@ const CarouselImage = ({ project }:CarouselImageProps)=>{
                     </div>
                 </motion.div>
                 <div className="carousel-image__image">
-                    <img width="100%" height="100%" src={project.carouselImage}/>
+                    <img width="100%" height="100%" src={project.carouselImage} alt={`project-${project.title}`}/>
                 </div>
             </div>
         </motion.div>
