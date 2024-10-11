@@ -48,7 +48,7 @@ const ProjectNavigator = ({ projectId,navigateTo }:ProjectNavigatorProps)=>{
             <motion.div whileHover={{ scale:1.1 }}
                 onHoverStart={()=>setDisplayProjectOverlay(true)}
                 onHoverEnd={()=>setDisplayProjectOverlay(false)}
-                className="project__navigation-item"
+                className={"project__navigation-item"}
                 onClick={handleNavigateToProject}>
                 {navigateTo === "previous" && <img className="project__navigation-icon previous" src="/arrow-right.svg" alt="arrow-left"/>}
                 {t(`project-navigator.${navigateTo}`)}
