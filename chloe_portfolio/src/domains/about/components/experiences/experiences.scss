@@ -17,11 +17,11 @@
 table {
   border-collapse: collapse;
   width: 100%;
-  max-width: 600px;
+  table-layout: fixed;
 }
 
 
-@media screen and (min-width: $mobile-bp) {
+@media screen and (min-width: $desktop-bp) {
   .experiences{
     flex-direction: row;
   }

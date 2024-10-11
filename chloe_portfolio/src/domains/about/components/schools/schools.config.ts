@@ -9,7 +9,7 @@ export const schools : Experience[] = [
     {
         title: "Intensive English Program",
         company: "McGill Montreal, Canada",
-        dates: "2022 — 2023"
+        dates: "2022 - 2023"
     },
     {
         title: "Master Typography ",
@@ -19,6 +19,6 @@ export const schools : Experience[] = [
     {
         title: "Bachelor Graphic Design",
         company: "ECV Bordeaux",
-        dates: "2028 - 2021"
+        dates: "2018 - 2021"
     }
 ];

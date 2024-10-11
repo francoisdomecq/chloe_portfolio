@@ -1,4 +1,12 @@
+.project__navigator{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
 .project__navigation-item{
+  display: flex;
+  align-items: center;
   font-family: var(--text-font);
   font-size: var(--font-size-body-l);
   text-decoration: none;
@@ -6,5 +14,51 @@
   &:hover{
     color: black;
   }
+}
 
+.project__navigation-icon{
+  width: 32px;
+  height: 32px;
+}
+
+.project-overlay{
+  display: flex;
+  gap:4px;
+  flex-direction: column;
+  padding: 4px 16px 8px;
+  border-radius: 4px;
+  position: absolute;
+  top: - 170px;
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+
+.project-overlay__next{
+  left:-50px
+}
+
+.project-overlay__info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-overlay__title{
+  font-family: var(--title-font);
+  font-size: var(--font-size-h3);
+}
+
+.project-overlay__date{
+  font-family: var(--text-font);
+  font-size: var(--font-size-body-s);
+}
+
+.project-overlay__image{
+  max-width: 120px;
+  max-height: 120px;
+}
+
+.previous{
+  transform: rotate(180deg);
 }

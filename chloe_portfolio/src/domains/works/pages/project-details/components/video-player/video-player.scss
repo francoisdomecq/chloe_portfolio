@@ -3,11 +3,11 @@
 .video-player {
   display: flex;
   width: auto; // Reset width
-  height: auto; // Reset height
+  height: 100%; // Reset height
 }
 .react-player {
   aspect-ratio: 4/3;
-  position: sticky;
+  position: relative;
 }
 
 @media screen and (min-width: $mobile-bp) {

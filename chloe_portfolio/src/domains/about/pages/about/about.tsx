@@ -13,7 +13,7 @@ import HoveredTitle from "../../../core/components/hovered-title/hovered-title.t
 const About = () => {
     const { t }=useTranslation("about");
     return (
-        <PortfolioPage  id={NavTabs.ABOUT}>
+        <PortfolioPage id={NavTabs.ABOUT}>
             <div className="about">
                 <div className="about__intro-container">
                     <HoveredTitle className="about__title" title={t("title")}/>

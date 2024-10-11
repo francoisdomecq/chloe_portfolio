@@ -8,11 +8,13 @@ import { AppContext } from "../../../../config/contexts/app-context.tsx";
 import "./mouse-cursor.scss";
 
 const MouseCursor = () => {
-    const { isHovering }=useContext(AppContext);
+    const { isHovering,updateMousePosition }=useContext(AppContext);
     const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+
     useEffect(() => {
         const mouseMove = (e: MouseEvent) => {
             setMousePosition({ x: e.clientX, y: e.clientY });
+            updateMousePosition(e);
         };
 
         window.addEventListener("mousemove",mouseMove);

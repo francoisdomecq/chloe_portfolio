@@ -27,10 +27,17 @@
   width: 0;
 }
 
-@media screen and (min-width: $mobile-bp) {
+@media screen and (min-width: $desktop-bp){
+
+  .experience__info{
+    display: inline-flex;
+    width: 100%;
+  }
 
   .company__tablet{
-    display: block;
+    display: inherit;
+    align-self: flex-start;
+    text-align: start;
   }
 
   .company__mobile{
@@ -45,13 +52,17 @@
     text-align: start;
   }
 
-  th:last-child{
+  th:nth-child(1){
+    width: 40%;
+  }
+
+  th:nth-child(2){
+    width: 40%;
+  }
+
+  th:nth-child(3){
+    width: 25%;
     text-align: end;
   }
-
-  td {
-    text-align: center;
-  }
-
 
 }

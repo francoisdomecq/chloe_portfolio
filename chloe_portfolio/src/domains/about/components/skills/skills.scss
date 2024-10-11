@@ -21,14 +21,16 @@
   font-size: var(--font-size-body-l);
 }
 
-@media screen and (min-width: $mobile-bp) {
+@media screen and (min-width: $desktop-bp) {
   .skills{
     flex-direction: row;
   }
 
   .skills__list{
-    gap:16px;
-    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    gap:32px;
+    max-width: 632px;
+    height: fit-content;
+    grid-template-areas:  "a b c" "d e f"
   }
 
   .skills__list-item{

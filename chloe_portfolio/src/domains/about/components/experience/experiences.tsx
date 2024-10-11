@@ -11,7 +11,7 @@ const Experience = (props: ExperienceProps) => {
     return (
         <>
             <tr className="experience__info">
-                <th scope="row" className="experience__content">{experience.title}</th>
+                <th className="experience__content">{experience.title}</th>
                 <th className="experience__content company__tablet">{experience.company}</th>
                 <th className="experience__content">{experience.dates}</th>
                 <th className="experience__content company__mobile">{experience.company}</th>

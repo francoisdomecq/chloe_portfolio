@@ -1,7 +1,9 @@
+@import "src/domains/core/theme/breakpoints.scss";
+
 .footer{
   display: flex;
   justify-content: space-between;
-  padding: 24px 24px 16px;
+  padding: 24px 0 16px;
   position: relative;
   width: 100%;
   max-width: 100vw;
@@ -26,3 +28,4 @@
     color:black;
   }
 }
+

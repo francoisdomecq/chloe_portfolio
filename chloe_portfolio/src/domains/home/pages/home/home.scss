@@ -1,6 +1,29 @@
+@import "src/domains/core/theme/breakpoints.scss";
+
+.home__showreel{
+  position: fixed;
+  top:0;
+  left:0;
+  bottom:0;
+  height: 100vh;
+  width: 100vw;
+}
+
 .home-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__showreel-small{
+  max-width: 70%;
+
 }
 
 .home-page__title{
   font-size : 64px
+}
+
+@media screen and (min-width: $desktop-bp) {
 }

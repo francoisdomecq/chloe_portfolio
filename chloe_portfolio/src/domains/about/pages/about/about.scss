@@ -3,7 +3,8 @@
 .about{
   display: flex;
   flex-direction: column;
-  padding: 56px 24px 32px;
+  align-self: center;
+  padding: 24px 0 0;
   gap: 24px;
 }
 
@@ -24,13 +25,26 @@
 }
 
 @media screen and (min-width:$tablet-bp){
+  .about__intro-container{
+    max-width: 640px;
+  }
+
   .about{
-    padding: 0 32px 32px;
+    padding: 0 0 32px;
+    max-width: 880px;
+    width: 100%;
   }
 }
 
 @media screen and (min-width:$desktop-bp){
   .about{
-    padding: 0 176px 32px;
+    padding: 0 0 32px;
+    width: 100%;
   }
+
+  .about__intro-container{
+    max-width: 800px;
+  }
+
+
 }

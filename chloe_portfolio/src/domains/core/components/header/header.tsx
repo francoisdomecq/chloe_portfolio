@@ -1,13 +1,15 @@
+import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 
+import { motion, useScroll } from "framer-motion";
+
 import Navbar from "../navbar/navbar.tsx";
 
+
+
+
 import "./header.scss";
-
-import { useEffect } from "react";
-
-import { motion, useScroll } from "framer-motion";
 
 const Header = () => {
     const { scrollY } = useScroll();

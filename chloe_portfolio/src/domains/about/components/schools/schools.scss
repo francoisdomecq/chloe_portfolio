@@ -9,11 +9,21 @@
 
 .schools_list{
   margin-top: 8px;
-  align-self: flex-end;
 }
 
-@media screen and (min-width: $mobile-bp) {
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 640px;
+  table-layout: fixed;
+}
+
+@media screen and (min-width: $desktop-bp) {
   .schools{
     flex-direction: row;
+  }
+
+  .schools_list{
+    justify-content: flex-end;
   }
 }

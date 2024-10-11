@@ -1,22 +1,31 @@
-import { useContext } from "react";
-import { useTranslation } from "react-i18next";
+import { useState } from "react";
 
-import { AppContext } from "../../../../config/contexts/app-context.tsx";
-import HoveredTitle from "../../../core/components/hovered-title/hovered-title.tsx";
-import PortfolioPage from "../../../core/components/portfolio-page/portfolio-page.tsx";
+import { PortfolioPage } from "../../../core";
+import VideoPlayer from "../../../works/pages/project-details/components/video-player/video-player.tsx";
 
 import "./home.scss";
 
+
 const Home = ()=>{
-    const { hoverText,unhoverText }=useContext(AppContext);
-    const { t } = useTranslation("home");
+    const [isVideoPlaying,setIsVideoPlaying] = useState(true);
     return (
-        <PortfolioPage>
-            <HoveredTitle className="home-page__title" onMouseEnter={hoverText} onMouseLeave={unhoverText} title={t("home.title")}/>
-            <div>
-                <p>{t("home.portfolio-description")}</p>
-            </div>
-        </PortfolioPage>
+        <>
+            {isVideoPlaying &&
+              <div className="home__showreel">
+                  <VideoPlayer source="./projects/GAILLARD_CHLOE_SHOWREEL_24.mp4" loop={false} onChangeIsPlaying={setIsVideoPlaying}/>
+              </div>
+            }
+            {!isVideoPlaying &&
+              <PortfolioPage >
+                  <div className="home-page">
+                      <div className="home__showreel-small">
+                          <VideoPlayer source="./projects/GAILLARD_CHLOE_SHOWREEL_24.mp4" loop={false}/>
+                      </div>
+                  </div>
+              </PortfolioPage>
+            }
+        </>
+
     );
 };
 export default Home;
