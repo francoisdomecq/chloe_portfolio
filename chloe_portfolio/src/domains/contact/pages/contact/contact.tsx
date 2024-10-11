@@ -18,7 +18,7 @@ const Contact = () => {
                 <p className="contact__collaboration-message">{t("collaboration-message")}</p>
                 <div className="contact__links">
                     <motion.a whileHover={{ scale:1.1 }} className="contact__link" href="https://www.instagram.com/gaillardesign" target="_blank" rel="noreferrer">{t("instagram")}</motion.a>
-                    <motion.a whileHover={{ scale:1.1 }} className="contact__link" href="behance.net/chloegaillard1 " target="_blank">{t("behance")}</motion.a>
+                    <motion.a whileHover={{ scale:1.1 }} className="contact__link" href="https://behance.net/chloegaillard1 " target="_blank">{t("behance")}</motion.a>
                     <motion.a whileHover={{ scale:1.1 }} className="contact__link" href="mailto:chloegaillard3312@gmail.com" target="_blank" rel="noreferrer" >{t("mail")}</motion.a>
 
                 </div>

@@ -9,7 +9,6 @@ interface VideoPlayerProps{
 }
 
 const VideoPlayer = ({ source, loop=true,  onChangeIsPlaying }:VideoPlayerProps)=>{
-    const sourceParsed = `${source}`;
 
     const handleOnVideoEnd = ()=>{
         if (onChangeIsPlaying){
@@ -22,7 +21,7 @@ const VideoPlayer = ({ source, loop=true,  onChangeIsPlaying }:VideoPlayerProps)
             <ReactPlayer className="react-player__tablet"
                 width="100%"
                 height="100%"
-                url={sourceParsed}
+                url={source}
                 playing
                 loop={loop}
                 muted
@@ -31,7 +30,7 @@ const VideoPlayer = ({ source, loop=true,  onChangeIsPlaying }:VideoPlayerProps)
             <ReactPlayer className="react-player__mobile"
                 width="100%"
                 height="100%"
-                url={sourceParsed}
+                url={source}
                 controls={true}
             />
         </div>

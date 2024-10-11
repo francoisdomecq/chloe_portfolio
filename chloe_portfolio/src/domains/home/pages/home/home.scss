@@ -17,8 +17,7 @@
 }
 
 .home__showreel-small{
-  max-width: 70%;
-
+  max-width: 100%;
 }
 
 .home-page__title{
@@ -26,4 +25,7 @@
 }
 
 @media screen and (min-width: $desktop-bp) {
+  .home__showreel-small{
+    max-width: 80%;
+  }
 }

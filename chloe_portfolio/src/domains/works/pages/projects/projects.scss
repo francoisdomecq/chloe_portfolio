@@ -17,7 +17,7 @@
   display: none;
 }
 
-@media screen and (min-width:$mobile-bp){
+@media screen and (min-width:$tablet-bp){
   .projects__carousel{
     display: inline;
     margin-top: 60px;
