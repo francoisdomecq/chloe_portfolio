@@ -1,8 +1,8 @@
 import { PortfolioPage } from "../../../core";
 import projects from "../../config/works.json";
 
-import Carousel from "./components/carousel/carousel.tsx";
-import Project from "./components/project/project.tsx";
+import Carousel from "./components/carousel/carousel";
+import Project from "./components/project/project";
 
 import "./projects.scss";
 

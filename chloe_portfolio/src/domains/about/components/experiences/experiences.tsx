@@ -1,9 +1,9 @@
 import { useTranslation } from "react-i18next";
 
-import HoveredTitle from "../../../core/components/hovered-title/hovered-title.tsx";
-import Experience from "../experience/experiences.tsx";
+import HoveredTitle from "../../../core/components/hovered-title/hovered-title";
+import Experience from "../experience/experiences";
 
-import { experiences } from "./experiences.config.ts";
+import { experiences } from "./experiences.config";
 
 import "./experiences.scss";
 

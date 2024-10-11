@@ -1,15 +1,13 @@
-import { useContext, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 
 import { motion } from "framer-motion";
 
 import PROJECTS from "../../../../config/works.json";
+import { Project } from "../../../../types";
 
 import "./project-navigator.scss";
-
-import { Project } from "../../../../types";
-import { AppContext } from "../../../../../../config/contexts/app-context.tsx";
 
 
 interface ProjectNavigatorProps{
@@ -18,7 +16,6 @@ interface ProjectNavigatorProps{
 }
 
 const ProjectNavigator = ({ projectId,navigateTo }:ProjectNavigatorProps)=>{
-    const { mousePosition }=useContext(AppContext);
     const navigate=useNavigate();
     const { t }=useTranslation("works");
 
@@ -36,7 +33,7 @@ const ProjectNavigator = ({ projectId,navigateTo }:ProjectNavigatorProps)=>{
         return !(navigateTo === "next" && projectId === PROJECTS.length);
     },[navigateTo,projectId]);
 
-    const projectOverlayed : Project = PROJECTS.find((project)=>project.id == projectToNavigate);
+    const projectOverlayed : Project | undefined = PROJECTS.find((project)=> parseInt(project.id )=== projectToNavigate);
 
     return displayProjectNavigator&& (
         <div className="project__navigator">

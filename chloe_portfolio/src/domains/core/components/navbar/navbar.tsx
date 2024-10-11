@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 import { motion } from "framer-motion";
 
-import { NAV_TABS } from "./navbar.config.ts";
+import { NAV_TABS } from "./navbar.config";
 
 
 import "./navbar.scss";

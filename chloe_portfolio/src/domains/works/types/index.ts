@@ -1,3 +1,14 @@
+enum ProjectContentMediaType{
+  IMAGE = "IMAGE",
+  VIDEO = "VIDEO",
+}
+
+interface ProjectContent {
+  id: string;
+  type: string;
+  source : string;
+}
+
 interface Project {
   id:string;
   title: string;
@@ -6,22 +17,5 @@ interface Project {
   carouselImage:string;
   content: ProjectContent[];
 }
-
-enum ProjectContentMediaType{
-  IMAGE = "image",
-  VIDEO = "video",
-}
-
-interface ProjectContentDescription{
-  title: string;
-  description: string;
-}
-
-interface ProjectContent {
-  id: string;
-  type: ProjectContentMediaType;
-  source : string;
-  description : ProjectContentDescription;
-}
-
-export { Project , ProjectContent, ProjectContentMediaType };
+export type { Project, ProjectContent };
+export { ProjectContentMediaType };

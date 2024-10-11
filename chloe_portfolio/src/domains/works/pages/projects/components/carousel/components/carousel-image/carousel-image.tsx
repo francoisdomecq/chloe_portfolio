@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 
 
-import { AppContext } from "../../../../../../../../config/contexts/app-context.tsx";
+import { AppContext } from "../../../../../../../../config/contexts/app-context";
 import { Project } from "../../../../../../types";
 
 

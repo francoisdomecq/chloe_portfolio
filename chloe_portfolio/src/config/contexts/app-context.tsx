@@ -5,33 +5,24 @@ interface AppContextProps {
 }
 
 interface AppContextInterface{
-  isHovering:boolean;
-  hoverElement:()=>void;
+  isHovering: "text" |"image" | undefined;
+  hoverElement:(element:"text"|"image")=>void;
   unhoverElement:()=>void;
-  mousePosition: { x: number; y: number };
-  updateMousePosition: (e: MouseEvent) => void;
 }
 
 const AppContext = React.createContext <(AppContextInterface)>({} as AppContextInterface);
 
 const AppContextProvider=({ children }:AppContextProps)=>{
     const [isHovering, setIsHovering] = useState<"text"|"image"|undefined>(undefined);
-    const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
     const hoverElement= useCallback((element:"text"|"image")=> setIsHovering(element ),[]);
     const unhoverElement = useCallback(()=> setIsHovering(undefined),[]);
 
-    const updateMousePosition = useCallback((e: MouseEvent) => {
-        setMousePosition({ x: e.clientX, y: e.clientY });
-    },[]);
-
     const contextValue = useMemo(()=>({
         isHovering,
         hoverElement,
-        unhoverElement,
-        mousePosition,
-        updateMousePosition
-    }),[isHovering, hoverElement, unhoverElement,mousePosition,updateMousePosition]);
+        unhoverElement
+    }),[isHovering, hoverElement, unhoverElement]);
 
     return (
         <AppContext.Provider value={contextValue}>

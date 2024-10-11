@@ -1,19 +1,18 @@
 import { useTranslation } from "react-i18next";
 
 import { PortfolioPage } from "../../../core";
-import { NavTabs } from "../../../core/types";
-import Experiences from "../../components/experiences/experiences.tsx";
-import Schools from "../../components/schools/schools.tsx";
-import Skills from "../../components/skills/skills.tsx";
+import HoveredTitle from "../../../core/components/hovered-title/hovered-title";
+import Experiences from "../../components/experiences/experiences";
+import Schools from "../../components/schools/schools";
+import Skills from "../../components/skills/skills";
+
 
 import "./about.scss";
-
-import HoveredTitle from "../../../core/components/hovered-title/hovered-title.tsx";
 
 const About = () => {
     const { t }=useTranslation("about");
     return (
-        <PortfolioPage id={NavTabs.ABOUT}>
+        <PortfolioPage>
             <div className="about">
                 <div className="about__intro-container">
                     <HoveredTitle className="about__title" title={t("title")}/>

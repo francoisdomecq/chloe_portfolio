@@ -1,6 +1,6 @@
 import { useContext } from "react";
 
-import { AppContext } from "../../../../config/contexts/app-context.tsx";
+import { AppContext } from "../../../../config/contexts/app-context";
 
 import "./hovered-title.scss";
 
@@ -10,7 +10,7 @@ interface HoveredTitleProps {
 }
 
 const HoveredTitle = ({ title,className }:HoveredTitleProps) => {
-    const { hoverElement,unhoverElement } = useContext(AppContext);
+    const { hoverElement, unhoverElement } = useContext(AppContext);
     return (
         <h1 className={`${className} hovered-title`} onMouseEnter={()=>hoverElement("text")} onMouseLeave={unhoverElement}>{title}</h1>
     );

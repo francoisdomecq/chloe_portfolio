@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import { PortfolioPage } from "../../../core";
-import VideoPlayer from "../../../works/pages/project-details/components/video-player/video-player.tsx";
+import VideoPlayer from "../../../works/pages/project-details/components/video-player/video-player";
 
 import "./home.scss";
 

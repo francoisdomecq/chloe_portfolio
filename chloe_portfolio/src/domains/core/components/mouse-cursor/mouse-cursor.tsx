@@ -1,20 +1,19 @@
 import { useContext, useEffect, useMemo, useState } from "react";
 
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 
 
-import { AppContext } from "../../../../config/contexts/app-context.tsx";
+import { AppContext } from "../../../../config/contexts/app-context";
 
 import "./mouse-cursor.scss";
 
 const MouseCursor = () => {
-    const { isHovering,updateMousePosition }=useContext(AppContext);
+    const { isHovering }=useContext(AppContext);
     const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
     useEffect(() => {
         const mouseMove = (e: MouseEvent) => {
             setMousePosition({ x: e.clientX, y: e.clientY });
-            updateMousePosition(e);
         };
 
         window.addEventListener("mousemove",mouseMove);
@@ -25,7 +24,7 @@ const MouseCursor = () => {
         
     }, []);
 
-    const variants={
+    const variants: Variants | undefined ={
         default:{
             x:mousePosition.x - 16,
             y:mousePosition.y - 16,

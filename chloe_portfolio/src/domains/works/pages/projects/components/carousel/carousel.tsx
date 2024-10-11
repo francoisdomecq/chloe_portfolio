@@ -4,10 +4,12 @@ import useMeasure from "react-use-measure";
 import { animate, motion, useMotionValue } from "framer-motion";
 
 import projects from "../../../../config/works.json";
+import { type  Project } from "../../../../types";
 
-import CarouselImage from "./components/carousel-image/carousel-image.tsx";
+import CarouselImage from "./components/carousel-image/carousel-image";
 
 import "./carousel.scss";
+
 
 const ProjectCarousel = () => {
     const [ref,{ width }]= useMeasure();
@@ -27,7 +29,7 @@ const ProjectCarousel = () => {
 
     return (
         <motion.div className="carousel" ref={ref} style={{ x:xTranslation }}>
-            {[...projects,...projects].map((project, index) =>
+            {[...projects,...projects].map((project : Project, index) =>
                 <CarouselImage key={index} project={project}  />
             )}
         </motion.div>

@@ -6,7 +6,7 @@ import { PortfolioPage } from "../../../core";
 
 import "./contact.scss";
 
-import HoveredTitle from "../../../core/components/hovered-title/hovered-title.tsx";
+import HoveredTitle from "../../../core/components/hovered-title/hovered-title";
 
 const Contact = () => {
     const { t } = useTranslation("contact");

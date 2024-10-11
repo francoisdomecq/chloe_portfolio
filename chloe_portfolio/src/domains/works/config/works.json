@@ -8,87 +8,87 @@
     "content": [
       {
         "id": "1",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/ODETTE/ODETTE_1.jpg"
       },
       {
         "id": "2",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/ODETTE/ODETTE_2.jpg"
       },
       {
         "id": "3",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/ODETTE/ODETTE_3.jpg"
       },
       {
         "id": "4",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/ODETTE/ODETTE_4.jpg"
       },
       {
         "id": "5",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/ODETTE/ODETTE_5.jpg"
       },
       {
         "id": "6",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/ODETTE/ODETTE_6.jpg"
       },
       {
         "id": "7",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/ODETTE/ODETTE_7.jpg"
       },
       {
         "id": "8",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/ODETTE/ODETTE_8.jpg"
       },
       {
         "id": "9",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/ODETTE/ODETTE_9.jpg"
       },
       {
         "id": "10",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/ODETTE/ODETTE_10.jpg"
       },
       {
         "id": "11",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/ODETTE/ODETTE_11.jpg"
       },
       {
         "id": "12",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/ODETTE/ODETTE_12.jpg"
       },
       {
         "id": "13",
-        "type": "video",
+        "type": "VIDEO",
         "source" : "/projects/ODETTE/ODETTE_13.mp4"
       },
       {
         "id": "14",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/ODETTE/ODETTE_14.jpg"
       },
       {
         "id": "15",
-        "type": "video",
+        "type": "VIDEO",
         "source" : "/projects/ODETTE/ODETTE_15.mp4"
       },
       {
         "id": "16",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/ODETTE/ODETTE_16.jpg"
       },
       {
         "id": "17",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/ODETTE/ODETTE_17.jpg"
       }
     ]
@@ -102,42 +102,42 @@
     "content": [
         {
             "id": "1",
-            "type": "image",
+            "type": "IMAGE",
             "source" : "/projects/FULLMOON/FULLMOON_1.jpg"
         },
         {
             "id": "2",
-            "type": "image",
+            "type": "IMAGE",
             "source" : "/projects/FULLMOON/FULLMOON_2.jpg"
         },
         {
             "id": "3",
-            "type": "image",
+            "type": "IMAGE",
             "source" : "/projects/FULLMOON/FULLMOON_3.jpg"
         },
         {
             "id": "4",
-            "type": "image",
+            "type": "IMAGE",
             "source" : "/projects/FULLMOON/FULLMOON_4.jpg"
         },
         {
             "id": "5",
-            "type": "image",
+            "type": "IMAGE",
             "source" : "/projects/FULLMOON/FULLMOON_5.jpg"
         },
         {
             "id": "6",
-            "type": "image",
+            "type": "IMAGE",
             "source" : "/projects/FULLMOON/FULLMOON_6.jpg"
         },
         {
             "id": "7",
-            "type": "image",
+            "type": "IMAGE",
             "source" : "/projects/FULLMOON/FULLMOON_7.jpg"
         },
         {
             "id": "8",
-            "type": "image",
+            "type": "IMAGE",
             "source" : "/projects/FULLMOON/FULLMOON_8.jpg"
         }
     ]
@@ -151,57 +151,57 @@
     "content": [
       {
         "id": "1",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/CHLOE/CHLOE_1.jpg"
       },
       {
         "id": "2",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/CHLOE/CHLOE_2.jpg"
       },
       {
         "id": "3",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/CHLOE/CHLOE_3.jpg"
       },
       {
         "id": "4",
-        "type": "video",
+        "type": "VIDEO",
         "source" : "/projects/CHLOE/CHLOE_4.mp4"
       },
       {
         "id": "5",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/CHLOE/CHLOE_5.jpg"
       },
       {
         "id": "6",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/CHLOE/CHLOE_6.jpg"
       },
       {
         "id": "7",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/CHLOE/CHLOE_7.jpg"
       },
       {
         "id": "8",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/CHLOE/CHLOE_8.jpg"
       },
       {
         "id": "9",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/CHLOE/CHLOE_9.jpg"
       },
       {
         "id": "10",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/CHLOE/CHLOE_10.jpg"
       },
       {
         "id": "11",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/CHLOE/CHLOE_11.jpg"
       }
     ]
@@ -215,47 +215,47 @@
     "content": [
 {
         "id": "1",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/HERMES/HERMES_1.jpg"
       },
       {
         "id": "2",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/HERMES/HERMES_2.jpg"
       },
       {
         "id": "3",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/HERMES/HERMES_3.jpg"
       },
       {
         "id": "4",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/HERMES/HERMES_4.jpg"
       },
       {
         "id": "5",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/HERMES/HERMES_5.jpg"
       },
       {
         "id": "6",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/HERMES/HERMES_6.jpg"
       },
       {
         "id": "7",
-        "type": "video",
+        "type": "VIDEO",
         "source" : "/projects/HERMES/HERMES_7.mp4"
       },
       {
         "id": "8",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/HERMES/HERMES_8.jpg"
       },
       {
         "id": "9",
-        "type": "video",
+        "type": "VIDEO",
         "source" : "/projects/HERMES/HERMES_9.mp4"
       }
     ]
@@ -269,42 +269,42 @@
     "content": [
 {
         "id": "1",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_1.jpg"
       },
       {
         "id": "2",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_2.jpg"
       },
       {
         "id": "3",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_3.jpg"
       },
       {
         "id": "4",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_4.jpg"
       },
       {
         "id": "5",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_5.jpg"
       },
       {
         "id": "6",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_6.jpg"
       },
       {
         "id": "7",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_7.jpg"
       },
       {
         "id": "8",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_8.jpg"
       }
     ]
@@ -318,52 +318,52 @@
     "content": [
 {
         "id": "1",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/BUNS/BUNS_1.jpg"
       },
       {
         "id": "2",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/BUNS/BUNS_2.jpg"
       },
       {
         "id": "3",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/BUNS/BUNS_3.jpg"
       },
       {
         "id": "4",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/BUNS/BUNS_4.jpg"
       },
       {
         "id": "5",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/BUNS/BUNS_5.jpg"
       },
       {
         "id": "6",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/BUNS/BUNS_6.jpg"
       },
       {
         "id": "7",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/BUNS/BUNS_7.jpg"
       },
       {
         "id": "8",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/BUNS/BUNS_8.jpg"
       },
       {
         "id": "9",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/BUNS/BUNS_9.jpg"
       },
       {
         "id": "10",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/BUNS/BUNS_10.jpg"
       }
     ]
@@ -377,37 +377,37 @@
     "content": [
 {
         "id": "1",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/PPF/PPF_1.jpg"
       },
       {
         "id": "2",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/PPF/PPF_2.jpg"
       },
       {
         "id": "3",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/PPF/PPF_3.jpg"
       },
       {
         "id": "4",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/PPF/PPF_4.jpg"
       },
       {
         "id": "5",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/PPF/PPF_5.jpg"
       },
       {
         "id": "6",
-        "type": "video",
+        "type": "VIDEO",
         "source" : "/projects/PPF/PPF_6.mp4"
       },
       {
         "id": "7",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/PPF/PPF_7.jpg"
       }
     ]
@@ -421,47 +421,47 @@
     "content": [
 {
         "id": "1",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/XTRM/XTRM_1.jpg"
       },
       {
         "id": "2",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/XTRM/XTRM_2.jpg"
       },
       {
         "id": "3",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/XTRM/XTRM_3.jpg"
       },
       {
         "id": "4",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/XTRM/XTRM_4.jpg"
       },
       {
         "id": "5",
-        "type": "video",
+        "type": "VIDEO",
         "source" : "/projects/XTRM/XTRM_5.mp4"
       },
       {
         "id": "6",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/XTRM/XTRM_6.jpg"
       },
       {
         "id": "7",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/XTRM/XTRM_7.jpg"
       },
       {
         "id": "8",
-        "type": "video",
+        "type": "VIDEO",
         "source" : "/projects/XTRM/XTRM_8.mp4"
       },
       {
         "id": "9",
-        "type": "image",
+        "type": "IMAGE",
         "source" : "/projects/XTRM/XTRM_9.jpg"
       }
 
