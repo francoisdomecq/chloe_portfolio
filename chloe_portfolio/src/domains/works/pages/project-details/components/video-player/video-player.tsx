@@ -19,7 +19,7 @@ const VideoPlayer = ({ source, loop=true,  onChangeIsPlaying }:VideoPlayerProps)
 
     return (
         <div className="video-player">
-            <ReactPlayer className="react-player"
+            <ReactPlayer className="react-player__tablet"
                 width="100%"
                 height="100%"
                 url={sourceParsed}
@@ -27,6 +27,12 @@ const VideoPlayer = ({ source, loop=true,  onChangeIsPlaying }:VideoPlayerProps)
                 loop={loop}
                 muted
                 onEnded={handleOnVideoEnd}
+            />
+            <ReactPlayer className="react-player__mobile"
+                width="100%"
+                height="100%"
+                url={sourceParsed}
+                controls={true}
             />
         </div>
     );

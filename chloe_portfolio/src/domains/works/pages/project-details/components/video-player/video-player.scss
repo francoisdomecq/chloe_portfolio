@@ -5,15 +5,18 @@
   width: auto; // Reset width
   height: 100%; // Reset height
 }
-.react-player {
-  aspect-ratio: 4/3;
-  position: relative;
+.react-playe__mobile {
+  aspect-ratio: 16/9;
 }
 
 @media screen and (min-width: $mobile-bp) {
-  .react-player {
+
+
+  .react-player__tablet {
     aspect-ratio: 16/9;
+    position: relative;
   }
+
 }
 
 

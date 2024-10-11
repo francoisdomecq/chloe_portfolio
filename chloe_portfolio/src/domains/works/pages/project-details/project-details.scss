@@ -35,11 +35,9 @@
 .project__navigation{
     display: flex;
     justify-content: space-between;
-    padding: 16px 24px;
+    padding: 16px 0;
     width: 100%;
 }
-
-
 
 @media screen and (min-width: $mobile-bp){
 
