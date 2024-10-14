@@ -5,17 +5,17 @@
 }
 
 .project__details{
-  line-height: 2rem;
+  line-height: 1.5rem;
 }
 
 .project__date{
-    font-size: var(--font-size-h3);
+    font-size: var(--font-size-subtitle);
     color: var(--grey-deep);
 }
 
 .project__title{
-  font-size :var(--font-size-h1);
-  font-family: var(--title-font);
+  font-size :var(--font-size-h2);
+  font-family: var(--text-font);
   color:black;
 }
 

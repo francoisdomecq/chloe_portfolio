@@ -30,7 +30,6 @@ const ProjectDetails = () => {
         <PortfolioPage className="project-details">
             <div className="project-details__information">
                 <h1 className="project-details__title">{foundProject.title}</h1>
-                <p className="project-details__description">{foundProject.description}</p>
             </div>
             <div className="project-details__content">
                 {foundProject.content.map(renderProjectContent)}

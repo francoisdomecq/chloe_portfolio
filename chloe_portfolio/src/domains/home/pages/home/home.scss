@@ -1,31 +1,30 @@
 @import "src/domains/core/theme/breakpoints.scss";
 
-.home__showreel{
-  position: fixed;
-  top:0;
-  left:0;
-  bottom:0;
-  height: 100vh;
-  width: 100vw;
-}
-
 .home-page{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 24px;
+  padding-top: 16px;
 }
 
-.home__showreel-small{
+.home__showreel{
   max-width: 100%;
 }
 
 .home-page__title{
-  font-size : 64px
+  font-size : 24px;
+  font-family: var(--title-font);
+  color: black;
 }
 
 @media screen and (min-width: $desktop-bp) {
-  .home__showreel-small{
+  .home__showreel{
     max-width: 80%;
+  }
+
+  .home-page__title{
+    font-size : 120px;
   }
 }

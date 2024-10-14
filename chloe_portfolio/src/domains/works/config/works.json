@@ -1,10 +1,10 @@
 [
   {
     "id": "1",
-    "title": "Odette",
+    "title": "Odette, la cuisine du souvenir",
     "description": "description",
     "carouselImage": "/projects/VIGNETAGE_CARROUSEL/ODETTE.jpg",
-    "date": "2023-2024",
+    "date": "2024",
     "content": [
       {
         "id": "1",
@@ -98,7 +98,7 @@
     "title": "FullMoon",
     "description": "Fullmoon is a project that I made in 2022. It is a series of images that I took during the night. I wanted to capture the beauty of the moon and the stars. I used a long exposure technique to create these images. I hope you enjoy them!",
     "carouselImage": "/projects/VIGNETAGE_CARROUSEL/FULLMOON.jpg",
-    "date": "2022-2023",
+    "date": "2024",
     "content": [
         {
             "id": "1",
@@ -144,9 +144,64 @@
   },
   {
     "id": "3",
+    "title": "XTRM Salomon",
+    "description": "Non",
+    "date": "2024",
+    "carouselImage": "/projects/VIGNETAGE_CARROUSEL/XTRM.jpg",
+    "content": [
+      {
+        "id": "1",
+        "type": "IMAGE",
+        "source" : "/projects/XTRM/XTRM_1.jpg"
+      },
+      {
+        "id": "2",
+        "type": "IMAGE",
+        "source" : "/projects/XTRM/XTRM_2.jpg"
+      },
+      {
+        "id": "3",
+        "type": "IMAGE",
+        "source" : "/projects/XTRM/XTRM_3.jpg"
+      },
+      {
+        "id": "4",
+        "type": "IMAGE",
+        "source" : "/projects/XTRM/XTRM_4.jpg"
+      },
+      {
+        "id": "5",
+        "type": "VIDEO",
+        "source" : "/projects/XTRM/XTRM_5.mp4"
+      },
+      {
+        "id": "6",
+        "type": "IMAGE",
+        "source" : "/projects/XTRM/XTRM_6.jpg"
+      },
+      {
+        "id": "7",
+        "type": "IMAGE",
+        "source" : "/projects/XTRM/XTRM_7.jpg"
+      },
+      {
+        "id": "8",
+        "type": "VIDEO",
+        "source" : "/projects/XTRM/XTRM_8.mp4"
+      },
+      {
+        "id": "9",
+        "type": "IMAGE",
+        "source" : "/projects/XTRM/XTRM_9.jpg"
+      }
+
+    ]
+  },
+  {
+    "id": "4",
     "title": "Chloe",
     "description": "Description 3",
-    "date": "2022-2023",
+    "date": "2023",
     "carouselImage": "/projects/VIGNETAGE_CARROUSEL/CHLOE.jpg",
     "content": [
       {
@@ -207,13 +262,106 @@
     ]
   },
   {
-    "id": "4",
-    "title": "Hermès",
-    "description": "Description 4",
-    "date": "2022-2023",
-    "carouselImage": "/projects/VIGNETAGE_CARROUSEL/HERMES.jpg",
+    "id": "5",
+    "title": "Pangram Pangram Foundry",
+    "description": "Non",
+    "date": "2022",
+    "carouselImage": "/projects/VIGNETAGE_CARROUSEL/PPF.jpg",
+    "content": [
+      {
+        "id": "1",
+        "type": "IMAGE",
+        "source" : "/projects/PPF/PPF_1.jpg"
+      },
+      {
+        "id": "2",
+        "type": "IMAGE",
+        "source" : "/projects/PPF/PPF_2.jpg"
+      },
+      {
+        "id": "3",
+        "type": "IMAGE",
+        "source" : "/projects/PPF/PPF_3.jpg"
+      },
+      {
+        "id": "4",
+        "type": "IMAGE",
+        "source" : "/projects/PPF/PPF_4.jpg"
+      },
+      {
+        "id": "5",
+        "type": "IMAGE",
+        "source" : "/projects/PPF/PPF_5.jpg"
+      },
+      {
+        "id": "6",
+        "type": "VIDEO",
+        "source" : "/projects/PPF/PPF_6.mp4"
+      },
+      {
+        "id": "7",
+        "type": "IMAGE",
+        "source" : "/projects/PPF/PPF_7.jpg"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Jardins Statuaires",
+    "description": "Non",
+    "date": "2023",
+    "carouselImage": "/projects/VIGNETAGE_CARROUSEL/JARDINS_STATUAIRES.jpg",
     "content": [
 {
+        "id": "1",
+        "type": "IMAGE",
+        "source" : "/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_1.jpg"
+      },
+      {
+        "id": "2",
+        "type": "IMAGE",
+        "source" : "/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_2.jpg"
+      },
+      {
+        "id": "3",
+        "type": "IMAGE",
+        "source" : "/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_3.jpg"
+      },
+      {
+        "id": "4",
+        "type": "IMAGE",
+        "source" : "/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_4.jpg"
+      },
+      {
+        "id": "5",
+        "type": "IMAGE",
+        "source" : "/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_5.jpg"
+      },
+      {
+        "id": "6",
+        "type": "IMAGE",
+        "source" : "/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_6.jpg"
+      },
+      {
+        "id": "7",
+        "type": "IMAGE",
+        "source" : "/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_7.jpg"
+      },
+      {
+        "id": "8",
+        "type": "IMAGE",
+        "source" : "/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_8.jpg"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "title": "Hermès",
+    "description": "Description 4",
+    "date": "2023",
+    "carouselImage": "/projects/VIGNETAGE_CARROUSEL/HERMES.jpg",
+    "content": [
+      {
         "id": "1",
         "type": "IMAGE",
         "source" : "/projects/HERMES/HERMES_1.jpg"
@@ -261,62 +409,13 @@
     ]
   },
   {
-    "id": "5",
-    "title": "Jardins Statuaires",
+    "id": "8",
+    "title": "Mister Bun's",
     "description": "Non",
-    "date": "2022-2023",
-    "carouselImage": "/projects/VIGNETAGE_CARROUSEL/JARDINS_STATUAIRES.jpg",
-    "content": [
-{
-        "id": "1",
-        "type": "IMAGE",
-        "source" : "/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_1.jpg"
-      },
-      {
-        "id": "2",
-        "type": "IMAGE",
-        "source" : "/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_2.jpg"
-      },
-      {
-        "id": "3",
-        "type": "IMAGE",
-        "source" : "/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_3.jpg"
-      },
-      {
-        "id": "4",
-        "type": "IMAGE",
-        "source" : "/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_4.jpg"
-      },
-      {
-        "id": "5",
-        "type": "IMAGE",
-        "source" : "/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_5.jpg"
-      },
-      {
-        "id": "6",
-        "type": "IMAGE",
-        "source" : "/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_6.jpg"
-      },
-      {
-        "id": "7",
-        "type": "IMAGE",
-        "source" : "/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_7.jpg"
-      },
-      {
-        "id": "8",
-        "type": "IMAGE",
-        "source" : "/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_8.jpg"
-      }
-    ]
-  },
-  {
-    "id": "6",
-    "title": "Buns",
-    "description": "Non",
-    "date": "2022-2023",
+    "date": "2022",
     "carouselImage": "/projects/VIGNETAGE_CARROUSEL/BUNS.jpg",
     "content": [
-{
+      {
         "id": "1",
         "type": "IMAGE",
         "source" : "/projects/BUNS/BUNS_1.jpg"
@@ -366,105 +465,6 @@
         "type": "IMAGE",
         "source" : "/projects/BUNS/BUNS_10.jpg"
       }
-    ]
-  },
-  {
-    "id": "7",
-    "title": "PPF",
-    "description": "Non",
-    "date": "2022-2023",
-    "carouselImage": "/projects/VIGNETAGE_CARROUSEL/PPF.jpg",
-    "content": [
-{
-        "id": "1",
-        "type": "IMAGE",
-        "source" : "/projects/PPF/PPF_1.jpg"
-      },
-      {
-        "id": "2",
-        "type": "IMAGE",
-        "source" : "/projects/PPF/PPF_2.jpg"
-      },
-      {
-        "id": "3",
-        "type": "IMAGE",
-        "source" : "/projects/PPF/PPF_3.jpg"
-      },
-      {
-        "id": "4",
-        "type": "IMAGE",
-        "source" : "/projects/PPF/PPF_4.jpg"
-      },
-      {
-        "id": "5",
-        "type": "IMAGE",
-        "source" : "/projects/PPF/PPF_5.jpg"
-      },
-      {
-        "id": "6",
-        "type": "VIDEO",
-        "source" : "/projects/PPF/PPF_6.mp4"
-      },
-      {
-        "id": "7",
-        "type": "IMAGE",
-        "source" : "/projects/PPF/PPF_7.jpg"
-      }
-    ]
-  },
-  {
-    "id": "8",
-    "title": "XTRM",
-    "description": "Non",
-    "date": "2022-2023",
-    "carouselImage": "/projects/VIGNETAGE_CARROUSEL/XTRM.jpg",
-    "content": [
-{
-        "id": "1",
-        "type": "IMAGE",
-        "source" : "/projects/XTRM/XTRM_1.jpg"
-      },
-      {
-        "id": "2",
-        "type": "IMAGE",
-        "source" : "/projects/XTRM/XTRM_2.jpg"
-      },
-      {
-        "id": "3",
-        "type": "IMAGE",
-        "source" : "/projects/XTRM/XTRM_3.jpg"
-      },
-      {
-        "id": "4",
-        "type": "IMAGE",
-        "source" : "/projects/XTRM/XTRM_4.jpg"
-      },
-      {
-        "id": "5",
-        "type": "VIDEO",
-        "source" : "/projects/XTRM/XTRM_5.mp4"
-      },
-      {
-        "id": "6",
-        "type": "IMAGE",
-        "source" : "/projects/XTRM/XTRM_6.jpg"
-      },
-      {
-        "id": "7",
-        "type": "IMAGE",
-        "source" : "/projects/XTRM/XTRM_7.jpg"
-      },
-      {
-        "id": "8",
-        "type": "VIDEO",
-        "source" : "/projects/XTRM/XTRM_8.mp4"
-      },
-      {
-        "id": "9",
-        "type": "IMAGE",
-        "source" : "/projects/XTRM/XTRM_9.jpg"
-      }
-
     ]
   }
 ]

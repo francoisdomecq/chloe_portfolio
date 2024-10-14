@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 
 import { motion } from "framer-motion";
 
-
 import { AppContext } from "../../../../../../../../config/contexts/app-context";
 import { Project } from "../../../../../../types";
 
@@ -69,9 +68,12 @@ const CarouselImage = ({ project }:CarouselImageProps)=>{
                     animate={imageOverlayVariant}
                     variants={imageOverlayVariants}
                 >
-                    <div className="carousel-image__overla">
-                        <motion.h1>{project.title}</motion.h1>
-                        <h2>{project.date}</h2>
+                    <div className="carousel-image__overlay">
+                        <h3 className="carousel-image__number">0{project.id}.</h3>
+                        <span>
+                            <h1 className="carousel-image__title">{project.title}</h1>
+                            <h2 className="carousel-image__date">{project.date}</h2>
+                        </span>
                     </div>
                 </motion.div>
                 <div className="carousel-image__image">

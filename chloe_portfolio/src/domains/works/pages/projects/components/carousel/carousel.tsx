@@ -19,7 +19,7 @@ const ProjectCarousel = () => {
         const finalPosition = - width /2 -8;
         const controls = animate(xTranslation,[0, finalPosition],{
             ease:"linear",
-            duration:25,
+            duration:15,
             repeat:Infinity,
             repeatType:"loop",
             repeatDelay:0

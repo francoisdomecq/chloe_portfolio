@@ -1,11 +1,10 @@
-import { useMemo, useState } from "react";
+import { useMemo } from "react";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 
 import { motion } from "framer-motion";
 
 import PROJECTS from "../../../../config/works.json";
-import { Project } from "../../../../types";
 
 import "./project-navigator.scss";
 
@@ -19,7 +18,6 @@ const ProjectNavigator = ({ projectId,navigateTo }:ProjectNavigatorProps)=>{
     const navigate=useNavigate();
     const { t }=useTranslation("works");
 
-    const [displayProjectOverlay,setDisplayProjectOverlay]=useState(false);
     const projectToNavigate = navigateTo === "previous" ? projectId -1 : projectId+1;
 
     const handleNavigateToProject=()=>{
@@ -33,21 +31,10 @@ const ProjectNavigator = ({ projectId,navigateTo }:ProjectNavigatorProps)=>{
         return !(navigateTo === "next" && projectId === PROJECTS.length);
     },[navigateTo,projectId]);
 
-    const projectOverlayed : Project | undefined = PROJECTS.find((project)=> parseInt(project.id )=== projectToNavigate);
 
     return displayProjectNavigator&& (
         <div className="project__navigator">
-            {displayProjectOverlay && projectOverlayed &&
-              <motion.div initial={{ opacity:0 }} animate={{ opacity:1 }} exit={{ opacity:0 }}className={`project-overlay project-overlay__${navigateTo}`} >
-                  <div className="project-overlay__info">
-                      <h2 className="project-overlay__title">{projectOverlayed.title}</h2>
-                  </div>
-                  <img className="project-overlay__image" width="100%" src={projectOverlayed.carouselImage}/>
-              </motion.div>
-            }
             <motion.div whileHover={{ scale:1.1 }}
-                onHoverStart={()=>setDisplayProjectOverlay(true)}
-                onHoverEnd={()=>setDisplayProjectOverlay(false)}
                 className={"project__navigation-item"}
                 onClick={handleNavigateToProject}>
                 {navigateTo === "previous" && <img className="project__navigation-icon previous" src="/arrow-right.svg" alt="arrow-left"/>}

@@ -20,10 +20,12 @@
 @media screen and (min-width:$tablet-bp){
   .projects__carousel{
     display: inline;
-    margin-top: 60px;
+    position: absolute;
+    z-index: 5;
   }
 
   .projects__list{
     display: none;
   }
+
 }

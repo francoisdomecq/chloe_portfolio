@@ -16,7 +16,28 @@
   width:350px;
 }
 
-.carousel-image__overla{
+.carousel-image__overlay{
+  display: flex;
+  flex-direction: column;
   opacity: 1;
   top: 0;
+  padding: 4px 0;
+}
+
+.carousel-image__number{
+  font-size: 16px;
+  font-family: var(--text-font);
+  margin-bottom: 8px;
+}
+
+.carousel-image__title{
+  font-family: var(--text-font);
+  font-size: var(--font-size-h3);
+  color: black;
+}
+
+.carousel-image__date{
+    font-size: var(--font-size-subtitle);
+    font-family: var(--text-font);
+  color:var(--grey-deep-2)
 }
