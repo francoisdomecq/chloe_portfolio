@@ -29,7 +29,6 @@ const VideoPlayer = ({ source, loop=true,  onChangeIsPlaying, waitForInView=fals
             onChangeIsPlaying(false);
         }
     };
-    console.log(isPlaying);
 
     return (
         <div className="video-player" ref={inViewRef} >

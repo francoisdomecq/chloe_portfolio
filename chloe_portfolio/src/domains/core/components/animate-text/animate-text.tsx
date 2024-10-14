@@ -7,7 +7,7 @@ interface AnimateTextProps {
   delay?: number;
 }
 
-const AnimateText = ({ text, delay }: AnimateTextProps) => {
+const AnimateText = ({ text, delay = 0 }: AnimateTextProps) => {
     const formattedText = text.split("");
     return (
         <div className="animate-text">

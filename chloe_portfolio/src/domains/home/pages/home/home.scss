@@ -43,6 +43,13 @@
     gap:32px;
   }
 
+  .home-page__footer{
+    position: absolute;
+    bottom:0;
+    left:0;
+    width:100%
+  }
+
   .scroll-button{
     display:flex;
     position:absolute;
