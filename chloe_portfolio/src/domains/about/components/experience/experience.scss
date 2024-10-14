@@ -7,10 +7,6 @@
   padding: 4px 0;
 }
 
-.company__mobile{
-  color:var(--grey-deep-2)
-}
-
 .company__tablet{
   display: none;
 }
@@ -18,13 +14,18 @@
 .experience__content{
   text-align: start;
   line-height: 2rem;
-  font-family: var(--text-font);
   font-size: var(--font-size-body-l);
-  color:black;
+  font-family: var(--text-font);
+  color: black;
+}
+
+.company__mobile{
+    color:var(--grey-deep-2) !important;
 }
 
 .experience__separator{
-  border:0.5px solid black;
+  border:1px solid black;
+  -moz-border-bottom-colors: black;
 }
 
 @media screen and (min-width: $desktop-bp){
