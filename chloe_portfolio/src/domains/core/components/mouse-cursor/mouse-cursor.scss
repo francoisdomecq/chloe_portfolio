@@ -1,4 +1,8 @@
 .cursor{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
   position:fixed;
   top:0;
   background-color: var(--yellow);

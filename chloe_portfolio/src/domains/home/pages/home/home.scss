@@ -19,9 +19,53 @@
   color: black;
 }
 
+.home-page__animation{
+  display:none;
+}
+
+.scroll-button{
+  display:none;
+}
+
 @media screen and (min-width: $desktop-bp) {
+
+  .home-page__animation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100vh;
+    height:100vh;
+  }
+
+  .home-page__animation-text{
+    display: flex;
+    gap:32px;
+  }
+
+  .scroll-button{
+    display:flex;
+    position:absolute;
+    align-items: center;
+    bottom: 120px;
+    right:120px;
+    border-radius: 64px;
+    padding: 16px;
+    border :1px solid black;
+    width: fit-content;
+  }
+
+  .scroll-button__text{
+    font-size:var(--font-size-body-m);
+  }
+
+  .scroll-button__icon{
+    width:32px;
+    transform:rotate(90deg);
+  }
+
   .home__showreel{
-    max-width: 80%;
+    max-width: 100%;
   }
 
   .home-page__title{
