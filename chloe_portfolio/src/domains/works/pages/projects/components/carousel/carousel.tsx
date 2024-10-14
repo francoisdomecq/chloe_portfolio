@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import useMeasure from "react-use-measure";
 
 import { animate, motion, useMotionValue } from "framer-motion";
@@ -10,25 +10,53 @@ import CarouselImage from "./components/carousel-image/carousel-image";
 
 import "./carousel.scss";
 
+const SLOW_DURATION = 75;
+const FAST_DURATION = 15;
 
 const ProjectCarousel = () => {
     const [ref,{ width }]= useMeasure();
+    const [duration, setDuration] = useState(FAST_DURATION);
+    const [mustFinish , setMustFinish] = useState(false);
+    const [rerender,setRererender] = useState(false);
 
     const xTranslation = useMotionValue(0);
     useEffect(() => {
+        let controls;
         const finalPosition = - width /2 -8;
-        const controls = animate(xTranslation,[0, finalPosition],{
-            ease:"linear",
-            duration:15,
-            repeat:Infinity,
-            repeatType:"loop",
-            repeatDelay:0
-        });
+        if (mustFinish){
+            controls = animate(xTranslation,[xTranslation.get(), finalPosition],{
+                ease:"linear",
+                duration : duration * (1 - xTranslation.get() / finalPosition),
+                onComplete:()=>{
+                    setMustFinish(false);
+                    setRererender(!rerender);
+                }
+            });
+        } else {
+            controls = animate(xTranslation,[0, finalPosition],{
+                ease:"linear",
+                duration,
+                repeat:Infinity,
+                repeatType:"loop",
+                repeatDelay:0
+            });
+        }
         return controls.stop;
-    }, [xTranslation,width]);
+    }, [xTranslation, width, duration, rerender, mustFinish]);
 
     return (
-        <motion.div className="carousel" ref={ref} style={{ x:xTranslation }}>
+        <motion.div className="carousel"
+            ref={ref}
+            style={{ x:xTranslation }}
+            onHoverStart={()=>{
+                setMustFinish(true);
+                setDuration(SLOW_DURATION);
+            }}
+            onHoverEnd={()=>{
+                setMustFinish(true);
+                setDuration(FAST_DURATION);
+            }}
+        >
             {[...projects,...projects].map((project : Project, index) =>
                 <CarouselImage key={index} project={project}  />
             )}
