@@ -3,7 +3,7 @@ import useMeasure from "react-use-measure";
 
 import { animate, motion, useMotionValue } from "framer-motion";
 
-import projects from "../../../../config/works.json";
+import projects from "../../../../../../config/works.json";
 import { type  Project } from "../../../../types";
 
 import CarouselImage from "./components/carousel-image/carousel-image";

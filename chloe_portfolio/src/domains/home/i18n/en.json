@@ -1,7 +1,9 @@
 {
   "home": {
     "title": "CHLOÉ GAILLARD",
-    "scroll-to-video": "Scroll to video"
+    "scroll-to-video": "Scroll to video",
+    "welcome": "Welcome to my portfolio",
+    "brief-about": "I'm a graphic designer based in Paris"
 
   }
 }

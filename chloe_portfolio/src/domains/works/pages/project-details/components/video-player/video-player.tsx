@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
+import { useInView } from "react-intersection-observer";
 import ReactPlayer from "react-player";
 
-import "./video-player.scss";
 
-import { useInView } from "react-intersection-observer";
+import "./video-player.scss";
 
 interface VideoPlayerProps{
     source: string;
@@ -12,10 +12,9 @@ interface VideoPlayerProps{
     waitForInView?:boolean
 }
 
-const VideoPlayer = ({ source, loop=true,  onChangeIsPlaying, waitForInView=false }:VideoPlayerProps)=>{
+const VideoPlayer = ({ source, loop=true,  onChangeIsPlaying, waitForInView=true }:VideoPlayerProps)=>{
 
-    const isPlayingDefault = waitForInView ? false : true;
-    const [isPlaying,setIsPlaying] = useState(isPlayingDefault);
+    const [isPlaying,setIsPlaying] = useState(!waitForInView);
     const [inViewRef, inView] = useInView();
     
     useEffect(() => {
@@ -30,20 +29,23 @@ const VideoPlayer = ({ source, loop=true,  onChangeIsPlaying, waitForInView=fals
         }
     };
 
+    console.log(isPlaying);
+
     return (
         <div className="video-player" ref={inViewRef} >
             <ReactPlayer className="react-player__tablet"
-                width="100%"
-                height="100%"
+                width="90%"
+                height="90%"
                 url={source}
                 playing={isPlaying}
                 loop={loop}
                 muted
+                controls
                 onEnded={handleOnVideoEnd}
             />
             <ReactPlayer className="react-player__mobile"
-                width="100%"
-                height="100%"
+                width="90%"
+                height="90%"
                 url={source}
                 controls={true}
             />

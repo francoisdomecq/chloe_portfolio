@@ -9,10 +9,12 @@ import {
     secondTextToAnimate
 } from "../../animation-config";
 
+import "./home-page-title.scss";
+
 const HomePageTitle = () => {
     return (
         <>
-            <motion.div className="home-page__animation-text"
+            <motion.div className="home-page-title"
                 initial={{ display:"flex" }}
                 animate={{ opacity:0, display:"none" }}
                 transition={{ delay: firstAnimationDuration }}>
@@ -21,7 +23,7 @@ const HomePageTitle = () => {
                     return <AnimateText text={text} key={index} delay={delay}/>;
                 })}
             </motion.div>
-            <motion.div className="home-page__animation-text"
+            <motion.div className="home-page-title"
                 initial={{ display:"none" }}
                 animate={{ display:"flex" }}
                 transition={{ delay: secondAnimationDelay }}>

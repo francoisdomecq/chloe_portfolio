@@ -9,10 +9,18 @@ interface ProjectContent {
   source : string;
 }
 
+interface ProjectDescription{
+  title: string;
+  content:string[];
+  skills : string[];
+  fonts: string;
+  coworkers?:string[]
+}
+
 interface Project {
   id:string;
   title: string;
-  description: string;
+  description: ProjectDescription;
   date: string;
   carouselImage:string;
   content: ProjectContent[];

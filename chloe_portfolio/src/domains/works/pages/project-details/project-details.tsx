@@ -1,16 +1,15 @@
 import { useParams } from "react-router-dom";
 
+import PROJECTS from "../../../../config/works.json";
 import { PortfolioPage } from "../../../core";
-import PROJECTS from "../../config/works.json";
 import { type Project, type ProjectContent, ProjectContentMediaType } from "../../types";
 
 import ImageDisplayer from "./components/image-displayer/image-displayer";
+import ProjectDetailsDescription from "./components/project-details-description/project-details-description";
 import ProjectNavigator from "./components/project-navigator/project-navigator";
 import VideoPlayer from "./components/video-player/video-player";
 
-
 import "./project-details.scss";
-
 
 const ProjectDetails = () => {
     const projectId = useParams().id;
@@ -28,9 +27,7 @@ const ProjectDetails = () => {
 
     return foundProject && (
         <PortfolioPage className="project-details">
-            <div className="project-details__information">
-                <h1 className="project-details__title">{foundProject.title}</h1>
-            </div>
+            <ProjectDetailsDescription project={foundProject}/>
             <div className="project-details__content">
                 {foundProject.content.map(renderProjectContent)}
             </div>

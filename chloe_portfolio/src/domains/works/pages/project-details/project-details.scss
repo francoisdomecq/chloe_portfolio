@@ -5,14 +5,8 @@
   flex-direction:column;
   justify-content: flex-start;
   height: 100%;
-  padding: 24px 16px 0;
 }
 
-.project-details__information{
-  display:flex;
-  flex-direction: column;
-  padding: 24px 16px;
-}
 
 .project-details__description{
   font-family: var(--body-font);
@@ -29,23 +23,30 @@
 .project-details__content{
   display: flex;
   flex-direction: column;
-  max-width: 400px;
 }
 
 .project__navigation{
     display: flex;
     justify-content: space-between;
-    padding: 16px;
+    padding: 16px 0;
     width: 100%;
 }
 
 @media screen and (min-width: $mobile-bp){
 
   .project__navigation{
-    padding: 16px 0;
+    padding: 16px;
   }
 
   .project-details__content{
     max-width: none;
+  }
+}
+@media screen and (min-width: $desktop-bp){
+
+
+
+  .project__navigation{
+    padding: 16px 24px;
   }
 }

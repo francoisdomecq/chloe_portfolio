@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 import { motion } from "framer-motion";
 
-import PROJECTS from "../../../../config/works.json";
+import PROJECTS from "../../../../../../config/works.json";
 
 import "./project-navigator.scss";
 

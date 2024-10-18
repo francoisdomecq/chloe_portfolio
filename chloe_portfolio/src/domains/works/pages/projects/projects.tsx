@@ -1,5 +1,5 @@
+import projects from "../../../../config/works.json";
 import { PortfolioPage } from "../../../core";
-import projects from "../../config/works.json";
 
 import Carousel from "./components/carousel/carousel";
 import Project from "./components/project/project";
