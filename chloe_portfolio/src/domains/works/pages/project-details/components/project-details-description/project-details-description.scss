@@ -4,10 +4,38 @@
   padding:24px 6.5%;
 }
 
+.project-details-description__titles{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  gap: 16px;
+  padding-bottom: 24px;
+}
+
 .project-details-description__title{
   font-family: var(--text-font);
   font-size: var(--font-size-h1);
-  padding-bottom: 24px;
+}
+
+.project-details-description__subtitle::before{
+  content: '';
+  height: 100%; //You can change this if you want smaller/bigger borders
+  width: 1px;
+
+  position: absolute;
+  left: 0;
+  top: 0; // If you want to set a smaller height and center it, change this value
+
+  background-color: #000000;
+}
+
+.project-details-description__subtitle{
+    font-family: var(--text-font);
+    font-size: var(--font-size-body-xs);
+    position:relative;
+    padding-left: 16px;
+  color:var(--grey-deep)
 }
 
 .project-details-description__details{
@@ -36,6 +64,7 @@
   max-width: 680px;
   justify-content: space-between;
   border-top: 1px solid var(--grey-deep);
+  padding: 4px 0;
 }
 
 .project-details-description__info-title{
@@ -47,7 +76,7 @@
 .project-details-description__info-content{
     font-family: var(--text-font);
     font-size: var(--font-size-body-m);
-    max-width: 70%;
+    max-width: 50%;
     text-align: end;
 }
 
@@ -56,13 +85,14 @@
   justify-content: center;
   align-items: center;
   padding: 4px 12px;
-  border :1px solid var(--grey-deep);
+  margin-top: 32px;
+  border :1px solid black;
   border-radius: 64px;
   width: fit-content;
   font-family: var(--text-font);
   font-size: var(--font-size-body-m);
   &:hover{
-    background-color: var(--grey-deep);
+    background-color: black;
     color: white;
   }
 }

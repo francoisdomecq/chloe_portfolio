@@ -18,7 +18,7 @@ const ProjectDetails = () => {
 
     const renderProjectContent = (projectContent:ProjectContent) => {
         if (projectContent.type === ProjectContentMediaType.IMAGE){
-            return <ImageDisplayer key={projectContent.id} source={projectContent.source}/>;
+            return <ImageDisplayer id={`image-${projectContent.id}`} key={projectContent.id} source={projectContent.source}/>;
         }
         return <VideoPlayer key={projectContent.id} source={projectContent.source}/>;
     };

@@ -11,6 +11,7 @@ interface ProjectContent {
 
 interface ProjectDescription{
   title: string;
+  subtitle:string[];
   content:string[];
   skills : string[];
   fonts: string;

@@ -7,25 +7,35 @@ interface ProjectDetailsDescriptionProps {
 }
 
 const ProjectDetailsDescription=({ project }:ProjectDetailsDescriptionProps)=>{
+    const scrollToFirstImage=()=>{
+        console.log("click");
+        document.getElementById("image-1")?.scrollIntoView({ behavior: "smooth" });
+    };
+
     return (
         <div className="project-details-description">
-            <h1 className="project-details-description__title">{project.description.title}</h1>
+            <div className="project-details-description__titles">
+                <h1 className="project-details-description__title">{project.description.title}</h1>
+                <div className="project-details-description__subtitle">
+                    {project.description.subtitle.map(subtitle=><h2>{subtitle}</h2>)}
+                </div>
+            </div>
             <div className="project-details-description__details">
                 <span className="project-details-description__description">Description</span>
-                <p className="project-details-description__content">{project.description.content}</p>
+                {project.description.content.map(content=><p className="project-details-description__content">{content}</p>)}
                 <div className="project-details-description__info">
                     <span className="project-details-description__info-title">Date</span>
                     <span className="project-details-description__info-content">{project.date}</span>
                 </div>
                 <div className="project-details-description__info">
                     <span className="project-details-description__info-title">Skills</span>
-                    <span className="project-details-description__info-content">{project.description.skills.join(", ")}</span>
+                    <span className="project-details-description__info-content">{project.description.skills.join(" / ")}</span>
                 </div>
                 <div className="project-details-description__info">
                     <span className="project-details-description__info-title">Typography</span>
                     <span className="project-details-description__info-content">{project.description.fonts}</span>
                 </div>
-                <div className="project-details-description__scroll-button">
+                <div className="project-details-description__scroll-button" onClick={scrollToFirstImage}>
                     En decouvrir +
                 </div>
             </div>

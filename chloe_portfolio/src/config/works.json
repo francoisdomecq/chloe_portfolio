@@ -3,7 +3,8 @@
     "id": "1",
     "title": "Odette, la cuisine du souvenir",
     "description": {
-      "title": "Odette, la cuisine du souvenir / Typeface Design and Editorial project",
+      "title": "Odette, la cuisine du souvenir",
+      "subtitle": ["Typeface Design", "Editorial project"],
       "content": ["This project blends typeface design and editorial work, resulting in a recipe book featuring the recipes of my great-great-grandmother. The book also serves as a type specimen, showcasing the process of creating a typeface based on her handwriting. This custom typography adds authenticity to the book, paying tribute to family heritage while providing a unique visual and emotional experience."],
       "skills": ["Typeface design", "illustrations", "editorial project", "writing", "research"],
       "fonts": "Minion Pro, an Adobe Original Typeface designed by Robert Slimbach / Satoshi designed by Deni Anggara for the Indian Type Foundry / Odette designed by Chloé Gaillard, a personal typeface design project"
@@ -102,7 +103,8 @@
     "id": "2",
     "title": "FullMoon",
     "description": {
-      "title": "FullMoon / Branding and typeface design",
+      "title": "FullMoon",
+      "subtitle": ["Branding","Typeface design"],
       "content": ["Developed an elegant and refined visual identity for a luxury travel agency specializing in honeymoons. The branding combines sophistication and romance, capturing the essence of exclusive destinations and unique experiences offered by the agency. A custom typeface was designed to reflect the distinctive and high-end character of the brand, while evoking the intimacy and elegance sought by honeymooning couples."],
       "skills": ["Typeface design", "branding", "visual", "identity"],
       "fonts": "Inconsolata by Raph Levien for Google"
@@ -156,7 +158,8 @@
     "id": "3",
     "title": "XTRM Salomon",
     "description": {
-      "title": "XTRM by Salomon / Advertising campaign",
+      "title": "XTRM by Salomon",
+      "subtitle": ["Advertising campaign"],
       "content": ["For Salomon, I developed the XTRM advertising campaign, aimed at athletes and adventurers who push the boundaries of performance in extreme environments. The concept of XTRM revolves around surpassing the ordinary through a fusion of cutting-edge innovation, durability, and futuristic design. Featuring key products such as trail running shoes, technical jackets, and ski equipment, the campaign highlights Salomon’s ability to equip athletes with advanced gear for the most demanding challenges.",
         "The visual identity is defined by bold, sharp typography, intense colors like black, red, and cyan, and dynamic imagery capturing athletes in action within spectacular, rugged landscapes. XTRM embodies the spirit of exploration and the conquest of hostile terrains, reflecting Salomon’s mission to support every athlete in their pursuit of pushing personal limits."
       ],
@@ -218,7 +221,8 @@
     "id": "4",
     "title": "Chloe",
     "description": {
-      "title": "Chloé / Personal Branding – typographic logo design",
+      "title": "Chloé",
+      "subtitle": ["Personal Branding","Typographic logo design"],
       "content": ["This personal branding project features a typographic logo I designed to represent my work. The keywords guiding the creation of this logotype were finesse, elegance, and poetry. My approach often involves storytelling through typography and type design, using these elements to convey messages and narratives within my projects. This logo encapsulates my artistic vision and passion for blending visual storytelling with refined design."],
       "skills": ["logotypes", "illustrations", "branding", "visual identity"],
       "fonts": "Patron by Timo Gaessner for Milieu Grotesque"
@@ -287,7 +291,8 @@
     "id": "5",
     "title": "Pangram Pangram Foundry",
     "description": {
-      "title": "PangramPangram Foundry / Typographic specimen – Editorial object",
+      "title": "PangramPangram Foundry",
+      "subtitle": ["Typographic specimen", "Editorial object"],
       "content": ["This project is a typographic specimen designed for the Pangram Pangram foundry. It takes the form of a package containing posters, each dedicated to a specific typeface. Each poster is composed of 8 postcards, reinforcing the foundry's ethos of sharing and accessibility. The design emphasizes the idea of spreading the foundry's fonts, encouraging users to explore and share the typefaces, thus amplifying creativity and collaboration within the design community."],
       "skills": ["editorial object", "typography", "layout","vinyle cutting", "engraving", "finishing"],
       "fonts": "Several fonts created by PangramPangram"
@@ -336,7 +341,8 @@
     "id": "6",
     "title": "Jardins Statuaires",
     "description": {
-      "title": "Jardins Statuaires – Editorial Project",
+      "title": "Jardins Statuaires",
+      "subtitle": ["Editorial Project"],
       "content": ["This editorial project delves into the themes of attention and subtle details through the design of a leporello. The layout is centered around a horizontal line, symbolizing the horizon, which guides the reader throughout the text. This visual thread reinforces the content by subtly evoking ideas of observation and perspective. The design emphasizes delicacy and introspection, inviting a contemplative and attentive reading experience."],
       "skills": ["editorial object", "photography", "layout"],
       "fonts": "Fanwood by Barry Schwartz for The league of moveable type"
@@ -390,9 +396,10 @@
     "id": "7",
     "title": "Hermès",
     "description": {
-      "title": "Hermès / Advertising campaign ",
+      "title": "Hermès",
+      "subtitle": ["Advertising campaign"],
       "content": ["This project, created at Publicis EtNous, is the Christmas campaign for Hermès titled \"It's Time for a Joyful Show.\" The concept features Pegasus, the iconic figure of Hermès, traveling through the windows of an Hermès boutique. My role included helping to create mock-ups to pitch the concept to the client, writing the narrative of this magical journey, and contributing to the advertising film's concept. I also assisted the art directors during the photo shoot and filming, and took part in the post-production process before delivering the final project to the client. This was an enriching and exciting experience that taught me a lot about agency work, and it significantly boosted my confidence and professional growth."],
-      "skills": ["Assistant DA on shoot", "filming", "retouching", "editing and colour grading", "research work", "model drawings", "storyboarding"],
+      "skills": ["Model drawings", "Storyboarding","Retouching","Assistant DA on shoot",  "Editing and colour grading", "Research work"],
       "fonts": "Fanwood by Barry Schwartz for The league of moveable type",
       "coworkers": [
         "Publicis EtNous – Agency",
@@ -462,7 +469,8 @@
     "id": "8",
     "title": "Mister Bun's",
     "description": {
-      "title": "Mr. Bun’s / Visual Identity",
+      "title": "Mr. Bun’s",
+      "subtitle": ["Visual Identity"],
       "content": ["This visual identity project was created for a small London snack shop with an innovative concept of sweet and savory brioche sandwiches. The entire art direction revolves around a playful mascot and a fun, lively spirit, capturing the originality and friendly atmosphere of the shop. The design aims to attract a young and dynamic audience while highlighting the unique and casual approach of the snack shop."],
       "skills": ["packaging", "branding", "logotype", "illustrations"],
       "fonts": "Bevellier, display typography designed by Indian Type Foundry"
