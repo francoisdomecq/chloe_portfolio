@@ -9,7 +9,61 @@
   padding-top: 16px;
 }
 
+.home-page-mobile{
+  display: flex;
+}
+
+.home-page-mobile__content{
+  padding-top: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height:100%;
+}
+
+.home-page-mobile__welcome{
+  font-family: var(--text-font);
+  color: black;
+  text-align: center;
+  font-size: var(--font-size-h2);
+}
+
+.home-page-mobile__title{
+  text-align: center;
+  font-size: calc(var(--font-size-h1) * 2);
+  font-family: var(--text-font);
+  color: black;
+  margin-bottom: 16px;
+}
+
+.home-page-mobile__display-video{
+  display: flex;
+  padding: 8px;
+  border-radius: 64px;
+  border:1px solid black;
+  width: fit-content;
+  margin-top: 24px;
+  font-family: var(--text-font);
+  font-size: var(--font-size-body-s);
+}
+
+.home-page-mobile__showreel{
+  position: relative;
+  width: 100vw !important;
+  background-color: black;
+  margin-top: 48px;
+}
+
+.home-page-mobile__about-me{
+  font-family: var(--text-font);
+  color: black;
+  font-size: var(--font-size-body-l);
+  text-align: center;
+}
+
 .home__showreel{
+  display: none;
   max-width: 100%;
 }
 
@@ -28,6 +82,10 @@
 }
 
 @media screen and (min-width: $desktop-bp) {
+
+  .home-page-mobile{
+    display: none;
+  }
 
   .home-page__animation{
     display: flex;
@@ -48,11 +106,14 @@
 
   .home-page__welcome{
     font-family: var(--title-font);
+    color: black;
     font-size: 120px;
     width: 100%;
+    max-width: 1000px;
   }
 
   .home-page__about-me{
+    color: black;
     font-family: var(--text-font);
     font-size: 48px;
   }
@@ -70,9 +131,8 @@
   }
 
   .home-about__image-class{
-    max-width: 200px;
+    max-width: 300px;
     width: 100%;
-    border-radius: 8px;
   }
 
   .scroll-button{
@@ -106,6 +166,7 @@
   }
 
   .home__showreel{
+    display: flex;
     max-width: 100%;
   }
 

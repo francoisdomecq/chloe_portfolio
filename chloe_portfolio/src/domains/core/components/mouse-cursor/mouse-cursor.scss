@@ -5,10 +5,12 @@
   justify-content: center;
   position:fixed;
   top:0;
-  background-color: var(--yellow);
-  height:32px;
-  width: 32px;
-  border-radius: 50%;
   pointer-events: none;
   z-index: 999;
+}
+
+.cursor__text{
+  font-family: var(--text-font);
+  font-size: var(--font-size-body-m);
+  line-height: 1.5rem;
 }

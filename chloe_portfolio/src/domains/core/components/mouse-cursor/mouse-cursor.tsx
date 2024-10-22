@@ -26,35 +26,49 @@ const MouseCursor = () => {
 
     const variants: Variants | undefined ={
         default:{
-            x:mousePosition.x - 16,
-            y:mousePosition.y - 16,
-            mixBlendMode:"multiply"
+            x:mousePosition.x - 30,
+            y:mousePosition.y - 30,
+            mixBlendMode:"multiply",
+            backgroundImage:"url('../src/assets/CURSOR-97.svg')",
+            backgroundRepeat:"no-repeat",
+            height:60,
+            width:60
         },
         text:{
-            x:mousePosition.x - 50,
-            y:mousePosition.y - 50,
-            height:100,
-            width:100,
-            mixBlendMode:"multiply"
+            x:mousePosition.x - 30,
+            y:mousePosition.y - 30,
+            height:60,
+            width:60,
+            backgroundImage:"url('../src/assets/CURSOR-97.svg')",
+            backgroundRepeat:"no-repeat"
         },
-        image:{
-            x:mousePosition.x - 16,
-            y:mousePosition.y - 16,
-            mixBlendMode:"normal"
+        carouselImage:{
+            x:mousePosition.x - 32,
+            y:mousePosition.y - 32,
+            mixBlendMode:"normal",
+            height:64,
+            width:64,
+            borderRadius:64,
+            padding : "8px",
+            backgroundColor:"white",
+            backgroundImage:"none"
+
         }
     };
 
     const cursorVariant = useMemo(()=>{
         if (isHovering==="text"){
             return "text";
-        } else if (isHovering==="image"){
-            return "image";
+        } else if (isHovering==="carouselImage"){
+            return "carouselImage";
         }
         return "default";
     },[isHovering]);
 
     return (
-        <motion.div className="cursor" variants={variants} animate={cursorVariant}></motion.div>
+        <motion.div className="cursor" variants={variants} animate={cursorVariant}>
+            {isHovering === "carouselImage" && <p className="cursor__text">View more</p>}
+        </motion.div>
     );
 };
 export default MouseCursor;

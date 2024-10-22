@@ -8,7 +8,6 @@ interface ProjectDetailsDescriptionProps {
 
 const ProjectDetailsDescription=({ project }:ProjectDetailsDescriptionProps)=>{
     const scrollToFirstImage=()=>{
-        console.log("click");
         document.getElementById("image-1")?.scrollIntoView({ behavior: "smooth" });
     };
 

@@ -20,6 +20,7 @@ const CarouselImage = ({ project }:CarouselImageProps)=>{
 
     const handleNavigate = ()=>{
         navigate(`/works/${project.id}`);
+        unhoverElement();
     };
 
     const imageOverlayVariants = {
@@ -52,13 +53,12 @@ const CarouselImage = ({ project }:CarouselImageProps)=>{
             initial={"default"}
             onHoverStart={()=>{
                 setShowOverlay(true);
-                hoverElement("image");
+                hoverElement("carouselImage");
             }}
             onHoverEnd={()=>{
                 setShowOverlay(false);
                 unhoverElement();
-            }
-            }
+            }}
             onClick={handleNavigate}
             variants={variants}
             animate={imageVariant}
