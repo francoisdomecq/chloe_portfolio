@@ -1,16 +1,24 @@
+@import 'src/domains/core/theme/breakpoints.scss';
+
 .cursor{
-  display: flex;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  position:fixed;
-  top:0;
-  pointer-events: none;
-  z-index: 999;
+ display: none;
 }
 
 .cursor__text{
   font-family: var(--text-font);
   font-size: var(--font-size-body-m);
   line-height: 1.5rem;
+}
+
+@media screen and (min-width: $tablet-bp){
+  .cursor{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position:fixed;
+    top:0;
+    pointer-events: none;
+    z-index: 999;
+  }
 }
