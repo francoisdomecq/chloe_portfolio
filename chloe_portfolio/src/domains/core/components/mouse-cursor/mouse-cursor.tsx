@@ -29,7 +29,7 @@ const MouseCursor = () => {
             x:mousePosition.x - 30,
             y:mousePosition.y - 30,
             mixBlendMode:"multiply",
-            backgroundImage:"url('./src/assets/CURSOR-97.svg')",
+            backgroundImage:"url('/CURSOR-97.svg')",
             backgroundRepeat:"no-repeat",
             height:60,
             width:60
@@ -39,7 +39,7 @@ const MouseCursor = () => {
             y:mousePosition.y - 30,
             height:60,
             width:60,
-            backgroundImage:"url('./src/assets/CURSOR-97.svg')",
+            backgroundImage:"url('/CURSOR-97.svg')",
             backgroundRepeat:"no-repeat"
         },
         carouselImage:{
