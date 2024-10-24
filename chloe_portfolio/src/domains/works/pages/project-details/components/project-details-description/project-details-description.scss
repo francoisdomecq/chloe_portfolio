@@ -16,6 +16,7 @@
 .project-details-description__title{
   font-family: var(--text-font);
   font-size: var(--font-size-h1);
+  color:black;
 }
 
 .project-details-description__subtitle::before{
@@ -28,6 +29,7 @@
   top: 0; // If you want to set a smaller height and center it, change this value
 
   background-color: #000000;
+  font-family: var(--text-font);
 }
 
 .project-details-description__subtitle{
@@ -55,7 +57,7 @@
   font-family: var(--text-font);
   font-size: var(--font-size-body-m);
   padding-bottom: 24px;
-
+  color: black;
 }
 
 .project-details-description__info{
@@ -74,10 +76,11 @@
 }
 
 .project-details-description__info-content{
-    font-family: var(--text-font);
-    font-size: var(--font-size-body-m);
-    max-width: 50%;
-    text-align: end;
+  font-family: var(--text-font);
+  font-size: var(--font-size-body-m);
+  max-width: 50%;
+  text-align: end;
+  color:black;
 }
 
 .project-details-description__scroll-button{
@@ -91,6 +94,7 @@
   width: fit-content;
   font-family: var(--text-font);
   font-size: var(--font-size-body-m);
+  color:black;
   &:hover{
     background-color: black;
     color: white;

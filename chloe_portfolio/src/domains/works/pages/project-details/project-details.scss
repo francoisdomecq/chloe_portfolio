@@ -26,27 +26,9 @@
 }
 
 .project__navigation{
-    display: flex;
-    justify-content: space-between;
-    padding: 16px 0;
-    width: 100%;
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  width: 90%;
 }
 
-@media screen and (min-width: $mobile-bp){
-
-  .project__navigation{
-    padding: 16px;
-  }
-
-  .project-details__content{
-    max-width: none;
-  }
-}
-@media screen and (min-width: $desktop-bp){
-
-
-
-  .project__navigation{
-    padding: 16px 24px;
-  }
-}
