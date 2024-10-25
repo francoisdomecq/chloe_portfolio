@@ -1,7 +1,9 @@
+@import '../../../../../core/theme/breakpoints.scss';
+
 .project-details-description{
   display: flex;
   flex-direction: column;
-  padding:24px 6.5%;
+  padding: 24px 3.5%;
 }
 
 .project-details-description__titles{
@@ -99,4 +101,11 @@
     background-color: black;
     color: white;
   }
+}
+
+
+@media screen and (min-width: $mobile-bp) {
+    .project-details-description{
+        padding: 24px 6.5%;
+    }
 }

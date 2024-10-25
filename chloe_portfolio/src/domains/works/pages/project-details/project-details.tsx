@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 
 import PROJECTS from "../../../../config/works.json";
 import { PortfolioPage } from "../../../core";
+import NavigationHistory from "../../../core/components/navigation-history/navigation-history";
 import { type Project, type ProjectContent, ProjectContentMediaType } from "../../types";
 
 import ImageDisplayer from "./components/image-displayer/image-displayer";
@@ -25,8 +26,11 @@ const ProjectDetails = () => {
 
     const parsedProjectId = projectId ? parseInt(projectId) : 0;
 
+    const routerHistory = [{ route:"/",label:"Home" }, { route: "/works", label: "Works" }, { route: `/works/${projectId}`, label: foundProject?.title || "" }];
+
     return foundProject && (
         <PortfolioPage className="project-details">
+            <NavigationHistory history={routerHistory} className="project-details__navigation-history"/>
             <ProjectDetailsDescription project={foundProject}/>
             <div className="project-details__content">
                 {foundProject.content.map(renderProjectContent)}

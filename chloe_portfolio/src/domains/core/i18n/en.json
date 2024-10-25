@@ -4,6 +4,7 @@
   },
   "navbar": {
     "tabs": {
+      "home": "HOME",
       "works": "WORKS",
       "about": "ABOUT",
       "contact": "CONTACT"

@@ -43,8 +43,8 @@ const VideoPlayer = ({ source, loop=true,  onChangeIsPlaying, waitForInView=true
                 onEnded={handleOnVideoEnd}
             />
             <ReactPlayer className="react-player__mobile"
-                width="90%"
-                height="90%"
+                width="100%"
+                height="100%"
                 url={source}
                 controls={true}
                 onEnded={handleOnVideoEnd}
