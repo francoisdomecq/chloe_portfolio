@@ -10,7 +10,6 @@ import Icon from "../../../core/components/icon/icon";
 import VideoPlayer from "../../../works/pages/project-details/components/video-player/video-player";
 import type { Project } from "../../../works/types/index";
 
-import HomeComponentDisplayer from "./components/home-component-displayer/home-component-displayer";
 import HomePageTitle from "./components/home-page-title/home-page-title";
 
 import "./home.scss";
@@ -46,6 +45,16 @@ const Home = ()=>{
 
     const projectsImages : string[] = Projects.map((project:Project)=>project.carouselImage);
 
+    const projectImagesWithCoordinates = [
+        { src:projectsImages[0],x:-450,y:1235 },
+        { src:projectsImages[1],x:-300,y:1800 },
+        { src:projectsImages[2],x:-350,y:1000 },
+        { src:projectsImages[3],x:0,y:1000 },
+        { src:projectsImages[4],x:-320,y:1400 },
+        { src:projectsImages[5],x:700,y:1200 },
+        { src:projectsImages[6],x:800,y:1200 },
+        { src:projectsImages[7],x:50,y:1200 }
+    ];
     return (
         <div className="home-page">
             <div className="home-page__animation">
@@ -54,33 +63,28 @@ const Home = ()=>{
                   <div className="home-page__about" ref={inViewRef}>
                       <h2 className="home-page__welcome">{t("home.welcome")}</h2>
                       <h2 className="home-page__about-me">{t("home.brief-about")}</h2>
-                      {inView && projectsImages.map((src,index)=>{
-                          const rotateDirection = index % 2 === 0 ? 1 : -1;
+                      {inView && projectImagesWithCoordinates.map((imageWithCoordinates,index)=>{
                           return (
                               <motion.div className="home-about__image"
-                                  key={src}
-                                  initial={{ x:-1000 - index * 150, y: rotateDirection * 2,rotateZ: rotateDirection * 2 * index  }}
-                                  animate={{ x:1200,zIndex: index * 2 }}
-                                  transition={{ duration:10 , delay: 0.2 * (index - 1), repeat: Infinity, repeatType: "loop" }}
+                                  key={imageWithCoordinates.src}
+                                  initial={{ x:imageWithCoordinates.x, y: imageWithCoordinates.y }}
+                                  animate={{ x:imageWithCoordinates.x,y: -2000 }}
+                                  transition={{ duration:8 + index *1 , delay: 0.2 * (index - 1), repeat: Infinity, repeatType: "loop" }}
                               >
-                                  <img className="home-about__image-class" src={src} alt={`home-page-${src}`}/>
+                                  <img className="home-about__image-class" src={imageWithCoordinates.src} alt={`home-page-${imageWithCoordinates.src}`}/>
                               </motion.div>
                           );
                       })}
                   </div>
                 }
-                <HomeComponentDisplayer>
-                    <Header/>
-                </HomeComponentDisplayer>
-                <HomeComponentDisplayer className="home-page__footer">
+                <Header/>
+                <div className="home-page__footer">
                     <Footer/>
-                </HomeComponentDisplayer>
-                <HomeComponentDisplayer  >
-                    <div className="scroll-button" onClick={handleScrollToVideo}>
-                        <p className="scroll-button__text">{t("home.scroll-to-video")}</p>
-                        <Icon name="arrow-right.svg#arrow-right" className="scroll-button__icon" />
-                    </div>
-                </HomeComponentDisplayer>
+                </div>
+                <div className="scroll-button" onClick={handleScrollToVideo}>
+                    <p className="scroll-button__text">{t("home.scroll-to-video")}</p>
+                    <Icon name="arrow-right.svg#arrow-right" className="scroll-button__icon" />
+                </div>
             </div>
             <PortfolioPage className="home-page-mobile">
                 <div className="home-page-mobile__content">

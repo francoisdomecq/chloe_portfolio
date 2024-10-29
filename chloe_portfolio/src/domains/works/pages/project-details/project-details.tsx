@@ -35,6 +35,7 @@ const ProjectDetails = () => {
             <div className="project-details__content">
                 {foundProject.content.map(renderProjectContent)}
             </div>
+            <div className="project__navigation-separator"></div>
             <div className="project__navigation">
                 <ProjectNavigator projectId={parsedProjectId} navigateTo="previous"/>
                 <ProjectNavigator projectId={parsedProjectId} navigateTo="next"/>

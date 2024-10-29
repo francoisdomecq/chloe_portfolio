@@ -1,14 +1,7 @@
-const firstTextToAnimate = ["HI", "THERE"];
-const secondTextToAnimate = ["I'm", "Chloé","Gaillard"];
-
-const firstAnimationDuration = (firstTextToAnimate.join("").length -1) * 0.25;
-const secondAnimationDuration = (secondTextToAnimate.join("").length -1) * 0.25;
-const secondAnimationDelay = firstAnimationDuration + 0.3;
+const firstTextToAnimate = "I'M CHLOE GAILLARD";
+const secondTextToAnimate = "A GRAPHIC DESIGNER";
 
 export {
     firstTextToAnimate,
-    secondTextToAnimate,
-    firstAnimationDuration,
-    secondAnimationDuration,
-    secondAnimationDelay
+    secondTextToAnimate
 };

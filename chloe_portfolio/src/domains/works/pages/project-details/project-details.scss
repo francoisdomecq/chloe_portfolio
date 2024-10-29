@@ -29,16 +29,34 @@
   flex-direction: column;
 }
 
-.project__navigation{
+.project__navigation-separator{
+  margin-top: 24px;
+  border-top: 1px solid var(--grey-deep);
+  width: 97%;
+  align-self: center;
+}
+
+.project__navigation {
   display: flex;
   align-self: center;
   justify-content: space-between;
-  width: 90%;
+  width: 100%;
+  padding-top: 16px;
 }
-
 
 @media screen and (min-width: $mobile-bp) {
   .project-details__navigation-history{
     padding: 24px 6.5% 16px;
+  }
+
+  .project__navigation-separator{
+    margin-top: 32px;
+    border-top: 1px solid var(--grey-deep);
+    width: 87.5%;
+    align-self: center;
+  }
+
+  .project__navigation{
+    padding: 16px 5.5% 16px;
   }
 }

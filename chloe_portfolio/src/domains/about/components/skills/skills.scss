@@ -7,6 +7,12 @@
   width: 100%;
 }
 
+.skill__title{
+    font-size: var(--font-size-h1);
+    font-family: var(--text-font);
+    color: black;
+}
+
 .skills__list{
   display: grid;
   gap:8px;

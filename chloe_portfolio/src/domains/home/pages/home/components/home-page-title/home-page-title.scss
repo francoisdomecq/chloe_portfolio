@@ -1,5 +1,68 @@
 .home-page-title{
+    display: flex;
+  flex-direction: column;
+  gap:100px
+}
+
+.home-page-title__title{
   display: flex;
   gap:32px;
   margin-top: -80px;
+  color:black;
+  font-size: 10rem;
+  position: absolute;
+  width: 100vw;
+  flex-grow: 1;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.scroll {
+  white-space: nowrap;
+  margin: 0 2em;
+}
+
+.scroll div {
+  display: flex;
+  gap: 2em;
+}
+
+.scroll p {
+  font-family: var(--text-font);
+  font-size: 20em;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 0;
+  line-height: 150px;
+}
+
+.RightToLeft {
+  animation: RightToLeft 10s infinite linear;
+}
+
+@keyframes  RightToLeft {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-55%);
+  }
+}
+
+.LeftToRight {
+  animation: LeftToRight 10s infinite linear;
+}
+
+@keyframes  LeftToRight {
+  from {
+    transform: translateX(-55%);
+  }
+  to {
+    transform: translateX(0%);
+  }
 }
