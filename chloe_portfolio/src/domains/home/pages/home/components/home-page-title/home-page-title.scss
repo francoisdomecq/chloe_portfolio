@@ -2,6 +2,11 @@ html {
   scroll-snap-type: y mandatory;
 }
 
+section {
+  padding-top: 100vh;
+  padding-bottom: 85vh;
+}
+
 .parallax {
   overflow: hidden;
   letter-spacing: -2px;
@@ -30,4 +35,5 @@ html {
 .scroll__text{
   font-family: var(--text-font);
   font-size: 2em;
+  color:black;
 }
