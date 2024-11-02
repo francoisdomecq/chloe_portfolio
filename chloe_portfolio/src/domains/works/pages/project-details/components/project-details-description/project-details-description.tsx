@@ -2,11 +2,14 @@ import { Project } from "../../../../types";
 
 import "./project-details-description.scss";
 
+import { useTranslation } from "react-i18next";
+
 interface ProjectDetailsDescriptionProps {
   project: Project
 }
 
 const ProjectDetailsDescription=({ project }:ProjectDetailsDescriptionProps)=>{
+    const { t }=useTranslation("works");
     const scrollToFirstImage=()=>{
         document.getElementById("image-1")?.scrollIntoView({ behavior: "smooth" });
     };
@@ -35,7 +38,7 @@ const ProjectDetailsDescription=({ project }:ProjectDetailsDescriptionProps)=>{
                     <span className="project-details-description__info-content">{project.description.fonts}</span>
                 </div>
                 <div className="project-details-description__scroll-button" onClick={scrollToFirstImage}>
-                    En decouvrir +
+                    {t("discover-more")}
                 </div>
             </div>
         </div>
