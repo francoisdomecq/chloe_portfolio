@@ -141,9 +141,9 @@
     position:absolute;
     align-items: center;
     bottom: 120px;
-    right:120px;
+    right:50%;
+    left:50%;
     border-radius: 64px;
-    padding: 8px 8px 8px 16px;
     border :1px solid black;
     width: fit-content;
 
@@ -161,7 +161,7 @@
   }
 
   .scroll-button__icon{
-    --icon-size:32px;
+    --icon-size:48px;
     fill:black;
     transform:rotate(90deg);
   }
@@ -173,5 +173,6 @@
 
   .home-page__title{
     font-size : 64px;
+    margin-bottom: 8px;
   }
 }

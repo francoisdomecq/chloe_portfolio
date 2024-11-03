@@ -51,7 +51,7 @@ const Home = ()=>{
         { src:projectsImages[3],x:245,y:1200 },
         { src:projectsImages[4],x:300,y:1200 },
         { src:projectsImages[5],x:-505,y:1200 },
-        { src:projectsImages[6],x:-450,y:1200 },
+        { src:projectsImages[6],x:-450,y:1000 },
         { src:projectsImages[7],x:-200,y:1200 }
     ];
 
@@ -59,7 +59,7 @@ const Home = ()=>{
         <div className="home-page">
             <div className="home-page__animation">
                 <section style={{ display:"flex" ,flexDirection:"column" }}>
-                    <h1 className="home-page__title">HI THERE,</h1>
+                    <h1 className="home-page__title">{displayProjectsAnimation ? "Here are some of my works,":"HI THERE,"}</h1>
                     <HomePageTitle baseVelocity={5}>I'M CHLOE GAILLARD </HomePageTitle>
                     <HomePageTitle baseVelocity={-5}>A GRAPHIC DESIGNER</HomePageTitle>
                 </section>
@@ -83,7 +83,6 @@ const Home = ()=>{
                     <Footer/>
                 </div>
                 <div className="scroll-button" onClick={handleScrollToVideo}>
-                    <p className="scroll-button__text">{t("home.scroll-to-video")}</p>
                     <Icon name="arrow-right.svg#arrow-right" className="scroll-button__icon" />
                 </div>
             </div>
