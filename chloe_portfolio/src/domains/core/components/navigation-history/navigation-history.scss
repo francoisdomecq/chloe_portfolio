@@ -15,8 +15,7 @@
   gap:2px;
   margin-right: 2px;
   :hover{
-    color:black;
-  }
+    color: white;  }
 }
 
 .navigation-history__item:hover ~ .navigation-history__item:last-child {
@@ -25,6 +24,6 @@
 
 .navigation-history__item:last-child{
   font-family:var(--text-font);
-  color: black;
+  color: white;
   font-size: var(--font-size-h2);
 }

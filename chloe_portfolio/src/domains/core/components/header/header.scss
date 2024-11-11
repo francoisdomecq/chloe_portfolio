@@ -13,14 +13,14 @@
   transition: top 0.3s;
   border-bottom: 1px solid var(--grey-deep);
   border-top: 1px solid var(--grey-deep);
-    background-color: white;
+  background-color: black;
 }
 
 .header__title {
   font-family: var(--title-font);
   font-size: var(--font-size-h4);
   font-weight: bold;
-  color: black;
+  color: white;
 }
 
 @media screen and (min-width: $mobile-bp) {

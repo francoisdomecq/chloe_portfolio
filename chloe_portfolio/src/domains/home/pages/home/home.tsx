@@ -1,24 +1,23 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useInView } from "react-intersection-observer";
 
 import { motion } from "framer-motion";
 
 import Projects from "../../../../config/works.json";
-import { Footer, Header, PortfolioPage } from "../../../core";
-import Icon from "../../../core/components/icon/icon";
-import VideoPlayer from "../../../works/pages/project-details/components/video-player/video-player";
 import type { Project } from "../../../works/types/index";
 
-import HomePageTitle from "./components/home-page-title/home-page-title";
-
 import "./home.scss";
+
+import { Header } from "../../../core";
+import { AppContext } from "../../../../config/contexts/app-context.tsx";
 
 const Home = ()=>{
     const { t }=useTranslation("home");
     const [inViewRef, inView] = useInView();
     const [displayProjectsAnimation,setDisplayProjectsAnimation]=useState(false);
     const [playMobileVideo,setPlayMobileVideo]=useState(false);
+    const { hoverElement }=useContext(AppContext);
 
     const handleScrollToVideo=()=>{
         document.getElementById("home-showreel")?.scrollIntoView({ behavior: "smooth" });
@@ -56,58 +55,14 @@ const Home = ()=>{
     ];
 
     return (
-        <div className="home-page">
-            <div className="home-page__animation">
-                <section style={{ display:"flex" ,flexDirection:"column" }}>
-                    <h1 className="home-page__title">{displayProjectsAnimation ? "Here are some of my works,":"HI THERE,"}</h1>
-                    <HomePageTitle baseVelocity={3}>I'M CHLOE GAILLARD </HomePageTitle>
-                    <HomePageTitle baseVelocity={-3}>A GRAPHIC DESIGNER</HomePageTitle>
-                </section>
-                <div style={{ display:"flex",position:"absolute" }} ref={inViewRef}>
-                    {displayProjectsAnimation && inView && projectImagesWithCoordinates.map((imageWithCoordinates,index)=>{
-                        return (
-                            <motion.div className="home-about__image"
-                                key={imageWithCoordinates.src}
-                                initial={{ x:imageWithCoordinates.x, y: imageWithCoordinates.y }}
-                                animate={{ x:imageWithCoordinates.x,y: -2000 }}
-                                transition={{ duration:8 , delay: 0.2 * (index - 1), repeat: Infinity, repeatType: "loop" }}
-                            >
-                                <img className="home-about__image-class" src={imageWithCoordinates.src} alt={`home-page-${imageWithCoordinates.src}`}/>
-                            </motion.div>
-                        );
-                    })}
-                </div>
-
-                <Header/>
-                <div className="home-page__footer">
-                    <Footer/>
-                </div>
-                <div className="scroll-button" onClick={handleScrollToVideo}>
-                    <Icon name="arrow-right.svg#arrow-right" className="scroll-button__icon" />
-                </div>
-            </div>
-            
-            <PortfolioPage className="home-page-mobile">
-                <div className="home-page-mobile__content">
-                    <p className="home-page-mobile__welcome">{t("home.welcome-mobile")}</p>
-                    <h1 className="home-page-mobile__title">{t("home.title-mobile")}</h1>
-                    <h2 className="home-page-mobile__about-me">{t("home.brief-about-mobile")}</h2>
-                    {playMobileVideo &&
-                      <div className="home-page-mobile__showreel">
-                          <VideoPlayer onChangeIsPlaying={setPlayMobileVideo} source="./projects/GAILLARD_CHLOE_SHOWREEL_24.mp4" loop waitForInView/>
-                      </div>
-                    }
-                    {!playMobileVideo &&
-                      <div  className="home-page-mobile__display-video" onClick={()=>setPlayMobileVideo(true)}>
-                          {t("home.see-video")}
-                      </div>}
-
-                </div>
-            </PortfolioPage>
-            <div className="home__showreel" id="home-showreel">
-                <VideoPlayer source="./projects/GAILLARD_CHLOE_SHOWREEL_24.mp4" loop waitForInView/>
-            </div>
-        </div>
+        <>
+            <motion.video autoPlay loop muted onHoverStart={()=>hoverElement("carouselImage")}
+                style={{ position:"fixed",bottom:0,right:0,width:"100%",height:"100%",objectFit:"cover" }}
+            >
+                <source src="/projects/GAILLARD_CHLOE_SHOWREEL_24.mp4" type="video/mp4" />
+            </motion.video>
+            <Header className="home-page__header"/>
+        </>
 
     );
 };

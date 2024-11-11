@@ -9,7 +9,11 @@ import Navbar from "../navbar/navbar";
 
 import "./header.scss";
 
-const Header = () => {
+interface HeaderProps{
+    className?:string
+}
+
+const Header = ({ className }:HeaderProps) => {
     const { scrollY } = useScroll();
     const navigate = useNavigate();
     const { t } = useTranslation("core");
@@ -46,7 +50,7 @@ const Header = () => {
     });
 
     return (
-        <motion.header className="header" id="header">
+        <motion.header className={`header ${className}`} id="header">
             <div onClick={handleClickHeaderTitle}>
                 <h1 className="header__title" >{t("header.name")}</h1>
             </div>

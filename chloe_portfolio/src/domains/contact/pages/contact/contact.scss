@@ -10,7 +10,7 @@
 .contact__title{
   font-family: var(--text-font);
   font-size: 4rem;
-  color: black;
+  color: white;
   margin-bottom: 24px;
   font-weight: 400;
 }
@@ -24,7 +24,7 @@
 }
 
 .contact__collaboration-message{
-  color: black;
+  color: white;
   font-size: var(--font-size-body-l);
   margin-bottom: 32px;
 }
@@ -50,11 +50,9 @@
 
 .contact__link{
   text-decoration: none;
-  color:black;
-  font-weight: 400;
+  color: white;  font-weight: 400;
   &:hover{
-    color:black;
-  }
+    color: white;  }
 
 }
 

@@ -8,6 +8,8 @@ import PROJECTS from "../../../../../../config/works.json";
 
 import "./project-navigator.scss";
 
+import Icon from "../../../../../core/components/icon/icon.tsx";
+
 
 interface ProjectNavigatorProps{
   projectId: number
@@ -37,9 +39,9 @@ const ProjectNavigator = ({ projectId,navigateTo }:ProjectNavigatorProps)=>{
             <motion.div whileHover={{ scale:1.1 }}
                 className={"project__navigation-item"}
                 onClick={handleNavigateToProject}>
-                {navigateTo === "previous" && <img className="project__navigation-icon previous" src="/arrow-right.svg" alt="arrow-left"/>}
+                {navigateTo === "previous" && <Icon className="project__navigation-icon previous" name="/arrow-right.svg#arrow-right" alt="arrow-left"/>}
                 {t(`project-navigator.${navigateTo}`)}
-                {navigateTo === "next" && <img className="project__navigation-icon" src="/arrow-right.svg" alt="arrow-right"/>}
+                {navigateTo === "next" && <Icon className="project__navigation-icon" name="/arrow-right.svg#arrow-right" alt="arrow-right"/>}
             </motion.div>
 
         </div>

@@ -13,8 +13,7 @@
 
 .footer__year{
   font-size: var(--font-size-body-l);
-  color:black;
-}
+  color: white;}
 
 .network-links{
     display: flex;
@@ -22,12 +21,11 @@
 }
 
 .network-links__link{
-  color: #2c2c2c;
+  color: white;
   font-size: var(--font-size-body-l);
   text-decoration: none;
   &:hover{
-    color:black;
-  }
+    color: white;  }
 }
 
 @media screen and (min-width: $tablet-bp){

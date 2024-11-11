@@ -14,8 +14,7 @@
 .carousel__project--active{
   @extend .carousel__project;
   font-family: var(--text-font);
-  color:black;
-  border-bottom: 1px solid var(--grey-deep);
+  color: white;  border-bottom: 1px solid var(--grey-deep);
   margin-bottom: 16px;
 }
 
@@ -30,14 +29,12 @@
 .carousel__project-info__title{
   font-size: 64px;
   font-family: var(--title-font);
-  color:black;
-}
+  color: white;}
 
 .carousel__project-info__date{
   font-family: var(--text-font);
   font-size: 32px;
-  color:black;
-}
+  color: white;}
 
 .carousel__project-info__subtitle{
   font-size: 32px;
