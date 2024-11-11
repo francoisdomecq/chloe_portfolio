@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import useMeasure from "react-use-measure";
 
-import { animate, motion, useMotionValue } from "framer-motion";
+import { animate, motion, useMotionValue, useScroll, useVelocity } from "framer-motion";
 
 import projects from "../../../../../../config/works.json";
 import { type  Project } from "../../../../types";
@@ -17,7 +17,10 @@ const ProjectCarousel = () => {
     const [ref,{ width }]= useMeasure();
     const [duration, setDuration] = useState(FAST_DURATION);
     const [mustFinish , setMustFinish] = useState(false);
+    const [projectHovered,setProjectHovered] = useState<Project | undefined>(undefined);
     const [rerender,setRererender] = useState(false);
+    const { scrollX } = useScroll();
+    const scrollVelocity = useVelocity(scrollX);
 
     const xTranslation = useMotionValue(0);
     useEffect(() => {
@@ -44,23 +47,42 @@ const ProjectCarousel = () => {
         return controls.stop;
     }, [xTranslation, width, duration, rerender, mustFinish]);
 
+    const handleHoverProject = (project:Project|undefined)=>{
+        setProjectHovered(project);
+    };
+
     return (
-        <motion.div className="carousel"
-            ref={ref}
-            style={{ x:xTranslation }}
-            onHoverStart={()=>{
-                setMustFinish(true);
-                setDuration(SLOW_DURATION);
-            }}
-            onHoverEnd={()=>{
-                setMustFinish(true);
-                setDuration(FAST_DURATION);
-            }}
-        >
-            {[...projects,...projects].map((project : Project, index) =>
-                <CarouselImage key={index} project={project}  />
-            )}
-        </motion.div>
+        <div>
+            <div className={projectHovered ? "carousel__project--active" : "carousel__project"}>
+                {projectHovered &&
+                  <div className="carousel__project-info">
+                      <div className="carousel__project-info__title">{projectHovered.title}</div>
+                      <div className="carousel__project-info-description">
+                          <div className="carousel__project-info__date">{projectHovered.date}</div>
+                          <i className="carousel__project-info__subtitle">{projectHovered.description.subtitle.join("/")}</i>
+
+                      </div>
+                  </div>
+                }
+            </div>
+            <motion.div className="carousel"
+                ref={ref}
+                style={{ x:xTranslation }}
+                onHoverStart={()=>{
+                    setMustFinish(true);
+                    setDuration(SLOW_DURATION);
+                }}
+                onHoverEnd={()=>{
+                    setMustFinish(true);
+                    setDuration(FAST_DURATION);
+                }}
+            >
+                {[...projects,...projects].map((project : Project, index) =>
+                    <CarouselImage key={index} project={project}  onHoverProject={handleHoverProject} />
+                )}
+            </motion.div>
+        </div>
+
     );
 };
 

@@ -14,7 +14,7 @@ const Experience = (props: ExperienceProps) => {
                 <th className="experience__content">{experience.title}</th>
                 <th className="experience__content company__tablet">{experience.company}</th>
                 <th className="experience__content">{experience.dates}</th>
-                <th className="experience__content company__mobile">{experience.company}</th>
+                <i className="experience__content company__mobile">{experience.company}</i>
             </tr>
             <tr className="experience__separator"></tr>
         </>

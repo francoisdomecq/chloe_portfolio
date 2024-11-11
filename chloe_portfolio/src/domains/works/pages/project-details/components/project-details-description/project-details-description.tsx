@@ -19,7 +19,7 @@ const ProjectDetailsDescription=({ project }:ProjectDetailsDescriptionProps)=>{
             <div className="project-details-description__titles">
                 <h1 className="project-details-description__title">{project.description.title}</h1>
                 <div className="project-details-description__subtitle">
-                    {project.description.subtitle.map(subtitle=><h2>{subtitle}</h2>)}
+                    {project.description.subtitle.map(subtitle=><h2 className="project-details-description__subtitle-text" >{subtitle}</h2>)}
                 </div>
             </div>
             <div className="project-details-description__details">
@@ -37,9 +37,14 @@ const ProjectDetailsDescription=({ project }:ProjectDetailsDescriptionProps)=>{
                     <span className="project-details-description__info-title">Typography</span>
                     <span className="project-details-description__info-content">{project.description.fonts}</span>
                 </div>
-                <div className="project-details-description__scroll-button" onClick={scrollToFirstImage}>
-                    {t("discover-more")}
-                </div>
+                {project.description.coworkers &&
+                  <div className="project-details-description__info">
+                      <span className="project-details-description__info-title">Collaboration</span>
+                      <div className="project-details-description__info-content">
+                          { project.description.coworkers.join(", ")}
+                      </div>
+                  </div>
+                }
             </div>
         </div>
     );

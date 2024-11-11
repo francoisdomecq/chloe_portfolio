@@ -60,8 +60,8 @@ const Home = ()=>{
             <div className="home-page__animation">
                 <section style={{ display:"flex" ,flexDirection:"column" }}>
                     <h1 className="home-page__title">{displayProjectsAnimation ? "Here are some of my works,":"HI THERE,"}</h1>
-                    <HomePageTitle baseVelocity={5}>I'M CHLOE GAILLARD </HomePageTitle>
-                    <HomePageTitle baseVelocity={-5}>A GRAPHIC DESIGNER</HomePageTitle>
+                    <HomePageTitle baseVelocity={3}>I'M CHLOE GAILLARD </HomePageTitle>
+                    <HomePageTitle baseVelocity={-3}>A GRAPHIC DESIGNER</HomePageTitle>
                 </section>
                 <div style={{ display:"flex",position:"absolute" }} ref={inViewRef}>
                     {displayProjectsAnimation && inView && projectImagesWithCoordinates.map((imageWithCoordinates,index)=>{

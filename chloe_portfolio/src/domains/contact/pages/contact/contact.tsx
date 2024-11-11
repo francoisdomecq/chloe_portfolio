@@ -16,7 +16,7 @@ const Contact = () => {
             <div className="contact__content">
                 <NavigationHistory history={routerHistory} className="contact__navigation-history"/>
                 <HoveredTitle className="contact__title" title={t("title")}/>
-                <h2 className="contact__contact">{t("contact")}</h2>
+                <i className="contact__contact">{t("contact")}</i>
                 <p className="contact__collaboration-message">{t("collaboration-message")}</p>
                 <div className="contact__contact-section">
                     <span className="contact__label">{t("mail")}</span>

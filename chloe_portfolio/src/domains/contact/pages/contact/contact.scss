@@ -12,6 +12,7 @@
   font-size: 4rem;
   color: black;
   margin-bottom: 24px;
+  font-weight: 400;
 }
 
 .contact__contact{
@@ -19,6 +20,7 @@
   color: var(--grey-deep);
   font-family: var(--text-font);
     margin-bottom: 6px;
+  font-weight: 400;
 }
 
 .contact__collaboration-message{
@@ -49,6 +51,7 @@
 .contact__link{
   text-decoration: none;
   color:black;
+  font-weight: 400;
   &:hover{
     color:black;
   }

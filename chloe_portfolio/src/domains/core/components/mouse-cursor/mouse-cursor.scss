@@ -5,9 +5,8 @@
 }
 
 .cursor__text{
-  font-family: var(--text-font);
-  font-size: var(--font-size-body-m);
-  line-height: 1.5rem;
+--icon-size: 56px;
+  transform: rotateZ(-45deg);
 }
 
 @media screen and (min-width: $tablet-bp){

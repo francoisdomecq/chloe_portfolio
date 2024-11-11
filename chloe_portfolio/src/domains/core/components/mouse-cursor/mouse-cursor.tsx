@@ -7,6 +7,8 @@ import { AppContext } from "../../../../config/contexts/app-context";
 
 import "./mouse-cursor.scss";
 
+import Icon from "../icon/icon.tsx";
+
 const MouseCursor = () => {
     const { isHovering }=useContext(AppContext);
     const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -67,7 +69,7 @@ const MouseCursor = () => {
 
     return (
         <motion.div className="cursor" variants={variants} animate={cursorVariant}>
-            {isHovering === "carouselImage" && <p className="cursor__text">View more</p>}
+            {isHovering === "carouselImage" && <Icon name="arrow-right.svg#arrow-right" className="cursor__text">View more</Icon>}
         </motion.div>
     );
 };

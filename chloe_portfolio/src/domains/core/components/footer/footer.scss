@@ -33,6 +33,16 @@
 @media screen and (min-width: $tablet-bp){
   .footer {
   padding: 24px 16px;
+    border-top: 1px solid var(--grey-deep);
+    border-bottom: 1px solid var(--grey-deep);
+  }
+
+  .footer__year{
+    font-size: var(--font-size-h2);
+  }
+
+  .network-links__link{
+    font-size: var(--font-size-h2);
   }
 }
 

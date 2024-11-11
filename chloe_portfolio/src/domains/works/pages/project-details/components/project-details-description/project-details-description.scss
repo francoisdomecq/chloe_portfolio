@@ -16,8 +16,9 @@
 }
 
 .project-details-description__title{
-  font-family: var(--text-font);
+  font-family: var(--title-font);
   font-size: var(--font-size-h1);
+  font-weight: 400;
   color:black;
 }
 
@@ -42,11 +43,14 @@
   color:var(--grey-deep)
 }
 
+.project-details-description__subtitle-text{
+  font-weight: 400;
+}
+
 .project-details-description__details{
   display: flex;
   flex-direction: column;
   max-width: 720px;
-
 }
 
 .project-details-description__description{
@@ -65,7 +69,6 @@
 .project-details-description__info{
   display: flex;
   width: 100%;
-  max-width: 680px;
   justify-content: space-between;
   border-top: 1px solid var(--grey-deep);
   padding: 4px 0;
@@ -80,29 +83,10 @@
 .project-details-description__info-content{
   font-family: var(--text-font);
   font-size: var(--font-size-body-m);
-  max-width: 50%;
+  max-width: 65%;
   text-align: end;
   color:black;
 }
-
-.project-details-description__scroll-button{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 4px 12px;
-  margin-top: 32px;
-  border :1px solid black;
-  border-radius: 64px;
-  width: fit-content;
-  font-family: var(--text-font);
-  font-size: var(--font-size-body-m);
-  color:black;
-  &:hover{
-    background-color: black;
-    color: white;
-  }
-}
-
 
 @media screen and (min-width: $mobile-bp) {
     .project-details-description{

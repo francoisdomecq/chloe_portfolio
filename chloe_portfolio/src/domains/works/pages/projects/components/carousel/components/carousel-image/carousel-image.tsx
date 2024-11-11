@@ -11,9 +11,10 @@ import "./carousel-image.scss";
 
 interface CarouselImageProps {
   project :Project;
+  onHoverProject: (project:Project | undefined)=>void;
 }
 
-const CarouselImage = ({ project }:CarouselImageProps)=>{
+const CarouselImage = ({ project, onHoverProject }:CarouselImageProps)=>{
     const navigate = useNavigate();
     const { hoverElement,unhoverElement }=useContext(AppContext);
     const [showOverlay, setShowOverlay] = useState(false);
@@ -32,7 +33,7 @@ const CarouselImage = ({ project }:CarouselImageProps)=>{
 
     const variants = {
         hover:{
-            scale:1.1
+            scale:1
         },
         notHovered:{
             scale:1
@@ -53,18 +54,20 @@ const CarouselImage = ({ project }:CarouselImageProps)=>{
             initial={"default"}
             onHoverStart={()=>{
                 setShowOverlay(true);
+                onHoverProject(project);
                 hoverElement("carouselImage");
             }}
             onHoverEnd={()=>{
                 setShowOverlay(false);
                 unhoverElement();
+                onHoverProject(undefined);
             }}
             onClick={handleNavigate}
             variants={variants}
             animate={imageVariant}
         >
             <div className="carousel-image__container">
-                <motion.div className={"carousel-image__overlay"}
+                {/*<motion.div className={"carousel-image__overlay"}
                     animate={imageOverlayVariant}
                     variants={imageOverlayVariants}
                 >
@@ -76,6 +79,7 @@ const CarouselImage = ({ project }:CarouselImageProps)=>{
                         </span>
                     </div>
                 </motion.div>
+           */ }
                 <div className="carousel-image__image">
                     <img width="100%" height="100%" src={project.carouselImage} alt={`project-${project.title}`}/>
                 </div>

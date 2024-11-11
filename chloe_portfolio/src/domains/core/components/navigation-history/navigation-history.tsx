@@ -18,8 +18,8 @@ const NavigationHistory = ({ history, className }:NavigationHistoryProps) => {
 
         return (
             <li key={route.route} className="navigation-history__item">
-                <p onClick={()=>navigateTo(route.route)}> {route.label}</p>
-                <p>{isActive ? "" :"/"}</p>
+                <i onClick={()=>navigateTo(route.route)}> {route.label}</i>
+                <i>{isActive ? "" :"/"}</i>
             </li>
         );
     };

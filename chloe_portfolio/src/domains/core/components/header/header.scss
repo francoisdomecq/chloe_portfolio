@@ -11,6 +11,9 @@
   left: 0;
   z-index: 999;
   transition: top 0.3s;
+  border-bottom: 1px solid var(--grey-deep);
+  border-top: 1px solid var(--grey-deep);
+    background-color: white;
 }
 
 .header__title {
@@ -25,10 +28,9 @@
     padding : 16px 24px;
     max-height: 72px;
     gap: 24px;
-    justify-content: space-between;
   }
 
   .header__title {
-    font-size: var(--font-size-h3);
+    font-size: var(--font-size-h2);
   }
 }
