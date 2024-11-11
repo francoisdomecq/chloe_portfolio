@@ -4,10 +4,9 @@ import { motion, Variants } from "framer-motion";
 
 
 import { AppContext } from "../../../../config/contexts/app-context";
+import Icon from "../icon/icon";
 
 import "./mouse-cursor.scss";
-
-import Icon from "../icon/icon.tsx";
 
 const MouseCursor = () => {
     const { isHovering }=useContext(AppContext);
@@ -69,7 +68,7 @@ const MouseCursor = () => {
 
     return (
         <motion.div className="cursor" variants={variants} animate={cursorVariant}>
-            {isHovering === "carouselImage" && <Icon name="arrow-right.svg#arrow-right" className="cursor__text">View more</Icon>}
+            {isHovering === "carouselImage" && <Icon name="arrow-right.svg#arrow-right" className="cursor__text"/>}
         </motion.div>
     );
 };

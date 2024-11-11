@@ -4,13 +4,13 @@ import { useInView } from "react-intersection-observer";
 
 import { motion } from "framer-motion";
 
+import { AppContext } from "../../../../config/contexts/app-context";
 import Projects from "../../../../config/works.json";
+import { Header } from "../../../core";
 import type { Project } from "../../../works/types/index";
 
-import "./home.scss";
 
-import { Header } from "../../../core";
-import { AppContext } from "../../../../config/contexts/app-context.tsx";
+import "./home.scss";
 
 const Home = ()=>{
     const { t }=useTranslation("home");

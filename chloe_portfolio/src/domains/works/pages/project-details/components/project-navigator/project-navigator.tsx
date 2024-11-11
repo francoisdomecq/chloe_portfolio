@@ -5,11 +5,9 @@ import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 
 import PROJECTS from "../../../../../../config/works.json";
+import Icon from "../../../../../core/components/icon/icon";
 
 import "./project-navigator.scss";
-
-import Icon from "../../../../../core/components/icon/icon.tsx";
-
 
 interface ProjectNavigatorProps{
   projectId: number
@@ -39,9 +37,9 @@ const ProjectNavigator = ({ projectId,navigateTo }:ProjectNavigatorProps)=>{
             <motion.div whileHover={{ scale:1.1 }}
                 className={"project__navigation-item"}
                 onClick={handleNavigateToProject}>
-                {navigateTo === "previous" && <Icon className="project__navigation-icon previous" name="/arrow-right.svg#arrow-right" alt="arrow-left"/>}
+                {navigateTo === "previous" && <Icon className="project__navigation-icon previous" name="/arrow-right.svg#arrow-right" />}
                 {t(`project-navigator.${navigateTo}`)}
-                {navigateTo === "next" && <Icon className="project__navigation-icon" name="/arrow-right.svg#arrow-right" alt="arrow-right"/>}
+                {navigateTo === "next" && <Icon className="project__navigation-icon" name="/arrow-right.svg#arrow-right" />}
             </motion.div>
 
         </div>
