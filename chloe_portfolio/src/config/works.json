@@ -151,6 +151,11 @@
             "id": "8",
             "type": "IMAGE",
             "source" : "/projects/FULLMOON/FULLMOON_8.jpg"
+        },
+        {
+            "id": "9",
+            "type": "IMAGE",
+            "source" : "/projects/FULLMOON/FULLMOON_9.jpg"
         }
     ]
   },
@@ -213,6 +218,11 @@
         "id": "9",
         "type": "IMAGE",
         "source" : "/projects/XTRM/XTRM_9.jpg"
+      },
+      {
+        "id": "10",
+        "type": "IMAGE",
+        "source" : "/projects/XTRM/XTRM_10.jpg"
       }
 
     ]
