@@ -9,6 +9,8 @@ import Icon from "../../../../../core/components/icon/icon";
 
 import "./project-navigator.scss";
 
+import { Project } from "../../../../types";
+
 interface ProjectNavigatorProps{
   projectId: number
   navigateTo : "previous"|"next"
@@ -18,10 +20,11 @@ const ProjectNavigator = ({ projectId,navigateTo }:ProjectNavigatorProps)=>{
     const navigate=useNavigate();
     const { t }=useTranslation("works");
 
-    const projectToNavigate = navigateTo === "previous" ? projectId -1 : projectId+1;
+    const projectIdToNavigate = navigateTo === "previous" ? projectId -1 : projectId+1;
+    const foundProject : Project | undefined = PROJECTS.find(projectToFind=> parseInt(projectToFind.id) === projectIdToNavigate);
 
     const handleNavigateToProject=()=>{
-        navigate(`/works/${projectToNavigate}`);
+        navigate(`/works/${foundProject?.title}`);
     };
 
     const displayProjectNavigator = useMemo(()=>{

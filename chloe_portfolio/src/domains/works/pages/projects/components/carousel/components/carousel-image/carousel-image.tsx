@@ -20,16 +20,10 @@ const CarouselImage = ({ project, onHoverProject }:CarouselImageProps)=>{
     const [showOverlay, setShowOverlay] = useState(false);
 
     const handleNavigate = ()=>{
-        navigate(`/works/${project.id}`);
+        navigate(`/works/${project.title}`);
         unhoverElement();
     };
 
-    const imageOverlayVariants = {
-        hidden:{ opacity:0 },
-        visible:{ opacity:1 }
-    };
-
-    const imageOverlayVariant = showOverlay ? "visible" : "hidden";
 
     const variants = {
         hover:{
@@ -67,19 +61,6 @@ const CarouselImage = ({ project, onHoverProject }:CarouselImageProps)=>{
             animate={imageVariant}
         >
             <div className="carousel-image__container">
-                {/*<motion.div className={"carousel-image__overlay"}
-                    animate={imageOverlayVariant}
-                    variants={imageOverlayVariants}
-                >
-                    <div className="carousel-image__overlay">
-                        <h3 className="carousel-image__number">0{project.id}.</h3>
-                        <span>
-                            <h1 className="carousel-image__title">{project.title}</h1>
-                            <h2 className="carousel-image__date">{project.date}</h2>
-                        </span>
-                    </div>
-                </motion.div>
-           */ }
                 <div className="carousel-image__image">
                     <img width="100%" height="100%" src={project.carouselImage} alt={`project-${project.title}`}/>
                 </div>

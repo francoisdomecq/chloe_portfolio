@@ -10,9 +10,7 @@ interface ProjectDetailsDescriptionProps {
 
 const ProjectDetailsDescription=({ project }:ProjectDetailsDescriptionProps)=>{
     const { t }=useTranslation("works");
-    const scrollToFirstImage=()=>{
-        document.getElementById("image-1")?.scrollIntoView({ behavior: "smooth" });
-    };
+  
 
     return (
         <div className="project-details-description">
@@ -23,23 +21,23 @@ const ProjectDetailsDescription=({ project }:ProjectDetailsDescriptionProps)=>{
                 </div>
             </div>
             <div className="project-details-description__details">
-                <span className="project-details-description__description">Description</span>
+                <i className="project-details-description__description">{t("project-details.description")}</i>
                 {project.description.content.map(content=><p className="project-details-description__content">{content}</p>)}
                 <div className="project-details-description__info">
-                    <span className="project-details-description__info-title">Date</span>
+                    <i className="project-details-description__info-title">{t("project-details.date")}</i>
                     <span className="project-details-description__info-content">{project.date}</span>
                 </div>
                 <div className="project-details-description__info">
-                    <span className="project-details-description__info-title">Skills</span>
+                    <i className="project-details-description__info-title">{t("project-details.skills")}</i>
                     <span className="project-details-description__info-content">{project.description.skills.join(" / ")}</span>
                 </div>
                 <div className="project-details-description__info">
-                    <span className="project-details-description__info-title">Typography</span>
+                    <i className="project-details-description__info-title">{t("project-details.font")}</i>
                     <span className="project-details-description__info-content">{project.description.fonts}</span>
                 </div>
                 {project.description.coworkers &&
                   <div className="project-details-description__info">
-                      <span className="project-details-description__info-title">Collaboration</span>
+                      <span className="project-details-description__info-title">{t("project-details.collaborators")}</span>
                       <div className="project-details-description__info-content">
                           { project.description.coworkers.join(", ")}
                       </div>

@@ -15,7 +15,7 @@ import "./project-details.scss";
 const ProjectDetails = () => {
     const projectId = useParams().id;
 
-    const foundProject : Project | undefined = PROJECTS.find(projectToFind=> projectToFind.id === projectId);
+    const foundProject : Project | undefined = PROJECTS.find(projectToFind=> projectToFind.title === projectId);
 
     const renderProjectContent = (projectContent:ProjectContent) => {
         if (projectContent.type === ProjectContentMediaType.IMAGE){
@@ -24,7 +24,7 @@ const ProjectDetails = () => {
         return <VideoPlayer key={projectContent.id} source={projectContent.source}/>;
     };
 
-    const parsedProjectId = projectId ? parseInt(projectId) : 0;
+    const parsedProjectId = foundProject ? parseInt(foundProject.id) : 0;
 
     const routerHistory = [{ route:"/",label:"Home" }, { route: "/works", label: "Works" }, { route: `/works/${projectId}`, label: foundProject?.title || "" }];
 
