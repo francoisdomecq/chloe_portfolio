@@ -29,7 +29,6 @@ const MouseCursor = () => {
         default:{
             x:mousePosition.x - 30,
             y:mousePosition.y - 30,
-            mixBlendMode:"multiply",
             backgroundImage:"url('/CURSOR-97.svg')",
             backgroundRepeat:"no-repeat",
             height:60,
