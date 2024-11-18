@@ -8,11 +8,6 @@
 .carousel__project{
   display: flex;
   min-height: 125px;
-  margin-bottom: 16px;
-}
-
-.carousel__project--active{
-  @extend .carousel__project;
   font-family: var(--text-font);
   color: white;  border-bottom: 1px solid var(--grey-deep);
   margin-bottom: 16px;

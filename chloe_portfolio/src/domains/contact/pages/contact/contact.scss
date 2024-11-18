@@ -27,6 +27,7 @@
   color: white;
   font-size: var(--font-size-body-l);
   margin-bottom: 32px;
+  line-height: 1.1em;
 }
 
 .contact__contact-section{
@@ -64,7 +65,7 @@
 @media screen and (min-width: $tablet-bp){
     .contact__content{
       margin: 64px 64px;
-      max-width: 600px;
+      max-width: 500px;
     }
 
   .contact__navigation-history{

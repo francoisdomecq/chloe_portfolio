@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import useMeasure from "react-use-measure";
 
-import { animate, motion, useMotionValue, useScroll, useVelocity } from "framer-motion";
+import { animate, motion, useMotionValue } from "framer-motion";
 
 import projects from "../../../../../../config/works.json";
 import { type  Project } from "../../../../types";
@@ -19,8 +19,6 @@ const ProjectCarousel = () => {
     const [mustFinish , setMustFinish] = useState(false);
     const [projectHovered,setProjectHovered] = useState<Project | undefined>(undefined);
     const [rerender,setRererender] = useState(false);
-    const { scrollX } = useScroll();
-    const scrollVelocity = useVelocity(scrollX);
 
     const xTranslation = useMotionValue(0);
     useEffect(() => {
@@ -53,17 +51,20 @@ const ProjectCarousel = () => {
 
     return (
         <div>
-            <div className={projectHovered ? "carousel__project--active" : "carousel__project"}>
-                {projectHovered &&
-                  <div className="carousel__project-info">
-                      <div className="carousel__project-info__title">{projectHovered.title}</div>
-                      <div className="carousel__project-info-description">
-                          <div className="carousel__project-info__date">{projectHovered.date}</div>
-                          <i className="carousel__project-info__subtitle">{projectHovered.description.subtitle.join("/")}</i>
-
-                      </div>
-                  </div>
-                }
+            <div className="carousel__project">
+                <div className="carousel__project-info">
+                    {projectHovered &&
+                      <>
+                          <div className="carousel__project-info__title">{projectHovered.title}</div>
+                          <div className="carousel__project-info-description">
+                              <div className="carousel__project-info__date">{projectHovered.date}</div>
+                              <i className="carousel__project-info__subtitle">{projectHovered.description.subtitle.join("/")}</i>
+                          </div>
+                      </>
+                    }
+                    {!projectHovered && <div className="carousel__project-info__title">Selected Works</div>}
+                </div>
+                
             </div>
             <motion.div className="carousel"
                 ref={ref}

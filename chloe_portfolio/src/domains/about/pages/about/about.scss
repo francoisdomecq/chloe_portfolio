@@ -43,8 +43,8 @@
   border: 1px solid white;
 
   &:hover{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
   }
 }
 
@@ -54,13 +54,13 @@
   }
 
   .about{
-    padding: 0 0 32px;
+    padding: 0 0 64px;
   }
 }
 
 @media screen and (min-width:$desktop-bp){
   .about{
-    padding: 40px 0 32px;
+    padding: 40px 0 64px;
     align-items: flex-start;
   }
 

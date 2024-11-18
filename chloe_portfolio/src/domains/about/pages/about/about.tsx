@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
 
 import { PortfolioPage } from "../../../core";
 import NavigationHistory from "../../../core/components/navigation-history/navigation-history";
@@ -9,7 +10,6 @@ import Skills from "../../components/skills/skills";
 
 import "./about.scss";
 
-import { useNavigate } from "react-router-dom";
 
 const About = () => {
     const { t }=useTranslation("about");
