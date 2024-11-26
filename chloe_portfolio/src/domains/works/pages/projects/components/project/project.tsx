@@ -11,7 +11,7 @@ const Project= ({ project }:ProjectProps)=>{
     const navigate = useNavigate();
 
     return (
-        <div className="project" onClick={()=>navigate(`/works/${project.id}`)}>
+        <div className="project" onClick={()=>navigate(`/works/${project.title}`)}>
             <div className="project__details">
                 <h2 className="project__title">{project.title}</h2>
                 <h3 className="project__date">{project.date}</h3>
