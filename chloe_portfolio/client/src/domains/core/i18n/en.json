@@ -1,0 +1,18 @@
+{
+  "header": {
+    "name": "CHLOÉ GAILLARD®"
+  },
+  "navbar": {
+    "tabs": {
+      "home": "HOME",
+      "works": "WORKS",
+      "about": "ABOUT",
+      "contact": "CONTACT"
+    }
+  },
+  "footer": {
+    "instagram": "INSTAGRAM",
+    "behance": "BEHANCE",
+    "linkedin": "LINKEDIN"
+  }
+}

@@ -1,0 +1,190 @@
+@import "src/domains/core/theme/breakpoints.scss";
+
+.home-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.home-page-mobile{
+  display: flex;
+}
+
+.home-page-mobile__content{
+  padding-top: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height:100%;
+}
+
+.home-page-mobile__welcome{
+  font-family: var(--text-font);
+  color: white;
+  text-align: center;
+  font-size: var(--font-size-h2);
+}
+
+.home-page-mobile__title{
+  text-align: center;
+  font-size: calc(var(--font-size-h1) * 2);
+  font-family: var(--text-font);
+  color: white;
+  margin-bottom: 16px;
+}
+
+.home-page-mobile__display-video{
+  display: flex;
+  padding: 8px;
+  border-radius: 64px;
+  border:1px solid white;
+  color: white;  width: fit-content;
+  margin-top: 24px;
+  font-family: var(--text-font);
+  font-size: var(--font-size-body-s);
+}
+
+.home-page-mobile__showreel{
+  position: relative;
+  width: 100vw !important;
+  background-color: black;
+  margin-top: 48px;
+}
+
+.home-page-mobile__about-me{
+  font-family: var(--text-font);
+  color: white;
+  font-size: var(--font-size-body-l);
+  text-align: center;
+}
+
+.home__showreel{
+  display: none;
+  max-width: 100%;
+}
+
+.home-page__title{
+  align-self: center;
+  font-size : 24px;
+  font-family: var(--text-font);
+  color: white;
+}
+
+.home-page__animation{
+  display:none;
+}
+
+.scroll-button{
+  display:none;
+}
+
+.home-page__header{
+  background-color: transparent;
+border-bottom: none;
+  .header__title{
+    color:white;
+  }
+
+  .navbar__nav-item{
+    color:white;
+  }
+}
+
+@media screen and (min-width: $desktop-bp) {
+
+  .home-page-mobile{
+    display: none;
+  }
+
+  .home-page__animation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height:100vh;
+  }
+
+  .home-page__about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:8px;
+  }
+
+  .home-page__welcome{
+    font-family: var(--title-font);
+    color: white;
+    font-size: 120px;
+    width: 100%;
+    max-width: 1000px;
+  }
+
+  .home-page__about-me{
+    color: white;
+    font-family: var(--text-font);
+    font-size: 48px;
+  }
+
+
+  .home-page__footer{
+    position: absolute;
+    bottom:0;
+    left:0;
+    width:100%
+  }
+
+  .home-about__image{
+    position:relative;
+  }
+
+  .home-about__image-class{
+    max-width: 200px;
+    width: 100%;
+  }
+
+  .scroll-button{
+    display:flex;
+    position:absolute;
+    align-items: center;
+    bottom: 120px;
+    align-self: center;
+    border-radius: 64px;
+    border :1px solid black;
+    width: fit-content;
+
+    &:hover{
+      background-color: black;
+      color:white;
+      .scroll-button__icon{
+        fill:white;
+      }
+    }
+  }
+
+  .scroll-button__text{
+    font-size:var(--font-size-body-m);
+  }
+
+  .scroll-button__icon{
+    --icon-size:48px;
+    fill:black;
+    transform:rotate(90deg);
+  }
+
+  .home__showreel{
+    display: flex;
+    max-width: 100%;
+  }
+
+  .home-page__title{
+    font-size : 64px;
+    margin-bottom: 8px;
+    font-weight: 400;
+  }
+}

@@ -1,0 +1,31 @@
+.project__navigator{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.project__navigation-item{
+  display: flex;
+  align-items: center;
+  font-family: var(--text-font);
+  font-size: var(--font-size-body-l);
+  text-decoration: none;
+  color:white;
+  &:hover{
+    color: white;
+  }
+}
+
+.project__navigation-icon{
+ --icon-size: 32px;
+  fill: white;
+}
+
+
+.project-overlay__next{
+  left:-50px
+}
+
+.previous{
+  transform: rotate(180deg);
+}

@@ -1,0 +1,1 @@
+export const skills = ["Dessin de caractères","Motion Design", "Branding","Illustration","Direction artistique","Edition"];
