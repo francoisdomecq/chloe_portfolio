@@ -534,5 +534,67 @@
         "source" : "/projects/BUNS/BUNS_10.jpg"
       }
     ]
+  },
+  {
+    "id": "9",
+    "title": "Communitee 2 Adidas X CaminoTV",
+    "description": {
+      "title": "Adidas",
+      "subtitle": [
+        "Product design"
+      ],
+      "content": [
+        "For the Communi-tee 2 competition, CaminoTV asked you to reinvent the iconic Adidas firebird by representing a place that you love, where you feel at home, and you should recognise the firebird model at first glance. For my entry, I imagined a place where you grow and rise, without restriction, symbolised by this phrase: ‘Home is where we rise’. This phrase evokes a place where you can be yourself, where you can become the best version of yourself. It's a reflection of a home that doesn't depend on a specific place, but on a state of mind. Like the Adidas brand, this jacket is an invitation to challenge yourself, to develop yourself. ‘Home’ evokes more than just a place, it's an environment where you can blossom and grow. My typography is based on handwritten letters similar to graffiti. This phrase sounds like a call to self-fulfilment. The word ‘RISE’ was built around the Adidas logo to draw a connection between this jacket and the brand."
+      ],
+      "skills": [
+        "lettring",
+        "product design"
+      ],
+      "fonts": "hand-drawn typography"
+    },
+    "date": "2025",
+    "carouselImage": "/projects/VIGNETAGE_CARROUSEL/ADIDAS.jpg",
+    "content": [
+      {
+        "id": "1",
+        "type": "IMAGE",
+        "source": "/projects/ADIDAS/ADIDAS_1.jpg"
+      },
+      {
+        "id": "2",
+        "type": "IMAGE",
+        "source": "/projects/ADIDAS/ADIDAS_2.jpg"
+      },
+      {
+        "id": "3",
+        "type": "VIDEO",
+        "source": "/projects/ADIDAS/ADIDAS_3.mp4"
+      },
+      {
+        "id": "4",
+        "type": "IMAGE",
+        "source": "/projects/ADIDAS/ADIDAS_4.jpg"
+      },
+      {
+        "id": "5",
+        "type": "IMAGE",
+        "source": "/projects/ADIDAS/ADIDAS_5.jpg"
+      },
+      {
+        "id": "6",
+        "type": "IMAGE",
+        "source": "/projects/ADIDAS/ADIDAS_6.jpg"
+      },
+      {
+        "id": "7",
+        "type": "IMAGE",
+        "source": "/projects/ADIDAS/ADIDAS_7.jpg"
+      },
+      {
+        "id": "8",
+        "type": "IMAGE",
+        "source": "/projects/ADIDAS/ADIDAS_8.jpg"
+      }
+    ]
   }
 ]

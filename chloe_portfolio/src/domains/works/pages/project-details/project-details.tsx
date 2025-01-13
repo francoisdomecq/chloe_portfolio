@@ -14,7 +14,7 @@ import "./project-details.scss";
 
 const ProjectDetails = () => {
     const projectId = useParams().id;
-
+    console.log(projectId);
     const foundProject : Project | undefined = PROJECTS.find(projectToFind=> projectToFind.title === projectId);
 
     const renderProjectContent = (projectContent:ProjectContent) => {
