@@ -6,5 +6,5 @@ import Home from "./pages/home/home";
 i18next.addResourceBundle("en", "home", i18nCore);
 
 export {
-    Home
+  Home
 };

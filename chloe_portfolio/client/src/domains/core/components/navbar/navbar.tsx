@@ -1,32 +1,32 @@
-import { useTranslation } from "react-i18next";
-import { useNavigate } from "react-router-dom";
+import {useTranslation} from "react-i18next";
+import {useNavigate} from "react-router-dom";
 
-import { motion } from "framer-motion";
+import {motion} from "framer-motion";
 
-import { NAV_TABS } from "./navbar.config";
+import {NAV_TABS} from "./navbar.config";
 
 
 import "./navbar.scss";
 
 const Navbar = () => {
-    const navigate = useNavigate();
+  const navigate = useNavigate();
 
-    const { t } = useTranslation("core");
+  const {t} = useTranslation("core");
 
-    const handleClickHeaderTitle = (tagId:string) => {
-        navigate(`/${tagId}`);
-    };
-    return (
-        <nav className="navbar">
-            <ul className="navbar__nav-items">
-                {NAV_TABS.map(tab =>
-                    <motion.li whileHover={{ scale:1.1 }} key={tab.key} onClick={()=>handleClickHeaderTitle(tab.tagId)}>
-                        <span  className="navbar__nav-item">{t(`navbar.tabs.${tab.key}`)}</span>
-                    </motion.li>
-                )}
-            </ul>
-        </nav>
-    );
+  const handleClickHeaderTitle = (tagId: string) => {
+    navigate(`/${tagId}`);
+  };
+  return (
+    <nav className="navbar">
+      <ul className="navbar__nav-items">
+        {NAV_TABS.map(tab =>
+          <motion.li whileHover={{scale: 1.1}} key={tab.key} onClick={() => handleClickHeaderTitle(tab.tagId)}>
+            <span className="navbar__nav-item">{t(`navbar.tabs.${tab.key}`)}</span>
+          </motion.li>
+        )}
+      </ul>
+    </nav>
+  );
 };
 
 export default Navbar;

@@ -1,20 +1,20 @@
 @import "src/domains/core/theme/breakpoints.scss";
 
-.experiences{
+.experiences {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: fit-content;
 }
 
-.experiences__title{
+.experiences__title {
   font-size: var(--font-size-h1);
-    font-family: var(--text-font);
-    color: var(--grey-deep);
+  font-family: var(--text-font);
+  color: var(--grey-deep);
   font-weight: 400;
 }
 
-.experiences__list{
+.experiences__list {
   margin-top: 8px;
 }
 

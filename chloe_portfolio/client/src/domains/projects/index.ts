@@ -6,5 +6,5 @@ import Projects from "./pages/projects/projects";
 i18next.addResourceBundle("en", "works", i18nCore);
 
 export {
-    Projects
+  Projects
 };

@@ -1,12 +1,12 @@
 @import '../../../../../core/theme/breakpoints.scss';
 
-.project-details-description{
+.project-details-description {
   display: flex;
   flex-direction: column;
   padding: 24px 3.5%;
 }
 
-.project-details-description__titles{
+.project-details-description__titles {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -15,13 +15,14 @@
   padding-bottom: 24px;
 }
 
-.project-details-description__title{
+.project-details-description__title {
   font-family: var(--title-font);
   font-size: var(--font-size-h1);
   font-weight: 400;
-  color: white;}
+  color: white;
+}
 
-.project-details-description__subtitle::before{
+.project-details-description__subtitle::before {
   content: '';
   height: 100%; //You can change this if you want smaller/bigger borders
   width: 1px;
@@ -34,38 +35,38 @@
   font-family: var(--text-font);
 }
 
-.project-details-description__subtitle{
-    font-family: var(--text-font);
-    font-size: var(--font-size-body-xs);
-    position:relative;
-    padding-left: 16px;
-  color:var(--grey-deep)
+.project-details-description__subtitle {
+  font-family: var(--text-font);
+  font-size: var(--font-size-body-xs);
+  position: relative;
+  padding-left: 16px;
+  color: var(--grey-deep)
 }
 
-.project-details-description__subtitle-text{
+.project-details-description__subtitle-text {
   font-weight: 400;
 }
 
-.project-details-description__details{
+.project-details-description__details {
   display: flex;
   flex-direction: column;
   max-width: 720px;
 }
 
-.project-details-description__description{
+.project-details-description__description {
   font-family: var(--text-font);
   font-size: var(--font-size-body-m);
-  color:var(--grey-deep)
+  color: var(--grey-deep)
 }
 
-.project-details-description__content{
+.project-details-description__content {
   font-family: var(--text-font);
   font-size: var(--font-size-body-m);
   padding-bottom: 24px;
   color: white;
 }
 
-.project-details-description__info{
+.project-details-description__info {
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -73,21 +74,22 @@
   padding: 4px 0;
 }
 
-.project-details-description__info-title{
-    font-family: var(--text-font);
-    font-size: var(--font-size-body-m);
-    color: var(--grey-deep);
+.project-details-description__info-title {
+  font-family: var(--text-font);
+  font-size: var(--font-size-body-m);
+  color: var(--grey-deep);
 }
 
-.project-details-description__info-content{
+.project-details-description__info-content {
   font-family: var(--text-font);
   font-size: var(--font-size-body-m);
   max-width: 65%;
   text-align: end;
-  color: white;}
+  color: white;
+}
 
 @media screen and (min-width: $mobile-bp) {
-    .project-details-description{
-        padding: 24px 6.5%;
-    }
+  .project-details-description {
+    padding: 24px 6.5%;
+  }
 }

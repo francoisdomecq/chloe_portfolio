@@ -4,4 +4,4 @@ interface Experience {
   dates: string;
 }
 
-export { Experience };
+export {Experience};

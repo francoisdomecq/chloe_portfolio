@@ -6,5 +6,5 @@ import About from "./pages/about/about";
 i18next.addResourceBundle("en", "about", i18nCore);
 
 export {
-    About
+  About
 };

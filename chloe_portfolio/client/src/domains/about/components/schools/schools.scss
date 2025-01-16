@@ -1,25 +1,25 @@
 @import "src/domains/core/theme/breakpoints.scss";
 
-.schools{
+.schools {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: fit-content;
 }
 
-.schools__title{
+.schools__title {
   font-size: var(--font-size-h1);
   font-family: var(--text-font);
   color: var(--grey-deep);
   font-weight: 400;
 }
 
-.schools_list{
+.schools_list {
   margin-top: 8px;
 }
 
 table {
-    width: 100%;
+  width: 100%;
   max-width: 640px;
   table-layout: fixed;
 }

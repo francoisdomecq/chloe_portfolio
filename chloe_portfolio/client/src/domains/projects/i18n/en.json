@@ -1,7 +1,7 @@
 {
   "project-navigator": {
-    "next" : "Next project",
-    "previous" : "Previous project"
+    "next": "Next project",
+    "previous": "Previous project"
   },
   "project-details": {
     "description": "Description",
@@ -9,7 +9,6 @@
     "skills": "Skills",
     "font": "Typography",
     "collaborators": "Collaborators"
-
   },
   "discover-more": "Discover more +"
 }

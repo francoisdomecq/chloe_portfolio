@@ -12,12 +12,14 @@
 
 .navbar__nav-item {
   font-size: var(--font-size-subtitle);
-  color:white;
+  color: white;
+
   &:visited {
-  color:inherit;
+    color: inherit;
   }
-  &:hover{
-    color:var(--grey-deep-2);
+
+  &:hover {
+    color: var(--grey-deep-2);
   }
 }
 
