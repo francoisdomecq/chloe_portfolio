@@ -4,53 +4,262 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6061a75-637d-473a-92b5-34ff65755cae" name="Changes" comment="init portfolio">
-      <change afterPath="$PROJECT_DIR$/chloe_portfolio/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chloe_portfolio/src/assets/fonts/helvetica/Helvetica-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chloe_portfolio/src/assets/fonts/helvetica/Helvetica-BoldOblique.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chloe_portfolio/src/assets/fonts/helvetica/Helvetica-Oblique.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chloe_portfolio/src/assets/fonts/helvetica/Helvetica.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chloe_portfolio/src/assets/fonts/helvetica/helvetica-compressed-5871d14b6903a.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chloe_portfolio/src/assets/fonts/helvetica/helvetica-light-587ebe5a59211.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chloe_portfolio/src/assets/fonts/helvetica/helvetica-rounded-bold-5871d05ead8de.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chloe_portfolio/src/config/i18n/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chloe_portfolio/src/config/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chloe_portfolio/src/domains/core/header/header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chloe_portfolio/src/domains/core/header/header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chloe_portfolio/src/domains/core/i18n/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chloe_portfolio/src/domains/core/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chloe_portfolio/src/domains/core/navbar/navbar.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chloe_portfolio/src/domains/core/navbar/navbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chloe_portfolio/src/domains/core/navbar/navbar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chloe_portfolio/src/domains/core/styles/breakpoints.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chloe_portfolio/src/domains/core/styles/typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/blobs/version" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/chloe_portfolio/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/eslint.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/chloe_portfolio/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/chloe_portfolio/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/chloe_portfolio/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/chloe_portfolio/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/chloe_portfolio/tsconfig.json" afterDir="false" />
+    <list default="true" id="28fdb4fd-86ad-43a7-a703-a905b553dc09" name="Changes" comment="feat: set up server with projects controller/service">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/chloe_portfolio.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/netlify.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/CURSOR-97.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/C_LOGO.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/arrow-right-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/arrow-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ADIDAS/ADIDAS_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ADIDAS/ADIDAS_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ADIDAS/ADIDAS_3.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ADIDAS/ADIDAS_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ADIDAS/ADIDAS_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ADIDAS/ADIDAS_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ADIDAS/ADIDAS_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ADIDAS/ADIDAS_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/BUNS/BUNS_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/BUNS/BUNS_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/BUNS/BUNS_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/BUNS/BUNS_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/BUNS/BUNS_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/BUNS/BUNS_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/BUNS/BUNS_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/BUNS/BUNS_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/BUNS/BUNS_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/BUNS/BUNS_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/CHLOE/CHLOE_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/CHLOE/CHLOE_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/CHLOE/CHLOE_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/CHLOE/CHLOE_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/CHLOE/CHLOE_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/CHLOE/CHLOE_4.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/CHLOE/CHLOE_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/CHLOE/CHLOE_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/CHLOE/CHLOE_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/CHLOE/CHLOE_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/CHLOE/CHLOE_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/FULLMOON/FULLMOON_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/FULLMOON/FULLMOON_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/FULLMOON/FULLMOON_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/FULLMOON/FULLMOON_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/FULLMOON/FULLMOON_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/FULLMOON/FULLMOON_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/FULLMOON/FULLMOON_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/FULLMOON/FULLMOON_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/GAILLARD_CHLOE_SHOWREEL_24.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/HERMES/HERMES_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/HERMES/HERMES_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/HERMES/HERMES_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/HERMES/HERMES_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/HERMES/HERMES_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/HERMES/HERMES_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/HERMES/HERMES_7.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/HERMES/HERMES_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/HERMES/HERMES_9.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE-WEB/ODETTE-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE-WEB/ODETTE-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE-WEB/ODETTE-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE-WEB/ODETTE-12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE-WEB/ODETTE-13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE-WEB/ODETTE-14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE-WEB/ODETTE-15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE-WEB/ODETTE-16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE-WEB/ODETTE-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE-WEB/ODETTE-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE-WEB/ODETTE-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE-WEB/ODETTE-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE-WEB/ODETTE-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE-WEB/ODETTE-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE-WEB/ODETTE-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE-WEB/ODETTE-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE-WEB/ODETTE_BOOK.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE-WEB/TYPO.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE/ODETTE_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE/ODETTE_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE/ODETTE_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE/ODETTE_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE/ODETTE_13.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE/ODETTE_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE/ODETTE_15.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE/ODETTE_16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE/ODETTE_17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE/ODETTE_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE/ODETTE_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE/ODETTE_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE/ODETTE_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE/ODETTE_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE/ODETTE_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE/ODETTE_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE/ODETTE_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/PPF/PPF_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/PPF/PPF_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/PPF/PPF_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/PPF/PPF_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/PPF/PPF_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/PPF/PPF_6.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/PPF/PPF_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/VIGNETAGE_CARROUSEL/ADIDAS.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/VIGNETAGE_CARROUSEL/BUNS.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/VIGNETAGE_CARROUSEL/CHLOE.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/VIGNETAGE_CARROUSEL/FULLMOON.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/VIGNETAGE_CARROUSEL/HERMES.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/VIGNETAGE_CARROUSEL/JARDINS_STATUAIRES.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/VIGNETAGE_CARROUSEL/ODETTE.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/VIGNETAGE_CARROUSEL/PPF.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/VIGNETAGE_CARROUSEL/XTRM.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/XTRM/XTRM_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/XTRM/XTRM_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/XTRM/XTRM_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/XTRM/XTRM_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/XTRM/XTRM_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/XTRM/XTRM_5.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/XTRM/XTRM_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/XTRM/XTRM_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/XTRM/XTRM_8.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/XTRM/XTRM_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/robot.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/App.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/assets/CURSOR-97.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/assets/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/config/contexts/app-context.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/config/i18n/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/config/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/config/works.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/about/components/experience/experience.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/about/components/experience/experiences.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/about/components/experiences/experiences.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/about/components/experiences/experiences.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/about/components/experiences/experiences.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/about/components/schools/schools.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/about/components/schools/schools.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/about/components/schools/schools.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/about/components/skills/skills.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/about/components/skills/skills.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/about/components/skills/skills.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/about/i18n/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/about/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/about/pages/about/about.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/about/pages/about/about.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/about/types/experiences.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/contact/i18n/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/contact/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/contact/pages/contact/contact.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/contact/pages/contact/contact.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/components/animate-text/animate-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/components/animate-text/animate-text.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/components/footer/footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/components/footer/footer.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/components/header/header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/components/header/header.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/components/hovered-title/hovered-title.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/components/hovered-title/hovered-title.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/components/icon/icon.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/components/icon/icon.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/components/mouse-cursor/mouse-cursor.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/components/mouse-cursor/mouse-cursor.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/components/navbar/navbar.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/components/navbar/navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/components/navbar/navbar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/components/navigation-history/navigation-history.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/components/navigation-history/navigation-history.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/components/portfolio-page/portfolio-page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/components/portfolio-page/portfolio-page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/components/scroll-to-top/scroll-to-top.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/i18n/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/theme/breakpoints.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/theme/colors.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/theme/typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/types/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/home/i18n/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/home/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/home/pages/home/home.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/home/pages/home/home.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/projects/i18n/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/projects/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/projects/pages/project-details/components/image-displayer/image-displayer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/projects/pages/project-details/components/image-displayer/image-displayer.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/projects/pages/project-details/components/project-details-description/project-details-description.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/projects/pages/project-details/components/project-details-description/project-details-description.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/projects/pages/project-details/components/project-navigator/project-navigator.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/projects/pages/project-details/components/project-navigator/project-navigator.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/projects/pages/project-details/components/video-player/video-player.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/projects/pages/project-details/components/video-player/video-player.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/projects/pages/project-details/project-details.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/projects/pages/project-details/project-details.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/projects/pages/projects/components/carousel/carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/projects/pages/projects/components/carousel/carousel.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/projects/pages/projects/components/carousel/components/carousel-image/carousel-image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/projects/pages/projects/components/carousel/components/carousel-image/carousel-image.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/projects/pages/projects/components/project/project.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/projects/pages/projects/components/project/project.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/projects/pages/projects/projects.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/projects/pages/projects/projects.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/projects/types/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/main.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/vite-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/tsconfig.node.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/vite.config.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
   <component name="FormatOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="main" />
+        <entry key="$PROJECT_DIR$" value="feat/setup-server" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;francoisdomecq&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/francoisdomecq/chloe_portfolio.git&quot;,
+    &quot;accountId&quot;: &quot;6a3bb82f-7d89-4248-ad09-794836ff6995&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -58,9 +267,9 @@
     <option name="myRunOnSave" value="true" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 4
+  &quot;associatedIndex&quot;: 5
 }</component>
-  <component name="ProjectId" id="2lKpUsTx0bmh0xlOSVMlWDyzZF2" />
+  <component name="ProjectId" id="2lL2X1mrvYAuMxQz5Y2RqWBo7Ra" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -70,61 +279,580 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
-    "eslint.code.style.apply.dismiss": "true",
     "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
+    "node.js.detected.package.stylelint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.standard": "",
+    "node.js.selected.package.stylelint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/server/node_modules/prettier",
     "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "actions.on.save",
-    "ts.external.directory.path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/chloe_portfolio/node_modules/typescript/lib",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "ts.external.directory.path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/chloe_portfolio/server/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/chloe_portfolio/src/assets/fonts/helvetica" />
+      <recent name="$PROJECT_DIR$/client/src" />
+      <recent name="$PROJECT_DIR$/public/projects/ADIDAS" />
+      <recent name="$PROJECT_DIR$/public/projects/VIGNETAGE_CARROUSEL" />
+      <recent name="$PROJECT_DIR$/public/projects" />
+      <recent name="$PROJECT_DIR$/public/projects/XTRM" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/server/src/domains/projects/controller" />
+      <recent name="$PROJECT_DIR$/server/src/domains/projects" />
+      <recent name="$PROJECT_DIR$/client" />
+      <recent name="$PROJECT_DIR$/server/src/domains/works" />
+      <recent name="$PROJECT_DIR$/src/config" />
     </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f6061a75-637d-473a-92b5-34ff65755cae" name="Changes" comment="" />
-      <created>1724938642951</created>
+      <changelist id="28fdb4fd-86ad-43a7-a703-a905b553dc09" name="Changes" comment="" />
+      <created>1724945072070</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1724938642951</updated>
-      <workItem from="1724938644515" duration="2428000" />
-      <workItem from="1724941089907" duration="3978000" />
+      <updated>1724945072070</updated>
+      <workItem from="1724945073454" duration="11001000" />
+      <workItem from="1725007225034" duration="4531000" />
+      <workItem from="1725389092197" duration="9497000" />
+      <workItem from="1725436846693" duration="497000" />
+      <workItem from="1727631650874" duration="7023000" />
+      <workItem from="1727726810444" duration="3175000" />
+      <workItem from="1727900538996" duration="4334000" />
+      <workItem from="1727939582462" duration="66000" />
+      <workItem from="1727960777626" duration="4000" />
+      <workItem from="1727960804726" duration="2839000" />
+      <workItem from="1727966310634" duration="14077000" />
+      <workItem from="1728055559889" duration="716000" />
+      <workItem from="1728157964003" duration="8283000" />
+      <workItem from="1728309226603" duration="2144000" />
+      <workItem from="1728317317047" duration="5182000" />
+      <workItem from="1728588487131" duration="4729000" />
+      <workItem from="1728629742498" duration="2833000" />
+      <workItem from="1728636350713" duration="8871000" />
+      <workItem from="1728649402369" duration="1485000" />
+      <workItem from="1728829472860" duration="3989000" />
+      <workItem from="1728897013503" duration="1034000" />
+      <workItem from="1728899111790" duration="1953000" />
+      <workItem from="1728906087808" duration="839000" />
+      <workItem from="1728907242388" duration="1724000" />
+      <workItem from="1728909080704" duration="3781000" />
+      <workItem from="1728916162096" duration="559000" />
+      <workItem from="1728917679102" duration="7184000" />
+      <workItem from="1728979271353" duration="559000" />
+      <workItem from="1729259736138" duration="789000" />
+      <workItem from="1729262099257" duration="8313000" />
+      <workItem from="1729541217063" duration="3496000" />
+      <workItem from="1729610227331" duration="8730000" />
+      <workItem from="1729758072013" duration="9800000" />
+      <workItem from="1729774454317" duration="882000" />
+      <workItem from="1729787086636" duration="1217000" />
+      <workItem from="1729849559967" duration="1174000" />
+      <workItem from="1729859692114" duration="109000" />
+      <workItem from="1729859974870" duration="8770000" />
+      <workItem from="1730102490333" duration="599000" />
+      <workItem from="1730192326359" duration="1776000" />
+      <workItem from="1730208642462" duration="6434000" />
+      <workItem from="1730278274811" duration="218000" />
+      <workItem from="1730551586781" duration="5386000" />
+      <workItem from="1731077575164" duration="5942000" />
+      <workItem from="1731339691685" duration="6415000" />
+      <workItem from="1731605059528" duration="2289000" />
+      <workItem from="1731661457875" duration="3104000" />
+      <workItem from="1731864892437" duration="3454000" />
+      <workItem from="1731942908183" duration="1562000" />
+      <workItem from="1731948576620" duration="994000" />
+      <workItem from="1732616365992" duration="719000" />
+      <workItem from="1732695155606" duration="513000" />
+      <workItem from="1736766424729" duration="3043000" />
+      <workItem from="1736781598961" duration="4344000" />
+      <workItem from="1736794951589" duration="599000" />
+      <workItem from="1736843961331" duration="599000" />
+      <workItem from="1737038726348" duration="1852000" />
+      <workItem from="1737045882666" duration="4151000" />
+      <workItem from="1737104003574" duration="5451000" />
+      <workItem from="1737111843634" duration="296000" />
+      <workItem from="1737117366649" duration="454000" />
     </task>
-    <task id="LOCAL-00001" summary="init portfolio">
+    <task id="LOCAL-00012" summary="improve design">
       <option name="closed" value="true" />
-      <created>1724938976319</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
+      <created>1728640396212</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
       <option name="project" value="LOCAL" />
-      <updated>1724938976319</updated>
+      <updated>1728640396212</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00013" summary="run build">
+      <option name="closed" value="true" />
+      <created>1728642023058</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1728642023058</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fix home page">
+      <option name="closed" value="true" />
+      <created>1728645038435</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1728645038435</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fix background color">
+      <option name="closed" value="true" />
+      <created>1728645539954</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1728645539954</updated>
+    </task>
+    <task id="LOCAL-00016" summary="remove autoplay for videos">
+      <option name="closed" value="true" />
+      <created>1728646157699</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1728646157699</updated>
+    </task>
+    <task id="LOCAL-00017" summary="remove autoplay for videos">
+      <option name="closed" value="true" />
+      <created>1728646284378</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1728646284378</updated>
+    </task>
+    <task id="LOCAL-00018" summary="improve design mobile">
+      <option name="closed" value="true" />
+      <created>1728648213986</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1728648213986</updated>
+    </task>
+    <task id="LOCAL-00019" summary="fix title">
+      <option name="closed" value="true" />
+      <created>1728649578116</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1728649578116</updated>
+    </task>
+    <task id="LOCAL-00020" summary="fix text color">
+      <option name="closed" value="true" />
+      <created>1728650869820</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1728650869820</updated>
+    </task>
+    <task id="LOCAL-00021" summary="improve design">
+      <option name="closed" value="true" />
+      <created>1728889661119</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1728889661119</updated>
+    </task>
+    <task id="LOCAL-00022" summary="add netlify config file">
+      <option name="closed" value="true" />
+      <created>1728897482552</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1728897482552</updated>
+    </task>
+    <task id="LOCAL-00023" summary="add netlify config file">
+      <option name="closed" value="true" />
+      <created>1728897908018</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1728897908018</updated>
+    </task>
+    <task id="LOCAL-00024" summary="fix experience mobile display">
+      <option name="closed" value="true" />
+      <created>1728899726901</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1728899726901</updated>
+    </task>
+    <task id="LOCAL-00025" summary="add slow on hover carousel">
+      <option name="closed" value="true" />
+      <created>1728907574549</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1728907574549</updated>
+    </task>
+    <task id="LOCAL-00026" summary="add text animation and video on home page">
+      <option name="closed" value="true" />
+      <created>1728918056323</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1728918056323</updated>
+    </task>
+    <task id="LOCAL-00027" summary="fix build">
+      <option name="closed" value="true" />
+      <created>1728919198175</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1728919198175</updated>
+    </task>
+    <task id="LOCAL-00028" summary="add projects details, and animation on first screen">
+      <option name="closed" value="true" />
+      <created>1729266145323</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1729266145323</updated>
+    </task>
+    <task id="LOCAL-00029" summary="add subtitles to project details">
+      <option name="closed" value="true" />
+      <created>1729268318252</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1729268318252</updated>
+    </task>
+    <task id="LOCAL-00030" summary="add animation on home page">
+      <option name="closed" value="true" />
+      <created>1729619556711</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1729619556711</updated>
+    </task>
+    <task id="LOCAL-00031" summary="fix typo mobile">
+      <option name="closed" value="true" />
+      <created>1729758545434</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1729758545434</updated>
+    </task>
+    <task id="LOCAL-00032" summary="fix cursor">
+      <option name="closed" value="true" />
+      <created>1729774776559</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1729774776559</updated>
+    </task>
+    <task id="LOCAL-00033" summary="fix cursor">
+      <option name="closed" value="true" />
+      <created>1729774940988</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1729774940988</updated>
+    </task>
+    <task id="LOCAL-00034" summary="remove cursor on mobile">
+      <option name="closed" value="true" />
+      <created>1729787221969</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1729787221969</updated>
+    </task>
+    <task id="LOCAL-00035" summary="add project navigation and refacto contact page">
+      <option name="closed" value="true" />
+      <created>1729865451808</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1729865451808</updated>
+    </task>
+    <task id="LOCAL-00036" summary="refacto project navigation, add animation (not fully working) on home page, change titles on about page">
+      <option name="closed" value="true" />
+      <created>1730216488986</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1730216488986</updated>
+    </task>
+    <task id="LOCAL-00037" summary="refacto about page">
+      <option name="closed" value="true" />
+      <created>1730218154469</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1730218154469</updated>
+    </task>
+    <task id="LOCAL-00038" summary="working home page animtion">
+      <option name="closed" value="true" />
+      <created>1730553512791</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1730553512791</updated>
+    </task>
+    <task id="LOCAL-00039" summary="working home page animtion">
+      <option name="closed" value="true" />
+      <created>1730555456428</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1730555456428</updated>
+    </task>
+    <task id="LOCAL-00040" summary="rework home page">
+      <option name="closed" value="true" />
+      <created>1730650990604</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1730650990604</updated>
+    </task>
+    <task id="LOCAL-00041" summary="change typo">
+      <option name="closed" value="true" />
+      <created>1731342964476</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1731342964476</updated>
+    </task>
+    <task id="LOCAL-00042" summary="dark mode">
+      <option name="closed" value="true" />
+      <created>1731367240723</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1731367240723</updated>
+    </task>
+    <task id="LOCAL-00043" summary="fix build">
+      <option name="closed" value="true" />
+      <created>1731367368883</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1731367368883</updated>
+    </task>
+    <task id="LOCAL-00044" summary="change carousel images">
+      <option name="closed" value="true" />
+      <created>1731661795030</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1731661795030</updated>
+    </task>
+    <task id="LOCAL-00045" summary="update projects images/videos">
+      <option name="closed" value="true" />
+      <created>1731663191811</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1731663191811</updated>
+    </task>
+    <task id="LOCAL-00046" summary="update projects images/videos">
+      <option name="closed" value="true" />
+      <created>1731864912840</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1731864912841</updated>
+    </task>
+    <task id="LOCAL-00047" summary="update projects images/videos">
+      <option name="closed" value="true" />
+      <created>1731867686116</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1731867686116</updated>
+    </task>
+    <task id="LOCAL-00048" summary="update projects images/videos">
+      <option name="closed" value="true" />
+      <created>1731868606688</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1731868606688</updated>
+    </task>
+    <task id="LOCAL-00049" summary="update projects images/videos">
+      <option name="closed" value="true" />
+      <created>1731943132917</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1731943132917</updated>
+    </task>
+    <task id="LOCAL-00050" summary="review">
+      <option name="closed" value="true" />
+      <created>1731943935260</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1731943935260</updated>
+    </task>
+    <task id="LOCAL-00051" summary="update video">
+      <option name="closed" value="true" />
+      <created>1731949715213</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1731949715213</updated>
+    </task>
+    <task id="LOCAL-00052" summary="fix mobile navigation">
+      <option name="closed" value="true" />
+      <created>1732616485112</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1732616485112</updated>
+    </task>
+    <task id="LOCAL-00053" summary="add adidas project">
+      <option name="closed" value="true" />
+      <created>1736773094038</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1736773094038</updated>
+    </task>
+    <task id="LOCAL-00054" summary="fix images bg">
+      <option name="closed" value="true" />
+      <created>1736774377664</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1736774377664</updated>
+    </task>
+    <task id="LOCAL-00055" summary="refacto files to client">
+      <option name="closed" value="true" />
+      <created>1736781718556</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1736781718556</updated>
+    </task>
+    <task id="LOCAL-00056" summary="refacto files to client">
+      <option name="closed" value="true" />
+      <created>1736781877995</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1736781877995</updated>
+    </task>
+    <task id="LOCAL-00057" summary="run lint and prettier">
+      <option name="closed" value="true" />
+      <created>1737039745001</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1737039745001</updated>
+    </task>
+    <task id="LOCAL-00058" summary="update adidas project title">
+      <option name="closed" value="true" />
+      <created>1737110443556</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1737110443556</updated>
+    </task>
+    <task id="LOCAL-00059" summary="feat: set up server with projects controller/service">
+      <option name="closed" value="true" />
+      <created>1737110602725</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1737110602725</updated>
+    </task>
+    <task id="LOCAL-00060" summary="feat: set up server with projects controller/service">
+      <option name="closed" value="true" />
+      <created>1737110641505</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1737110641505</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="feat/setup-server" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init portfolio" />
-    <option name="LAST_COMMIT_MESSAGE" value="init portfolio" />
+    <MESSAGE value="add projects details, and animation on first screen" />
+    <MESSAGE value="add subtitles to project details" />
+    <MESSAGE value="add animation on home page" />
+    <MESSAGE value="fix typo mobile" />
+    <MESSAGE value="fix cursor" />
+    <MESSAGE value="remove cursor on mobile" />
+    <MESSAGE value="add project navigation and refacto contact page" />
+    <MESSAGE value="refacto project navigation, add animation (not fully working) on home page, change titles on about page" />
+    <MESSAGE value="refacto about page" />
+    <MESSAGE value="working home page animtion" />
+    <MESSAGE value="rework home page" />
+    <MESSAGE value="change typo" />
+    <MESSAGE value="dark mode" />
+    <MESSAGE value="fix build" />
+    <MESSAGE value="change carousel images" />
+    <MESSAGE value="update projects images/videos" />
+    <MESSAGE value="review" />
+    <MESSAGE value="update video" />
+    <MESSAGE value="fix mobile navigation" />
+    <MESSAGE value="add adidas project" />
+    <MESSAGE value="fix images bg" />
+    <MESSAGE value="refacto files to client" />
+    <MESSAGE value="run lint and prettier" />
+    <MESSAGE value="update adidas project title" />
+    <MESSAGE value="feat: set up server with projects controller/service" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: set up server with projects controller/service" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/domains/about/components/schools/schools.tsx</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
