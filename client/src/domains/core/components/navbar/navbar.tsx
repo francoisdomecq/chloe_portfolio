@@ -20,7 +20,7 @@ const Navbar = () => {
     <nav className="navbar">
       <ul className="navbar__nav-items">
         {NAV_TABS.map(tab =>
-          <motion.li whileHover={{scale: 1.1}} key={tab.key} onClick={() => handleClickHeaderTitle(tab.tagId)}>
+          <motion.li whileHover={{scale: 1.05}} key={tab.key} onClick={() => handleClickHeaderTitle(tab.tagId)}>
             <span className="navbar__nav-item">{t(`navbar.tabs.${tab.key}`)}</span>
           </motion.li>
         )}

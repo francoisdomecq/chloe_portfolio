@@ -48,6 +48,7 @@
   font-size: var(--font-size-h2);
   color: var(--grey-deep);
   font-weight: 400;
+  font-style: italic;
 }
 
 .explorations__description-content {
@@ -55,4 +56,11 @@
   font-size: var(--font-size-body-m);
   color: white;
   max-width: 45%;
+}
+
+.explorations__grid {
+  margin-top: 32px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, minmax(120px, 1fr));
 }

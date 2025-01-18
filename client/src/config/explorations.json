@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "title": "Peter pan",
+    "description": "Work on the cover of an edition of J.M Barrie's Peter Pan (just  for fun).",
+    "date": "2025",
+    "src": "/explorations/PETER_PAN.jpg"
+  },
+  {
+    "id": "2",
+    "title": "Les bourriches du bassin",
+    "description": "Creation of a series of three illustrations for gift box covers taking the form of an oyster crate for the shop La Bourriche du Bassin, a delicatessen in Arcachon. Illustrations printed on wood.",
+    "date": "2022",
+    "src": "/explorations/BOURRICHE_DU_BASSIN_1.jpg"
+  },
+  {
+    "id": "3",
+    "title": "Nike Christmas Popup",
+    "description": "Description: Creation of a visual for a Christmas popup organised by the Nike brand (fictitious).",
+    "date": "2024",
+    "src": "/explorations/NIKE_CHRISTMAS_POPUP.jpg"
+  },
+  {
+    "id": "4",
+    "title": "Les bourriches du bassin",
+    "description": " Creation of a series of etching-style illustrations printed on fabric at Maison Moutet. Applied to various table linens (napkins, tea towels, etc.).",
+    "date": "2023",
+    "src": "/explorations/BOURRICHE_DU_BASSIN_2.jpg"
+  }
+]
