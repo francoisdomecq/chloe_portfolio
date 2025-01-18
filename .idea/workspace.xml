@@ -5,225 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28fdb4fd-86ad-43a7-a703-a905b553dc09" name="Changes" comment="feat: set up server with projects controller/service">
+      <change afterPath="$PROJECT_DIR$/client/src/domains/explorations/i18n/en.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/domains/explorations/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/domains/explorations/pages/explorations/explorations.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/domains/explorations/pages/explorations/explorations.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/.eslintrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/.prettierrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/chloe_portfolio.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/netlify.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/CURSOR-97.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/C_LOGO.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/arrow-right-white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/arrow-right.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ADIDAS/ADIDAS_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ADIDAS/ADIDAS_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ADIDAS/ADIDAS_3.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ADIDAS/ADIDAS_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ADIDAS/ADIDAS_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ADIDAS/ADIDAS_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ADIDAS/ADIDAS_7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ADIDAS/ADIDAS_8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/BUNS/BUNS_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/BUNS/BUNS_10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/BUNS/BUNS_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/BUNS/BUNS_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/BUNS/BUNS_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/BUNS/BUNS_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/BUNS/BUNS_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/BUNS/BUNS_7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/BUNS/BUNS_8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/BUNS/BUNS_9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/CHLOE/CHLOE_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/CHLOE/CHLOE_10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/CHLOE/CHLOE_11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/CHLOE/CHLOE_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/CHLOE/CHLOE_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/CHLOE/CHLOE_4.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/CHLOE/CHLOE_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/CHLOE/CHLOE_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/CHLOE/CHLOE_7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/CHLOE/CHLOE_8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/CHLOE/CHLOE_9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/FULLMOON/FULLMOON_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/FULLMOON/FULLMOON_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/FULLMOON/FULLMOON_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/FULLMOON/FULLMOON_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/FULLMOON/FULLMOON_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/FULLMOON/FULLMOON_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/FULLMOON/FULLMOON_7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/FULLMOON/FULLMOON_8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/GAILLARD_CHLOE_SHOWREEL_24.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/HERMES/HERMES_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/HERMES/HERMES_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/HERMES/HERMES_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/HERMES/HERMES_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/HERMES/HERMES_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/HERMES/HERMES_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/HERMES/HERMES_7.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/HERMES/HERMES_8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/HERMES/HERMES_9.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE-WEB/ODETTE-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE-WEB/ODETTE-10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE-WEB/ODETTE-11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE-WEB/ODETTE-12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE-WEB/ODETTE-13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE-WEB/ODETTE-14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE-WEB/ODETTE-15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE-WEB/ODETTE-16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE-WEB/ODETTE-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE-WEB/ODETTE-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE-WEB/ODETTE-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE-WEB/ODETTE-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE-WEB/ODETTE-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE-WEB/ODETTE-7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE-WEB/ODETTE-8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE-WEB/ODETTE-9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE-WEB/ODETTE_BOOK.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE-WEB/TYPO.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE/ODETTE_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE/ODETTE_10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE/ODETTE_11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE/ODETTE_12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE/ODETTE_13.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE/ODETTE_14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE/ODETTE_15.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE/ODETTE_16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE/ODETTE_17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE/ODETTE_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE/ODETTE_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE/ODETTE_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE/ODETTE_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE/ODETTE_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE/ODETTE_7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE/ODETTE_8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/ODETTE/ODETTE_9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/PPF/PPF_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/PPF/PPF_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/PPF/PPF_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/PPF/PPF_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/PPF/PPF_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/PPF/PPF_6.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/PPF/PPF_7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/VIGNETAGE_CARROUSEL/ADIDAS.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/VIGNETAGE_CARROUSEL/BUNS.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/VIGNETAGE_CARROUSEL/CHLOE.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/VIGNETAGE_CARROUSEL/FULLMOON.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/VIGNETAGE_CARROUSEL/HERMES.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/VIGNETAGE_CARROUSEL/JARDINS_STATUAIRES.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/VIGNETAGE_CARROUSEL/ODETTE.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/VIGNETAGE_CARROUSEL/PPF.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/VIGNETAGE_CARROUSEL/XTRM.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/XTRM/XTRM_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/XTRM/XTRM_10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/XTRM/XTRM_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/XTRM/XTRM_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/XTRM/XTRM_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/XTRM/XTRM_5.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/XTRM/XTRM_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/XTRM/XTRM_7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/XTRM/XTRM_8.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/projects/XTRM/XTRM_9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/robot.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/public/vite.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/App.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/App.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/assets/CURSOR-97.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/assets/react.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/config/contexts/app-context.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/config/i18n/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/config/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/config/works.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/about/components/experience/experience.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/about/components/experience/experiences.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/about/components/experiences/experiences.config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/about/components/experiences/experiences.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/about/components/experiences/experiences.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/about/components/schools/schools.config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/about/components/schools/schools.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/about/components/schools/schools.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/about/components/skills/skills.config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/about/components/skills/skills.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/about/components/skills/skills.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/about/i18n/en.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/about/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/about/pages/about/about.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/about/pages/about/about.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/about/types/experiences.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/contact/i18n/en.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/contact/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/contact/pages/contact/contact.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/contact/pages/contact/contact.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/components/animate-text/animate-text.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/components/animate-text/animate-text.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/components/footer/footer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/components/footer/footer.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/components/header/header.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/components/header/header.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/components/hovered-title/hovered-title.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/components/hovered-title/hovered-title.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/components/icon/icon.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/components/icon/icon.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/components/mouse-cursor/mouse-cursor.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/components/mouse-cursor/mouse-cursor.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/components/navbar/navbar.config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/components/navbar/navbar.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/components/navbar/navbar.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/components/navigation-history/navigation-history.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/components/navigation-history/navigation-history.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/components/portfolio-page/portfolio-page.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/components/portfolio-page/portfolio-page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/components/scroll-to-top/scroll-to-top.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/i18n/en.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/index.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/theme/breakpoints.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/theme/colors.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/theme/typography.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/core/types/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/home/i18n/en.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/home/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/home/pages/home/home.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/home/pages/home/home.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/projects/i18n/en.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/projects/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/projects/pages/project-details/components/image-displayer/image-displayer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/projects/pages/project-details/components/image-displayer/image-displayer.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/projects/pages/project-details/components/project-details-description/project-details-description.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/projects/pages/project-details/components/project-details-description/project-details-description.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/projects/pages/project-details/components/project-navigator/project-navigator.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/projects/pages/project-details/components/project-navigator/project-navigator.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/projects/pages/project-details/components/video-player/video-player.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/projects/pages/project-details/components/video-player/video-player.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/projects/pages/project-details/project-details.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/projects/pages/project-details/project-details.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/projects/pages/projects/components/carousel/carousel.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/projects/pages/projects/components/carousel/carousel.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/projects/pages/projects/components/carousel/components/carousel-image/carousel-image.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/projects/pages/projects/components/carousel/components/carousel-image/carousel-image.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/projects/pages/projects/components/project/project.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/projects/pages/projects/components/project/project.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/projects/pages/projects/projects.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/projects/pages/projects/projects.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/domains/projects/types/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/main.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/src/vite-env.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/tsconfig.node.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chloe_portfolio/client/vite.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/navbar/navbar.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/navbar/navbar.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/i18n/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/i18n/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/types/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -282,7 +72,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "feat/add-others-project-page",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio",
     "node.js.detected.package.eslint": "true",
@@ -297,7 +87,7 @@
     "prettierjs.PrettierConfiguration.Package": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/server/node_modules/prettier",
     "rearrange.code.on.save": "true",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "ts.external.directory.path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/chloe_portfolio/server/node_modules/typescript/lib",
+    "ts.external.directory.path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>

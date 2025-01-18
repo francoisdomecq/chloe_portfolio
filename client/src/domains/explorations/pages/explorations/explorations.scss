@@ -1,0 +1,58 @@
+.explorations {
+  padding: 24px 48px 0;
+}
+
+.explorations__titles {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  gap: 16px;
+  padding-bottom: 24px;
+}
+
+.explorations__title {
+  font-family: var(--title-font);
+  font-size: var(--font-size-h1);
+  font-weight: 400;
+  color: white;
+}
+
+.explorations__subtitle::before {
+  content: '';
+  height: 100%; //You can change this if you want smaller/bigger borders
+  width: 1px;
+
+  position: absolute;
+  left: 0;
+  top: 0; // If you want to set a smaller height and center it, change this value
+
+  background-color: #fff;
+  font-family: var(--text-font);
+}
+
+.explorations__subtitle {
+  font-family: var(--text-font);
+  font-size: var(--font-size-body-xs);
+  position: relative;
+  padding-left: 16px;
+  color: var(--grey-deep)
+}
+
+.explorations__subtitle-text {
+  font-weight: 400;
+}
+
+.explorations__description-title {
+  font-family: var(--title-font);
+  font-size: var(--font-size-h2);
+  color: var(--grey-deep);
+  font-weight: 400;
+}
+
+.explorations__description-content {
+  font-family: var(--text-font);
+  font-size: var(--font-size-body-m);
+  color: white;
+  max-width: 45%;
+}
