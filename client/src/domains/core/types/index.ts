@@ -3,5 +3,5 @@ export enum NavTabs {
   ABOUT = "about",
   WORKS = "works",
   CONTACT = "contact",
-  EXPLORATIONS = "Explorations"
+  VARIOUS = "various"
 }

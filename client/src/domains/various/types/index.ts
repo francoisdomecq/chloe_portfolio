@@ -1,4 +1,4 @@
-interface Exploration {
+interface Various {
   id: string;
   title: string;
   description: string;
@@ -6,4 +6,4 @@ interface Exploration {
   src: string;
 }
 
-export type {Exploration}
+export type {Various}

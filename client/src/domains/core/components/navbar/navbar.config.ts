@@ -6,8 +6,8 @@ const NAV_TABS = [
     tagId: NavTabs.WORKS
   },
   {
-    key: "explorations",
-    tagId: NavTabs.EXPLORATIONS
+    key: "various",
+    tagId: NavTabs.VARIOUS
   },
   {
     key: "about",

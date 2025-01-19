@@ -1,8 +1,15 @@
-.explorations {
-  padding: 24px 48px 0;
+@import 'src/domains/core/theme/breakpoints.scss';
+
+.various {
+  padding: 24px 0;
 }
 
-.explorations__titles {
+.various__drawer-active {
+  width: 70%;
+  z-index: 102;
+}
+
+.various__titles {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -11,14 +18,14 @@
   padding-bottom: 24px;
 }
 
-.explorations__title {
+.various__title {
   font-family: var(--title-font);
   font-size: var(--font-size-h1);
   font-weight: 400;
   color: white;
 }
 
-.explorations__subtitle::before {
+.various__subtitle::before {
   content: '';
   height: 100%; //You can change this if you want smaller/bigger borders
   width: 1px;
@@ -31,7 +38,7 @@
   font-family: var(--text-font);
 }
 
-.explorations__subtitle {
+.various__subtitle {
   font-family: var(--text-font);
   font-size: var(--font-size-body-xs);
   position: relative;
@@ -39,11 +46,15 @@
   color: var(--grey-deep)
 }
 
-.explorations__subtitle-text {
+.various__subtitle-text {
   font-weight: 400;
 }
 
-.explorations__description-title {
+.various__description {
+  width: 100%;
+}
+
+.various__description-title {
   font-family: var(--title-font);
   font-size: var(--font-size-h2);
   color: var(--grey-deep);
@@ -51,16 +62,42 @@
   font-style: italic;
 }
 
-.explorations__description-content {
+.various__description-content {
   font-family: var(--text-font);
   font-size: var(--font-size-body-m);
   color: white;
-  max-width: 45%;
 }
 
-.explorations__grid {
-  margin-top: 32px;
-  display: grid;
-  gap: 10px;
-  grid-template-columns: repeat(4, minmax(120px, 1fr));
+.various__grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.various__image {
+  width: 100%;
+}
+
+.various__image--not-active {
+  opacity: 0.5;
+}
+
+@media screen and (min-width: $tablet-bp) {
+
+  .various {
+    padding: 24px 48px 0;
+  }
+
+  .various__description {
+    width: 100%;
+    max-width: 60%;
+  }
+
+  .various__grid {
+    margin-top: 64px;
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(4, minmax(120px, 1fr));
+  }
+
 }
