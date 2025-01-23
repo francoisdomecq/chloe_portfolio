@@ -32,7 +32,6 @@ const AppContextProvider = ({children}: AppContextProps) => {
 
 
   const refreshUserInfo = useCallback(() => {
-    console.log("inside")
     axiosClient.get('/auth')
       .then(res => res.data)
       .then(res => setUser(res))

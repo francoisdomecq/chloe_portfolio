@@ -6,6 +6,8 @@ import {
   Param,
   Patch,
   Post,
+  UploadedFile,
+  UseInterceptors,
 } from '@nestjs/common';
 import { VariousService } from '../service/various.service';
 import { FindOneParam } from 'src/domains/projects/types/find-one-param';
@@ -14,6 +16,13 @@ import { UserRoles } from '../../users/types';
 import { Roles } from 'src/domains/auth/decorators/roles.decorator';
 import { Public } from '../../auth/decorators/public.decorator';
 import { UpdateVariousDto } from '../dto/update-various.dto';
+import { FileInterceptor } from '@nestjs/platform-express';
+import { diskStorage } from 'multer';
+import {
+  editFileName,
+  imageFileFilter,
+} from '../../core/utils/file-upload.utils';
+import { Various } from '../models/various.entity';
 
 @Controller('various')
 export class VariousController {
@@ -27,7 +36,7 @@ export class VariousController {
 
   @Get('/:id')
   @Public()
-  async findById(@Param() { id }: FindOneParam) {
+  async findById(@Param() { id }: FindOneParam): Promise<Various> {
     return await this.variousService.findById(id);
   }
 
@@ -50,5 +59,23 @@ export class VariousController {
     @Body() various: UpdateVariousDto,
   ) {
     return await this.variousService.update(id, various);
+  }
+
+  @Patch('/:id/file')
+  @UseInterceptors(
+    FileInterceptor('file', {
+      storage: diskStorage({
+        destination: './files',
+        filename: editFileName,
+      }),
+      fileFilter: imageFileFilter,
+    }),
+  )
+  @Roles(UserRoles.ADMIN)
+  async addFile(
+    @Param() { id }: FindOneParam,
+    @UploadedFile() file: Express.Multer.File,
+  ) {
+    return this.variousService.update(id, { fileSrc: file.filename });
   }
 }

@@ -4,6 +4,7 @@ import { Various } from '../models/various.entity';
 import { Repository } from 'typeorm';
 import { CreateVariousDto } from '../dto/create-various.dto';
 import { UpdateVariousDto } from '../dto/update-various.dto';
+import { deleteFile, retrieveFile } from '../../core/utils/file-upload.utils';
 
 @Injectable()
 export class VariousService {
@@ -13,11 +14,16 @@ export class VariousService {
   ) {}
 
   async findAll(): Promise<Various[]> {
-    return await this.variousRepository.find();
+    const allVarious = await this.variousRepository.find();
+    return allVarious.map((various) => ({
+      ...various,
+      fileSrc: retrieveFile(various.fileSrc),
+    }));
   }
 
   async findById(id: string): Promise<Various> {
-    return await this.variousRepository.findOneBy({ id });
+    const various = await this.variousRepository.findOneBy({ id });
+    return { ...various, fileSrc: retrieveFile(various.fileSrc) };
   }
 
   async create(various: CreateVariousDto): Promise<Various> {
@@ -25,6 +31,11 @@ export class VariousService {
   }
 
   async delete(id: string): Promise<void> {
+    const various = await this.variousRepository.findOneBy({ id });
+    if (various) {
+      deleteFile(various.fileSrc);
+    }
+
     await this.variousRepository.delete(id);
   }
 

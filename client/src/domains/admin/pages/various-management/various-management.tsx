@@ -17,7 +17,7 @@ const VariousManagement = () => {
   const handleAddVarious = async () => {
     if (various) {
 
-      const createdVarious = await axiosClient.post('/various', various)
+      const createdVarious = await axiosClient.post('/various', {...various, fileSrc: undefined})
 
       const config = {headers: {'Content-Type': 'multipart/form-data'}};
       const formData = new FormData();
@@ -54,7 +54,6 @@ const VariousManagement = () => {
       <button onClick={handleAddVarious}>Ajouter projet</button>
 
       {variousFetch.map(various => {
-        const parsedFile = new File([various.fileSrc], 'file', {type: 'image/png'})
         return (
           <div>
             {various.title} {various.description} {various.date}

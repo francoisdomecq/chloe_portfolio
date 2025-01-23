@@ -1,4 +1,4 @@
-import { IsNotEmpty, IsString } from 'class-validator';
+import { IsNotEmpty, IsOptional, IsString } from 'class-validator';
 
 class CreateVariousDto {
   @IsString()
@@ -13,8 +13,8 @@ class CreateVariousDto {
   @IsNotEmpty()
   date: string;
 
-  @IsNotEmpty()
-  fileSrc: BinaryType;
+  @IsOptional()
+  fileSrc?: string;
 }
 
 export { CreateVariousDto };

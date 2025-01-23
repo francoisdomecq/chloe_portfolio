@@ -14,6 +14,6 @@ export class Various {
   @Column()
   date: string;
 
-  @Column()
-  fileSrc: BinaryType;
+  @Column({ default: '' })
+  fileSrc: string;
 }

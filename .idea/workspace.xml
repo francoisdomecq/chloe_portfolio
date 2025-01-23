@@ -4,31 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28fdb4fd-86ad-43a7-a703-a905b553dc09" name="Changes" comment="feat: set up server with projects controller/service">
-      <change afterPath="$PROJECT_DIR$/client/src/config/axios/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/domains/admin/pages/admin-dashboard/admin-dashboard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/domains/admin/pages/admin-login/admin-login.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/domains/admin/pages/projects-management/projects-management.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/domains/admin/pages/various-management/various-management.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/domains/admin/types/index.ts" afterDir="false" />
+    <list default="true" id="28fdb4fd-86ad-43a7-a703-a905b553dc09" name="Changes" comment="feat: add authentication on client and file download on server for various projects">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/config/contexts/app-context.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/config/contexts/app-context.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/mouse-cursor/mouse-cursor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/mouse-cursor/mouse-cursor.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/portfolio-page/portfolio-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/portfolio-page/portfolio-page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/admin/pages/various-management/various-management.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/admin/pages/various-management/various-management.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="ChangesViewManager">
-    <option name="groupingKeys">
-      <option value="directory" />
-    </option>
   </component>
   <component name="FormatOnSaveOptions">
     <option name="myRunOnSave" value="true" />
@@ -201,15 +185,9 @@
       <workItem from="1737117366649" duration="454000" />
       <workItem from="1737539634559" duration="7791000" />
       <workItem from="1737559567377" duration="4039000" />
-      <workItem from="1737620160959" duration="2865000" />
-    </task>
-    <task id="LOCAL-00012" summary="improve design">
-      <option name="closed" value="true" />
-      <created>1728640396212</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1728640396212</updated>
+      <workItem from="1737620160959" duration="6734000" />
+      <workItem from="1737634673436" duration="721000" />
+      <workItem from="1737639216738" duration="3561000" />
     </task>
     <task id="LOCAL-00013" summary="run build">
       <option name="closed" value="true" />
@@ -595,7 +573,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737110641505</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="feat: add authentication on client and file download on server for various projects">
+      <option name="closed" value="true" />
+      <created>1737623464854</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1737623464855</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -625,7 +611,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add subtitles to project details" />
     <MESSAGE value="add animation on home page" />
     <MESSAGE value="fix typo mobile" />
     <MESSAGE value="fix cursor" />
@@ -650,7 +635,8 @@
     <MESSAGE value="update adidas project title" />
     <MESSAGE value="feat: set up server with projects controller/service" />
     <MESSAGE value="add explorations page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add explorations page" />
+    <MESSAGE value="feat: add authentication on client and file download on server for various projects" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add authentication on client and file download on server for various projects" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

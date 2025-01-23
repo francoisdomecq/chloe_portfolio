@@ -14,7 +14,7 @@ class UpdateVariousDto {
   date?: string;
 
   @IsOptional()
-  fileSrc?: BinaryType;
+  fileSrc?: string;
 }
 
 export { UpdateVariousDto };

@@ -35,7 +35,14 @@ export class AuthService {
       throw new ConflictException('User does not exist');
     }
 
-    return this.generateToken(existingUser);
+    return {
+      accessToken: this.generateToken(existingUser),
+      user: existingUser,
+    };
+  }
+
+  public async findLoggedUser(email: string) {
+    return await this.usersService.findByEmail(email);
   }
 
   private generateToken(user: User) {
