@@ -1,6 +1,5 @@
 import {
   IsArray,
-  IsEnum,
   IsNotEmpty,
   IsOptional,
   IsString,
@@ -8,17 +7,6 @@ import {
   ValidateNested,
 } from 'class-validator';
 import { Type } from 'class-transformer';
-import { ProjectContentMediaType } from '../types/project';
-
-class ProjectContentDto {
-  @IsNotEmpty()
-  @IsEnum(ProjectContentMediaType)
-  type: ProjectContentMediaType;
-
-  @IsNotEmpty()
-  @IsString()
-  source: string;
-}
 
 class ProjectDescriptionDto {
   @IsString()
@@ -62,14 +50,10 @@ class CreateProjectDto {
   date: string;
 
   @IsString()
-  @IsNotEmpty()
   carouselImage: string;
 
-  @IsNotEmpty()
   @IsArray()
-  @ValidateNested({ each: true })
-  @Type(() => ProjectContentDto)
-  content: ProjectContentDto[];
+  content: string[];
 }
 
 export { CreateProjectDto };

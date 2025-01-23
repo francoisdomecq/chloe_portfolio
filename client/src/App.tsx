@@ -15,6 +15,7 @@ import "./App.scss";
 import AdminLogin from "./domains/admin/pages/admin-login/admin-login";
 import AdminDashboard from "./domains/admin/pages/admin-dashboard/admin-dashboard";
 import VariousManagement from "./domains/admin/pages/various-management/various-management";
+import ProjectsManagement from "./domains/admin/pages/projects-management/projects-management";
 
 function App() {
 
@@ -32,7 +33,7 @@ function App() {
           <Route path="/admin" element={<AdminLogin/>}>
             <Route path="" element={<AdminDashboard/>}/>
             <Route path="various-management" element={<VariousManagement/>}/>
-            <Route path="projects-management" element={<div>hello</div>}/>
+            <Route path="projects-management" element={<ProjectsManagement/>}/>
           </Route>
         </Routes>
         <MouseCursor/>

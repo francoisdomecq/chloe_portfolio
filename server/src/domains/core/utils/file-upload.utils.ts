@@ -1,6 +1,8 @@
 import * as path from 'path';
 import { extname } from 'path';
 import * as fs from 'fs';
+import { diskStorage } from 'multer';
+import { FileInterceptor, FilesInterceptor } from '@nestjs/platform-express';
 
 export const imageFileFilter = (req, file, callback) => {
   if (!file.originalname.match(/\.(jpg|jpeg|png|gif|mp4)$/)) {
@@ -19,8 +21,15 @@ export const editFileName = (req, file, callback) => {
   callback(null, `${name}-${randomName}${fileExtName}`);
 };
 
-export const retrieveFile = (file: string) => {
-  return `${process.env.BASE_URL}${process.env.PORT}/${file}`;
+export const defineFileDestination = (req, _file, cb, subDirectory: string) => {
+  const { id } = req.params;
+  const dirPath = `./files/${subDirectory}/${id}`;
+  fs.mkdirSync(dirPath, { recursive: true });
+  cb(null, dirPath);
+};
+
+export const retrieveFile = (file: string, directory: string) => {
+  return `${process.env.BASE_URL}${process.env.PORT}/${directory}/${file}`;
 };
 
 export const deleteFile = (file: string, directory = '') => {
@@ -31,3 +40,23 @@ export const deleteFile = (file: string, directory = '') => {
     }
   });
 };
+
+export const FileInterceptorConfig = (subDirectory: string) =>
+  FileInterceptor('file', {
+    storage: diskStorage({
+      destination: (req, file, callback) =>
+        defineFileDestination(req, file, callback, subDirectory),
+      filename: editFileName,
+    }),
+    fileFilter: imageFileFilter,
+  });
+
+export const FilesInterceptorConfig = (subDirectory: string) =>
+  FilesInterceptor('files', 20, {
+    storage: diskStorage({
+      destination: (req, file, callback) =>
+        defineFileDestination(req, file, callback, subDirectory),
+      filename: editFileName,
+    }),
+    fileFilter: imageFileFilter,
+  });

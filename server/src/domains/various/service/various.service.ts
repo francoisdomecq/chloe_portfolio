@@ -17,13 +17,13 @@ export class VariousService {
     const allVarious = await this.variousRepository.find();
     return allVarious.map((various) => ({
       ...various,
-      fileSrc: retrieveFile(various.fileSrc),
+      fileSrc: retrieveFile(various.fileSrc, 'various'),
     }));
   }
 
   async findById(id: string): Promise<Various> {
     const various = await this.variousRepository.findOneBy({ id });
-    return { ...various, fileSrc: retrieveFile(various.fileSrc) };
+    return { ...various, fileSrc: retrieveFile(various.fileSrc, 'various') };
   }
 
   async create(various: CreateVariousDto): Promise<Various> {
@@ -33,7 +33,7 @@ export class VariousService {
   async delete(id: string): Promise<void> {
     const various = await this.variousRepository.findOneBy({ id });
     if (various) {
-      deleteFile(various.fileSrc);
+      deleteFile(various.fileSrc, 'various');
     }
 
     await this.variousRepository.delete(id);

@@ -4,15 +4,12 @@ import { Project } from '../models/project.entity';
 import { Repository } from 'typeorm';
 import { CreateProjectDto } from '../dto/create-project.dto';
 import { UpdateProjectDto } from '../dto/update-project.dto';
-import { ProjectContent } from '../models/project-content.entity';
 
 @Injectable()
 export class ProjectsService {
   constructor(
     @InjectRepository(Project)
     private readonly projectRepository: Repository<Project>,
-    @InjectRepository(ProjectContent)
-    private readonly projectContentRepository: Repository<ProjectContent>,
   ) {}
 
   getAllProjects() {
@@ -28,12 +25,12 @@ export class ProjectsService {
   }
 
   async updateProject(id: string, updatedProject: UpdateProjectDto) {
-    await this.projectContentRepository.delete({ project: { id } });
+    return await this.projectRepository.update(id, updatedProject);
+  }
 
-    const projectToUpdate = await this.projectRepository.findOneBy({ id });
-    Object.assign(projectToUpdate, updatedProject);
-
-    return this.projectRepository.save(projectToUpdate);
+  async updateProjectContent(id: string, files: Express.Multer.File[]) {
+    const formattedFiles = files.map((file) => file.filename);
+    return await this.projectRepository.update(id, { content: formattedFiles });
   }
 
   deleteProject(id: string) {

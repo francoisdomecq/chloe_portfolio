@@ -9,7 +9,7 @@ interface ProjectContent {
   source: string;
 }
 
-interface ProjectDescription {
+export interface ProjectDescription {
   title: string;
   subtitle: string[];
   content: string[];

@@ -16,12 +16,7 @@ import { UserRoles } from '../../users/types';
 import { Roles } from 'src/domains/auth/decorators/roles.decorator';
 import { Public } from '../../auth/decorators/public.decorator';
 import { UpdateVariousDto } from '../dto/update-various.dto';
-import { FileInterceptor } from '@nestjs/platform-express';
-import { diskStorage } from 'multer';
-import {
-  editFileName,
-  imageFileFilter,
-} from '../../core/utils/file-upload.utils';
+import { FileInterceptorConfig } from '../../core/utils/file-upload.utils';
 import { Various } from '../models/various.entity';
 
 @Controller('various')
@@ -62,15 +57,7 @@ export class VariousController {
   }
 
   @Patch('/:id/file')
-  @UseInterceptors(
-    FileInterceptor('file', {
-      storage: diskStorage({
-        destination: './files',
-        filename: editFileName,
-      }),
-      fileFilter: imageFileFilter,
-    }),
-  )
+  @UseInterceptors(FileInterceptorConfig('various'))
   @Roles(UserRoles.ADMIN)
   async addFile(
     @Param() { id }: FindOneParam,

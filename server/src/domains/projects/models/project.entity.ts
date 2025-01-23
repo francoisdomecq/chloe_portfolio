@@ -1,5 +1,4 @@
-import { Column, Entity, OneToMany, PrimaryGeneratedColumn } from 'typeorm';
-import { ProjectContent } from './project-content.entity';
+import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 
 interface ProjectDescription {
   title: string;
@@ -30,9 +29,6 @@ export class Project {
   @Column()
   carouselImage: string;
 
-  @OneToMany(() => ProjectContent, (content) => content.project, {
-    cascade: true,
-    eager: true,
-  })
-  content: ProjectContent[];
+  @Column('text', { array: true })
+  content: string[];
 }

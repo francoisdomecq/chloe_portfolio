@@ -6,6 +6,9 @@ import {
   Param,
   Patch,
   Post,
+  UploadedFile,
+  UploadedFiles,
+  UseInterceptors,
 } from '@nestjs/common';
 import { ProjectsService } from '../service/projects.service';
 import { CreateProjectDto } from '../dto/create-project.dto';
@@ -14,6 +17,10 @@ import { UpdateProjectDto } from '../dto/update-project.dto';
 import { Public } from '../../auth/decorators/public.decorator';
 import { Roles } from '../../auth/decorators/roles.decorator';
 import { UserRoles } from '../../users/types';
+import {
+  FileInterceptorConfig,
+  FilesInterceptorConfig,
+} from '../../core/utils/file-upload.utils';
 
 @Controller('projects')
 export class ProjectsController {
@@ -35,6 +42,28 @@ export class ProjectsController {
   @Roles(UserRoles.ADMIN)
   async addProject(@Body() createdProject: CreateProjectDto) {
     return this.projectsService.addProject(createdProject);
+  }
+
+  @Patch('/:id/content')
+  @UseInterceptors(FilesInterceptorConfig('projects'))
+  @Roles(UserRoles.ADMIN)
+  async addProjectContent(
+    @Param() { id }: FindOneParam,
+    @UploadedFiles() files: Express.Multer.File[],
+  ) {
+    return this.projectsService.updateProjectContent(id, files);
+  }
+
+  @Patch('/:id/carousel')
+  @UseInterceptors(FileInterceptorConfig('projects'))
+  @Roles(UserRoles.ADMIN)
+  async addProjectCarousel(
+    @Param() { id }: FindOneParam,
+    @UploadedFile() file: Express.Multer.File,
+  ) {
+    return this.projectsService.updateProject(id, {
+      carouselImage: file.filename,
+    });
   }
 
   @Patch('/:id')
