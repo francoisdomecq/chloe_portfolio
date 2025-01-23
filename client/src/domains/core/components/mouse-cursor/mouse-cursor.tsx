@@ -11,6 +11,7 @@ import "./mouse-cursor.scss";
 const MouseCursor = () => {
   const {isHovering} = useContext(AppContext);
   const [mousePosition, setMousePosition] = useState({x: 0, y: 0});
+  const location = window.location.pathname;
 
   useEffect(() => {
     const mouseMove = (e: MouseEvent) => {
@@ -66,7 +67,8 @@ const MouseCursor = () => {
   }, [isHovering]);
 
   return (
-    <motion.div className="cursor" variants={variants} animate={cursorVariant}>
+    <motion.div className={location.includes('management') ? "default-cursor" : "cursor"} variants={variants}
+                animate={cursorVariant}>
       {isHovering === "carouselImage" && <Icon name="arrow-right.svg#arrow-right" className="cursor__text"/>}
     </motion.div>
   );

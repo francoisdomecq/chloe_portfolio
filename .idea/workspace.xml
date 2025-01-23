@@ -5,15 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28fdb4fd-86ad-43a7-a703-a905b553dc09" name="Changes" comment="feat: set up server with projects controller/service">
-      <change afterPath="$PROJECT_DIR$/client/src/domains/explorations/i18n/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/domains/explorations/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/domains/explorations/pages/explorations/explorations.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/domains/explorations/pages/explorations/explorations.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/config/axios/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/domains/admin/pages/admin-dashboard/admin-dashboard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/domains/admin/pages/admin-login/admin-login.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/domains/admin/pages/projects-management/projects-management.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/domains/admin/pages/various-management/various-management.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/domains/admin/types/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/navbar/navbar.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/navbar/navbar.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/i18n/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/i18n/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/types/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/config/contexts/app-context.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/config/contexts/app-context.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/mouse-cursor/mouse-cursor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/mouse-cursor/mouse-cursor.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/portfolio-page/portfolio-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/portfolio-page/portfolio-page.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +49,16 @@
     &quot;assignee&quot;: &quot;francoisdomecq&quot;
   }
 }</component>
+  <component name="GitRewordedCommitMessages">
+    <option name="commitMessagesMapping">
+      <RewordedCommitMessageMapping>
+        <option name="originalMessage" value="setup server" />
+        <option name="rewordedMessage" value="setup server&#10;&#10;&#10;squash commits" />
+      </RewordedCommitMessageMapping>
+    </option>
+    <option name="currentCommit" value="1" />
+    <option name="onto" value="7cce13d9de8731a39dd52d156c017572a0318345" />
+  </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/francoisdomecq/chloe_portfolio.git&quot;,
@@ -65,39 +80,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feat/add-others-project-page",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.stylelint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.stylelint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/server/node_modules/prettier",
-    "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "ts.external.directory.path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feat/add-api-fetches-front&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/src/domains/admin/pages&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/francoisdmq/Documents/Personal/chloe_portfolio/server/node_modules/prettier&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/domains/admin/pages" />
       <recent name="$PROJECT_DIR$/client/src" />
       <recent name="$PROJECT_DIR$/public/projects/ADIDAS" />
       <recent name="$PROJECT_DIR$/public/projects/VIGNETAGE_CARROUSEL" />
       <recent name="$PROJECT_DIR$/public/projects" />
-      <recent name="$PROJECT_DIR$/public/projects/XTRM" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/server/src/domains/projects/controller" />
@@ -184,6 +199,9 @@
       <workItem from="1737104003574" duration="5451000" />
       <workItem from="1737111843634" duration="296000" />
       <workItem from="1737117366649" duration="454000" />
+      <workItem from="1737539634559" duration="7791000" />
+      <workItem from="1737559567377" duration="4039000" />
+      <workItem from="1737620160959" duration="2865000" />
     </task>
     <task id="LOCAL-00012" summary="improve design">
       <option name="closed" value="true" />
@@ -607,7 +625,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add projects details, and animation on first screen" />
     <MESSAGE value="add subtitles to project details" />
     <MESSAGE value="add animation on home page" />
     <MESSAGE value="fix typo mobile" />
@@ -632,7 +649,8 @@
     <MESSAGE value="run lint and prettier" />
     <MESSAGE value="update adidas project title" />
     <MESSAGE value="feat: set up server with projects controller/service" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: set up server with projects controller/service" />
+    <MESSAGE value="add explorations page" />
+    <option name="LAST_COMMIT_MESSAGE" value="add explorations page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

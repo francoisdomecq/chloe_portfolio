@@ -12,6 +12,9 @@ import {Projects} from "./domains/projects";
 import ProjectDetails from "./domains/projects/pages/project-details/project-details";
 
 import "./App.scss";
+import AdminLogin from "./domains/admin/pages/admin-login/admin-login";
+import AdminDashboard from "./domains/admin/pages/admin-dashboard/admin-dashboard";
+import VariousManagement from "./domains/admin/pages/various-management/various-management";
 
 function App() {
 
@@ -26,6 +29,11 @@ function App() {
           <Route path="/various" element={<Various/>}/>
           <Route path="/about" element={<About/>}/>
           <Route path="/contact" element={<Contact/>}/>
+          <Route path="/admin" element={<AdminLogin/>}>
+            <Route path="" element={<AdminDashboard/>}/>
+            <Route path="various-management" element={<VariousManagement/>}/>
+            <Route path="projects-management" element={<div>hello</div>}/>
+          </Route>
         </Routes>
         <MouseCursor/>
       </AppContextProvider>
