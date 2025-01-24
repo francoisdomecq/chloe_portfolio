@@ -1,8 +1,8 @@
 import {useParams} from "react-router-dom";
 
-import PROJECTS from "../../../../config/works.json";
-import {PortfolioPage} from "../../../core";
-import NavigationHistory from "../../../core/components/navigation-history/navigation-history";
+import PROJECTS from "@config/works.json";
+import {PortfolioPage} from "@core/index";
+import NavigationHistory from "@core/components/navigation-history/navigation-history";
 import {type Project, type ProjectContent, ProjectContentMediaType} from "../../types";
 
 import ImageDisplayer from "./components/image-displayer/image-displayer";

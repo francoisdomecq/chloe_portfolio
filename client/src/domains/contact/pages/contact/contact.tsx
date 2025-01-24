@@ -2,9 +2,9 @@ import {useTranslation} from "react-i18next";
 
 import {motion} from "framer-motion";
 
-import {PortfolioPage} from "../../../core";
-import HoveredTitle from "../../../core/components/hovered-title/hovered-title";
-import NavigationHistory from "../../../core/components/navigation-history/navigation-history";
+import {PortfolioPage} from "@core/index";
+import HoveredTitle from "@core/components/hovered-title/hovered-title";
+import NavigationHistory from "@core/components/navigation-history/navigation-history";
 
 import "./contact.scss";
 

@@ -33,12 +33,22 @@ export const retrieveFile = (file: string, directory: string, id: string) => {
 };
 
 export const deleteFile = (file: string, directory = '', id: string) => {
-  const directoryPath = path.resolve(process.cwd(), 'files', directory, id);
-  fs.unlink(directoryPath, (err) => {
-    if (err) {
-      console.error(`Failed to delete file: ${directoryPath}`, err);
-    }
-  });
+  const directoryPath = path.resolve(
+    process.cwd(),
+    'files',
+    directory,
+    id,
+    file,
+  );
+  if (fs.existsSync(directoryPath)) {
+    fs.unlink(directoryPath, (err) => {
+      if (err) {
+        console.error(`Failed to delete file: ${directoryPath}`, err);
+      }
+    });
+  } else {
+    console.warn(`File does not exist: ${directoryPath}`);
+  }
 };
 
 export const FileInterceptorConfig = (subDirectory: string) =>

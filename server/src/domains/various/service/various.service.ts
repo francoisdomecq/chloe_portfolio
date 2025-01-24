@@ -43,6 +43,12 @@ export class VariousService {
   }
 
   async update(id: string, various: UpdateVariousDto): Promise<Various> {
+    if (various.newFileSrc && various.newFileSrc !== various.fileSrc) {
+      // TODO config delete
+      //deleteFile(various.fileSrc, 'various_files', id);
+      various.fileSrc = various.newFileSrc;
+      various.newFileSrc = undefined;
+    }
     const updatedVarious = await this.variousRepository.update(id, various);
     return updatedVarious.raw[0];
   }

@@ -3,7 +3,7 @@ import {useContext, useEffect, useMemo, useState} from "react";
 import {motion, Variants} from "framer-motion";
 
 
-import {AppContext} from "../../../../config/contexts/app-context";
+import {AppContext} from "@config/contexts/app-context";
 import Icon from "../icon/icon";
 
 import "./mouse-cursor.scss";

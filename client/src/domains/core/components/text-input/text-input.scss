@@ -1,0 +1,19 @@
+.text-input {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.text-input__label {
+  font-size: var(--font-size-body-m);
+  font-family: var(--text-font);
+  color: black;
+}
+
+.text-input__input {
+  font-size: var(--font-size-body-m);
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--light-grey);
+}

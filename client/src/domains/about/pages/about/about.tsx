@@ -1,8 +1,8 @@
 import {useTranslation} from "react-i18next";
 import {useNavigate} from "react-router-dom";
 
-import {PortfolioPage} from "../../../core";
-import NavigationHistory from "../../../core/components/navigation-history/navigation-history";
+import {PortfolioPage} from "@core/index";
+import NavigationHistory from "@core/components/navigation-history/navigation-history";
 import Experiences from "../../components/experiences/experiences";
 import Schools from "../../components/schools/schools";
 import Skills from "../../components/skills/skills";

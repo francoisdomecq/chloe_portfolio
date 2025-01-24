@@ -2,7 +2,6 @@ import {useTranslation} from "react-i18next";
 
 import {Project} from "../../../../types";
 
-
 import "./project-details-description.scss";
 
 interface ProjectDetailsDescriptionProps {

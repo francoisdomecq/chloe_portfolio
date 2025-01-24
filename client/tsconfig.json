@@ -23,10 +23,13 @@
     "baseUrl": ".",
     "paths": {
       "@core/*": [
-        "./src/domains/core/*"
+        "src/domains/core/*"
       ],
-      "@components/*": [
-        "./src/domains/components/*"
+      "@config/*": [
+        "src/config/*"
+      ],
+      "@domains/*": [
+        "src/domains/*"
       ]
     },
     "plugins": [

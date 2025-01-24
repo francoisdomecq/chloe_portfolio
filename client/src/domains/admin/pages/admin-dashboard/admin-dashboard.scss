@@ -8,11 +8,15 @@
 }
 
 .admin-dashboard__navigate {
-  background-color: black;
+  background-color: var(--light-grey);
   font-family: var(--text-font);
   font-size: var(--font-size-body-l);
-  padding: 8px;
-  border-radius: 16px;
-  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  color: black;
+
+  &:hover {
+    cursor: pointer
+  }
 
 }

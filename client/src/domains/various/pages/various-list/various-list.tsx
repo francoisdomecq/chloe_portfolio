@@ -1,19 +1,18 @@
-import {PortfolioPage} from "../../../core";
+import {PortfolioPage} from "@core/index";
 
 import {useTranslation} from "react-i18next";
-import NavigationHistory from "../../../core/components/navigation-history/navigation-history";
-import './various.scss'
-import {useContext, useEffect, useState} from "react";
-import VariousDrawer from "./components/various-drawer/various-drawer";
+import NavigationHistory from "@core/components/navigation-history/navigation-history";
+import './various-list.scss'
+import {useEffect, useState} from "react";
+import VariousDrawer from "@domains/various/components/various-drawer/various-drawer";
 import {Various as VariousType} from "../../types";
-import various from "../../../../config/various.json";
-import {AppContext} from "../../../../config/contexts/app-context";
+import various from "@config/various.json";
+import VariousImage from "@domains/various/components/various-image/various-image";
 
-const Various = () => {
+const VariousList = () => {
   const {t} = useTranslation("various")
-  const {hoverElement, unhoverElement} = useContext(AppContext);
   const [selectedExploration, setSelectedExploration] = useState<VariousType | undefined>(undefined);
-  const routerHistory = [{route: "/", label: "Home"}, {route: "/various", label: "Various"}];
+  const routerHistory = [{route: "/", label: "Home"}, {route: "/various", label: "VariousList"}];
 
   useEffect(() => {
     const handleArrowKeys = (e: KeyboardEvent) => {
@@ -51,14 +50,9 @@ const Various = () => {
           <p className="various__description-content">{t("description.content")}</p>
         </div>
         <div className="various__grid">
-          {various.map((exploration: VariousType, index) => (
-            <img
-              key={exploration.id}
-              className={`various__image ${selectedExploration && selectedExploration.id !== exploration.id ? "various__image--not-active" : ""}`}
-              onMouseEnter={() => hoverElement("carouselImage")}
-              onMouseLeave={unhoverElement} src={exploration.src}
-              onClick={() => setSelectedExploration(exploration)}
-            />
+          {various.map((various: VariousType, index) => (
+            <VariousImage various={various} onSelectVarious={setSelectedExploration}
+                          selectedVarious={selectedExploration}/>
           ))}
         </div>
       </div>
@@ -67,4 +61,4 @@ const Various = () => {
   )
 }
 
-export default Various
+export default VariousList

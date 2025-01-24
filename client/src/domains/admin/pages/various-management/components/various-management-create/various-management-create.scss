@@ -1,0 +1,45 @@
+.various-management-create {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background-color: var(--light-grey);
+  border-radius: 16px;
+  padding: 16px;
+  max-width: 50%;
+}
+
+.various-management-create__text-inputs {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 24px
+}
+
+.various-management-create__input {
+  max-width: 40%;
+
+  .text-input__input {
+    background-color: white;
+  }
+}
+
+.various-management-create__textarea {
+  max-width: 80%;
+
+}
+
+.various-management-create__input--title {
+  min-width: 240px;
+}
+
+.various-management-create__file-submit {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.various-management-create__submit {
+  font-family: var(--text-font);
+  font-size: var(--font-size-body-m);
+  max-width: 200px;
+}

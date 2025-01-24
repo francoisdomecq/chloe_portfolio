@@ -1,0 +1,16 @@
+.admin-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  gap: 8px;
+}
+
+.admin-login__login {
+  font-family: var(--text-font);
+  font-size: var(--font-size-body-l);
+  padding: 4px 16px;
+  border-radius: 8px;
+}

@@ -4,8 +4,8 @@ import {useNavigate} from "react-router-dom";
 
 import {motion} from "framer-motion";
 
-import PROJECTS from "../../../../../../config/works.json";
-import Icon from "../../../../../core/components/icon/icon";
+import PROJECTS from "@config/works.json";
+import Icon from "@core/components/icon/icon";
 
 import "./project-navigator.scss";
 

@@ -1,6 +1,6 @@
 import {ChangeEvent, HTMLProps} from "react";
 
-import './input-text.scss'
+import './text-input.scss'
 
 interface TextInputProps extends HTMLProps<HTMLInputElement> {
   name?: string;

@@ -1,0 +1,10 @@
+.various-management-list {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.various-management-list__various {
+  margin-top: 64px;
+  max-width: 80%;
+}

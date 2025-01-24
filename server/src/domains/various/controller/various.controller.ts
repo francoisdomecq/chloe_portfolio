@@ -26,7 +26,6 @@ export class VariousController {
   @Get('/')
   @Public()
   async findAll() {
-    console.log('fetch all');
     return await this.variousService.findAll();
   }
 
@@ -54,6 +53,7 @@ export class VariousController {
     @Param() { id }: FindOneParam,
     @Body() various: UpdateVariousDto,
   ) {
+    console.log(various);
     return await this.variousService.update(id, various);
   }
 
@@ -64,6 +64,7 @@ export class VariousController {
     @Param() { id }: FindOneParam,
     @UploadedFile() file: Express.Multer.File,
   ) {
-    return this.variousService.update(id, { fileSrc: file.filename });
+    console.log(file);
+    return this.variousService.update(id, { newFileSrc: file.filename });
   }
 }

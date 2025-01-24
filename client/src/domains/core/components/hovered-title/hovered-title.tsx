@@ -1,6 +1,6 @@
 import {useContext} from "react";
 
-import {AppContext} from "../../../../config/contexts/app-context";
+import {AppContext} from "@config/contexts/app-context";
 
 import "./hovered-title.scss";
 

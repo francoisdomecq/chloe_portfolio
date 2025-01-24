@@ -1,0 +1,17 @@
+.multiline-text-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.multiline-text-input__label {
+  font-size: var(--font-size-body-m);
+  font-family: var(--text-font);
+  color: black;
+}
+
+.multiline-text-input__area {
+  background-color: var(--light-grey);
+  border: none !important;
+  padding: 4px 8px;
+  border-radius: 8px;
+}

@@ -15,6 +15,9 @@ class UpdateVariousDto {
 
   @IsOptional()
   fileSrc?: string;
+
+  @IsOptional()
+  newFileSrc?: string;
 }
 
 export { UpdateVariousDto };

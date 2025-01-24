@@ -1,0 +1,14 @@
+.various-management {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100vw;
+  height: 100vh;
+  padding: 64px 120px
+}
+
+.various-management__title {
+  font-family: var(--title-font);
+  font-size: var(--font-size-h1);
+  margin-bottom: 16px;
+}

@@ -3,8 +3,8 @@ import {useNavigate} from "react-router-dom";
 
 import {motion} from "framer-motion";
 
-import {AppContext} from "../../../../config/contexts/app-context";
-import {Header} from "../../../core";
+import {AppContext} from "@config/contexts/app-context";
+import {Header} from "@core/index";
 
 
 import "./home.scss";

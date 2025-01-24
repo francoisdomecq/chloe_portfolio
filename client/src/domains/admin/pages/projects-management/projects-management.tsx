@@ -44,8 +44,6 @@ const ProjectsManagement = () => {
       const config = {headers: {'Content-Type': 'multipart/form-data'}};
 
       const carousel = new FormData();
-      carousel.append("file", project.carouselImage);
-      console.log("carousel", carousel)
       await axiosClient.patch(`/projects/${createdProject.data.id}/carousel`, carousel, config)
 
       const projectContentData = new FormData();
@@ -71,9 +69,6 @@ const ProjectsManagement = () => {
     const content: File[] = [...project?.content ?? [], ...Array.from(files)];
     setProject(prevVarious => ({...prevVarious as Project, content}));
   };
-
-  console.log(project?.content)
-
 
   return (
     <div>

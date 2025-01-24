@@ -2,7 +2,6 @@ import {motion} from "framer-motion";
 
 import {Footer, Header} from "../../index";
 
-
 import "./portfolio-page.scss";
 
 interface PortfolioPageProps {
