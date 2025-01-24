@@ -28,15 +28,15 @@ export const defineFileDestination = (req, _file, cb, subDirectory: string) => {
   cb(null, dirPath);
 };
 
-export const retrieveFile = (file: string, directory: string) => {
-  return `${process.env.BASE_URL}${process.env.PORT}/${directory}/${file}`;
+export const retrieveFile = (file: string, directory: string, id: string) => {
+  return `${process.env.BASE_URL}${process.env.PORT}/${directory}/${id}/${file}`;
 };
 
-export const deleteFile = (file: string, directory = '') => {
-  const filePath = path.resolve(process.cwd(), 'files', directory, file ?? '');
-  fs.unlink(filePath, (err) => {
+export const deleteFile = (file: string, directory = '', id: string) => {
+  const directoryPath = path.resolve(process.cwd(), 'files', directory, id);
+  fs.unlink(directoryPath, (err) => {
     if (err) {
-      console.error(`Failed to delete file: ${filePath}`, err);
+      console.error(`Failed to delete file: ${directoryPath}`, err);
     }
   });
 };

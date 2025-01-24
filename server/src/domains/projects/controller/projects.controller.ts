@@ -45,7 +45,7 @@ export class ProjectsController {
   }
 
   @Patch('/:id/content')
-  @UseInterceptors(FilesInterceptorConfig('projects'))
+  @UseInterceptors(FilesInterceptorConfig('projects_files'))
   @Roles(UserRoles.ADMIN)
   async addProjectContent(
     @Param() { id }: FindOneParam,
@@ -55,7 +55,7 @@ export class ProjectsController {
   }
 
   @Patch('/:id/carousel')
-  @UseInterceptors(FileInterceptorConfig('projects'))
+  @UseInterceptors(FileInterceptorConfig('projects_files'))
   @Roles(UserRoles.ADMIN)
   async addProjectCarousel(
     @Param() { id }: FindOneParam,

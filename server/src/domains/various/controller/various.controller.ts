@@ -58,7 +58,7 @@ export class VariousController {
   }
 
   @Patch('/:id/file')
-  @UseInterceptors(FileInterceptorConfig('various'))
+  @UseInterceptors(FileInterceptorConfig('various_files'))
   @Roles(UserRoles.ADMIN)
   async addFile(
     @Param() { id }: FindOneParam,

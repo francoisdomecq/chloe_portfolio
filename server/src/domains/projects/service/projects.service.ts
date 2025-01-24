@@ -4,6 +4,7 @@ import { Project } from '../models/project.entity';
 import { Repository } from 'typeorm';
 import { CreateProjectDto } from '../dto/create-project.dto';
 import { UpdateProjectDto } from '../dto/update-project.dto';
+import { retrieveFile } from '../../core/utils/file-upload.utils';
 
 @Injectable()
 export class ProjectsService {
@@ -12,12 +13,41 @@ export class ProjectsService {
     private readonly projectRepository: Repository<Project>,
   ) {}
 
-  getAllProjects() {
-    return this.projectRepository.find();
+  async getAllProjects() {
+    const allProjects = await this.projectRepository.find();
+    const projectsWithFiles: Project[] = allProjects.map((project) => {
+      const carouselFile = retrieveFile(
+        project.carouselImage,
+        'projects_files',
+        project.id,
+      );
+      const projectContent = project.content.map((file) =>
+        retrieveFile(file, 'projects_files', project.id),
+      );
+      return {
+        ...project,
+        carouselImage: carouselFile,
+        content: projectContent,
+      };
+    });
+    return projectsWithFiles;
   }
 
-  getProjectById(id: string) {
-    return this.projectRepository.findOneBy({ id });
+  async getProjectById(id: string): Promise<Project> {
+    const foundProject = await this.projectRepository.findOneBy({ id });
+    const carouselFile = retrieveFile(
+      foundProject.carouselImage,
+      'projects_files',
+      foundProject.id,
+    );
+    const projectContent = foundProject.content.map((file) =>
+      retrieveFile(file, 'projects_files', foundProject.id),
+    );
+    return {
+      ...foundProject,
+      carouselImage: carouselFile,
+      content: projectContent,
+    };
   }
 
   addProject(project: CreateProjectDto) {
