@@ -32,7 +32,7 @@ export const retrieveFile = (file: string, directory: string, id: string) => {
   return `${process.env.BASE_URL}${process.env.PORT}/${directory}/${id}/${file}`;
 };
 
-export const deleteFile = (file: string, directory = '', id: string) => {
+export const deleteFile = (directory: string, id: string, file: string) => {
   const directoryPath = path.resolve(
     process.cwd(),
     'files',
@@ -48,6 +48,17 @@ export const deleteFile = (file: string, directory = '', id: string) => {
     });
   } else {
     console.warn(`File does not exist: ${directoryPath}`);
+  }
+};
+
+export const deleteDirectory = (directory: string, id: string) => {
+  const directoryPath = path.resolve(process.cwd(), 'files', directory, id);
+  if (fs.existsSync(directoryPath)) {
+    fs.rmdir(directoryPath, { recursive: true }, (err) => {
+      if (err) {
+        console.error(`Failed to delete directory: ${directoryPath}`, err);
+      }
+    });
   }
 };
 

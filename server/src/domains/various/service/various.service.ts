@@ -4,7 +4,11 @@ import { Various } from '../models/various.entity';
 import { Repository } from 'typeorm';
 import { CreateVariousDto } from '../dto/create-various.dto';
 import { UpdateVariousDto } from '../dto/update-various.dto';
-import { deleteFile, retrieveFile } from '../../core/utils/file-upload.utils';
+import {
+  deleteDirectory,
+  deleteFile,
+  retrieveFile,
+} from '../../core/utils/file-upload.utils';
 
 @Injectable()
 export class VariousService {
@@ -36,16 +40,19 @@ export class VariousService {
   async delete(id: string): Promise<void> {
     const various = await this.variousRepository.findOneBy({ id });
     if (various) {
-      deleteFile(various.fileSrc, 'various_files', id);
+      deleteDirectory('various_files', id);
     }
-
     await this.variousRepository.delete(id);
   }
 
-  async update(id: string, various: UpdateVariousDto): Promise<Various> {
-    if (various.newFileSrc && various.newFileSrc !== various.fileSrc) {
-      // TODO config delete
-      //deleteFile(various.fileSrc, 'various_files', id);
+  async update(
+    id: string,
+    various: UpdateVariousDto,
+    updateFile = false,
+  ): Promise<Various> {
+    if (updateFile) {
+      const variousToUpdate = await this.variousRepository.findOneBy({ id });
+      deleteFile('various_files', id, variousToUpdate.fileSrc);
       various.fileSrc = various.newFileSrc;
       various.newFileSrc = undefined;
     }

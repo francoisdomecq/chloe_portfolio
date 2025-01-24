@@ -4,14 +4,18 @@ import InputText from "@core/components/text-input/text-input";
 import MultilineTextInput from "@core/components/multiline-text-input/multiline-text-input";
 import axiosClient from "@config/axios";
 import {useTranslation} from "react-i18next";
+import ConfirmModal from "@core/components/confirm-modal/confirm-modal";
 
 interface VariousEditingProps {
   editedVarious: Various
+  closeDrawer: () => void
 }
 
 const VariousEditing = (props: VariousEditingProps) => {
   const {t} = useTranslation("admin")
+
   const [editedVarious, setEditedVarious] = useState<UpdateVarious>(props.editedVarious)
+  const [isDeleting, setIsDeleting] = useState(false)
 
   const handleUpdateVarious = (event: ChangeEvent<HTMLInputElement>) => {
     const {name, value} = event.target;
@@ -32,7 +36,11 @@ const VariousEditing = (props: VariousEditingProps) => {
   const handlePatchVarious = async () => {
     if (editedVarious) {
       const fileNameWithoutServer = editedVarious && editedVarious.fileSrc?.split("/").pop();
-      await axiosClient.patch(`/various/${editedVarious.id}`, {...editedVarious, fileSrc: fileNameWithoutServer})
+      await axiosClient.patch(`/various/${editedVarious.id}`, {
+        ...editedVarious,
+        fileSrc: fileNameWithoutServer,
+        newFileSrc: undefined
+      }).then(props.closeDrawer)
 
       if (!editedVarious.newFileSrc) return;
 
@@ -43,6 +51,15 @@ const VariousEditing = (props: VariousEditingProps) => {
       axiosClient.patch(`/various/${editedVarious.id}/file`, formData, config).then(() => {
       })
     }
+  }
+
+  const handleCloseModal = () => {
+    setIsDeleting(false)
+    props.closeDrawer()
+  }
+
+  const handleDeleteVarious = async () => {
+    await axiosClient.delete(`/various/${editedVarious.id}`).then(handleCloseModal)
   }
 
   return (
@@ -62,6 +79,9 @@ const VariousEditing = (props: VariousEditingProps) => {
         <button className="various-management-create__submit"
                 onClick={handlePatchVarious}>{t("various.create.submit")}</button>
       </div>
+      <button onClick={() => setIsDeleting(true)}>Delete this various</button>
+      <ConfirmModal onConfirm={handleDeleteVarious} onCancel={handleCloseModal} text={"delete"} title={"oui"}
+                    isOpen={isDeleting}/>
     </div>
   )
 }

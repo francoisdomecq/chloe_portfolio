@@ -64,7 +64,6 @@ export class VariousController {
     @Param() { id }: FindOneParam,
     @UploadedFile() file: Express.Multer.File,
   ) {
-    console.log(file);
-    return this.variousService.update(id, { newFileSrc: file.filename });
+    return this.variousService.update(id, { newFileSrc: file.filename }, true);
   }
 }

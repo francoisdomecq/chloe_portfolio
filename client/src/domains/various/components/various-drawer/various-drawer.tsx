@@ -30,7 +30,7 @@ const VariousDrawer = ({various, onCloseProject}: ProjectDrawerProps) => {
   const renderVariousContent = () => {
     if (various) {
       if (isUserAdmin && isEditing) {
-        return <VariousEditing editedVarious={various}/>
+        return <VariousEditing editedVarious={various} closeDrawer={onCloseProject}/>
       }
       return <VariousInDrawer various={various}/>
     }
