@@ -26,6 +26,7 @@ export class VariousController {
   @Get('/')
   @Public()
   async findAll() {
+    console.log('fetch all');
     return await this.variousService.findAll();
   }
 

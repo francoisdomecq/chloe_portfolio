@@ -11,7 +11,11 @@ async function bootstrap() {
     prefix: '/',
   });
 
-  app.enableCors();
+  app.enableCors({
+    origin: 'http://localhost:5173', // Replace with your frontend domain
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+    credentials: true,
+  });
 
   app.useGlobalPipes(
     new ValidationPipe({

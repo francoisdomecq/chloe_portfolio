@@ -3,7 +3,7 @@ interface Various {
   title: string;
   description: string;
   date: string;
-  src: string;
+  fileSrc: string;
 }
 
 export type {Various}

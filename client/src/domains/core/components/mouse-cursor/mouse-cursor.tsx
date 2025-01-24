@@ -67,7 +67,7 @@ const MouseCursor = () => {
   }, [isHovering]);
 
   return (
-    <motion.div className={location.includes('management') ? "default-cursor" : "cursor"} variants={variants}
+    <motion.div className={location.includes('admin') ? "default-cursor" : "cursor"} variants={variants}
                 animate={cursorVariant}>
       {isHovering === "carouselImage" && <Icon name="arrow-right.svg#arrow-right" className="cursor__text"/>}
     </motion.div>

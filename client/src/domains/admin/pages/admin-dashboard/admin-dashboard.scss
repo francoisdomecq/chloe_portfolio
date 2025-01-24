@@ -1,0 +1,18 @@
+.admin-dashboard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  gap: 16px;
+}
+
+.admin-dashboard__navigate {
+  background-color: black;
+  font-family: var(--text-font);
+  font-size: var(--font-size-body-l);
+  padding: 8px;
+  border-radius: 16px;
+  color: white;
+
+}
