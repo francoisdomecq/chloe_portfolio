@@ -27,5 +27,23 @@ interface Project {
   content: ProjectContent[];
 }
 
-export type {Project, ProjectContent};
+interface CreateProject {
+  title: string;
+  description: ProjectDescription;
+  date: string;
+  carouselImage: File;
+  content: File[];
+}
+
+interface UpdateProject {
+  title?: string;
+  description?: ProjectDescription;
+  date?: string;
+  carouselImage?: File;
+  newCarouselImage?: File;
+  content?: File[];
+  newContent?: File[];
+}
+
+export type {Project, ProjectContent, CreateProject, UpdateProject};
 export {ProjectContentMediaType};

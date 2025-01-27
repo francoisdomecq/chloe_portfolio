@@ -1,0 +1,17 @@
+.projects-management-create {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background-color: var(--light-grey);
+  border-radius: 16px;
+  padding: 16px;
+  max-width: 50%;
+}
+
+.projects-management-create__input {
+  max-width: 40%;
+
+  .text-input__input {
+    background-color: white;
+  }
+}

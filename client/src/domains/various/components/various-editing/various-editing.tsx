@@ -48,8 +48,7 @@ const VariousEditing = (props: VariousEditingProps) => {
       const formData = new FormData();
       formData.append("file", editedVarious.newFileSrc);
 
-      axiosClient.patch(`/various/${editedVarious.id}/file`, formData, config).then(() => {
-      })
+      axiosClient.patch(`/various/${editedVarious.id}/file`, formData, config).then(props.closeDrawer)
     }
   }
 
