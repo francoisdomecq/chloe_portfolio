@@ -54,7 +54,7 @@ export const deleteFile = (directory: string, id: string, file: string) => {
 export const deleteDirectory = (directory: string, id: string) => {
   const directoryPath = path.resolve(process.cwd(), 'files', directory, id);
   if (fs.existsSync(directoryPath)) {
-    fs.rmdir(directoryPath, { recursive: true }, (err) => {
+    fs.rm(directoryPath, { recursive: true }, (err) => {
       if (err) {
         console.error(`Failed to delete directory: ${directoryPath}`, err);
       }

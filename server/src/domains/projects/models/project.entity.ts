@@ -1,7 +1,6 @@
 import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 
 interface ProjectDescription {
-  title: string;
   subtitle: string[];
   content: string[];
   skills: string[];

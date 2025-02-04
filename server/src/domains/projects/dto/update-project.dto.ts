@@ -9,10 +9,6 @@ import {
 import { Type } from 'class-transformer';
 
 class ProjectDescriptionDto {
-  @IsString()
-  @IsOptional()
-  title?: string;
-
   @IsArray()
   @IsOptional()
   subtitle?: string[];
@@ -50,12 +46,18 @@ class UpdateProjectDto {
   date?: string;
 
   @IsOptional()
-  @IsNotEmpty()
   carouselImage?: string;
+
+  @IsOptional()
+  newCarouselImage?: string;
 
   @IsOptional()
   @IsArray()
   content?: string[];
+
+  @IsOptional()
+  @IsArray()
+  newContent?: string[];
 }
 
 export { UpdateProjectDto };

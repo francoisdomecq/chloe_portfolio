@@ -38,10 +38,7 @@ export class VariousService {
   }
 
   async delete(id: string): Promise<void> {
-    const various = await this.variousRepository.findOneBy({ id });
-    if (various) {
-      deleteDirectory('various_files', id);
-    }
+    deleteDirectory('various_files', id);
     await this.variousRepository.delete(id);
   }
 
@@ -55,6 +52,8 @@ export class VariousService {
       deleteFile('various_files', id, variousToUpdate.fileSrc);
       various.fileSrc = various.newFileSrc;
       various.newFileSrc = undefined;
+    } else {
+      various.fileSrc = various.fileSrc.split('/').pop();
     }
     const updatedVarious = await this.variousRepository.update(id, various);
     return updatedVarious.raw[0];

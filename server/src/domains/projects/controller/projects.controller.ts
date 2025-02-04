@@ -61,9 +61,7 @@ export class ProjectsController {
     @Param() { id }: FindOneParam,
     @UploadedFile() file: Express.Multer.File,
   ) {
-    return this.projectsService.updateProject(id, {
-      carouselImage: file.filename,
-    });
+    return this.projectsService.updateProjectCarousel(id, file);
   }
 
   @Patch('/:id')

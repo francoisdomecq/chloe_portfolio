@@ -9,10 +9,6 @@ import {
 import { Type } from 'class-transformer';
 
 class ProjectDescriptionDto {
-  @IsString()
-  @IsNotEmpty()
-  title: string;
-
   @IsArray()
   @IsNotEmpty()
   subtitle: string[];

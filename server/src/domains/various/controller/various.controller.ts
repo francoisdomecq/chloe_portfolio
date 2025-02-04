@@ -53,7 +53,6 @@ export class VariousController {
     @Param() { id }: FindOneParam,
     @Body() various: UpdateVariousDto,
   ) {
-    console.log(various);
     return await this.variousService.update(id, various);
   }
 
