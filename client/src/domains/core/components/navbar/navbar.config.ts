@@ -5,10 +5,12 @@ const NAV_TABS = [
     key: "works",
     tagId: NavTabs.WORKS
   },
-  {
-    key: "various",
-    tagId: NavTabs.VARIOUS
-  },
+  /**
+   {
+   key: "various",
+   tagId: NavTabs.VARIOUS
+   },
+   */
   {
     key: "about",
     tagId: NavTabs.ABOUT
