@@ -13,6 +13,7 @@ import ProjectDetails from "./domains/projects/pages/project-details/project-det
 
 import "./App.scss";
 import {AdminDashboard, AdminLogin, ProjectsManagement, VariousManagement} from "@domains/admin";
+import ProjectsEdit from "@domains/admin/pages/projects-edit/projects-edit";
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
             <Route path="" element={<AdminDashboard/>}/>
             <Route path="various-management" element={<VariousManagement/>}/>
             <Route path="projects-management" element={<ProjectsManagement/>}/>
+            <Route path="projects-management/:id" element={<ProjectsEdit/>}/>
           </Route>
         </Routes>
         <MouseCursor/>

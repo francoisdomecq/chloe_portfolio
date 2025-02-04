@@ -10,7 +10,6 @@ interface ProjectContent {
 }
 
 export interface ProjectDescription {
-  title: string;
   subtitle: string[];
   content: string[];
   skills: string[];

@@ -14,7 +14,7 @@ const ProjectDetailsDescription = ({project}: ProjectDetailsDescriptionProps) =>
   return (
     <div className="project-details-description">
       <div className="project-details-description__titles">
-        <h1 className="project-details-description__title">{project.description.title}</h1>
+        <h1 className="project-details-description__title">{project.title}</h1>
         <div className="project-details-description__subtitle">
           {project.description.subtitle.map(subtitle =>
             <h2 key={subtitle} className="project-details-description__subtitle-text">{subtitle}</h2>)}

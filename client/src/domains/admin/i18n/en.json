@@ -14,5 +14,17 @@
       "date": "Date",
       "submit": " Submit various"
     }
+  },
+  "projects": {
+    "creation": "Add a project",
+    "create": {
+      "title": "Title",
+      "description": "Description",
+      "date": "Date",
+      "subtitle": "Subtitle",
+      "content": "Content",
+      "skills": "Skills",
+      "submit": " Submit project"
+    }
   }
 }

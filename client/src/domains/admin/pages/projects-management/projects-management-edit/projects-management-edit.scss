@@ -5,7 +5,12 @@
   background-color: var(--light-grey);
   border-radius: 16px;
   padding: 16px;
-  max-width: 50%;
+}
+
+.projects-management-create__inputs {
+  display: flex;
+  gap: 16px;
+  width: 100%;
 }
 
 .projects-management-create__input {

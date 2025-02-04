@@ -35,10 +35,8 @@ const VariousEditing = (props: VariousEditingProps) => {
 
   const handlePatchVarious = async () => {
     if (editedVarious) {
-      const fileNameWithoutServer = editedVarious && editedVarious.fileSrc?.split("/").pop();
       await axiosClient.patch(`/various/${editedVarious.id}`, {
         ...editedVarious,
-        fileSrc: fileNameWithoutServer,
         newFileSrc: undefined
       }).then(props.closeDrawer)
 

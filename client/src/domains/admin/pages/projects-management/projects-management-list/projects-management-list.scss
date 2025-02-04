@@ -1,0 +1,19 @@
+.projects-management-list {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh
+}
+
+.projects-management-list__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.projects-management-list__image {
+  width: 50%;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
