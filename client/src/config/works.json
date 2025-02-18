@@ -725,39 +725,24 @@
         "source": "/projects/KAOLYN/KAOLYN_5.jpg"
       },
       {
-        "id": "7",
-        "type": "IMAGE",
-        "source": "/projects/KAOLYN/KAOLYN_8.jpg"
+        "id": "6",
+        "type": "VIDEO",
+        "source": "/projects/KAOLYN/KAOLYN_6.mp4"
       },
       {
-        "id": "8",
+        "id": "7",
         "type": "IMAGE",
         "source": "/projects/KAOLYN/KAOLYN_7.jpg"
       },
       {
-        "id": "9",
+        "id": "8",
         "type": "IMAGE",
         "source": "/projects/KAOLYN/KAOLYN_9.jpg"
       },
       {
-        "id": "10",
+        "id": "9",
         "type": "VIDEO",
         "source": "/projects/KAOLYN/KAOLYN_10.mp4"
-      },
-      {
-        "id": "11",
-        "type": "IMAGE",
-        "source": "/projects/KAOLYN/KAOLYN_11.jpg"
-      },
-      {
-        "id": "12",
-        "type": "IMAGE",
-        "source": "/projects/KAOLYN/KAOLYN_12.jpg"
-      },
-      {
-        "id": "13",
-        "type": "VIDEO",
-        "source": "/projects/KAOLYN/KAOLYN_13.mp4"
       }
     ]
   }

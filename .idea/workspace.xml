@@ -4,24 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28fdb4fd-86ad-43a7-a703-a905b553dc09" name="Changes" comment="feat: remove various temporary">
-      <change afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_10.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_13.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL/KAOLYN.jpg" afterDir="false" />
+    <list default="true" id="28fdb4fd-86ad-43a7-a703-a905b553dc09" name="Changes" comment="feat: add kaolyn project">
+      <change afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_6.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_10.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_10.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_13.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/config/works.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/config/works.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/projects/pages/project-details/project-details.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/projects/pages/project-details/project-details.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/projects/pages/project-details/project-details.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/projects/pages/project-details/project-details.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,15 +183,7 @@
       <workItem from="1737111843634" duration="296000" />
       <workItem from="1737117366649" duration="454000" />
       <workItem from="1738743565081" duration="597000" />
-      <workItem from="1739871888264" duration="4417000" />
-    </task>
-    <task id="LOCAL-00013" summary="run build">
-      <option name="closed" value="true" />
-      <created>1728642023058</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1728642023058</updated>
+      <workItem from="1739871888264" duration="7800000" />
     </task>
     <task id="LOCAL-00014" summary="fix home page">
       <option name="closed" value="true" />
@@ -582,7 +569,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738686057644</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="feat: add kaolyn project">
+      <option name="closed" value="true" />
+      <created>1739884618512</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1739884618513</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -612,7 +607,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add subtitles to project details" />
     <MESSAGE value="add animation on home page" />
     <MESSAGE value="fix typo mobile" />
     <MESSAGE value="fix cursor" />
@@ -637,7 +631,8 @@
     <MESSAGE value="update adidas project title" />
     <MESSAGE value="feat: set up server with projects controller/service" />
     <MESSAGE value="feat: remove various temporary" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: remove various temporary" />
+    <MESSAGE value="feat: add kaolyn project" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add kaolyn project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
