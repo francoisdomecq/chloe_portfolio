@@ -674,5 +674,91 @@
         "source": "/projects/ADIDAS/ADIDAS_8.jpg"
       }
     ]
+  },
+  {
+    "id": "10",
+    "title": "Kaolyn",
+    "description": {
+      "title": "Kaolyn",
+      "subtitle": [
+        "Visual identity",
+        "AI"
+      ],
+      "content": [
+        "KAOLYN is a studio that merges the craft of ceramics with a warm coffee shop experience. The visual identity is built on raw, geometric shapes inspired by the silhouettes of ceramic pieces, evoking manual craftsmanship and authenticity.",
+        "The bold typographic logo is uniquely designed: the counterforms of the letters subtly represent vases and ceramic objects, directly integrating the essence of the craft into the brand’s identity. This approach creates a visual dialogue between traditional craftsmanship and a contemporary aesthetic.\nThe vases used in the identity and graphic elements were generated using artificial intelligence software, bringing an innovative dimension to the project. These organic, sculptural forms, created by AI, reflect creative exploration and push the boundaries of ceramic design.",
+        "Each visual element contributes to conveying the spirit of KAOLYN: a place where people come to enjoy a good coffee as much as to discover unique, handcrafted objects."
+      ],
+      "skills": [
+        "Lettring",
+        "AI",
+        "Visual identity"
+      ],
+      "fonts": "Recia Variable, a variable font designed by Indian Type Foundry "
+    },
+    "date": "2025",
+    "carouselImage": "/projects/VIGNETAGE_CARROUSEL/KAOLYN.jpg",
+    "content": [
+      {
+        "id": "1",
+        "type": "IMAGE",
+        "source": "/projects/KAOLYN/KAOLYN_1.jpg"
+      },
+      {
+        "id": "2",
+        "type": "IMAGE",
+        "source": "/projects/KAOLYN/KAOLYN_2.jpg"
+      },
+      {
+        "id": "3",
+        "type": "IMAGE",
+        "source": "/projects/KAOLYN/KAOLYN_3.jpg"
+      },
+      {
+        "id": "4",
+        "type": "IMAGE",
+        "source": "/projects/KAOLYN/KAOLYN_4.jpg"
+      },
+      {
+        "id": "5",
+        "type": "IMAGE",
+        "source": "/projects/KAOLYN/KAOLYN_5.jpg"
+      },
+      {
+        "id": "7",
+        "type": "IMAGE",
+        "source": "/projects/KAOLYN/KAOLYN_8.jpg"
+      },
+      {
+        "id": "8",
+        "type": "IMAGE",
+        "source": "/projects/KAOLYN/KAOLYN_7.jpg"
+      },
+      {
+        "id": "9",
+        "type": "IMAGE",
+        "source": "/projects/KAOLYN/KAOLYN_9.jpg"
+      },
+      {
+        "id": "10",
+        "type": "VIDEO",
+        "source": "/projects/KAOLYN/KAOLYN_10.mp4"
+      },
+      {
+        "id": "11",
+        "type": "IMAGE",
+        "source": "/projects/KAOLYN/KAOLYN_11.jpg"
+      },
+      {
+        "id": "12",
+        "type": "IMAGE",
+        "source": "/projects/KAOLYN/KAOLYN_12.jpg"
+      },
+      {
+        "id": "13",
+        "type": "VIDEO",
+        "source": "/projects/KAOLYN/KAOLYN_13.mp4"
+      }
+    ]
   }
 ]

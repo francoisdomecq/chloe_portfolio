@@ -4,20 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28fdb4fd-86ad-43a7-a703-a905b553dc09" name="Changes" comment="feat: set up server with projects controller/service">
+    <list default="true" id="28fdb4fd-86ad-43a7-a703-a905b553dc09" name="Changes" comment="feat: remove various temporary">
+      <change afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_10.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_13.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL/KAOLYN.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/navbar/navbar.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/navbar/navbar.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/config/works.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/config/works.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/projects/pages/project-details/project-details.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/projects/pages/project-details/project-details.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/projects/pages/project-details/project-details.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/projects/pages/project-details/project-details.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="ChangesViewManager">
-    <option name="groupingKeys">
-      <option value="directory" />
-    </option>
   </component>
   <component name="FormatOnSaveOptions">
     <option name="myRunOnSave" value="true" />
@@ -68,7 +77,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio",
+    "last_opened_file_path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/public/projects/KAOLYN",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.stylelint": "true",
@@ -87,11 +96,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/public/projects/KAOLYN" />
+      <recent name="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL" />
       <recent name="$PROJECT_DIR$/client/src" />
       <recent name="$PROJECT_DIR$/public/projects/ADIDAS" />
       <recent name="$PROJECT_DIR$/public/projects/VIGNETAGE_CARROUSEL" />
-      <recent name="$PROJECT_DIR$/public/projects" />
-      <recent name="$PROJECT_DIR$/public/projects/XTRM" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/server/src/domains/projects/controller" />
@@ -178,14 +187,8 @@
       <workItem from="1737104003574" duration="5451000" />
       <workItem from="1737111843634" duration="296000" />
       <workItem from="1737117366649" duration="454000" />
-    </task>
-    <task id="LOCAL-00012" summary="improve design">
-      <option name="closed" value="true" />
-      <created>1728640396212</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1728640396212</updated>
+      <workItem from="1738743565081" duration="597000" />
+      <workItem from="1739871888264" duration="4417000" />
     </task>
     <task id="LOCAL-00013" summary="run build">
       <option name="closed" value="true" />
@@ -571,7 +574,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737110641505</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="feat: remove various temporary">
+      <option name="closed" value="true" />
+      <created>1738686057644</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1738686057644</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -601,7 +612,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add projects details, and animation on first screen" />
     <MESSAGE value="add subtitles to project details" />
     <MESSAGE value="add animation on home page" />
     <MESSAGE value="fix typo mobile" />
@@ -626,7 +636,8 @@
     <MESSAGE value="run lint and prettier" />
     <MESSAGE value="update adidas project title" />
     <MESSAGE value="feat: set up server with projects controller/service" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: set up server with projects controller/service" />
+    <MESSAGE value="feat: remove various temporary" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: remove various temporary" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

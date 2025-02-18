@@ -60,4 +60,9 @@
   .project__navigation {
     padding: 16px 5.5% 16px;
   }
+
+  .project__navigation--flex-end {
+    justify-content: flex-end;
+  }
+
 }

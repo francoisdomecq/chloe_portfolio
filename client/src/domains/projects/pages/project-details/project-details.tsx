@@ -30,6 +30,7 @@ const ProjectDetails = () => {
     label: foundProject?.title || ""
   }];
 
+  const projectNavigationModifier = parsedProjectId === 1 ? "project__navigation--flex-end" : ""
   return foundProject && (
     <PortfolioPage className="project-details">
       <NavigationHistory history={routerHistory} className="project-details__navigation-history"/>
@@ -38,7 +39,7 @@ const ProjectDetails = () => {
         {foundProject.content.map(renderProjectContent)}
       </div>
       <div className="project__navigation-separator"></div>
-      <div className="project__navigation">
+      <div className={`project__navigation ${projectNavigationModifier}`}>
         <ProjectNavigator projectId={parsedProjectId} navigateTo="previous"/>
         <ProjectNavigator projectId={parsedProjectId} navigateTo="next"/>
       </div>
