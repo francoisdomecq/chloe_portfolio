@@ -1,4 +1,4 @@
-import {useMemo} from "react";
+import {useContext, useMemo} from "react";
 import {useTranslation} from "react-i18next";
 import {useNavigate} from "react-router-dom";
 
@@ -10,6 +10,7 @@ import Icon from "../../../../../core/components/icon/icon";
 import "./project-navigator.scss";
 
 import {Project} from "../../../../types";
+import {AppContext} from "../../../../../../config/contexts/app-context";
 
 interface ProjectNavigatorProps {
   projectId: number
@@ -19,6 +20,7 @@ interface ProjectNavigatorProps {
 const ProjectNavigator = ({projectId, navigateTo}: ProjectNavigatorProps) => {
   const navigate = useNavigate();
   const {t} = useTranslation("works");
+  const {theme} = useContext(AppContext);
 
   const projectIdToNavigate = navigateTo === "previous" ? projectId - 1 : projectId + 1;
   const foundProject: Project | undefined = PROJECTS.find(projectToFind => parseInt(projectToFind.id) === projectIdToNavigate);
@@ -36,14 +38,14 @@ const ProjectNavigator = ({projectId, navigateTo}: ProjectNavigatorProps) => {
 
 
   return displayProjectNavigator && (
-    <div className="project__navigator">
+    <div className={`project-navigator project-navigator__${theme}`}>
       <motion.div whileHover={{scale: 1.1}}
-                  className={"project__navigation-item"}
+                  className={`project-navigation-item project-navigation-item__${theme}`}
                   onClick={handleNavigateToProject}>
         {navigateTo === "previous" &&
-            <Icon className="project__navigation-icon previous" name="/arrow-right.svg#arrow-right"/>}
+            <Icon className="project-navigation-icon previous" name="/arrow-right.svg#arrow-right"/>}
         {t(`project-navigator.${navigateTo}`)}
-        {navigateTo === "next" && <Icon className="project__navigation-icon" name="/arrow-right.svg#arrow-right"/>}
+        {navigateTo === "next" && <Icon className="project-navigation-icon" name="/arrow-right.svg#arrow-right"/>}
       </motion.div>
 
     </div>

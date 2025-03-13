@@ -25,6 +25,7 @@ interface Project {
   date: string;
   carouselImage: string;
   content: ProjectContent[];
+  theme?: string;
 }
 
 export type {Project, ProjectContent};

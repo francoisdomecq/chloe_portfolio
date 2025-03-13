@@ -1,4 +1,4 @@
-import {useEffect} from "react";
+import {useContext, useEffect} from "react";
 import {useTranslation} from "react-i18next";
 import {useLocation, useNavigate} from "react-router-dom";
 
@@ -8,6 +8,7 @@ import Navbar from "../navbar/navbar";
 
 
 import "./header.scss";
+import {AppContext} from "../../../../config/contexts/app-context";
 
 interface HeaderProps {
   className?: string
@@ -17,6 +18,7 @@ const Header = ({className}: HeaderProps) => {
   const navigate = useNavigate();
   const {t} = useTranslation("core");
   const location = useLocation()
+  const {theme} = useContext(AppContext)
 
   const handleClickHeaderTitle = () => {
     navigate("/");
@@ -56,7 +58,7 @@ const Header = ({className}: HeaderProps) => {
   }, [location]);
 
   return (
-    <motion.header className={`header ${className}`} id="header">
+    <motion.header className={`header ${className} header__${theme}`} id="header">
       <div onClick={handleClickHeaderTitle}>
         <h1 className="header__title">{t("header.name")}</h1>
       </div>

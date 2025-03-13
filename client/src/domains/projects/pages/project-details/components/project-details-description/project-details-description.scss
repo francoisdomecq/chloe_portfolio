@@ -6,6 +6,16 @@
   padding: 24px 3.5%;
 }
 
+.project-details-description__dark {
+  background-color: black;
+  color: white;
+}
+
+.project-details-description__light {
+  background-color: white;
+  color: black;
+}
+
 .project-details-description__titles {
   display: flex;
   flex-direction: row;
@@ -19,7 +29,6 @@
   font-family: var(--title-font);
   font-size: var(--font-size-h1);
   font-weight: 400;
-  color: white;
 }
 
 .project-details-description__subtitle::before {
@@ -63,7 +72,6 @@
   font-family: var(--text-font);
   font-size: var(--font-size-body-m);
   padding-bottom: 24px;
-  color: white;
 }
 
 .project-details-description__info {
@@ -85,7 +93,6 @@
   font-size: var(--font-size-body-m);
   max-width: 65%;
   text-align: end;
-  color: white;
 }
 
 @media screen and (min-width: $mobile-bp) {

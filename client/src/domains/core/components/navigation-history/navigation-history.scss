@@ -14,10 +14,6 @@
   font-size: var(--font-size-h2);
   gap: 2px;
   margin-right: 2px;
-
-  :hover {
-    color: white;
-  }
 }
 
 .navigation-history__item:hover ~ .navigation-history__item:last-child {
@@ -26,6 +22,30 @@
 
 .navigation-history__item:last-child {
   font-family: var(--text-font);
-  color: white;
   font-size: var(--font-size-h2);
 }
+
+.navigation-history__light {
+  .navigation-history__item:last-child {
+    color: black;
+  }
+
+  .navigation-history__item {
+    &:hover {
+      color: black;
+    }
+  }
+}
+
+.navigation-history__dark {
+  .navigation-history__item:last-child {
+    color: white;
+  }
+
+  .navigation-history__item {
+    &:hover {
+      color: white;
+    }
+  }
+}
+

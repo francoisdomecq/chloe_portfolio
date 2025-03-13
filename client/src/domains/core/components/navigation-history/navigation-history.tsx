@@ -1,6 +1,8 @@
 import {useNavigate} from "react-router-dom";
 
 import "./navigation-history.scss";
+import {useContext} from "react";
+import {AppContext} from "../../../../config/contexts/app-context";
 
 interface NavigationHistoryProps {
   history: {route: string, label: string}[];
@@ -12,6 +14,7 @@ const NavigationHistory = ({history, className}: NavigationHistoryProps) => {
   const navigateTo = (route: string) => {
     navigate(route);
   };
+  const {theme} = useContext(AppContext)
 
   const renderRoute = (route: {route: string, label: string}, index: number) => {
     const isActive = index === history.length - 1;
@@ -25,7 +28,7 @@ const NavigationHistory = ({history, className}: NavigationHistoryProps) => {
   };
 
   return (
-    <div className={`navigation-history ${className}`}>
+    <div className={`navigation-history ${className} navigation-history__${theme}`}>
       <ul className="navigation-history__list">
         {history.map(renderRoute)}
       </ul>

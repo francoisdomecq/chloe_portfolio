@@ -4,6 +4,8 @@ import {Project} from "../../../../types";
 
 
 import "./project-details-description.scss";
+import {useContext} from "react";
+import {AppContext} from "../../../../../../config/contexts/app-context";
 
 interface ProjectDetailsDescriptionProps {
   project: Project
@@ -11,9 +13,10 @@ interface ProjectDetailsDescriptionProps {
 
 const ProjectDetailsDescription = ({project}: ProjectDetailsDescriptionProps) => {
   const {t} = useTranslation("works");
+  const {theme} = useContext(AppContext)
 
   return (
-    <div className="project-details-description">
+    <div className={`project-details-description project-details-description__${theme}`}>
       <div className="project-details-description__titles">
         <h1 className="project-details-description__title">{project.description.title}</h1>
         <div className="project-details-description__subtitle">

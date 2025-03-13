@@ -4,19 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28fdb4fd-86ad-43a7-a703-a905b553dc09" name="Changes" comment="feat: add kaolyn project">
-      <change afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_6.mp4" afterDir="false" />
+    <list default="true" id="28fdb4fd-86ad-43a7-a703-a905b553dc09" name="Changes" comment="feat: update kaolyn project">
+      <change afterPath="$PROJECT_DIR$/client/public/CURSOR-97-dark.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_10.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_10.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_13.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/config/contexts/app-context.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/config/contexts/app-context.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/config/works.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/config/works.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/header/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/header/header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/mouse-cursor/mouse-cursor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/mouse-cursor/mouse-cursor.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/navbar/navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/navbar/navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/navbar/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/navbar/navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/navigation-history/navigation-history.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/navigation-history/navigation-history.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/navigation-history/navigation-history.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/navigation-history/navigation-history.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/theme/colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/theme/colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/projects/pages/project-details/components/project-details-description/project-details-description.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/projects/pages/project-details/components/project-details-description/project-details-description.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/projects/pages/project-details/components/project-details-description/project-details-description.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/projects/pages/project-details/components/project-details-description/project-details-description.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/projects/pages/project-details/components/project-navigator/project-navigator.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/projects/pages/project-details/components/project-navigator/project-navigator.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/projects/pages/project-details/components/project-navigator/project-navigator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/projects/pages/project-details/components/project-navigator/project-navigator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/projects/pages/project-details/project-details.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/projects/pages/project-details/project-details.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/projects/pages/project-details/project-details.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/projects/pages/project-details/project-details.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/projects/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/projects/types/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +79,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/public/projects/KAOLYN",
+    "last_opened_file_path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/public",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.stylelint": "true",
@@ -91,11 +98,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/public" />
       <recent name="$PROJECT_DIR$/client/public/projects/KAOLYN" />
       <recent name="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL" />
       <recent name="$PROJECT_DIR$/client/src" />
       <recent name="$PROJECT_DIR$/public/projects/ADIDAS" />
-      <recent name="$PROJECT_DIR$/public/projects/VIGNETAGE_CARROUSEL" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/server/src/domains/projects/controller" />
@@ -183,15 +190,10 @@
       <workItem from="1737111843634" duration="296000" />
       <workItem from="1737117366649" duration="454000" />
       <workItem from="1738743565081" duration="597000" />
-      <workItem from="1739871888264" duration="7800000" />
-    </task>
-    <task id="LOCAL-00014" summary="fix home page">
-      <option name="closed" value="true" />
-      <created>1728645038435</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1728645038435</updated>
+      <workItem from="1739871888264" duration="8520000" />
+      <workItem from="1741595214399" duration="716000" />
+      <workItem from="1741700133936" duration="958000" />
+      <workItem from="1741855706838" duration="2370000" />
     </task>
     <task id="LOCAL-00015" summary="fix background color">
       <option name="closed" value="true" />
@@ -577,7 +579,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739884618513</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="feat: update kaolyn project">
+      <option name="closed" value="true" />
+      <created>1739889430168</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1739889430168</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -607,7 +617,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add animation on home page" />
     <MESSAGE value="fix typo mobile" />
     <MESSAGE value="fix cursor" />
     <MESSAGE value="remove cursor on mobile" />
@@ -632,7 +641,8 @@
     <MESSAGE value="feat: set up server with projects controller/service" />
     <MESSAGE value="feat: remove various temporary" />
     <MESSAGE value="feat: add kaolyn project" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add kaolyn project" />
+    <MESSAGE value="feat: update kaolyn project" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: update kaolyn project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

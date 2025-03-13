@@ -11,6 +11,7 @@ import "./mouse-cursor.scss";
 const MouseCursor = () => {
   const {isHovering} = useContext(AppContext);
   const [mousePosition, setMousePosition] = useState({x: 0, y: 0});
+  const {theme} = useContext(AppContext)
 
   useEffect(() => {
     const mouseMove = (e: MouseEvent) => {
@@ -25,11 +26,13 @@ const MouseCursor = () => {
 
   }, []);
 
+  const backgroundImage = theme === "light" ? "url('/CURSOR-97-dark.svg')" : "url('/CURSOR-97.svg')";
+
   const variants: Variants | undefined = {
     default: {
       x: mousePosition.x - 30,
       y: mousePosition.y - 30,
-      backgroundImage: "url('/CURSOR-97.svg')",
+      backgroundImage: backgroundImage,
       backgroundRepeat: "no-repeat",
       height: 60,
       width: 60
@@ -39,7 +42,7 @@ const MouseCursor = () => {
       y: mousePosition.y - 30,
       height: 60,
       width: 60,
-      backgroundImage: "url('/CURSOR-97.svg')",
+      backgroundImage: backgroundImage,
       backgroundRepeat: "no-repeat"
     },
     carouselImage: {

@@ -1,31 +1,49 @@
-.project__navigator{
+.project-navigator {
   display: flex;
   flex-direction: column;
   position: relative;
 }
 
-.project__navigation-item{
+.project-navigator__light {
+  background-color: white;
+  color: black
+}
+
+.project-navigator__dark {
+  background-color: black;
+  color: white;
+}
+
+.project-navigation-item {
   display: flex;
   align-items: center;
   font-family: var(--text-font);
   font-size: var(--font-size-body-l);
   text-decoration: none;
-  color:white;
-  &:hover{
-    color: white;
+}
+
+.project-navigation-item__light {
+  &:hover {
+    color: black
   }
 }
 
-.project__navigation-icon{
- --icon-size: 32px;
+.project-navigation-item__dark {
+  &:hover {
+    color: white
+  }
+}
+
+.project-navigation-icon {
+  --icon-size: 32px;
   fill: white;
 }
 
 
-.project-overlay__next{
-  left:-50px
+.project-overlay__next {
+  left: -50px
 }
 
-.previous{
+.previous {
   transform: rotate(180deg);
 }
