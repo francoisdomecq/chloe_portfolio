@@ -829,6 +829,11 @@
         "source": "/projects/PAYFIT/PAYFIT_11.jpg"
       },
       {
+        "id": "12A",
+        "type": "IMAGE",
+        "source": "/projects/PAYFIT/PAYFIT_12_A.jpg"
+      },
+      {
         "id": "12",
         "type": "VIDEO",
         "source": "/projects/PAYFIT/PAYFIT_12.mp4"
@@ -879,6 +884,11 @@
         "source": "/projects/PAYFIT/PAYFIT_21.jpg"
       },
       {
+        "id": "22A",
+        "type": "IMAGE",
+        "source": "/projects/PAYFIT/PAYFIT_22_A.jpg"
+      },
+      {
         "id": "22",
         "type": "VIDEO",
         "source": "/projects/PAYFIT/PAYFIT_22.mp4"
@@ -887,6 +897,11 @@
         "id": "23",
         "type": "VIDEO",
         "source": "/projects/PAYFIT/PAYFIT_23.mp4"
+      },
+      {
+        "id": "23A",
+        "type": "IMAGE",
+        "source": "/projects/PAYFIT/PAYFIT_23_A.jpg"
       },
       {
         "id": "24",
