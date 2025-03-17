@@ -9,6 +9,32 @@
   width: fit-content;
 }
 
+.about__light {
+  color: black;
+
+  .about__contact-button {
+    border: 1px solid black;
+
+    &:hover {
+      background-color: black;
+      color: white;
+    }
+  }
+}
+
+.about__dark {
+  color: white;
+
+  .about__contact-button {
+    border: 1px solid white;
+
+    &:hover {
+      background-color: white;
+      color: black;
+    }
+  }
+}
+
 .about__navigation-history {
   width: fit-content;
 }
@@ -30,7 +56,6 @@
 .about__introduction {
   display: flex;
   font-size: var(--font-size-body-l);
-  color: white;
 }
 
 .about__contact-button {
@@ -38,14 +63,7 @@
   width: fit-content;
   font-family: var(--text-font);
   font-size: var(--font-size-body-l);
-  color: white;
   border-radius: 16px;
-  border: 1px solid white;
-
-  &:hover {
-    background-color: white;
-    color: black;
-  }
 }
 
 @media screen and (min-width: $tablet-bp) {

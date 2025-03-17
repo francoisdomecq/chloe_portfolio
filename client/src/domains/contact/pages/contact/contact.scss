@@ -1,21 +1,36 @@
 @import 'src/domains/core/theme/breakpoints.scss';
 
-.contact__content {
+.contact-content {
   display: flex;
   flex-direction: column;
   align-self: center;
   height: 100%;
 }
 
-.contact__title {
+.contact-content__light {
+  color: black;
+
+  .contact-link {
+    color: black;
+  }
+}
+
+.contact-content__dark {
+  color: white;
+
+  .contact-link {
+    color: white;
+  }
+}
+
+.contact-title {
   font-family: var(--text-font);
   font-size: 4rem;
-  color: white;
   margin-bottom: 24px;
   font-weight: 400;
 }
 
-.contact__contact {
+.contact-contact {
   font-size: var(--font-size-body-l);
   color: var(--grey-deep);
   font-family: var(--text-font);
@@ -23,14 +38,13 @@
   font-weight: 400;
 }
 
-.contact__collaboration-message {
-  color: white;
+.contact-collaboration-message {
   font-size: var(--font-size-body-l);
   margin-bottom: 32px;
   line-height: 1.1em;
 }
 
-.contact__contact-section {
+.contact-contact-section {
   display: flex;
   justify-content: space-between;
   max-width: 400px;
@@ -40,38 +54,32 @@
   margin-bottom: 8px;
 }
 
-.contact__label {
+.contact-label {
   color: var(--grey-deep);
 }
 
-.contact__links {
+.contact-links {
   display: flex;
   gap: 4px;
 }
 
-.contact__link {
+.contact-link {
   text-decoration: none;
-  color: white;
   font-weight: 400;
-
-  &:hover {
-    color: white;
-  }
-
 }
 
-.contact__navigation-history {
+.contact-navigation-history {
   margin-bottom: 32px;
   padding-top: 24px;
 }
 
 @media screen and (min-width: $tablet-bp) {
-  .contact__content {
+  .contact-content {
     margin: 64px 64px;
     max-width: 500px;
   }
 
-  .contact__navigation-history {
+  .contact-navigation-history {
     padding-top: 0;
   }
 }

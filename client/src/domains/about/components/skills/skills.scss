@@ -7,22 +7,21 @@
   width: fit-content;
 }
 
-.skill__title {
+.skill-title {
   font-size: var(--font-size-h1);
   font-family: var(--text-font);
   color: var(--grey-deep);
   font-weight: 400;
 }
 
-.skills__list {
+.skills-list {
   display: grid;
   column-gap: 32px;
   grid-template: repeat(2, 1fr) / repeat(2, 1fr);
   margin-top: 8px;
 }
 
-.skills__list-item {
+.skills-list-item {
   width: fit-content;
   font-size: var(--font-size-body-l);
-  color: white;
 }

@@ -27,6 +27,7 @@ const MouseCursor = () => {
   }, []);
 
   const backgroundImage = theme === "light" ? "url('/CURSOR-97-dark.svg')" : "url('/CURSOR-97.svg')";
+  const hoverImageCursorColor = theme === "light" ? "black" : "white";
 
   const variants: Variants | undefined = {
     default: {
@@ -53,7 +54,7 @@ const MouseCursor = () => {
       width: 64,
       borderRadius: 64,
       padding: "8px",
-      backgroundColor: "white",
+      backgroundColor: hoverImageCursorColor,
       backgroundImage: "none"
 
     }
@@ -68,9 +69,11 @@ const MouseCursor = () => {
     return "default";
   }, [isHovering]);
 
+  const hoverImageIcon = theme === "dark" ? "arrow-right.svg#arrow-right" : "arrow-right-white.svg#arrow-right-white";
+
   return (
     <motion.div className="cursor" variants={variants} animate={cursorVariant}>
-      {isHovering === "carouselImage" && <Icon name="arrow-right.svg#arrow-right" className="cursor__text"/>}
+      {isHovering === "carouselImage" && <Icon name={hoverImageIcon} className="cursor__text"/>}
     </motion.div>
   );
 };

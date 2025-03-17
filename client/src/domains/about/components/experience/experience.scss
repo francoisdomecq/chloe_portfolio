@@ -17,14 +17,18 @@
   font-size: var(--font-size-body-l);
   font-family: var(--text-font);
   font-weight: 400;
-  color: white;
 }
 
 .company__mobile {
   color: var(--grey-deep-2) !important;
 }
 
-.experience__separator {
+.experience__separator__dark {
   border: 1px solid white;
   -moz-border-bottom-colors: white;
+}
+
+.experience__separator__light {
+  border: 1px solid black;
+  -moz-border-bottom-colors: black;
 }

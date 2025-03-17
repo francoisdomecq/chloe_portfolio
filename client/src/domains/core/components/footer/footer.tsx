@@ -3,12 +3,15 @@ import {useTranslation} from "react-i18next";
 import {motion} from "framer-motion";
 
 import "./footer.scss";
+import {useContext} from "react";
+import {AppContext} from "../../../../config/contexts/app-context";
 
 const Footer = () => {
   const {t} = useTranslation("core");
+  const {theme} = useContext(AppContext)
   const currentYear = new Date().getFullYear();
   return (
-    <footer className="footer">
+    <footer className={`footer footer__${theme}`}>
             <span>
                 <p className="footer__year">{currentYear}®</p>
             </span>

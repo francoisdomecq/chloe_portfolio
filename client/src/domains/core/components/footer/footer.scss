@@ -11,9 +11,26 @@
   left: 0;
 }
 
+.footer__light {
+  color: black;
+  background-color: white;
+
+  .network-links__link {
+    color: black;
+  }
+}
+
+.footer__dark {
+  color: white;
+  background-color: black;
+
+  .network-links__link {
+    color: white;
+  }
+}
+
 .footer__year {
   font-size: var(--font-size-body-l);
-  color: white;
 }
 
 .network-links {
@@ -22,13 +39,8 @@
 }
 
 .network-links__link {
-  color: white;
   font-size: var(--font-size-body-l);
   text-decoration: none;
-
-  &:hover {
-    color: white;
-  }
 }
 
 @media screen and (min-width: $tablet-bp) {

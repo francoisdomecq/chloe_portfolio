@@ -4,34 +4,214 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28fdb4fd-86ad-43a7-a703-a905b553dc09" name="Changes" comment="feat: reset kaolyn to dark">
-      <change afterPath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_12.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_15.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_18.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_22.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_23.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_24.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_7.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_8.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_9.jpg" afterDir="false" />
+    <list default="true" id="28fdb4fd-86ad-43a7-a703-a905b553dc09" name="Changes" comment="feat: remove payfit">
+      <change afterPath="$PROJECT_DIR$/client/public/projects/light_theme/PAYFIT/PAYFIT_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/light_theme/PAYFIT/PAYFIT_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/light_theme/PAYFIT/PAYFIT_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/light_theme/PAYFIT/PAYFIT_12.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/light_theme/PAYFIT/PAYFIT_12_A.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/light_theme/PAYFIT/PAYFIT_13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/light_theme/PAYFIT/PAYFIT_14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/light_theme/PAYFIT/PAYFIT_15.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/light_theme/PAYFIT/PAYFIT_16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/light_theme/PAYFIT/PAYFIT_17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/light_theme/PAYFIT/PAYFIT_18.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/light_theme/PAYFIT/PAYFIT_19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/light_theme/PAYFIT/PAYFIT_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/light_theme/PAYFIT/PAYFIT_20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/light_theme/PAYFIT/PAYFIT_21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/light_theme/PAYFIT/PAYFIT_22.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/light_theme/PAYFIT/PAYFIT_22_A.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/light_theme/PAYFIT/PAYFIT_23.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/light_theme/PAYFIT/PAYFIT_23_A.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/light_theme/PAYFIT/PAYFIT_24.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/light_theme/PAYFIT/PAYFIT_25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/light_theme/PAYFIT/PAYFIT_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/light_theme/PAYFIT/PAYFIT_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/light_theme/PAYFIT/PAYFIT_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/light_theme/PAYFIT/PAYFIT_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/light_theme/PAYFIT/PAYFIT_7.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/light_theme/PAYFIT/PAYFIT_8.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/light_theme/PAYFIT/PAYFIT_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/config/works-light.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/domains/projects/pages/projects/components/project-hovered/project-hovered.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/domains/projects/pages/projects/components/project-hovered/project-hovered.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/arrow-right-white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/arrow-right-white.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ADIDAS/ADIDAS_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ADIDAS/ADIDAS_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ADIDAS/ADIDAS_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ADIDAS/ADIDAS_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ADIDAS/ADIDAS_3.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ADIDAS/ADIDAS_3.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ADIDAS/ADIDAS_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ADIDAS/ADIDAS_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ADIDAS/ADIDAS_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ADIDAS/ADIDAS_5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ADIDAS/ADIDAS_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ADIDAS/ADIDAS_6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ADIDAS/ADIDAS_7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ADIDAS/ADIDAS_7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ADIDAS/ADIDAS_8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ADIDAS/ADIDAS_8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/BUNS/BUNS_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/BUNS/BUNS_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/BUNS/BUNS_10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/BUNS/BUNS_10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/BUNS/BUNS_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/BUNS/BUNS_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/BUNS/BUNS_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/BUNS/BUNS_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/BUNS/BUNS_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/BUNS/BUNS_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/BUNS/BUNS_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/BUNS/BUNS_5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/BUNS/BUNS_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/BUNS/BUNS_6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/BUNS/BUNS_7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/BUNS/BUNS_7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/BUNS/BUNS_8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/BUNS/BUNS_8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/BUNS/BUNS_9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/BUNS/BUNS_9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/CHLOE/CHLOE_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/CHLOE/CHLOE_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/CHLOE/CHLOE_10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/CHLOE/CHLOE_10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/CHLOE/CHLOE_11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/CHLOE/CHLOE_11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/CHLOE/CHLOE_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/CHLOE/CHLOE_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/CHLOE/CHLOE_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/CHLOE/CHLOE_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/CHLOE/CHLOE_4.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/CHLOE/CHLOE_4.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/CHLOE/CHLOE_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/CHLOE/CHLOE_5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/CHLOE/CHLOE_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/CHLOE/CHLOE_6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/CHLOE/CHLOE_7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/CHLOE/CHLOE_7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/CHLOE/CHLOE_8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/CHLOE/CHLOE_8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/CHLOE/CHLOE_9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/CHLOE/CHLOE_9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/FULLMOON/FULLMOON_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/FULLMOON/FULLMOON_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/FULLMOON/FULLMOON_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/FULLMOON/FULLMOON_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/FULLMOON/FULLMOON_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/FULLMOON/FULLMOON_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/FULLMOON/FULLMOON_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/FULLMOON/FULLMOON_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/FULLMOON/FULLMOON_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/FULLMOON/FULLMOON_5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/FULLMOON/FULLMOON_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/FULLMOON/FULLMOON_6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/FULLMOON/FULLMOON_7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/FULLMOON/FULLMOON_7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/FULLMOON/FULLMOON_8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/FULLMOON/FULLMOON_8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/HERMES/HERMES_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/HERMES/HERMES_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/HERMES/HERMES_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/HERMES/HERMES_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/HERMES/HERMES_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/HERMES/HERMES_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/HERMES/HERMES_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/HERMES/HERMES_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/HERMES/HERMES_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/HERMES/HERMES_5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/HERMES/HERMES_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/HERMES/HERMES_6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/HERMES/HERMES_7.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/HERMES/HERMES_7.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/HERMES/HERMES_8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/HERMES/HERMES_8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/HERMES/HERMES_9.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/HERMES/HERMES_9.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/JARDINS_STATUAIRES/JARDINS_STATUAIRES_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/JARDINS_STATUAIRES/JARDINS_STATUAIRES_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/JARDINS_STATUAIRES/JARDINS_STATUAIRES_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/JARDINS_STATUAIRES/JARDINS_STATUAIRES_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/JARDINS_STATUAIRES/JARDINS_STATUAIRES_5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/JARDINS_STATUAIRES/JARDINS_STATUAIRES_6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/JARDINS_STATUAIRES/JARDINS_STATUAIRES_7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/JARDINS_STATUAIRES/JARDINS_STATUAIRES_8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/KAOLYN/KAOLYN_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_10.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/KAOLYN/KAOLYN_10.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/KAOLYN/KAOLYN_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/KAOLYN/KAOLYN_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/KAOLYN/KAOLYN_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/KAOLYN/KAOLYN_5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_6.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/KAOLYN/KAOLYN_6.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/KAOLYN/KAOLYN_7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/KAOLYN/KAOLYN_9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE-WEB/ODETTE-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ODETTE-WEB/ODETTE-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE-WEB/ODETTE-10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ODETTE-WEB/ODETTE-10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE-WEB/ODETTE-11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ODETTE-WEB/ODETTE-11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE-WEB/ODETTE-12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ODETTE-WEB/ODETTE-12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE-WEB/ODETTE-13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ODETTE-WEB/ODETTE-13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE-WEB/ODETTE-14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ODETTE-WEB/ODETTE-14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE-WEB/ODETTE-15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ODETTE-WEB/ODETTE-15.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE-WEB/ODETTE-16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ODETTE-WEB/ODETTE-16.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE-WEB/ODETTE-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ODETTE-WEB/ODETTE-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE-WEB/ODETTE-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ODETTE-WEB/ODETTE-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE-WEB/ODETTE-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ODETTE-WEB/ODETTE-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE-WEB/ODETTE-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ODETTE-WEB/ODETTE-5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE-WEB/ODETTE-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ODETTE-WEB/ODETTE-6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE-WEB/ODETTE-7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ODETTE-WEB/ODETTE-7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE-WEB/ODETTE-8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ODETTE-WEB/ODETTE-8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE-WEB/ODETTE-9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ODETTE-WEB/ODETTE-9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE-WEB/ODETTE_BOOK.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ODETTE-WEB/ODETTE_BOOK.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE-WEB/TYPO.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ODETTE-WEB/TYPO.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ODETTE/ODETTE_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ODETTE/ODETTE_10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ODETTE/ODETTE_11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ODETTE/ODETTE_12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_13.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ODETTE/ODETTE_13.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ODETTE/ODETTE_14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_15.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ODETTE/ODETTE_15.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ODETTE/ODETTE_16.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ODETTE/ODETTE_17.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ODETTE/ODETTE_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ODETTE/ODETTE_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ODETTE/ODETTE_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ODETTE/ODETTE_5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ODETTE/ODETTE_6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ODETTE/ODETTE_7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ODETTE/ODETTE_8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/ODETTE/ODETTE_9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/PAYFIT/PAYFIT_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/PAYFIT/PAYFIT_10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/PAYFIT/PAYFIT_11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_12.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/PAYFIT/PAYFIT_12.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_12_A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/PAYFIT/PAYFIT_12_A.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/PAYFIT/PAYFIT_13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/PAYFIT/PAYFIT_14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_15.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/PAYFIT/PAYFIT_15.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/PAYFIT/PAYFIT_16.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/PAYFIT/PAYFIT_17.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_18.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/PAYFIT/PAYFIT_18.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/PAYFIT/PAYFIT_19.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/PAYFIT/PAYFIT_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/PAYFIT/PAYFIT_20.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/PAYFIT/PAYFIT_21.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_22.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/PAYFIT/PAYFIT_22.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_22_A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/PAYFIT/PAYFIT_22_A.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_23.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/PAYFIT/PAYFIT_23.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_23_A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/PAYFIT/PAYFIT_23_A.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_24.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/PAYFIT/PAYFIT_24.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_25.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/PAYFIT/PAYFIT_25.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/PAYFIT/PAYFIT_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/PAYFIT/PAYFIT_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/PAYFIT/PAYFIT_5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/PAYFIT/PAYFIT_6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_7.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/PAYFIT/PAYFIT_7.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_8.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/PAYFIT/PAYFIT_8.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/PAYFIT/PAYFIT_9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PPF/PPF_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/PPF/PPF_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PPF/PPF_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/PPF/PPF_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PPF/PPF_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/PPF/PPF_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PPF/PPF_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/PPF/PPF_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PPF/PPF_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/PPF/PPF_5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PPF/PPF_6.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/PPF/PPF_6.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PPF/PPF_7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/PPF/PPF_7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL/ADIDAS.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/VIGNETAGE_CARROUSEL/ADIDAS.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL/BUNS.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/VIGNETAGE_CARROUSEL/BUNS.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL/CHLOE.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/VIGNETAGE_CARROUSEL/CHLOE.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL/FULLMOON.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/VIGNETAGE_CARROUSEL/FULLMOON.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL/HERMES.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/VIGNETAGE_CARROUSEL/HERMES.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL/JARDINS_STATUAIRES.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/VIGNETAGE_CARROUSEL/JARDINS_STATUAIRES.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL/KAOLYN.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/VIGNETAGE_CARROUSEL/KAOLYN.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL/ODETTE.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/VIGNETAGE_CARROUSEL/ODETTE.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL/PAYFIT.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/VIGNETAGE_CARROUSEL/PAYFIT.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL/PPF.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/VIGNETAGE_CARROUSEL/PPF.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL/XTRM.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/VIGNETAGE_CARROUSEL/XTRM.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/XTRM/XTRM_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/XTRM/XTRM_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/XTRM/XTRM_10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/XTRM/XTRM_10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/XTRM/XTRM_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/XTRM/XTRM_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/XTRM/XTRM_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/XTRM/XTRM_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/XTRM/XTRM_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/XTRM/XTRM_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/XTRM/XTRM_5.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/XTRM/XTRM_5.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/XTRM/XTRM_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/XTRM/XTRM_6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/XTRM/XTRM_7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/XTRM/XTRM_7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/XTRM/XTRM_8.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/XTRM/XTRM_8.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/XTRM/XTRM_9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/dark_theme/XTRM/XTRM_9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/config/works.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/config/works.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/about/components/experience/experience.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/about/components/experience/experience.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/about/components/experience/experiences.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/about/components/experience/experiences.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/about/components/skills/skills.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/about/components/skills/skills.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/about/components/skills/skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/about/components/skills/skills.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/about/pages/about/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/about/pages/about/about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/about/pages/about/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/about/pages/about/about.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/contact/pages/contact/contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/contact/pages/contact/contact.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/contact/pages/contact/contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/contact/pages/contact/contact.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/footer/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/footer/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/footer/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/footer/footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/hovered-title/hovered-title.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/hovered-title/hovered-title.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/hovered-title/hovered-title.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/hovered-title/hovered-title.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/mouse-cursor/mouse-cursor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/mouse-cursor/mouse-cursor.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/portfolio-page/portfolio-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/portfolio-page/portfolio-page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/portfolio-page/portfolio-page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/portfolio-page/portfolio-page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/projects/pages/project-details/project-details.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/projects/pages/project-details/project-details.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/projects/pages/projects/components/carousel/carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/projects/pages/projects/components/carousel/carousel.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/projects/pages/projects/components/carousel/carousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/projects/pages/projects/components/carousel/carousel.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/projects/pages/projects/projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/projects/pages/projects/projects.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +225,7 @@
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$/.." value="main" />
-        <entry key="$PROJECT_DIR$" value="feat/add-api-fetches-front" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,6 +237,31 @@
     &quot;assignee&quot;: &quot;francoisdomecq&quot;
   }
 }</component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="feat/add-theme" />
+                    <option name="lastUsedInstant" value="1742230942" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1742230941" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/francoisdomecq/chloe_portfolio.git&quot;,
@@ -85,9 +290,9 @@
     "RunOnceActivity.git.unshallow": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "feat/add-theme",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/public/projects/PAYFIT",
+    "last_opened_file_path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/public/projects/white_theme",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.stylelint": "true",
@@ -106,25 +311,25 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/public/projects/white_theme" />
+      <recent name="$PROJECT_DIR$/client/src/config" />
+      <recent name="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL" />
       <recent name="$PROJECT_DIR$/client/public/projects/PAYFIT" />
       <recent name="$PROJECT_DIR$/client/public" />
-      <recent name="$PROJECT_DIR$/client/public/projects/KAOLYN" />
-      <recent name="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL" />
-      <recent name="$PROJECT_DIR$/client/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/public/projects/dark_theme" />
       <recent name="$PROJECT_DIR$/server/src/domains/projects/controller" />
       <recent name="$PROJECT_DIR$/server/src/domains/projects" />
       <recent name="$PROJECT_DIR$/client" />
       <recent name="$PROJECT_DIR$/server/src/domains/works" />
-      <recent name="$PROJECT_DIR$/src/config" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.25659.59" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.25659.59" />
       </set>
     </attachedChunks>
   </component>
@@ -202,39 +407,10 @@
       <workItem from="1741595214399" duration="716000" />
       <workItem from="1741700133936" duration="958000" />
       <workItem from="1741855706838" duration="2370000" />
-      <workItem from="1741954996983" duration="2325000" />
-    </task>
-    <task id="LOCAL-00015" summary="fix background color">
-      <option name="closed" value="true" />
-      <created>1728645539954</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1728645539954</updated>
-    </task>
-    <task id="LOCAL-00016" summary="remove autoplay for videos">
-      <option name="closed" value="true" />
-      <created>1728646157699</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1728646157699</updated>
-    </task>
-    <task id="LOCAL-00017" summary="remove autoplay for videos">
-      <option name="closed" value="true" />
-      <created>1728646284378</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1728646284378</updated>
-    </task>
-    <task id="LOCAL-00018" summary="improve design mobile">
-      <option name="closed" value="true" />
-      <created>1728648213986</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1728648213986</updated>
+      <workItem from="1741954996983" duration="6260000" />
+      <workItem from="1742200135648" duration="597000" />
+      <workItem from="1742202010361" duration="198000" />
+      <workItem from="1742228318164" duration="2903000" />
     </task>
     <task id="LOCAL-00019" summary="fix title">
       <option name="closed" value="true" />
@@ -596,7 +772,39 @@
       <option name="project" value="LOCAL" />
       <updated>1739889430168</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="feat: add payfit project">
+      <option name="closed" value="true" />
+      <created>1741958415670</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1741958415670</updated>
+    </task>
+    <task id="LOCAL-00065" summary="feat: add payfit project">
+      <option name="closed" value="true" />
+      <created>1741960162936</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1741960162936</updated>
+    </task>
+    <task id="LOCAL-00066" summary="feat: add temp carousel image for payfit">
+      <option name="closed" value="true" />
+      <created>1741960635829</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1741960635829</updated>
+    </task>
+    <task id="LOCAL-00067" summary="feat: remove payfit">
+      <option name="closed" value="true" />
+      <created>1741971314202</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1741971314202</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -626,9 +834,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix typo mobile" />
-    <MESSAGE value="fix cursor" />
-    <MESSAGE value="remove cursor on mobile" />
     <MESSAGE value="add project navigation and refacto contact page" />
     <MESSAGE value="refacto project navigation, add animation (not fully working) on home page, change titles on about page" />
     <MESSAGE value="refacto about page" />
@@ -651,7 +856,10 @@
     <MESSAGE value="feat: remove various temporary" />
     <MESSAGE value="feat: add kaolyn project" />
     <MESSAGE value="feat: update kaolyn project" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: update kaolyn project" />
+    <MESSAGE value="feat: add payfit project" />
+    <MESSAGE value="feat: add temp carousel image for payfit" />
+    <MESSAGE value="feat: remove payfit" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: remove payfit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

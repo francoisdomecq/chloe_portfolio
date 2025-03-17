@@ -1,0 +1,44 @@
+.project-hovered {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+}
+
+.project-hovered__light {
+  color: black;
+}
+
+.project-hovered__dark {
+  color: white;
+}
+
+.project-hovered-title {
+  font-size: 64px;
+  font-family: var(--title-font);
+}
+
+.project-hovered-title {
+  font-size: 64px;
+  font-family: var(--title-font);
+}
+
+.project-hovered-date {
+  font-family: var(--text-font);
+  font-size: 32px;
+}
+
+.project-hovered-subtitle {
+  font-size: 32px;
+  font-family: var(--text-font);
+  color: var(--grey-deep)
+}
+
+.project-hovered-description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  line-height: 36px;
+}

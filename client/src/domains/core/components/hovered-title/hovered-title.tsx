@@ -10,9 +10,9 @@ interface HoveredTitleProps {
 }
 
 const HoveredTitle = ({title, className}: HoveredTitleProps) => {
-  const {hoverElement, unhoverElement} = useContext(AppContext);
+  const {hoverElement, unhoverElement, theme} = useContext(AppContext);
   return (
-    <h1 className={`${className} hovered-title`} onMouseEnter={() => hoverElement("text")}
+    <h1 className={`${className} hovered-title hovered-title__${theme}`} onMouseEnter={() => hoverElement("text")}
         onMouseLeave={unhoverElement}>{title}</h1>
   );
 };

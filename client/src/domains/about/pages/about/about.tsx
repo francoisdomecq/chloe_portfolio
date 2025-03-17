@@ -9,17 +9,20 @@ import Skills from "../../components/skills/skills";
 
 
 import "./about.scss";
+import {useContext} from "react";
+import {AppContext} from "../../../../config/contexts/app-context";
 
 
 const About = () => {
   const {t} = useTranslation("about");
   const navigate = useNavigate();
+  const {theme} = useContext(AppContext)
 
   const routerHistory = [{route: "/", label: "Home"}, {route: "/about", label: "About"}];
 
   return (
     <PortfolioPage>
-      <div className="about">
+      <div className={`about about__${theme}`}>
         <NavigationHistory className="about__navigation-history" history={routerHistory}/>
         <div className="about__intro-container">
           <div className="about__introduction">

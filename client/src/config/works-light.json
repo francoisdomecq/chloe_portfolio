@@ -1,0 +1,918 @@
+[
+  {
+    "id": "1",
+    "title": "Odette, la cuisine du souvenir",
+    "description": {
+      "title": "Odette, la cuisine du souvenir",
+      "subtitle": [
+        "Typeface Design",
+        "Editorial project"
+      ],
+      "content": [
+        "This project blends typeface design and editorial work, resulting in a recipe book featuring the recipes of my great-great-grandmother. The book also serves as a type specimen, showcasing the process of creating a typeface based on her handwriting. This custom typography adds authenticity to the book, paying tribute to family heritage while providing a unique visual and emotional experience."
+      ],
+      "skills": [
+        "Typeface design",
+        "illustrations",
+        "editorial project",
+        "writing",
+        "research"
+      ],
+      "fonts": "Minion Pro, an Adobe Original Typeface designed by Robert Slimbach / Satoshi designed by Deni Anggara for the Indian Type Foundry / Odette designed by Chloé Gaillard, a personal typeface design project"
+    },
+    "carouselImage": "/projects/light_theme/VIGNETAGE_CARROUSEL/ODETTE.jpg",
+    "date": "2024",
+    "content": [
+      {
+        "id": "1",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/ODETTE/ODETTE_1.jpg"
+      },
+      {
+        "id": "2",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/ODETTE/ODETTE_2.jpg"
+      },
+      {
+        "id": "3",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/ODETTE/ODETTE_3.jpg"
+      },
+      {
+        "id": "4",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/ODETTE/ODETTE_4.jpg"
+      },
+      {
+        "id": "5",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/ODETTE/ODETTE_5.jpg"
+      },
+      {
+        "id": "6",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/ODETTE/ODETTE_6.jpg"
+      },
+      {
+        "id": "7",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/ODETTE/ODETTE_7.jpg"
+      },
+      {
+        "id": "8",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/ODETTE/ODETTE_8.jpg"
+      },
+      {
+        "id": "9",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/ODETTE/ODETTE_9.jpg"
+      },
+      {
+        "id": "10",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/ODETTE/ODETTE_10.jpg"
+      },
+      {
+        "id": "11",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/ODETTE/ODETTE_11.jpg"
+      },
+      {
+        "id": "12",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/ODETTE/ODETTE_12.jpg"
+      },
+      {
+        "id": "13",
+        "type": "VIDEO",
+        "source": "/projects/light_theme/ODETTE/ODETTE_13.mp4"
+      },
+      {
+        "id": "14",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/ODETTE/ODETTE_14.jpg"
+      },
+      {
+        "id": "15",
+        "type": "VIDEO",
+        "source": "/projects/light_theme/ODETTE/ODETTE_15.mp4"
+      },
+      {
+        "id": "16",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/ODETTE/ODETTE_16.jpg"
+      },
+      {
+        "id": "17",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/ODETTE/ODETTE_17.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "FullMoon",
+    "description": {
+      "title": "FullMoon",
+      "subtitle": [
+        "Branding",
+        "Typeface design"
+      ],
+      "content": [
+        "Developed an elegant and refined visual identity for a luxury travel agency specializing in honeymoons. The branding combines sophistication and romance, capturing the essence of exclusive destinations and unique experiences offered by the agency. A custom typeface was designed to reflect the distinctive and high-end character of the brand, while evoking the intimacy and elegance sought by honeymooning couples."
+      ],
+      "skills": [
+        "Typeface design",
+        "branding",
+        "visual",
+        "identity"
+      ],
+      "fonts": "Inconsolata by Raph Levien for Google"
+    },
+    "carouselImage": "/projects/light_theme/VIGNETAGE_CARROUSEL/FULLMOON.jpg",
+    "date": "2024",
+    "content": [
+      {
+        "id": "1",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/FULLMOON/FULLMOON_1.jpg"
+      },
+      {
+        "id": "2",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/FULLMOON/FULLMOON_2.jpg"
+      },
+      {
+        "id": "3",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/FULLMOON/FULLMOON_3.jpg"
+      },
+      {
+        "id": "4",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/FULLMOON/FULLMOON_4.jpg"
+      },
+      {
+        "id": "5",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/FULLMOON/FULLMOON_5.jpg"
+      },
+      {
+        "id": "6",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/FULLMOON/FULLMOON_6.jpg"
+      },
+      {
+        "id": "7",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/FULLMOON/FULLMOON_7.jpg"
+      },
+      {
+        "id": "8",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/FULLMOON/FULLMOON_8.jpg"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "XTRM Salomon",
+    "description": {
+      "title": "XTRM by Salomon",
+      "subtitle": [
+        "Advertising campaign"
+      ],
+      "content": [
+        "For Salomon, I developed the XTRM advertising campaign, aimed at athletes and adventurers who push the boundaries of performance in extreme environments. The concept of XTRM revolves around surpassing the ordinary through a fusion of cutting-edge innovation, durability, and futuristic design. Featuring key products such as trail running shoes, technical jackets, and ski equipment, the campaign highlights Salomon’s ability to equip athletes with advanced gear for the most demanding challenges.",
+        "The visual identity is defined by bold, sharp typography, intense colors like black, red, and cyan, and dynamic imagery capturing athletes in action within spectacular, rugged landscapes. XTRM embodies the spirit of exploration and the conquest of hostile terrains, reflecting Salomon’s mission to support every athlete in their pursuit of pushing personal limits."
+      ],
+      "skills": [
+        "Print advertising campaign",
+        "branding",
+        "editing video",
+        "advertising film"
+      ],
+      "fonts": "Aktiv Grotesk by Dalton Maag for Adobe Fonts"
+    },
+    "date": "2024",
+    "carouselImage": "/projects/light_theme/VIGNETAGE_CARROUSEL/XTRM.jpg",
+    "content": [
+      {
+        "id": "1",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/XTRM/XTRM_1.jpg"
+      },
+      {
+        "id": "2",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/XTRM/XTRM_2.jpg"
+      },
+      {
+        "id": "3",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/XTRM/XTRM_3.jpg"
+      },
+      {
+        "id": "4",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/XTRM/XTRM_4.jpg"
+      },
+      {
+        "id": "5",
+        "type": "VIDEO",
+        "source": "/projects/light_theme/XTRM/XTRM_5.mp4"
+      },
+      {
+        "id": "6",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/XTRM/XTRM_6.jpg"
+      },
+      {
+        "id": "7",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/XTRM/XTRM_7.jpg"
+      },
+      {
+        "id": "8",
+        "type": "VIDEO",
+        "source": "/projects/light_theme/XTRM/XTRM_8.mp4"
+      },
+      {
+        "id": "9",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/XTRM/XTRM_9.jpg"
+      },
+      {
+        "id": "10",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/XTRM/XTRM_10.jpg"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Chloé",
+    "description": {
+      "title": "Chloé",
+      "subtitle": [
+        "Personal Branding",
+        "Typographic logo design"
+      ],
+      "content": [
+        "This personal branding project features a typographic logo I designed to represent my work. The keywords guiding the creation of this logotype were finesse, elegance, and poetry. My approach often involves storytelling through typography and type design, using these elements to convey messages and narratives within my projects. This logo encapsulates my artistic vision and passion for blending visual storytelling with refined design."
+      ],
+      "skills": [
+        "logotypes",
+        "illustrations",
+        "branding",
+        "visual identity"
+      ],
+      "fonts": "Patron by Timo Gaessner for Milieu Grotesque"
+    },
+    "date": "2023",
+    "carouselImage": "/projects/light_theme/VIGNETAGE_CARROUSEL/CHLOE.jpg",
+    "content": [
+      {
+        "id": "1",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/CHLOE/CHLOE_1.jpg"
+      },
+      {
+        "id": "2",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/CHLOE/CHLOE_2.jpg"
+      },
+      {
+        "id": "3",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/CHLOE/CHLOE_3.jpg"
+      },
+      {
+        "id": "4",
+        "type": "VIDEO",
+        "source": "/projects/light_theme/CHLOE/CHLOE_4.mp4"
+      },
+      {
+        "id": "5",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/CHLOE/CHLOE_5.jpg"
+      },
+      {
+        "id": "6",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/CHLOE/CHLOE_6.jpg"
+      },
+      {
+        "id": "7",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/CHLOE/CHLOE_7.jpg"
+      },
+      {
+        "id": "8",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/CHLOE/CHLOE_8.jpg"
+      },
+      {
+        "id": "9",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/CHLOE/CHLOE_9.jpg"
+      },
+      {
+        "id": "10",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/CHLOE/CHLOE_10.jpg"
+      },
+      {
+        "id": "11",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/CHLOE/CHLOE_11.jpg"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Pangram Pangram Foundry",
+    "description": {
+      "title": "PangramPangram Foundry",
+      "subtitle": [
+        "Typographic specimen",
+        "Editorial object"
+      ],
+      "content": [
+        "This project is a typographic specimen designed for the Pangram Pangram foundry. It takes the form of a package containing posters, each dedicated to a specific typeface. Each poster is composed of 8 postcards, reinforcing the foundry's ethos of sharing and accessibility. The design emphasizes the idea of spreading the foundry's fonts, encouraging users to explore and share the typefaces, thus amplifying creativity and collaboration within the design community."
+      ],
+      "skills": [
+        "editorial object",
+        "typography",
+        "layout",
+        "vinyle cutting",
+        "engraving",
+        "finishing"
+      ],
+      "fonts": "Several fonts created by PangramPangram"
+    },
+    "date": "2022",
+    "carouselImage": "/projects/light_theme/VIGNETAGE_CARROUSEL/PPF.jpg",
+    "content": [
+      {
+        "id": "1",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/PPF/PPF_1.jpg"
+      },
+      {
+        "id": "2",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/PPF/PPF_2.jpg"
+      },
+      {
+        "id": "3",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/PPF/PPF_3.jpg"
+      },
+      {
+        "id": "4",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/PPF/PPF_4.jpg"
+      },
+      {
+        "id": "5",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/PPF/PPF_5.jpg"
+      },
+      {
+        "id": "6",
+        "type": "VIDEO",
+        "source": "/projects/light_theme/PPF/PPF_6.mp4"
+      },
+      {
+        "id": "7",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/PPF/PPF_7.jpg"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Jardins Statuaires",
+    "description": {
+      "title": "Jardins Statuaires",
+      "subtitle": [
+        "Editorial Project"
+      ],
+      "content": [
+        "This editorial project delves into the themes of attention and subtle details through the design of a leporello. The layout is centered around a horizontal line, symbolizing the horizon, which guides the reader throughout the text. This visual thread reinforces the content by subtly evoking ideas of observation and perspective. The design emphasizes delicacy and introspection, inviting a contemplative and attentive reading experience."
+      ],
+      "skills": [
+        "editorial object",
+        "photography",
+        "layout"
+      ],
+      "fonts": "Fanwood by Barry Schwartz for The league of moveable type"
+    },
+    "date": "2023",
+    "carouselImage": "/projects/light_theme/VIGNETAGE_CARROUSEL/JARDINS_STATUAIRES.jpg",
+    "content": [
+      {
+        "id": "1",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/JARDINS_STATUAIRES/JARDINS_STATUAIRES_1.jpg"
+      },
+      {
+        "id": "2",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/JARDINS_STATUAIRES/JARDINS_STATUAIRES_2.jpg"
+      },
+      {
+        "id": "3",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/JARDINS_STATUAIRES/JARDINS_STATUAIRES_3.jpg"
+      },
+      {
+        "id": "4",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/JARDINS_STATUAIRES/JARDINS_STATUAIRES_4.jpg"
+      },
+      {
+        "id": "5",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/JARDINS_STATUAIRES/JARDINS_STATUAIRES_5.jpg"
+      },
+      {
+        "id": "6",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/JARDINS_STATUAIRES/JARDINS_STATUAIRES_6.jpg"
+      },
+      {
+        "id": "7",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/JARDINS_STATUAIRES/JARDINS_STATUAIRES_7.jpg"
+      },
+      {
+        "id": "8",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/JARDINS_STATUAIRES/JARDINS_STATUAIRES_8.jpg"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "title": "Hermès",
+    "description": {
+      "title": "Hermès",
+      "subtitle": [
+        "Advertising campaign"
+      ],
+      "content": [
+        "This project, created at Publicis EtNous, is the Christmas campaign for Hermès titled \"It's Time for a Joyful Show.\" The concept features Pegasus, the iconic figure of Hermès, traveling through the windows of an Hermès boutique. My role included helping to create mock-ups to pitch the concept to the client, writing the narrative of this magical journey, and contributing to the advertising film's concept. I also assisted the art directors during the photo shoot and filming, and took part in the post-production process before delivering the final project to the client. This was an enriching and exciting experience that taught me a lot about agency work, and it significantly boosted my confidence and professional growth."
+      ],
+      "skills": [
+        "Model drawings",
+        "Storyboarding",
+        "Retouching",
+        "Assistant DA on shoot",
+        "Editing and colour grading",
+        "Research work"
+      ],
+      "fonts": "Fanwood by Barry Schwartz for The league of moveable type",
+      "coworkers": [
+        "Publicis EtNous - Agency",
+        "Client - Hermès",
+        "Fabien Mouillard - Creative Director",
+        "Maud Lepetit - Art Director",
+        "Léopold Séheut - Art Director",
+        "Hilaire Nény - Assistant Art Director",
+        "Chloé Gaillard - Assistant Art Director",
+        "Studio Idae¨ - Set Design",
+        "Atelier 20.12 - Decor",
+        "Alice Kisune - Director",
+        "Peter Langer - Photographer"
+      ]
+    },
+    "date": "2023",
+    "carouselImage": "/projects/light_theme/VIGNETAGE_CARROUSEL/HERMES.jpg",
+    "content": [
+      {
+        "id": "1",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/HERMES/HERMES_1.jpg"
+      },
+      {
+        "id": "2",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/HERMES/HERMES_2.jpg"
+      },
+      {
+        "id": "3",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/HERMES/HERMES_3.jpg"
+      },
+      {
+        "id": "4",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/HERMES/HERMES_4.jpg"
+      },
+      {
+        "id": "5",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/HERMES/HERMES_5.jpg"
+      },
+      {
+        "id": "6",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/HERMES/HERMES_6.jpg"
+      },
+      {
+        "id": "7",
+        "type": "VIDEO",
+        "source": "/projects/light_theme/HERMES/HERMES_7.mp4"
+      },
+      {
+        "id": "8",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/HERMES/HERMES_8.jpg"
+      },
+      {
+        "id": "9",
+        "type": "VIDEO",
+        "source": "/projects/light_theme/HERMES/HERMES_9.mp4"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "title": "Mister Bun's",
+    "description": {
+      "title": "Mr. Bun’s",
+      "subtitle": [
+        "Visual Identity"
+      ],
+      "content": [
+        "This visual identity project was created for a small London snack shop with an innovative concept of sweet and savory brioche sandwiches. The entire art direction revolves around a playful mascot and a fun, lively spirit, capturing the originality and friendly atmosphere of the shop. The design aims to attract a young and dynamic audience while highlighting the unique and casual approach of the snack shop."
+      ],
+      "skills": [
+        "packaging",
+        "branding",
+        "logotype",
+        "illustrations"
+      ],
+      "fonts": "Bevellier, display typography designed by Indian Type Foundry"
+    },
+    "date": "2022",
+    "carouselImage": "/projects/light_theme/VIGNETAGE_CARROUSEL/BUNS.jpg",
+    "content": [
+      {
+        "id": "1",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/BUNS/BUNS_1.jpg"
+      },
+      {
+        "id": "2",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/BUNS/BUNS_2.jpg"
+      },
+      {
+        "id": "3",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/BUNS/BUNS_3.jpg"
+      },
+      {
+        "id": "4",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/BUNS/BUNS_4.jpg"
+      },
+      {
+        "id": "5",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/BUNS/BUNS_5.jpg"
+      },
+      {
+        "id": "6",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/BUNS/BUNS_6.jpg"
+      },
+      {
+        "id": "7",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/BUNS/BUNS_7.jpg"
+      },
+      {
+        "id": "8",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/BUNS/BUNS_8.jpg"
+      },
+      {
+        "id": "9",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/BUNS/BUNS_9.jpg"
+      },
+      {
+        "id": "10",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/BUNS/BUNS_10.jpg"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "title": "Communitee 2 Adidas X CaminoTV",
+    "description": {
+      "title": "Communitee 2 Adidas X CaminoTV",
+      "subtitle": [
+        "Product design"
+      ],
+      "content": [
+        "For the Communi-tee 2 competition, CaminoTV asked you to reinvent the iconic Adidas firebird by representing a place that you love, where you feel at home, and you should recognise the firebird model at first glance. For my entry, I imagined a place where you grow and rise, without restriction, symbolised by this phrase: ‘Home is where we rise’. This phrase evokes a place where you can be yourself, where you can become the best version of yourself. It's a reflection of a home that doesn't depend on a specific place, but on a state of mind. Like the Adidas brand, this jacket is an invitation to challenge yourself, to develop yourself. ‘Home’ evokes more than just a place, it's an environment where you can blossom and grow. My typography is based on handwritten letters similar to graffiti. This phrase sounds like a call to self-fulfilment. The word ‘RISE’ was built around the Adidas logo to draw a connection between this jacket and the brand."
+      ],
+      "skills": [
+        "lettring",
+        "product design"
+      ],
+      "fonts": "hand-drawn typography"
+    },
+    "date": "2025",
+    "carouselImage": "/projects/light_theme/VIGNETAGE_CARROUSEL/ADIDAS.jpg",
+    "content": [
+      {
+        "id": "1",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/ADIDAS/ADIDAS_1.jpg"
+      },
+      {
+        "id": "2",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/ADIDAS/ADIDAS_2.jpg"
+      },
+      {
+        "id": "3",
+        "type": "VIDEO",
+        "source": "/projects/light_theme/ADIDAS/ADIDAS_3.mp4"
+      },
+      {
+        "id": "4",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/ADIDAS/ADIDAS_4.jpg"
+      },
+      {
+        "id": "5",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/ADIDAS/ADIDAS_5.jpg"
+      },
+      {
+        "id": "6",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/ADIDAS/ADIDAS_6.jpg"
+      },
+      {
+        "id": "7",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/ADIDAS/ADIDAS_7.jpg"
+      },
+      {
+        "id": "8",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/ADIDAS/ADIDAS_8.jpg"
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "title": "Kaolyn",
+    "theme": "dark",
+    "description": {
+      "title": "Kaolyn",
+      "subtitle": [
+        "Visual identity",
+        "AI"
+      ],
+      "content": [
+        "KAOLYN is a studio that merges the craft of ceramics with a warm coffee shop experience. The visual identity is built on raw, geometric shapes inspired by the silhouettes of ceramic pieces, evoking manual craftsmanship and authenticity.",
+        "The bold typographic logo is uniquely designed: the counterforms of the letters subtly represent vases and ceramic objects, directly integrating the essence of the craft into the brand’s identity. This approach creates a visual dialogue between traditional craftsmanship and a contemporary aesthetic.\nThe vases used in the identity and graphic elements were generated using artificial intelligence software, bringing an innovative dimension to the project. These organic, sculptural forms, created by AI, reflect creative exploration and push the boundaries of ceramic design.",
+        "Each visual element contributes to conveying the spirit of KAOLYN: a place where people come to enjoy a good coffee as much as to discover unique, handcrafted objects."
+      ],
+      "skills": [
+        "Lettring",
+        "AI",
+        "Visual identity"
+      ],
+      "fonts": "Recia Variable, a variable font designed by Indian Type Foundry "
+    },
+    "date": "2025",
+    "carouselImage": "/projects/light_theme/VIGNETAGE_CARROUSEL/KAOLYN.jpg",
+    "content": [
+      {
+        "id": "1",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/KAOLYN/KAOLYN_1.jpg"
+      },
+      {
+        "id": "2",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/KAOLYN/KAOLYN_2.jpg"
+      },
+      {
+        "id": "3",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/KAOLYN/KAOLYN_3.jpg"
+      },
+      {
+        "id": "4",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/KAOLYN/KAOLYN_4.jpg"
+      },
+      {
+        "id": "5",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/KAOLYN/KAOLYN_5.jpg"
+      },
+      {
+        "id": "6",
+        "type": "VIDEO",
+        "source": "/projects/light_theme/KAOLYN/KAOLYN_6.mp4"
+      },
+      {
+        "id": "7",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/KAOLYN/KAOLYN_7.jpg"
+      },
+      {
+        "id": "8",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/KAOLYN/KAOLYN_9.jpg"
+      },
+      {
+        "id": "9",
+        "type": "VIDEO",
+        "source": "/projects/light_theme/KAOLYN/KAOLYN_10.mp4"
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "title": "Payfit",
+    "theme": "light",
+    "description": {
+      "title": "Payfit",
+      "subtitle": [
+        "Rebranding",
+        "DA 360°"
+      ],
+      "content": [
+        "PayFit is a SaaS application that automates payroll and HR management, helping businesses handle payslips, leave, and compliance effortlessly.",
+        "As part of a case study with the Bruno agency, I led the rebranding of PayFit, focusing on a complete visual identity overhaul, the modernization of graphic elements, and ensuring brand communication aligned with the company's values and ambitions. This included designing a new logo, refining the typography, creating a fresh color palette, and developing a cohesive web design. Additionally, I worked on enhancing the brand’s digital presence, ensuring consistency across all touchpoints, and improving the user experience through a more intuitive and visually appealing interface."
+      ],
+      "skills": [
+        "Lettring",
+        "Visual identity",
+        "Motion",
+        "Webdesign",
+        "Illustration"
+      ],
+      "fonts": "hand-drawn typography"
+    },
+    "date": "2025",
+    "carouselImage": "/projects/light_theme/VIGNETAGE_CARROUSEL/PAYFIT.jpg",
+    "content": [
+      {
+        "id": "1",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/PAYFIT/PAYFIT_1.jpg"
+      },
+      {
+        "id": "2",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/PAYFIT/PAYFIT_2.jpg"
+      },
+      {
+        "id": "3",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/PAYFIT/PAYFIT_3.jpg"
+      },
+      {
+        "id": "4",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/PAYFIT/PAYFIT_4.jpg"
+      },
+      {
+        "id": "5",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/PAYFIT/PAYFIT_5.jpg"
+      },
+      {
+        "id": "6",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/PAYFIT/PAYFIT_6.jpg"
+      },
+      {
+        "id": "7",
+        "type": "VIDEO",
+        "source": "/projects/light_theme/PAYFIT/PAYFIT_7.mp4"
+      },
+      {
+        "id": "8",
+        "type": "VIDEO",
+        "source": "/projects/light_theme/PAYFIT/PAYFIT_8.mp4"
+      },
+      {
+        "id": "9",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/PAYFIT/PAYFIT_9.jpg"
+      },
+      {
+        "id": "10",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/PAYFIT/PAYFIT_10.jpg"
+      },
+      {
+        "id": "11",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/PAYFIT/PAYFIT_11.jpg"
+      },
+      {
+        "id": "12A",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/PAYFIT/PAYFIT_12_A.jpg"
+      },
+      {
+        "id": "12",
+        "type": "VIDEO",
+        "source": "/projects/light_theme/PAYFIT/PAYFIT_12.mp4"
+      },
+      {
+        "id": "13",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/PAYFIT/PAYFIT_13.jpg"
+      },
+      {
+        "id": "14",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/PAYFIT/PAYFIT_14.jpg"
+      },
+      {
+        "id": "15",
+        "type": "VIDEO",
+        "source": "/projects/light_theme/PAYFIT/PAYFIT_15.mp4"
+      },
+      {
+        "id": "16",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/PAYFIT/PAYFIT_16.jpg"
+      },
+      {
+        "id": "17",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/PAYFIT/PAYFIT_17.jpg"
+      },
+      {
+        "id": "18",
+        "type": "VIDEO",
+        "source": "/projects/light_theme/PAYFIT/PAYFIT_18.mp4"
+      },
+      {
+        "id": "19",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/PAYFIT/PAYFIT_19.jpg"
+      },
+      {
+        "id": "20",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/PAYFIT/PAYFIT_20.jpg"
+      },
+      {
+        "id": "21",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/PAYFIT/PAYFIT_21.jpg"
+      },
+      {
+        "id": "22A",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/PAYFIT/PAYFIT_22_A.jpg"
+      },
+      {
+        "id": "22",
+        "type": "VIDEO",
+        "source": "/projects/light_theme/PAYFIT/PAYFIT_22.mp4"
+      },
+      {
+        "id": "23",
+        "type": "VIDEO",
+        "source": "/projects/light_theme/PAYFIT/PAYFIT_23.mp4"
+      },
+      {
+        "id": "23A",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/PAYFIT/PAYFIT_23_A.jpg"
+      },
+      {
+        "id": "24",
+        "type": "VIDEO",
+        "source": "/projects/light_theme/PAYFIT/PAYFIT_24.mp4"
+      },
+      {
+        "id": "25",
+        "type": "IMAGE",
+        "source": "/projects/light_theme/PAYFIT/PAYFIT_25.jpg"
+      }
+    ]
+  }
+]

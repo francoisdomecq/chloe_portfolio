@@ -1,5 +1,12 @@
 .hovered-title {
   width: fit-content;
   font-size: var(--font-size-h1);
+}
+
+.hovered-title__light {
+  color: black;
+}
+
+.hovered-title__dark {
   color: white;
 }

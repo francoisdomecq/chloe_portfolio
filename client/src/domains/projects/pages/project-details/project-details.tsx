@@ -1,6 +1,7 @@
 import {useParams} from "react-router-dom";
 
 import PROJECTS from "../../../../config/works.json";
+import PROJECTS_LIGHT from "../../../../config/works-light.json";
 import {PortfolioPage} from "../../../core";
 import NavigationHistory from "../../../core/components/navigation-history/navigation-history";
 import {type Project, type ProjectContent, ProjectContentMediaType} from "../../types";
@@ -17,7 +18,10 @@ import {AppContext} from "../../../../config/contexts/app-context";
 const ProjectDetails = () => {
   const projectId = useParams().id;
   const {theme, handleChangeTheme} = useContext(AppContext)
-  const foundProject: Project | undefined = PROJECTS.find(projectToFind => projectToFind.title === projectId);
+
+  const projects = theme === "dark" ? PROJECTS : PROJECTS_LIGHT;
+
+  const foundProject: Project | undefined = projects.find(projectToFind => projectToFind.title === projectId);
 
   const renderProjectContent = (projectContent: ProjectContent) => {
     if (projectContent.type === ProjectContentMediaType.IMAGE) {

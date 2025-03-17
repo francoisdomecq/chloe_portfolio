@@ -7,11 +7,11 @@ import "./skills.scss";
 const Skills = () => {
   const {t} = useTranslation("about");
   return (
-    <div className="skills">
-      <h1 className="skill__title">{t("skills")}</h1>
-      <div className="skills__list">
+    <div className={`skills`}>
+      <h1 className="skill-title">{t("skills")}</h1>
+      <div className="skills-list">
         {skills.map((skill) => (
-          <p key={skill} className="skills__list-item">
+          <p key={skill} className="skills-list-item">
             {skill}
           </p>
         ))}

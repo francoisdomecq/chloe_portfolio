@@ -1,46 +1,15 @@
-.carousel{
+.carousel {
   display: flex;
-  left:0;
+  left: 0;
   gap: 16px;
   overflow: visible;
-  }
+}
 
-.carousel__project{
+.carousel__project {
   display: flex;
   min-height: 125px;
   font-family: var(--text-font);
-  color: white;  border-bottom: 1px solid var(--grey-deep);
+  border-bottom: 1px solid var(--grey-deep);
   margin-bottom: 16px;
 }
 
-.carousel__project-info{
-    display: flex;
-  width: 100vw;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 16px;
-}
-
-.carousel__project-info__title{
-  font-size: 64px;
-  font-family: var(--title-font);
-  color: white;}
-
-.carousel__project-info__date{
-  font-family: var(--text-font);
-  font-size: 32px;
-  color: white;}
-
-.carousel__project-info__subtitle{
-  font-size: 32px;
-  font-family: var(--text-font);
-  color:var(--grey-deep)
-}
-
-.carousel__project-info-description{
-  display: flex;
-  flex-direction: column;
-align-items: flex-end;
-  justify-content: space-between;
-  line-height: 36px;
-}
