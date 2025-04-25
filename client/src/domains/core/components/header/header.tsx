@@ -18,10 +18,11 @@ const Header = ({className}: HeaderProps) => {
   const navigate = useNavigate();
   const {t} = useTranslation("core");
   const location = useLocation()
-  const {theme} = useContext(AppContext)
+  const {theme, handleChangeTheme} = useContext(AppContext)
 
   const handleClickHeaderTitle = () => {
     navigate("/");
+    handleChangeTheme("dark");
     window.scroll(0, 0);
   };
 

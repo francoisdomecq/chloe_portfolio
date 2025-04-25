@@ -12,11 +12,12 @@ import {AppContext} from "../../../../config/contexts/app-context";
 
 const Navbar = () => {
   const navigate = useNavigate();
-  const {theme} = useContext(AppContext)
+  const {theme, handleChangeTheme} = useContext(AppContext)
   const {t} = useTranslation("core");
 
   const handleClickHeaderTitle = (tagId: string) => {
     navigate(`/${tagId}`);
+    handleChangeTheme("dark")
   };
   return (
     <nav className={`navbar navbar__${theme}`}>
