@@ -59,6 +59,11 @@
         "source": "/projects/ODETTE/ODETTE_5.jpg"
       },
       {
+        "id": "5-5",
+        "type": "VIDEO",
+        "source": "/projects/ODETTE/ODETTE_X.mp4"
+      },
+      {
         "id": "6",
         "type": "IMAGE",
         "source": "/projects/ODETTE/ODETTE_6.jpg"
