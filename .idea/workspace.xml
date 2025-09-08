@@ -4,12 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28fdb4fd-86ad-43a7-a703-a905b553dc09" name="Changes" comment="feat: add light/dark theme">
+    <list default="true" id="28fdb4fd-86ad-43a7-a703-a905b553dc09" name="Changes" comment="feat: add odette videos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL/PAYFIT.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL/PAYFIT.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE-WEB/ODETTE-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE-WEB/ODETTE-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE-WEB/ODETTE-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE-WEB/ODETTE-12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE-WEB/ODETTE-13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE-WEB/ODETTE-14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE-WEB/ODETTE-15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE-WEB/ODETTE-16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE-WEB/ODETTE-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE-WEB/ODETTE-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE-WEB/ODETTE-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE-WEB/ODETTE-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE-WEB/ODETTE-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE-WEB/ODETTE-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE-WEB/ODETTE-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE-WEB/ODETTE-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE-WEB/ODETTE_BOOK.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE-WEB/TYPO.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_12.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_12_A.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_15.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_18.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_22.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_22_A.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_23.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_23_A.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_24.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_7.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_8.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL/PAYFIT.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/config/works.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/config/works.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/header/header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/navbar/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/navbar/navbar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +92,9 @@
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -57,39 +104,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/public/projects/VIGNETAGE_CARROUSEL",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.stylelint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.stylelint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/server/node_modules/prettier",
-    "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "ts.external.directory.path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/server/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/public/projects/ODETTE&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/francoisdmq/Documents/Personal/chloe_portfolio/server/node_modules/prettier&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/francoisdmq/Documents/Personal/chloe_portfolio/server/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/public/projects/ODETTE" />
       <recent name="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL" />
       <recent name="$PROJECT_DIR$/client/public/projects/PAYFIT" />
       <recent name="$PROJECT_DIR$/client/public" />
       <recent name="$PROJECT_DIR$/client/public/projects/KAOLYN" />
-      <recent name="$PROJECT_DIR$/client/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/server/src/domains/projects/controller" />
@@ -102,8 +149,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.25659.59" />
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.25659.59" />
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26574.91" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26574.91" />
       </set>
     </attachedChunks>
   </component>
@@ -183,39 +230,12 @@
       <workItem from="1741855706838" duration="2370000" />
       <workItem from="1741954996983" duration="2325000" />
       <workItem from="1745426210784" duration="616000" />
-      <workItem from="1745480927994" duration="1509000" />
-    </task>
-    <task id="LOCAL-00015" summary="fix background color">
-      <option name="closed" value="true" />
-      <created>1728645539954</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1728645539954</updated>
-    </task>
-    <task id="LOCAL-00016" summary="remove autoplay for videos">
-      <option name="closed" value="true" />
-      <created>1728646157699</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1728646157699</updated>
-    </task>
-    <task id="LOCAL-00017" summary="remove autoplay for videos">
-      <option name="closed" value="true" />
-      <created>1728646284378</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1728646284378</updated>
-    </task>
-    <task id="LOCAL-00018" summary="improve design mobile">
-      <option name="closed" value="true" />
-      <created>1728648213986</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1728648213986</updated>
+      <workItem from="1745480927994" duration="2973000" />
+      <workItem from="1745588737802" duration="1841000" />
+      <workItem from="1745825507583" duration="599000" />
+      <workItem from="1746096165251" duration="2575000" />
+      <workItem from="1746187900564" duration="421000" />
+      <workItem from="1757337886158" duration="193000" />
     </task>
     <task id="LOCAL-00019" summary="fix title">
       <option name="closed" value="true" />
@@ -577,7 +597,39 @@
       <option name="project" value="LOCAL" />
       <updated>1739889430168</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="feat: add payfit">
+      <option name="closed" value="true" />
+      <created>1745586993818</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1745586993818</updated>
+    </task>
+    <task id="LOCAL-00065" summary="feat: remove bruno from payfit">
+      <option name="closed" value="true" />
+      <created>1745594472354</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1745594472354</updated>
+    </task>
+    <task id="LOCAL-00066" summary="feat: remove bruno from payfit">
+      <option name="closed" value="true" />
+      <created>1746097193895</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1746097193895</updated>
+    </task>
+    <task id="LOCAL-00067" summary="feat: add odette videos">
+      <option name="closed" value="true" />
+      <created>1746101919223</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1746101919223</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -607,9 +659,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix typo mobile" />
-    <MESSAGE value="fix cursor" />
-    <MESSAGE value="remove cursor on mobile" />
     <MESSAGE value="add project navigation and refacto contact page" />
     <MESSAGE value="refacto project navigation, add animation (not fully working) on home page, change titles on about page" />
     <MESSAGE value="refacto about page" />
@@ -632,7 +681,10 @@
     <MESSAGE value="feat: remove various temporary" />
     <MESSAGE value="feat: add kaolyn project" />
     <MESSAGE value="feat: update kaolyn project" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: update kaolyn project" />
+    <MESSAGE value="feat: add payfit" />
+    <MESSAGE value="feat: remove bruno from payfit" />
+    <MESSAGE value="feat: add odette videos" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add odette videos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -765,7 +765,7 @@
   {
     "id": "11",
     "title": "Payfit",
-    "theme": "light",
+    "theme": "dark",
     "description": {
       "title": "Payfit",
       "subtitle": [
@@ -786,118 +786,8 @@
       "fonts": "hand-drawn typography"
     },
     "date": "2025",
-    "carouselImage": "/projects/VIGNETAGE_CARROUSEL/PAYFIT.jpg",
+    "carouselImage": "",
     "content": [
-      {
-        "id": "7",
-        "type": "VIDEO",
-        "source": "/projects/PAYFIT/PAYFIT_7.mp4"
-      },
-      {
-        "id": "8",
-        "type": "VIDEO",
-        "source": "/projects/PAYFIT/PAYFIT_8.mp4"
-      },
-      {
-        "id": "9",
-        "type": "IMAGE",
-        "source": "/projects/PAYFIT/PAYFIT_9.jpg"
-      },
-      {
-        "id": "10",
-        "type": "IMAGE",
-        "source": "/projects/PAYFIT/PAYFIT_10.jpg"
-      },
-      {
-        "id": "11",
-        "type": "IMAGE",
-        "source": "/projects/PAYFIT/PAYFIT_11.jpg"
-      },
-      {
-        "id": "12A",
-        "type": "IMAGE",
-        "source": "/projects/PAYFIT/PAYFIT_12_A.jpg"
-      },
-      {
-        "id": "12",
-        "type": "VIDEO",
-        "source": "/projects/PAYFIT/PAYFIT_12.mp4"
-      },
-      {
-        "id": "13",
-        "type": "IMAGE",
-        "source": "/projects/PAYFIT/PAYFIT_13.jpg"
-      },
-      {
-        "id": "14",
-        "type": "IMAGE",
-        "source": "/projects/PAYFIT/PAYFIT_14.jpg"
-      },
-      {
-        "id": "15",
-        "type": "VIDEO",
-        "source": "/projects/PAYFIT/PAYFIT_15.mp4"
-      },
-      {
-        "id": "16",
-        "type": "IMAGE",
-        "source": "/projects/PAYFIT/PAYFIT_16.jpg"
-      },
-      {
-        "id": "17",
-        "type": "IMAGE",
-        "source": "/projects/PAYFIT/PAYFIT_17.jpg"
-      },
-      {
-        "id": "18",
-        "type": "VIDEO",
-        "source": "/projects/PAYFIT/PAYFIT_18.mp4"
-      },
-      {
-        "id": "19",
-        "type": "IMAGE",
-        "source": "/projects/PAYFIT/PAYFIT_19.jpg"
-      },
-      {
-        "id": "20",
-        "type": "IMAGE",
-        "source": "/projects/PAYFIT/PAYFIT_20.jpg"
-      },
-      {
-        "id": "21",
-        "type": "IMAGE",
-        "source": "/projects/PAYFIT/PAYFIT_21.jpg"
-      },
-      {
-        "id": "22A",
-        "type": "IMAGE",
-        "source": "/projects/PAYFIT/PAYFIT_22_A.jpg"
-      },
-      {
-        "id": "22",
-        "type": "VIDEO",
-        "source": "/projects/PAYFIT/PAYFIT_22.mp4"
-      },
-      {
-        "id": "23",
-        "type": "VIDEO",
-        "source": "/projects/PAYFIT/PAYFIT_23.mp4"
-      },
-      {
-        "id": "23A",
-        "type": "IMAGE",
-        "source": "/projects/PAYFIT/PAYFIT_23_A.jpg"
-      },
-      {
-        "id": "24",
-        "type": "VIDEO",
-        "source": "/projects/PAYFIT/PAYFIT_24.mp4"
-      },
-      {
-        "id": "25",
-        "type": "IMAGE",
-        "source": "/projects/PAYFIT/PAYFIT_25.jpg"
-      }
     ]
   }
 ]
