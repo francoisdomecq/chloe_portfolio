@@ -5,111 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28fdb4fd-86ad-43a7-a703-a905b553dc09" name="Changes" comment="feat: payfit picto">
-      <change afterPath="$PROJECT_DIR$/client/src/config/i18n/home.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/domains/core/theme/shared.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/home-page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/domains/old/core/components/footer/footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/domains/old/core/components/footer/footer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/domains/old/core/components/header/header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/domains/old/core/components/header/header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/domains/old/core/components/navbar/navbar.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/domains/old/core/components/navbar/navbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/domains/old/core/components/navbar/navbar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/domains/old/core/components/portfolio-page/portfolio-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/domains/old/core/components/portfolio-page/portfolio-page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/domains/old/core/i18n/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/domains/old/core/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/domains/old/core/types/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/domains/old/home_old/i18n/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/domains/old/home_old/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/domains/old/home_old/pages/home/home.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/config/contexts/app-context.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/config/contexts/app-context.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/config/i18n/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/config/i18n/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/config/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/about/components/experience/experience.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/about_old/components/experience/experience.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/about/components/experience/experiences.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/about_old/components/experience/experiences.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/about/components/experiences/experiences.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/about_old/components/experiences/experiences.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/about/components/experiences/experiences.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/about_old/components/experiences/experiences.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/about/components/experiences/experiences.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/about_old/components/experiences/experiences.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/about/components/schools/schools.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/about_old/components/schools/schools.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/about/components/schools/schools.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/about_old/components/schools/schools.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/about/components/schools/schools.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/about_old/components/schools/schools.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/about/components/skills/skills.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/about_old/components/skills/skills.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/about/components/skills/skills.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/about_old/components/skills/skills.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/about/components/skills/skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/about_old/components/skills/skills.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/about/i18n/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/about_old/i18n/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/about/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/about_old/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/about/pages/about/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/about_old/pages/about/about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/about/pages/about/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/about_old/pages/about/about.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/about/types/experiences.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/about_old/types/experiences.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/contact/i18n/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/contact_old/i18n/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/contact/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/contact_old/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/contact/pages/contact/contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/contact_old/pages/contact/contact.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/contact/pages/contact/contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/contact_old/pages/contact/contact.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/animate-text/animate-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/core/components/animate-text/animate-text.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/animate-text/animate-text.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/core/components/animate-text/animate-text.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/footer/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/footer/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/config/i18n/core.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/config/i18n/core.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/header/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/header/header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/hovered-title/hovered-title.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/core/components/hovered-title/hovered-title.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/hovered-title/hovered-title.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/core/components/hovered-title/hovered-title.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/icon/icon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/core/components/icon/icon.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/icon/icon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/core/components/icon/icon.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/mouse-cursor/mouse-cursor.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/core/components/mouse-cursor/mouse-cursor.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/mouse-cursor/mouse-cursor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/core/components/mouse-cursor/mouse-cursor.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/navbar/navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/navbar/navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/navbar/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/navbar/navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/navigation-history/navigation-history.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/core/components/navigation-history/navigation-history.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/navigation-history/navigation-history.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/core/components/navigation-history/navigation-history.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/portfolio-page/portfolio-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/portfolio-page/portfolio-page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/navbar/navbar.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/navbar/navbar.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/portfolio-page/portfolio-page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/portfolio-page/portfolio-page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/scroll-to-top/scroll-to-top.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/core/components/scroll-to-top/scroll-to-top.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/hooks/use-click-outside.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/core/hooks/use-click-outside.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/i18n/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/config/i18n/core.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/core/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/theme/breakpoints.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/core/theme/breakpoints.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/theme/colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/core/theme/colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/theme/typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/core/theme/typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/home/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/home/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/home/pages/home/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/home_old/pages/home/home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/home/pages/home/home.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/projects/i18n/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/projects_old/i18n/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/projects/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/projects_old/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/projects/pages/project-details/components/image-displayer/image-displayer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/projects_old/pages/project-details/components/image-displayer/image-displayer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/projects/pages/project-details/components/image-displayer/image-displayer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/projects_old/pages/project-details/components/image-displayer/image-displayer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/projects/pages/project-details/components/project-details-description/project-details-description.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/projects_old/pages/project-details/components/project-details-description/project-details-description.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/projects/pages/project-details/components/project-details-description/project-details-description.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/projects_old/pages/project-details/components/project-details-description/project-details-description.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/projects/pages/project-details/components/project-navigator/project-navigator.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/projects_old/pages/project-details/components/project-navigator/project-navigator.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/projects/pages/project-details/components/project-navigator/project-navigator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/projects_old/pages/project-details/components/project-navigator/project-navigator.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/projects/pages/project-details/components/video-player/video-player.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/projects_old/pages/project-details/components/video-player/video-player.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/projects/pages/project-details/components/video-player/video-player.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/projects_old/pages/project-details/components/video-player/video-player.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/projects/pages/project-details/project-details.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/projects_old/pages/project-details/project-details.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/projects/pages/project-details/project-details.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/projects_old/pages/project-details/project-details.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/projects/pages/projects/components/carousel/carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/projects_old/pages/projects/components/carousel/carousel.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/projects/pages/projects/components/carousel/carousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/projects_old/pages/projects/components/carousel/carousel.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/projects/pages/projects/components/carousel/components/carousel-image/carousel-image.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/projects_old/pages/projects/components/carousel/components/carousel-image/carousel-image.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/projects/pages/projects/components/carousel/components/carousel-image/carousel-image.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/projects_old/pages/projects/components/carousel/components/carousel-image/carousel-image.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/projects/pages/projects/components/project/project.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/projects_old/pages/projects/components/project/project.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/projects/pages/projects/components/project/project.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/projects_old/pages/projects/components/project/project.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/projects/pages/projects/projects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/projects_old/pages/projects/projects.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/projects/pages/projects/projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/projects_old/pages/projects/projects.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/projects/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/projects_old/types/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/various/i18n/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/various_old/i18n/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/various/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/various_old/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/various/pages/various/components/various-drawer/various-drawer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/various_old/pages/various/components/various-drawer/various-drawer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/various/pages/various/components/various-drawer/various-drawer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/various_old/pages/various/components/various-drawer/various-drawer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/various/pages/various/various.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/various_old/pages/various/various.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/various/pages/various/various.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/various_old/pages/various/various.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/various/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/various_old/types/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/theme/shared.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/theme/shared.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/types/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/old/core/theme/breakpoints.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/old/core/theme/colors.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/old/core/theme/typography.scss" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,38 +107,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "design-rework",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/src/config/i18n",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.stylelint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.stylelint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/server/node_modules/prettier",
-    "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "com.github.copilot.settings.keymap.KeymapConfigurable",
-    "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/server/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;design-rework&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/src/config/i18n&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/francoisdmq/Documents/Personal/chloe_portfolio/server/node_modules/prettier&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.copilot.settings.keymap.KeymapConfigurable&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/francoisdmq/Documents/Personal/chloe_portfolio/server/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/client/src/config/i18n" />
