@@ -10,8 +10,14 @@
     }
   },
   "footer": {
-    "instagram": "INSTAGRAM",
-    "behance": "BEHANCE",
-    "linkedin": "LINKEDIN"
+    "contactLabel": "Pour papoter, se rencontrer et échanger",
+    "contactButton": "Contact",
+    "siteMap": "Plan du site",
+    "home": "Home",
+    "followMe": "Pour me suivre",
+    "instagram": "Instagram",
+    "linkedin": "Linkedin",
+    "location": "Paris/France",
+    "languages": "EN/FR"
   }
 }

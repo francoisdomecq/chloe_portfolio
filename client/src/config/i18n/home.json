@@ -1,12 +1,13 @@
 {
   "home": {
-    "title": "CHLOÉ GAILLARD",
-    "scroll-to-video": "Scroll to video",
-    "welcome": "Here are some of my works",
-    "welcome-mobile": "Hi there,",
-    "brief-about": "I'm a graphic designer based in Paris",
-    "title-mobile": "I'm Chloé Gaillard.",
-    "brief-about-mobile": "Graphic designer based in Paris.",
-    "see-video": "See some of my works"
+    "introduction": "Passionnée par l’illustration, la typographie\net le branding, je conçois des univers graphiques uniques et sur mesure. Je vous invite à découvrir mon travail à travers une sélection de projets qui reflètent mon approche créative, ma vision du design et ma sensibilité visuelle.",
+    "selection": {
+      "title": "Sélection",
+      "view-more": "Découvrir tous les projets"
+    },
+    "lastly": {
+      "title": "Les dernières nouvelles",
+      "read-more": "Lire l'article"
+    }
   }
 }

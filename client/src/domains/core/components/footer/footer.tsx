@@ -1,8 +1,11 @@
 import {forwardRef} from "react";
 
 import "./footer.scss";
+import {NAV_TABS} from "@components/navbar/navbar.config";
+import {useTranslation} from "react-i18next";
 
 const Footer = forwardRef<HTMLElement>((_, ref) => {
+  const {t} = useTranslation("core");
 
   return (
     <footer className="footer" ref={ref}>
@@ -10,29 +13,33 @@ const Footer = forwardRef<HTMLElement>((_, ref) => {
         <div className="footer__columns">
           <div className="footer__contact">
             <h2 className="footer__title">
-              Pour papoter, se rencontrer et échanger
+              {t("footer.contactLabel")}
             </h2>
             <a
               href="mailto:chloegaillard3312@gmail.com"
               className="footer__cta-button"
             >
-              Contact
+              {t("footer.contactButton")}
             </a>
           </div>
 
           <div className="footer__links">
             <div className="footer__sitemap">
-              <h3 className="footer__column-title">Plan du site</h3>
+              <h3 className="footer__column-title">
+                {t("footer.siteMap")}
+              </h3>
               <nav className="footer__sitemap-nav">
-                <a href="/" className="footer__link">Accueil</a>
-                <a href="#works" className="footer__link">Works</a>
-                <a href="#about" className="footer__link">About</a>
-                <a href="#news" className="footer__link">News</a>
+                <a  href="/" className="footer__link">
+                  {t("footer.home")}
+                </a>
+                {NAV_TABS.map(navTab=>
+                  <a  key={navTab.key} href={navTab.key} className="footer__link">{t(`navbar.tabs.${navTab.tagId}`)}</a>)
+                }
               </nav>
             </div>
 
             <div className="footer__social">
-              <h3 className="footer__column-title">Pour me suivre</h3>
+              <h3 className="footer__column-title"> {t("footer.followMe")}</h3>
               <nav className="footer__social-nav">
                 <a
                   href="https://www.instagram.com"
@@ -40,7 +47,7 @@ const Footer = forwardRef<HTMLElement>((_, ref) => {
                   rel="noopener noreferrer"
                   className="footer__link"
                 >
-                  Instagram
+                  {t("footer.instagram")}
                 </a>
                 <a
                   href="https://www.linkedin.com"
@@ -48,7 +55,8 @@ const Footer = forwardRef<HTMLElement>((_, ref) => {
                   rel="noopener noreferrer"
                   className="footer__link"
                 >
-                  LinkedIn
+                  {t("footer.linkedin")}
+
                 </a>
               </nav>
             </div>
@@ -59,8 +67,11 @@ const Footer = forwardRef<HTMLElement>((_, ref) => {
 
       <div className="footer__divider" />
       <div className="footer__bottom-bar">
-        <span className="footer__bottom-left">Paris, France</span>
-        <span className="footer__bottom-right">EN / FR, ©{new Date().getFullYear()}</span>
+        <span className="footer__bottom-left">
+                  {t("footer.location")}
+        </span>
+        <span className="footer__bottom-right">{t("footer.languages")}
+          , ©{new Date().getFullYear()}</span>
       </div>
       <div className="footer__big-name">
         <span>Chloé Gaillard</span>

@@ -1,0 +1,37 @@
+.introduction-container {
+  margin-top: 128px;
+  padding: 0 0 0 46.5%;
+  line-height: 1.4;
+
+}
+
+.introduction {
+  align-self: flex-end;
+  color: var(--text-blue);
+  max-width: 600px;
+  font-size: var(--font-size-h2);
+}
+
+.selection__header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.selection__title {
+  font-size: calc(var(--font-size-h1) * 1.5);
+  color: black;
+  font-weight: 400;
+}
+
+.selection__view-more {
+  font-size: var(--font-size-body-l);
+  color: var(--grey-deep);
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: 32px;
+}
+
+.lastly {
+  margin-bottom: 48px;
+}

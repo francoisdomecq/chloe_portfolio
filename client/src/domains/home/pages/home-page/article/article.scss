@@ -1,0 +1,143 @@
+@import "../../../../core/theme/shared";
+
+/* ═══════════════════════════════════
+   Article – Desktop (default)
+   ═══════════════════════════════════ */
+.article {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.article__separator {
+  margin-bottom: 24px;
+}
+
+.article__date {
+  font-size: var(--font-size-body-m);
+  color: black;
+  min-width: 128px;
+}
+
+.article__content {
+  display: flex;
+  flex-direction: row;
+  gap: 15%;
+}
+
+.article__media {
+  display: flex;
+  gap: 16px;
+  height: 350px;
+}
+
+/* Desktop : vidéo visible, image masquée */
+.article__video {
+  flex-shrink: 0;
+}
+
+.article__image {
+  display: none;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.article__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.article__description-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.article__title {
+  font-size: var(--font-size-h1);
+  font-weight: 400;
+  line-height: 1;
+  color: black;
+}
+
+.article__article {
+  font-size: var(--font-size-body-m);
+  color: var(--grey-deep);
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  text-overflow: ellipsis;
+}
+
+.article__read-more {
+  font-size: var(--font-size-body-m);
+  color: var(--grey-deep);
+  text-decoration: underline;
+}
+
+@media screen and (max-width: $desktop-bp) {
+  .article__video {
+    display: none;
+  }
+
+  .article__image {
+    display: block;
+    width: 260px;
+    height: 260px;
+  }
+
+  .article__media {
+    height: 260px;
+  }
+
+  .article__content {
+    gap: 8%;
+  }
+
+  .article__title {
+    font-size: var(--font-size-h2);
+  }
+}
+
+@media screen and (max-width: $mobile-bp) {
+  .article__content {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .article__date {
+    min-width: unset;
+  }
+
+  .article__media {
+    flex-direction: column;
+    gap: 12px;
+    height: auto;
+  }
+
+  .article__image {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
+
+  .article__title {
+    font-size: var(--font-size-h3);
+  }
+
+  .article__article {
+    display: none;
+  }
+
+  .article__read-more {
+    margin-top: 8px;
+  }
+
+  .article__description {
+    gap: 0;
+  }
+}
