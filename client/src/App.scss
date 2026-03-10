@@ -1,5 +1,12 @@
-@import "./domains/core/index.scss";
+:root {
+  --default-icon-size: 16px;
+  font-size: 10px;
+  scroll-behavior: smooth;
+  background-color: white;
+}
 
 * {
-  cursor: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }

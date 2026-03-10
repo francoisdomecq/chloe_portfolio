@@ -1,0 +1,37 @@
+@import "../../theme/breakpoints";
+
+.navbar {
+  display: flex;
+}
+
+.navbar__light {
+  color: black
+}
+
+.navbar__dark {
+  color: white
+}
+
+.navbar__nav-items {
+  display: flex;
+  list-style-type: none;
+  gap: 8px;
+}
+
+.navbar__nav-item {
+  font-size: var(--font-size-subtitle);
+
+  &:visited {
+    color: inherit;
+  }
+
+  &:hover {
+    color: var(--grey-deep-2);
+  }
+}
+
+@media screen and (min-width: $mobile-bp) {
+  .navbar__nav-item {
+    font-size: var(--font-size-h2);
+  }
+}

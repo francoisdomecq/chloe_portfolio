@@ -2,6 +2,10 @@ import {initReactI18next} from "react-i18next";
 
 import i18n from "i18next";
 
+import coreTranslation from './core.json'
+import homeTranslation from './home.json'
+
+
 // i18next t method can return a null value, needs to be prevented.
 declare module "i18next" {
   interface CustomTypeOptions {
@@ -12,12 +16,15 @@ declare module "i18next" {
 i18n.use(initReactI18next)
   .init({
     resources: {
-      fr: {
-        translation: {}
-      }
+      en: {
+        core:coreTranslation ,
+        home:homeTranslation
+      },
     },
     returnNull: false,
     lng: "en",
+    fallbackLng:"en",
+    ns: ["core"],
     interpolation: {
       escapeValue: false
     },
@@ -25,7 +32,6 @@ i18n.use(initReactI18next)
       transSupportBasicHtmlNodes: true,
       transKeepBasicHtmlNodesFor: ["br", "strong", "i", "ul", "li", "p", "s", "u"]
     }
-  })
-  .then();
+  });
 
 export default i18n;

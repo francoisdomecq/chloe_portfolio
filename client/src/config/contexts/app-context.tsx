@@ -16,11 +16,11 @@ const AppContext = React.createContext <(AppContextInterface)>({} as AppContextI
 
 const AppContextProvider = ({children}: AppContextProps) => {
   const [isHovering, setIsHovering] = useState<"text" | "carouselImage" | undefined>(undefined);
-  const [theme, setTheme] = useState("dark");
+  const [theme, setTheme] = useState("light");
 
   const hoverElement = useCallback((element: "text" | "carouselImage") => setIsHovering(element), []);
   const unhoverElement = useCallback(() => setIsHovering(undefined), []);
-  const handleChangeTheme = useCallback((theme = "dark") => setTheme(theme), [])
+  const handleChangeTheme = useCallback((theme = "light") => setTheme(theme), [])
 
   const contextValue = useMemo(() => ({
     isHovering,

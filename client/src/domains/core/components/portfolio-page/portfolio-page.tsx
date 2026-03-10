@@ -1,9 +1,10 @@
 import {motion} from "framer-motion";
 
-import {Footer, Header} from "../../index";
 
 
 import "./portfolio-page.scss";
+import Header from "@components/header/header";
+import Footer from "@components/footer/footer";
 
 interface PortfolioPageProps {
   children: React.ReactNode;

@@ -5,10 +5,9 @@ import {motion} from "framer-motion";
 
 import {NAV_TABS} from "./navbar.config";
 
-
 import "./navbar.scss";
 import {useContext} from "react";
-import {AppContext} from "../../../../config/contexts/app-context";
+import {AppContext} from "@config/contexts/app-context";
 
 const Navbar = () => {
   const navigate = useNavigate();
