@@ -12,6 +12,12 @@
   font-size: var(--font-size-h2);
 }
 
+.selection {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
 .selection__header {
   display: flex;
   align-items: center;
@@ -29,9 +35,12 @@
   color: var(--grey-deep);
   text-decoration: underline;
   cursor: pointer;
-  margin-top: 32px;
+  margin-top: 24px;
 }
 
 .lastly {
+  display: flex;
+  flex-direction: column;
   margin-bottom: 48px;
+  margin-top: 48px;
 }

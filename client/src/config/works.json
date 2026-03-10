@@ -2,6 +2,7 @@
   {
     "id": "1",
     "title": "Odette, la cuisine du souvenir",
+    "selectedIndex": "1",
     "description": {
       "title": "Odette, la cuisine du souvenir",
       "subtitle": [
@@ -193,6 +194,7 @@
   {
     "id": "3",
     "title": "XTRM Salomon",
+    "selectedIndex": "2",
     "description": {
       "title": "XTRM by Salomon",
       "subtitle": [
@@ -348,6 +350,7 @@
   {
     "id": "5",
     "title": "Pangram Pangram Foundry",
+    "selectedIndex": "3",
     "description": {
       "title": "PangramPangram Foundry",
       "subtitle": [
@@ -473,6 +476,7 @@
   {
     "id": "7",
     "title": "Hermès",
+    "selectedIndex": "4",
     "description": {
       "title": "Hermès",
       "subtitle": [
@@ -631,6 +635,7 @@
   {
     "id": "10",
     "title": "Kaolyn",
+    "selectedIndex": "5",
     "theme": "dark",
     "description": {
       "title": "Kaolyn",
@@ -765,6 +770,7 @@
   {
     "id": "11",
     "title": "Payfit",
+    "selectedIndex": "6",
     "theme": "dark",
     "description": {
       "title": "Payfit",

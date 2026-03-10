@@ -30,7 +30,10 @@
       ],
       "@components/*": [
         "./src/domains/core/components/*"
-      ]
+      ],
+      "@domains/*": [
+        "./src/domains/*"
+      ],
     },
     "plugins": [
       {

@@ -4,21 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28fdb4fd-86ad-43a7-a703-a905b553dc09" name="Changes" comment="feat: header and footer">
-      <change afterPath="$PROJECT_DIR$/client/public/projects/CHLOE/9-CHLOE.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/1-KAOLYN.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/article/article.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/article/article.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/articles.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/home-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/selection-grid/selection-grid.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/domains/home/types/index.ts" afterDir="false" />
+    <list default="true" id="28fdb4fd-86ad-43a7-a703-a905b553dc09" name="Changes" comment="articles">
+      <change afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/selection-grid/selection-grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/domains/works/pages/project/project.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/domains/works/pages/project/project.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/domains/works/types/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/config/i18n/core.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/config/i18n/core.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/config/i18n/home.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/config/i18n/home.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/footer/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/footer/footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/portfolio-page/portfolio-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/portfolio-page/portfolio-page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/config/works.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/config/works.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/theme/shared.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/theme/shared.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/home/i18n/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/home/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/home-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/home-page.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/home-page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/home-page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/selection-grid/selection-grid.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/selection-grid/selection-grid.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +125,7 @@
     "git-widget-placeholder": "design-rework",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/public/projects/KAOLYN",
+    "last_opened_file_path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/src/domains/works",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.stylelint": "true",
@@ -144,18 +145,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/domains/works" />
+      <recent name="$PROJECT_DIR$/client/src/domains/home/pages/home-page/selection-grid" />
       <recent name="$PROJECT_DIR$/client/public/projects/KAOLYN" />
       <recent name="$PROJECT_DIR$/client/src/domains/home/pages/home-page/article" />
       <recent name="$PROJECT_DIR$/client/src/domains/home/pages/home-page" />
-      <recent name="$PROJECT_DIR$/client/src/config/i18n" />
-      <recent name="$PROJECT_DIR$/client/src/domains/core" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/domains/works/pages" />
       <recent name="$PROJECT_DIR$/client/public/projects/CHLOE" />
       <recent name="$PROJECT_DIR$/client/src/config/i18n" />
       <recent name="$PROJECT_DIR$/client/src/config/core/json" />
       <recent name="$PROJECT_DIR$/client/src/domains/core/components" />
-      <recent name="$PROJECT_DIR$/client/src/domains/old" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -251,14 +252,6 @@
       <workItem from="1757663352252" duration="2000" />
       <workItem from="1769686740743" duration="6295000" />
       <workItem from="1771866050820" duration="2656000" />
-    </task>
-    <task id="LOCAL-00024" summary="fix experience mobile display">
-      <option name="closed" value="true" />
-      <created>1728899726901</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1728899726901</updated>
     </task>
     <task id="LOCAL-00025" summary="add slow on hover carousel">
       <option name="closed" value="true" />
@@ -644,7 +637,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773155465030</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="articles">
+      <option name="closed" value="true" />
+      <created>1773168912557</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1773168912557</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -674,7 +675,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="change typo" />
     <MESSAGE value="dark mode" />
     <MESSAGE value="fix build" />
     <MESSAGE value="change carousel images" />
@@ -699,7 +699,8 @@
     <MESSAGE value="feat: payfit picto" />
     <MESSAGE value="feat: header" />
     <MESSAGE value="feat: header and footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: header and footer" />
+    <MESSAGE value="articles" />
+    <option name="LAST_COMMIT_MESSAGE" value="articles" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

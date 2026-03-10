@@ -1,0 +1,96 @@
+.project {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: black;
+}
+
+.project__title {
+  font-size: calc(var(--font-size-h1) * 2);
+  font-family: var(--title-font);
+  font-weight: 400;
+  color: black;
+}
+
+.project__details {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 128px;
+  font-family: var(--text-font);
+  font-size: var(--font-size-body-m);
+}
+
+.project__details-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 200px;
+  gap: 64px;
+  margin-left: 24px;
+}
+
+.project__details-content-label {
+  min-width: 120px
+}
+
+.project-skills {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+.project-description__label {
+  min-width: 120px;
+}
+
+.project__description {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 64px;
+}
+
+.divider {
+  width: 120%;
+  color: black;
+}
+
+.title {
+
+}
+
+.project-description__content {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 8px;
+}
+
+.image-displayer {
+  display: flex;
+  justify-content: center;
+}
+
+.image-displayer__image {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+}
+
+.project__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  align-self: flex-end;
+  gap: 32px;
+  max-width: 50%;
+}
+
+@media screen and (min-width: $mobile-bp) {
+  .image-displayer__image {
+    width: 90%;
+    height: 90%;
+  }
+}
