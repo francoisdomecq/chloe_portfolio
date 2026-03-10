@@ -7,9 +7,10 @@ import {NAV_TABS} from "@components/navbar/navbar.config";
 
 interface HeaderProps {
   className?: string;
+  isHidden?: boolean;
 }
 
-const Header = ({className}: HeaderProps) => {
+const Header = ({className, isHidden}: HeaderProps) => {
   const {t} = useTranslation("core");
   const navigate = useNavigate();
   const [menuOpen, setMenuOpen] = useState(false);
@@ -22,7 +23,7 @@ const Header = ({className}: HeaderProps) => {
   return (
     <>
       {/* ── Header bar ── */}
-      <header className={`header ${menuOpen ? "header--hidden" : ""} ${className ?? ""}`}>
+      <header className={`header ${menuOpen || isHidden ? "header--hidden" : ""} ${className ?? ""}`}>
         <a
           className="header__logo"
           href="/"

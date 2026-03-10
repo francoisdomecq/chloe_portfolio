@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28fdb4fd-86ad-43a7-a703-a905b553dc09" name="Changes" comment="feat: payfit picto">
+    <list default="true" id="28fdb4fd-86ad-43a7-a703-a905b553dc09" name="Changes" comment="feat: header">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/config/i18n/core.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/config/i18n/core.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/header/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/header/header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/navbar/navbar.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/navbar/navbar.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/portfolio-page/portfolio-page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/portfolio-page/portfolio-page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/theme/shared.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/theme/shared.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/types/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/old/core/theme/breakpoints.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/old/core/theme/colors.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/old/core/theme/typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/footer/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/footer/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/footer/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/footer/footer.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,14 +240,6 @@
       <workItem from="1757663352252" duration="2000" />
       <workItem from="1769686740743" duration="6295000" />
       <workItem from="1771866050820" duration="2656000" />
-    </task>
-    <task id="LOCAL-00022" summary="add netlify config file">
-      <option name="closed" value="true" />
-      <created>1728897482552</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1728897482552</updated>
     </task>
     <task id="LOCAL-00023" summary="add netlify config file">
       <option name="closed" value="true" />
@@ -641,7 +625,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757363389844</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="feat: header">
+      <option name="closed" value="true" />
+      <created>1773153632268</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1773153632268</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -671,7 +663,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="working home page animtion" />
     <MESSAGE value="rework home page" />
     <MESSAGE value="change typo" />
     <MESSAGE value="dark mode" />
@@ -696,7 +687,8 @@
     <MESSAGE value="feat: remove payfit" />
     <MESSAGE value="feat: add new payfit" />
     <MESSAGE value="feat: payfit picto" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: payfit picto" />
+    <MESSAGE value="feat: header" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: header" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
