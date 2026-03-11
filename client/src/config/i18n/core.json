@@ -4,16 +4,16 @@
   },
   "navbar": {
     "tabs": {
-      "works": "Works",
+      "works": "Projets",
       "about": "About",
-      "news": "News"
+      "news": "Actualités"
     }
   },
   "footer": {
     "contactLabel": "Pour papoter, se rencontrer et échanger",
     "contactButton": "Contact",
     "siteMap": "Plan du site",
-    "home": "Home",
+    "home": "Accueil",
     "followMe": "Pour me suivre",
     "instagram": "Instagram",
     "linkedin": "Linkedin",

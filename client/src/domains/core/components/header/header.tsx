@@ -1,4 +1,4 @@
-import {useState} from "react";
+import {useCallback, useEffect, useState} from "react";
 import {useTranslation} from "react-i18next";
 import {useNavigate} from "react-router-dom";
 
@@ -10,10 +10,22 @@ interface HeaderProps {
   isHidden?: boolean;
 }
 
+const SCROLL_THRESHOLD = 5;
+
 const Header = ({className, isHidden}: HeaderProps) => {
   const {t} = useTranslation("core");
   const navigate = useNavigate();
   const [menuOpen, setMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  const handleScroll = useCallback(() => {
+    setScrolled(window.scrollY > SCROLL_THRESHOLD);
+  }, []);
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll, {passive: true});
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [handleScroll]);
 
   const handleLogoClick = () => {
     setMenuOpen(false);
@@ -23,7 +35,7 @@ const Header = ({className, isHidden}: HeaderProps) => {
   return (
     <>
       {/* ── Header bar ── */}
-      <header className={`header ${menuOpen || isHidden ? "header--hidden" : ""} ${className ?? ""}`}>
+      <header className={`header ${isHidden ? "header--hidden" : ""} ${scrolled ? "header--scrolled" : ""} ${className ?? ""}`}>
         <a
           className="header__logo"
           href="/"
@@ -51,7 +63,7 @@ const Header = ({className, isHidden}: HeaderProps) => {
             <a
               key={navTab.key}
               className="header__nav-link"
-              href={`${navTab.key}`}
+              href={`/${navTab.key}`}
             >
               {t(`navbar.tabs.${navTab.key}`)}
             </a>

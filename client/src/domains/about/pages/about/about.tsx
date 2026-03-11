@@ -1,0 +1,28 @@
+import {PortfolioPage} from "@core/index";
+import {useTranslation} from "react-i18next";
+import "./about.scss"
+const About = ()=>{
+  const {t}=useTranslation("about")
+  return (
+    <PortfolioPage>
+      <div className="about-container">
+        <div className="about">
+          <p className="description">{t("about.description")}</p>
+          <img/>
+        </div>
+        <div>
+          <h2 className="skills-title">{t("about.skills")}</h2>
+          <h2 className="skills">{t("about.direction")}</h2>
+          <h2 className="skills">{t("about.typography")}</h2>
+          <h2 className="skills">{t("about.identity")}</h2>
+          <h2 className="skills">{t("about.branding")}</h2>
+          <h2 className="skills">{t("about.illustrations")}</h2>
+          <h2 className="skills">{t("about.webdesign")}</h2>
+        </div>
+      </div>
+
+    </PortfolioPage>
+  )
+}
+
+export default About;

@@ -4,6 +4,8 @@ import i18n from "i18next";
 
 import coreTranslation from './core.json'
 import homeTranslation from './home.json'
+import worksTranslation from './works.json'
+import aboutTranslation from './about.json'
 
 
 // i18next t method can return a null value, needs to be prevented.
@@ -18,7 +20,9 @@ i18n.use(initReactI18next)
     resources: {
       en: {
         core:coreTranslation ,
-        home:homeTranslation
+        home:homeTranslation,
+        works:worksTranslation,
+        about: aboutTranslation
       },
     },
     returnNull: false,

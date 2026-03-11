@@ -17,10 +17,16 @@ $desktop-bp: 960px;
   top: 0;
   left: 0;
   z-index: 999;
-  background-color: transparent;
   color: var(--text-blue);
   box-shadow: none;
-  transition: opacity 0.3s ease, visibility 0s 0s;
+  background-color: transparent;
+  border-radius: 0;
+  transition: top 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+  width 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+  left 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+  background-color 0.4s ease,
+  border-radius 0.4s ease,
+  box-shadow 0.4s ease;
 }
 
 .header--hidden {
@@ -223,6 +229,17 @@ $desktop-bp: 960px;
    ═══════════════════════════════════ */
 @media screen and (min-width: $desktop-bp) {
   .header {
-    padding: 20px 48px;
+    padding: 20px 24px;
+  }
+
+  .header--scrolled {
+    top: 16px;
+    left: 24px;
+    width: calc(100% - 48px);
+    background-color: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
   }
 }

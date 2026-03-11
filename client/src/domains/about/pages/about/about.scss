@@ -1,0 +1,34 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  padding-bottom: 64px;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+}
+
+.description {
+  color: var(--text-blue);
+  font-size: var(--font-size-body-l);
+  max-width: 40%;
+}
+
+.picture {
+
+}
+
+.skills {
+  font-size: calc(var(--font-size-h1) * 1.5);
+  line-height: 1.1;
+  font-weight: 400;
+  color: var(--grey-deep)
+}
+
+.skills-title {
+  @extend .skills;
+  color: var(--text-blue);
+}
+

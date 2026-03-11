@@ -6,6 +6,9 @@ import ScrollToTop from "./domains/old/core/components/scroll-to-top/scroll-to-t
 import "./App.scss";
 import {HomePage} from "./domains/home/pages/home-page/home-page";
 import Project from "@domains/works/pages/project/project";
+import Projects from "@domains/works/pages/projects/projects";
+import News from "@domains/news/pages/news/news";
+import About from "@domains/about/pages/about/about";
 
 function App() {
 
@@ -15,7 +18,10 @@ function App() {
       <AppContextProvider>
         <Routes>
           <Route path="/" element={<HomePage/>}/>
+          <Route path="/works" element={<Projects/>}/>
           <Route path="/works/:id" element={<Project/>}/>
+          <Route path="/news" element={<News/>}/>
+          <Route path="/about" element={<About/>}/>
         </Routes>
       </AppContextProvider>
 

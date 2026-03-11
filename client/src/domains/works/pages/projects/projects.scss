@@ -1,0 +1,41 @@
+.page-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-family: var(--title-font);
+  font-size: calc(var(--font-size-h1) * 2);
+  color: var(--text-blue);
+  font-weight: 400;
+}
+
+.invisible-title {
+  opacity: 0;
+}
+
+.project-infos {
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-20px);
+  animation: fadeIn 1s ease-in-out forwards;
+  font-family: var(--title-font);
+  font-size: calc(var(--font-size-h1) * 1.5);
+  font-weight: 400;
+  color: var(--grey-deep);
+}
+
+.project-title {
+  font-weight: 400;
+
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+}
+
+.project {
+  cursor: pointer;
+}
