@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28fdb4fd-86ad-43a7-a703-a905b553dc09" name="Changes" comment="showreel">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/footer/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/footer/footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/portfolio-page/portfolio-page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/portfolio-page/portfolio-page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/theme/shared.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/theme/shared.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/domains/works/pages/projects/projects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/pages/projects/projects.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/domains/works/pages/projects/projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/pages/projects/projects.tsx" afterDir="false" />
     </list>
@@ -244,15 +240,7 @@
       <workItem from="1769686740743" duration="6295000" />
       <workItem from="1771866050820" duration="2656000" />
       <workItem from="1773239815465" duration="5125000" />
-      <workItem from="1773252871358" duration="986000" />
-    </task>
-    <task id="LOCAL-00028" summary="add projects details, and animation on first screen">
-      <option name="closed" value="true" />
-      <created>1729266145323</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1729266145323</updated>
+      <workItem from="1773252871358" duration="1303000" />
     </task>
     <task id="LOCAL-00029" summary="add subtitles to project details">
       <option name="closed" value="true" />
@@ -638,7 +626,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773253411807</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="showreel">
+      <option name="closed" value="true" />
+      <created>1773254003846</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1773254003846</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
