@@ -4,22 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28fdb4fd-86ad-43a7-a703-a905b553dc09" name="Changes" comment="articles">
-      <change afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/selection-grid/selection-grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/domains/works/pages/project/project.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/domains/works/pages/project/project.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/domains/works/types/index.ts" afterDir="false" />
+    <list default="true" id="28fdb4fd-86ad-43a7-a703-a905b553dc09" name="Changes" comment="init project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/config/works.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/config/works.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/theme/shared.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/theme/shared.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/home/i18n/en.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/home/index.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/home-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/home-page.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/home-page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/home-page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/selection-grid/selection-grid.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/selection-grid/selection-grid.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/works/pages/project/project.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/pages/project/project.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +21,7 @@
     </persistenceIdMap>
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="575" />
+    <option name="cachedIndexableFilesCount" value="578" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FormatOnSaveOptions">
@@ -111,38 +100,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "design-rework",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/src/domains/works",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.stylelint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.stylelint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/server/node_modules/prettier",
-    "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "com.github.copilot.settings.keymap.KeymapConfigurable",
-    "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/server/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;design-rework&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/src/domains/works&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/francoisdmq/Documents/Personal/chloe_portfolio/server/node_modules/prettier&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.copilot.settings.keymap.KeymapConfigurable&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/francoisdmq/Documents/Personal/chloe_portfolio/server/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/client/src/domains/works" />
@@ -252,14 +241,7 @@
       <workItem from="1757663352252" duration="2000" />
       <workItem from="1769686740743" duration="6295000" />
       <workItem from="1771866050820" duration="2656000" />
-    </task>
-    <task id="LOCAL-00025" summary="add slow on hover carousel">
-      <option name="closed" value="true" />
-      <created>1728907574549</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1728907574549</updated>
+      <workItem from="1773239815465" duration="1366000" />
     </task>
     <task id="LOCAL-00026" summary="add text animation and video on home page">
       <option name="closed" value="true" />
@@ -645,7 +627,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773168912557</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="init project">
+      <option name="closed" value="true" />
+      <created>1773177272886</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1773177272886</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -675,7 +665,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="dark mode" />
     <MESSAGE value="fix build" />
     <MESSAGE value="change carousel images" />
     <MESSAGE value="update projects images/videos" />
@@ -700,7 +689,8 @@
     <MESSAGE value="feat: header" />
     <MESSAGE value="feat: header and footer" />
     <MESSAGE value="articles" />
-    <option name="LAST_COMMIT_MESSAGE" value="articles" />
+    <MESSAGE value="init project" />
+    <option name="LAST_COMMIT_MESSAGE" value="init project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

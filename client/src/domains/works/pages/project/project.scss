@@ -3,6 +3,7 @@
   flex-direction: row;
   justify-content: space-between;
   color: black;
+  margin-bottom: 48px;
 }
 
 .project__title {
@@ -88,7 +89,72 @@
   max-width: 50%;
 }
 
-@media screen and (min-width: $mobile-bp) {
+// --- Mobile & Tablet: stack everything vertically ---
+@media screen and (max-width: $tablet-bp) {
+  .project {
+    flex-direction: column;
+    gap: 48px;
+  }
+
+  .project__description {
+    width: 100%;
+    gap: 32px;
+  }
+
+  .project__title {
+    font-size: var(--font-size-h1);
+  }
+
+  .project__details {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .project__details-content {
+    flex-direction: column;
+    gap: 8px;
+    margin-left: 0;
+    min-width: unset;
+  }
+
+  .project-description__label {
+    min-width: unset;
+    font-weight: 600;
+  }
+
+  .project-description__content {
+    width: 100%;
+  }
+
+  .divider {
+    width: 100%;
+  }
+
+  .project__content {
+    max-width: 100%;
+    align-self: stretch;
+  }
+
+  .image-displayer__image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+// --- Tablet only ---
+@media screen and (min-width: $mobile-bp) and (max-width: $tablet-bp) {
+  .project__details {
+    gap: 24px;
+  }
+
+  .project__details-content {
+    flex-direction: row;
+    gap: 32px;
+  }
+}
+
+// --- Desktop ---
+@media screen and (min-width: $tablet-bp) {
   .image-displayer__image {
     width: 90%;
     height: 90%;
