@@ -10,8 +10,8 @@ const Projects=()=>{
   const [hoveredProject, setHoveredProject]=useState<Project|undefined>(undefined)
 
   return(
-    <PortfolioPage>
-      <div className="page-title">
+    <PortfolioPage className="projects">
+      <div className="page-title" id="projects">
         <h1 className="title">{t("works.title")}</h1>
         <div className="project-infos">
           {!hoveredProject && <h2 className="invisible-title">TITLE</h2>}

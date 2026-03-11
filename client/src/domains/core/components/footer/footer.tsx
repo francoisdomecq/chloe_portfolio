@@ -1,14 +1,12 @@
-import {forwardRef} from "react";
-
 import "./footer.scss";
 import {NAV_TABS} from "@components/navbar/navbar.config";
 import {useTranslation} from "react-i18next";
 
-const Footer = forwardRef<HTMLElement>((_, ref) => {
+const Footer = () => {
   const {t} = useTranslation("core");
 
   return (
-    <footer className="footer" ref={ref}>
+    <footer className="footer" >
       <div className="footer__content">
         <div className="footer__columns">
           <div className="footer__contact">
@@ -80,6 +78,6 @@ const Footer = forwardRef<HTMLElement>((_, ref) => {
 
     </footer>
   );
-});
+}
 
 export default Footer;
