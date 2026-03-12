@@ -6,7 +6,7 @@ const NAV_TABS = [
     tagId: NavTabs.WORKS
   },
   {
-    key: "news",
+    key: "#news",
     tagId: NavTabs.NEWS
   },
   {

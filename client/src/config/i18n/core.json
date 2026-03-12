@@ -6,7 +6,7 @@
     "tabs": {
       "works": "Projets",
       "about": "About",
-      "news": "Actualités"
+      "#news": "Actualités"
     }
   },
   "footer": {

@@ -1,23 +1,29 @@
 .about-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
   gap: 64px;
-  padding-bottom: 64px;
 }
 
 .about {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 64px;
+  max-width: 55%;
 }
 
 .description {
   color: var(--text-blue);
   font-size: var(--font-size-body-l);
-  max-width: 45%;
 }
 
 .picture {
+  max-width: 45%;
+  max-height: 400px
+}
 
+.picture__mobile {
+  display: none;
 }
 
 .skills {
@@ -36,10 +42,22 @@
   .about {
     flex-direction: column;
     gap: 32px;
+    max-width: 100%;
+
   }
 
   .description {
-    max-width: 100%;
   }
+
+  .picture__mobile {
+    display: block;
+    max-width: 50%;
+    max-height: 400px;
+  }
+
+  .picture {
+    display: none;
+  }
+
 
 }

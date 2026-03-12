@@ -24,7 +24,7 @@ export const HomePage = () => {
         </div>
         <SelectionGrid/>
       </div>
-      <div className="lastly">
+      <div className="lastly" id="news">
         <h2 className="selection__title">{t("home.lastly.title")}</h2>
         {articles.map(article=><Article key={article.title} article={article}/>)}
       </div>
