@@ -1,3 +1,5 @@
+/* ── Base (mobile-first) ── */
+
 .projects .portfolio-page__content {
   min-height: 0;
 }
@@ -5,23 +7,7 @@
 .page-title {
   display: flex;
   flex-direction: column;
-  flex-shrink: 0;
-  position: sticky;
-  top: var(--header-height, 80px);
-  z-index: 10;
-  background: var(--background-color, #fff);
   padding-bottom: 16px;
-
-  &::before {
-    content: "";
-    position: absolute;
-    bottom: 100%;
-    left: -24px;
-    right: -24px;
-    height: var(--header-height, 80px);
-    background: var(--background-color, #fff);
-    pointer-events: none;
-  }
 }
 
 .title {
@@ -36,27 +22,90 @@
 }
 
 .project-infos {
-  display: flex;
-  justify-content: space-between;
-  transform: translateY(-20px);
-  animation: fadeIn 1s ease-in-out forwards;
-  font-family: var(--title-font);
-  font-size: calc(var(--font-size-h1) * 1.5);
-  font-weight: 400;
-  color: var(--grey-deep);
-}
-
-.project-title {
-  font-weight: 400;
-
+  display: none;
 }
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(300px, 1fr));
-  gap: 16px;
+  grid-template-columns: 1fr;
+  gap: 32px;
 }
 
-.project {
+.projects-grid__project {
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+
+  img {
+    width: 100%;
+  }
+}
+
+.project__title {
+  font-family: var(--title-font);
+  font-size: var(--font-size-h3);
+  font-weight: 400;
+  color: var(--grey-deep);
+  margin-bottom: 8px;
+}
+
+/* ── Desktop ── */
+@media screen and (min-width: $desktop-bp) {
+  .page-title {
+    flex-shrink: 0;
+    position: sticky;
+    top: var(--header-height, 80px);
+    z-index: 10;
+    background: var(--background-color, #fff);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+    width: 100vw;
+
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 100%;
+      left: -24px;
+      right: -24px;
+      height: var(--header-height, 80px);
+      background: var(--background-color, #fff);
+      pointer-events: none;
+    }
+  }
+
+  .page-title--hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .project-infos {
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-20px);
+    animation: fadeIn 1s ease-in-out forwards;
+    font-family: var(--title-font);
+    font-size: calc(var(--font-size-h1) * 1.5);
+    font-weight: 400;
+    color: var(--grey-deep);
+  }
+
+  .project-title {
+    font-weight: 400;
+  }
+
+  .projects-grid {
+    grid-template-columns: repeat(4, minmax(300px, 1fr));
+    gap: 16px;
+  }
+
+  .project {
+    img {
+      width: 80%;
+    }
+  }
+
+  .project__title {
+    display: none;
+  }
 }

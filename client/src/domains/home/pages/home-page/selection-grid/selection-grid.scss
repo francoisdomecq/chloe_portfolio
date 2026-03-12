@@ -11,3 +11,10 @@
   object-fit: cover;
   cursor: pointer;
 }
+
+@media screen and (max-width: $mobile-bp) {
+  .selection-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}

@@ -5,8 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28fdb4fd-86ad-43a7-a703-a905b553dc09" name="Changes" comment="showreel">
+      <change afterPath="$PROJECT_DIR$/client/public/projects/AARYZ/AARYZ_SELECTED_DESKTOP.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/AARYZ/AARYZ_SELECTED_MOBILE.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/HERMES/HERMES_SELECTED_DESKTOP.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/HERMES/HERMES_SELECTED_MOBILE.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_SELECTED_DESKTOP.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_SELECTED_MOBILE.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_SELECTED_DESKTOP.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_SELECTED_MOBILE.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_SELECTED_DESKTOP.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_SELECTED_MOBILE.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/config/works.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/config/works.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/home-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/home-page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/selection-grid/selection-grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/selection-grid/selection-grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/selection-grid/selection-grid.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/selection-grid/selection-grid.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/old/projects_old/pages/projects/components/project/project.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/projects_old/pages/projects/components/project/project.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/domains/works/pages/projects/projects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/pages/projects/projects.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/domains/works/pages/projects/projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/pages/projects/projects.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/works/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/types/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,45 +115,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;design-rework&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/src/domains/about/pages/about&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/francoisdmq/Documents/Personal/chloe_portfolio/server/node_modules/prettier&quot;,
-    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/francoisdmq/Documents/Personal/chloe_portfolio/server/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "design-rework",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/public/projects/AARYZ",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.stylelint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/server/node_modules/prettier",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "actions.on.save",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/server/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/client/src/domains/about/pages/about" />
-      <recent name="$PROJECT_DIR$/client/src/config/i18n" />
-      <recent name="$PROJECT_DIR$/client/src/domains/works/pages/projects" />
-      <recent name="$PROJECT_DIR$/client/src/domains/works" />
-      <recent name="$PROJECT_DIR$/client/src/domains/home/pages/home-page/selection-grid" />
+      <recent name="$PROJECT_DIR$/client/public/projects/AARYZ" />
+      <recent name="$PROJECT_DIR$/client/public/projects/KAZE" />
+      <recent name="$PROJECT_DIR$/client/public/projects/KAOLYN" />
+      <recent name="$PROJECT_DIR$/client/public/projects/HERMES" />
+      <recent name="$PROJECT_DIR$/client/public/projects/ODETTE" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/client/src/domains/works/pages" />
@@ -240,15 +257,8 @@
       <workItem from="1769686740743" duration="6295000" />
       <workItem from="1771866050820" duration="2656000" />
       <workItem from="1773239815465" duration="5125000" />
-      <workItem from="1773252871358" duration="1303000" />
-    </task>
-    <task id="LOCAL-00029" summary="add subtitles to project details">
-      <option name="closed" value="true" />
-      <created>1729268318252</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1729268318252</updated>
+      <workItem from="1773252871358" duration="3326000" />
+      <workItem from="1773304455943" duration="2251000" />
     </task>
     <task id="LOCAL-00030" summary="add animation on home page">
       <option name="closed" value="true" />
@@ -634,7 +644,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773254003846</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="showreel">
+      <option name="closed" value="true" />
+      <created>1773254315200</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1773254315200</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

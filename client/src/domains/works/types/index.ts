@@ -3,6 +3,13 @@ enum ProjectContentMediaType {
   VIDEO = "VIDEO",
 }
 
+interface SelectedProject{
+  sourceDesktop:string;
+  sourceMobile:string;
+  mediaDesktop:string;
+  mediaMobile:string;
+}
+
 interface ProjectContent {
   id: string;
   type: string;
@@ -21,7 +28,7 @@ interface ProjectDescription {
 interface Project {
   id: string;
   title: string;
-  selectedIndex?: string;
+  selected?: SelectedProject;
   description: ProjectDescription;
   date: string;
   carouselImage: string;

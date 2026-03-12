@@ -2,7 +2,12 @@
   {
     "id": "1",
     "title": "Odette, la cuisine du souvenir",
-    "selectedIndex": "1",
+    "selected": {
+      "sourceDesktop": "/projects/ODETTE/ODETTE_SELECTED_DESKTOP.mp4",
+      "sourceMobile": "/projects/ODETTE/ODETTE_SELECTED_MOBILE.png",
+      "mediaDesktop": "VIDEO",
+      "mediaMobile": "IMAGE"
+    },
     "description": {
       "title": "Odette, la cuisine du souvenir",
       "subtitle": [
@@ -194,7 +199,6 @@
   {
     "id": "3",
     "title": "XTRM Salomon",
-    "selectedIndex": "2",
     "description": {
       "title": "XTRM by Salomon",
       "subtitle": [
@@ -350,7 +354,6 @@
   {
     "id": "5",
     "title": "Pangram Pangram Foundry",
-    "selectedIndex": "3",
     "description": {
       "title": "PangramPangram Foundry",
       "subtitle": [
@@ -476,7 +479,12 @@
   {
     "id": "7",
     "title": "Hermès",
-    "selectedIndex": "4",
+    "selected": {
+      "sourceDesktop": "/projects/HERMES/HERMES_SELECTED_DESKTOP.jpg",
+      "sourceMobile": "/projects/HERMES/HERMES_SELECTED_MOBILE.jpg",
+      "mediaDesktop": "IMAGE",
+      "mediaMobile": "IMAGE"
+    },
     "description": {
       "title": "Hermès",
       "subtitle": [
@@ -635,7 +643,12 @@
   {
     "id": "10",
     "title": "Kaolyn",
-    "selectedIndex": "5",
+    "selected": {
+      "sourceDesktop": "/projects/KAOLYN/KAOLYN_SELECTED_DESKTOP.gif",
+      "sourceMobile": "/projects/KAOLYN/KAOLYN_SELECTED_MOBILE.jpg",
+      "mediaDesktop": "IMAGE",
+      "mediaMobile": "IMAGE"
+    },
     "theme": "dark",
     "description": {
       "title": "Kaolyn",
@@ -770,10 +783,175 @@
   {
     "id": "11",
     "title": "Payfit",
-    "selectedIndex": "6",
     "theme": "dark",
     "description": {
       "title": "Payfit",
+      "subtitle": [
+        "Rebranding",
+        "DA 360°"
+      ],
+      "content": [
+        "PayFit is a SaaS application that automates payroll and HR management, helping businesses handle payslips, leave, and compliance effortlessly.",
+        "I led the rebranding of PayFit, focusing on a complete visual identity overhaul, the modernization of graphic elements, and ensuring brand communication aligned with the company's values and ambitions. This included designing a new logo, refining the typography, creating a fresh color palette, and developing a cohesive web design. Additionally, I worked on enhancing the brand’s digital presence, ensuring consistency across all touchpoints, and improving the user experience through a more intuitive and visually appealing interface."
+      ],
+      "skills": [
+        "Lettring",
+        "Visual identity",
+        "Motion",
+        "Webdesign",
+        "Illustration"
+      ],
+      "fonts": "hand-drawn typography"
+    },
+    "date": "2025",
+    "carouselImage": "/projects/VIGNETAGE_CARROUSEL/PAYFIT.png",
+    "content": [
+      {
+        "id": "1",
+        "type": "VIDEO",
+        "source": "/projects/PAYFIT/PAYFIT_1.mp4"
+      },
+      {
+        "id": "2B",
+        "type": "IMAGE",
+        "source": "/projects/PAYFIT/PAYFIT_13.jpg"
+      },
+      {
+        "id": "2",
+        "type": "VIDEO",
+        "source": "/projects/PAYFIT/PAYFIT_2.mp4"
+      },
+      {
+        "id": "9",
+        "type": "VIDEO",
+        "source": "/projects/PAYFIT/PAYFIT_9.mp4"
+      },
+      {
+        "id": "4",
+        "type": "IMAGE",
+        "source": "/projects/PAYFIT/PAYFIT_4.jpg"
+      },
+      {
+        "id": "5",
+        "type": "VIDEO",
+        "source": "/projects/PAYFIT/PAYFIT_5.mp4"
+      },
+      {
+        "id": "6",
+        "type": "VIDEO",
+        "source": "/projects/PAYFIT/PAYFIT_6.mp4"
+      },
+      {
+        "id": "7",
+        "type": "VIDEO",
+        "source": "/projects/PAYFIT/PAYFIT_7.mp4"
+      },
+      {
+        "id": "8",
+        "type": "VIDEO",
+        "source": "/projects/PAYFIT/PAYFIT_8.mp4"
+      },
+      {
+        "id": "10",
+        "type": "IMAGE",
+        "source": "/projects/PAYFIT/PAYFIT_10.jpg"
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "title": "Kaze",
+    "selected": {
+      "sourceDesktop": "/projects/KAZE/KAZE_SELECTED_DESKTOP.mp4",
+      "sourceMobile": "/projects/KAZE/KAZE_SELECTED_MOBILE.jpg",
+      "mediaDesktop": "VIDEO",
+      "mediaMobile": "IMAGE"
+    },
+    "description": {
+      "title": "Kaze",
+      "subtitle": [
+        "Rebranding",
+        "DA 360°"
+      ],
+      "content": [
+        "PayFit is a SaaS application that automates payroll and HR management, helping businesses handle payslips, leave, and compliance effortlessly.",
+        "I led the rebranding of PayFit, focusing on a complete visual identity overhaul, the modernization of graphic elements, and ensuring brand communication aligned with the company's values and ambitions. This included designing a new logo, refining the typography, creating a fresh color palette, and developing a cohesive web design. Additionally, I worked on enhancing the brand’s digital presence, ensuring consistency across all touchpoints, and improving the user experience through a more intuitive and visually appealing interface."
+      ],
+      "skills": [
+        "Lettring",
+        "Visual identity",
+        "Motion",
+        "Webdesign",
+        "Illustration"
+      ],
+      "fonts": "hand-drawn typography"
+    },
+    "date": "2025",
+    "carouselImage": "/projects/VIGNETAGE_CARROUSEL/PAYFIT.png",
+    "content": [
+      {
+        "id": "1",
+        "type": "VIDEO",
+        "source": "/projects/PAYFIT/PAYFIT_1.mp4"
+      },
+      {
+        "id": "2B",
+        "type": "IMAGE",
+        "source": "/projects/PAYFIT/PAYFIT_13.jpg"
+      },
+      {
+        "id": "2",
+        "type": "VIDEO",
+        "source": "/projects/PAYFIT/PAYFIT_2.mp4"
+      },
+      {
+        "id": "9",
+        "type": "VIDEO",
+        "source": "/projects/PAYFIT/PAYFIT_9.mp4"
+      },
+      {
+        "id": "4",
+        "type": "IMAGE",
+        "source": "/projects/PAYFIT/PAYFIT_4.jpg"
+      },
+      {
+        "id": "5",
+        "type": "VIDEO",
+        "source": "/projects/PAYFIT/PAYFIT_5.mp4"
+      },
+      {
+        "id": "6",
+        "type": "VIDEO",
+        "source": "/projects/PAYFIT/PAYFIT_6.mp4"
+      },
+      {
+        "id": "7",
+        "type": "VIDEO",
+        "source": "/projects/PAYFIT/PAYFIT_7.mp4"
+      },
+      {
+        "id": "8",
+        "type": "VIDEO",
+        "source": "/projects/PAYFIT/PAYFIT_8.mp4"
+      },
+      {
+        "id": "10",
+        "type": "IMAGE",
+        "source": "/projects/PAYFIT/PAYFIT_10.jpg"
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "title": "Aaryz",
+    "selected": {
+      "sourceDesktop": "/projects/AARYZ/AARYZ_SELECTED_DESKTOP.jpg",
+      "sourceMobile": "/projects/AARYZ/AARYZ_SELECTED_MOBILE.jpg",
+      "mediaDesktop": "IMAGE",
+      "mediaMobile": "IMAGE"
+    },
+    "description": {
+      "title": "Kaze",
       "subtitle": [
         "Rebranding",
         "DA 360°"
