@@ -1,4 +1,7 @@
 /* ── Base (mobile-first) ── */
+.projects {
+  max-width: 100vw;
+}
 
 .projects .portfolio-page__content {
   min-height: 0;
@@ -51,7 +54,7 @@
 }
 
 /* ── Desktop ── */
-@media screen and (min-width: $desktop-bp) {
+@media screen and (min-width: $tablet-bp) {
   .page-title {
     flex-shrink: 0;
     position: sticky;
@@ -88,6 +91,7 @@
     font-size: calc(var(--font-size-h1) * 1.5);
     font-weight: 400;
     color: var(--grey-deep);
+    max-width: 95%;
   }
 
   .project-title {
@@ -95,7 +99,7 @@
   }
 
   .projects-grid {
-    grid-template-columns: repeat(4, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 16px;
   }
 

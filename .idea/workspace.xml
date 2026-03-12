@@ -6,13 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="28fdb4fd-86ad-43a7-a703-a905b553dc09" name="Changes" comment="improve responsiveness">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/config/i18n/core.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/config/i18n/core.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/about/pages/about/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/about/pages/about/about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/about/pages/about/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/about/pages/about/about.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/footer/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/footer/footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/navbar/navbar.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/navbar/navbar.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/home-page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/home-page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/portfolio-page/portfolio-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/portfolio-page/portfolio-page.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/domains/works/pages/projects/projects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/pages/projects/projects.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,15 +244,7 @@
       <workItem from="1773239815465" duration="5125000" />
       <workItem from="1773252871358" duration="3326000" />
       <workItem from="1773304455943" duration="4810000" />
-      <workItem from="1773319213738" duration="1768000" />
-    </task>
-    <task id="LOCAL-00032" summary="fix cursor">
-      <option name="closed" value="true" />
-      <created>1729774776559</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1729774776559</updated>
+      <workItem from="1773319213738" duration="2511000" />
     </task>
     <task id="LOCAL-00033" summary="fix cursor">
       <option name="closed" value="true" />
@@ -642,7 +630,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773309569978</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="improve responsiveness">
+      <option name="closed" value="true" />
+      <created>1773321027867</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1773321027867</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
