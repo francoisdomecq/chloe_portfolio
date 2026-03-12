@@ -1,9 +1,9 @@
 import {useCallback, useEffect, useState} from "react";
 import {useTranslation} from "react-i18next";
-import {useNavigate} from "react-router-dom";
 
 import "./header.scss";
 import {NAV_TABS} from "@components/navbar/navbar.config";
+import {usePageTransition} from "@components/page-transition/page-transition-context";
 
 interface HeaderProps {
   className?: string;
@@ -14,7 +14,7 @@ const SCROLL_THRESHOLD = 5;
 
 const Header = ({className, isHidden}: HeaderProps) => {
   const {t} = useTranslation("core");
-  const navigate = useNavigate();
+  const {navigateWithTransition}=usePageTransition();
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -29,7 +29,7 @@ const Header = ({className, isHidden}: HeaderProps) => {
 
   const handleLogoClick = () => {
     setMenuOpen(false);
-    navigate("/");
+    navigateWithTransition("/");
   };
 
   return (

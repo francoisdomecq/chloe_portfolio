@@ -2,8 +2,9 @@ import {PortfolioPage} from "@core/index";
 import {useTranslation} from "react-i18next";
 import "./projects.scss"
 import works from "@config/works.json"
-import {useEffect, useRef, useState} from "react";
+import {useCallback, useEffect, useRef, useState} from "react";
 import {Project} from "@domains/works/types";
+import {usePageTransition} from "@domains/core/components/page-transition/page-transition-context";
 
 const DESKTOP_BP = 960;
 
@@ -13,6 +14,13 @@ const Projects=()=>{
   const [isGridVisible, setIsGridVisible]=useState(true)
   const [isDesktop, setIsDesktop]=useState(window.innerWidth >= DESKTOP_BP)
   const gridRef = useRef<HTMLDivElement>(null)
+  const {navigateWithTransition,setTransitionImgSrc} = usePageTransition()
+
+  const handleProjectClick = useCallback((e: React.MouseEvent, project: Project) => {
+    e.preventDefault();
+    navigateWithTransition(`/works/${project.id}`);
+    setTransitionImgSrc(project.carouselImage);
+  }, [navigateWithTransition]);
 
   useEffect(() => {
     const handleResize = () => setIsDesktop(window.innerWidth >= DESKTOP_BP);
@@ -74,7 +82,7 @@ const Projects=()=>{
       </div>
       <div className="projects-grid" ref={gridRef}>
         {works.map((project:Project)=>(
-          <a href={`/works/${project.id}`} className="projects-grid__project" onMouseEnter={()=>setHoveredProject(project)} onMouseLeave={()=>setHoveredProject(undefined)} key={project.id} >
+          <a href={`/works/${project.id}`} className="projects-grid__project" onMouseEnter={()=>setHoveredProject(project)} onMouseLeave={()=>setHoveredProject(undefined)} key={project.id} onClick={(e) => handleProjectClick(e, project)}>
             <span className="project__title">{project.title}</span>
             <img width="80%" src={project.carouselImage} alt={project.title}/>
           </a>

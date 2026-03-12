@@ -891,53 +891,70 @@
     "content": [
       {
         "id": "1",
-        "type": "VIDEO",
-        "source": "/projects/PAYFIT/PAYFIT_1.mp4"
-      },
-      {
-        "id": "2B",
         "type": "IMAGE",
-        "source": "/projects/PAYFIT/PAYFIT_13.jpg"
+        "source": "/projects/KAZE/KAZE_1.jpg"
       },
       {
         "id": "2",
-        "type": "VIDEO",
-        "source": "/projects/PAYFIT/PAYFIT_2.mp4"
+        "type": "IMAGE",
+        "source": "/projects/KAZE/KAZE_2.jpg"
       },
       {
-        "id": "9",
+        "id": "3",
         "type": "VIDEO",
-        "source": "/projects/PAYFIT/PAYFIT_9.mp4"
+        "source": "/projects/KAZE/KAZE_3.mp4"
+      },
+      {
+        "id": "3B",
+        "type": "VIDEO",
+        "source": "/projects/KAZE/KAZE_4.mp4"
       },
       {
         "id": "4",
         "type": "IMAGE",
-        "source": "/projects/PAYFIT/PAYFIT_4.jpg"
+        "source": "/projects/KAZE/KAZE_5.jpg"
       },
       {
         "id": "5",
-        "type": "VIDEO",
-        "source": "/projects/PAYFIT/PAYFIT_5.mp4"
+        "type": "IMAGE",
+        "source": "/projects/KAZE/KAZE_6.jpg"
       },
       {
         "id": "6",
         "type": "VIDEO",
-        "source": "/projects/PAYFIT/PAYFIT_6.mp4"
+        "source": "/projects/KAZE/KAZE_7.mp4"
       },
       {
         "id": "7",
-        "type": "VIDEO",
-        "source": "/projects/PAYFIT/PAYFIT_7.mp4"
+        "type": "IMAGE",
+        "source": "/projects/KAZE/KAZE_8.jpg"
       },
       {
         "id": "8",
         "type": "VIDEO",
-        "source": "/projects/PAYFIT/PAYFIT_8.mp4"
+        "source": "/projects/KAZE/KAZE_9.mp4"
+      },
+      {
+        "id": "9",
+        "type": "IMAGE",
+        "source": "/projects/KAZE/KAZE_10.jpg"
       },
       {
         "id": "10",
         "type": "IMAGE",
-        "source": "/projects/PAYFIT/PAYFIT_10.jpg"
+        "source": "/projects/KAZE/KAZE_11.gif"
+      },  {
+        "id": "11",
+        "type": "IMAGE",
+        "source": "/projects/KAZE/KAZE_12.jpg"
+      },  {
+        "id": "12",
+        "type": "IMAGE",
+        "source": "/projects/KAZE/KAZE_13.jpg"
+      },  {
+        "id": "13",
+        "type": "IMAGE",
+        "source": "/projects/KAZE/KAZE_14.jpg"
       }
     ]
   },

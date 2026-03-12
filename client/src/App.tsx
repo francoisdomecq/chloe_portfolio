@@ -9,21 +9,26 @@ import Project from "@domains/works/pages/project/project";
 import Projects from "@domains/works/pages/projects/projects";
 import News from "@domains/news/pages/news/news";
 import About from "@domains/about/pages/about/about";
+import {PageTransitionProvider} from "@domains/core/components/page-transition/page-transition-context";
+import PageTransitionOverlay from "@domains/core/components/page-transition/page-transition-overlay";
 
 function App() {
 
   return (
     <div>
       <ScrollToTop/>
-      <AppContextProvider>
-        <Routes>
-          <Route path="/" element={<HomePage/>}/>
-          <Route path="/works" element={<Projects/>}/>
-          <Route path="/works/:id" element={<Project/>}/>
-          <Route path="/news" element={<News/>}/>
-          <Route path="/about" element={<About/>}/>
-        </Routes>
-      </AppContextProvider>
+      <PageTransitionProvider>
+        <AppContextProvider>
+          <PageTransitionOverlay/>
+          <Routes>
+            <Route path="/" element={<HomePage/>}/>
+            <Route path="/works" element={<Projects/>}/>
+            <Route path="/works/:id" element={<Project/>}/>
+            <Route path="/news" element={<News/>}/>
+            <Route path="/about" element={<About/>}/>
+          </Routes>
+        </AppContextProvider>
+      </PageTransitionProvider>
 
     </div>
   );
