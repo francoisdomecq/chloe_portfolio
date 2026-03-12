@@ -5,10 +5,10 @@
   flex-direction: column;
   justify-content: center;
   min-height: 100vh;
-  width: 100%;
+  max-width: 100vw;
   background-color: var(--orange);
   color: white;
-  padding: 128px 24px 0;
+  padding: 128px 8px 0;
   position: relative;
 }
 

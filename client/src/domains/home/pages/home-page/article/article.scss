@@ -101,7 +101,7 @@
   }
 }
 
-@media screen and (max-width: $mobile-bp) {
+@media screen and (max-width: $tablet-bp) {
   .article__content {
     flex-direction: column;
     gap: 12px;
@@ -137,5 +137,9 @@
 
   .article__description {
     gap: 0;
+  }
+
+  .article__separator {
+    margin-bottom: 8px;
   }
 }

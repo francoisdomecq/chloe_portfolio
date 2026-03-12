@@ -4,26 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28fdb4fd-86ad-43a7-a703-a905b553dc09" name="Changes" comment="showreel">
-      <change afterPath="$PROJECT_DIR$/client/public/projects/AARYZ/AARYZ_SELECTED_DESKTOP.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/AARYZ/AARYZ_SELECTED_MOBILE.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/HERMES/HERMES_SELECTED_DESKTOP.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/HERMES/HERMES_SELECTED_MOBILE.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_SELECTED_DESKTOP.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_SELECTED_MOBILE.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_SELECTED_DESKTOP.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_SELECTED_MOBILE.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_SELECTED_DESKTOP.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_SELECTED_MOBILE.png" afterDir="false" />
+    <list default="true" id="28fdb4fd-86ad-43a7-a703-a905b553dc09" name="Changes" comment="add selection">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/config/works.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/config/works.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/about/pages/about/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/about/pages/about/about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/portfolio-page/portfolio-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/portfolio-page/portfolio-page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/article/article.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/article/article.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/home-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/home-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/selection-grid/selection-grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/selection-grid/selection-grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/selection-grid/selection-grid.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/selection-grid/selection-grid.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/old/projects_old/pages/projects/components/project/project.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/old/projects_old/pages/projects/components/project/project.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/works/pages/projects/projects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/pages/projects/projects.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/works/pages/projects/projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/pages/projects/projects.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/works/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/types/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,15 +244,7 @@
       <workItem from="1771866050820" duration="2656000" />
       <workItem from="1773239815465" duration="5125000" />
       <workItem from="1773252871358" duration="3326000" />
-      <workItem from="1773304455943" duration="2251000" />
-    </task>
-    <task id="LOCAL-00030" summary="add animation on home page">
-      <option name="closed" value="true" />
-      <created>1729619556711</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1729619556711</updated>
+      <workItem from="1773304455943" duration="4612000" />
     </task>
     <task id="LOCAL-00031" summary="fix typo mobile">
       <option name="closed" value="true" />
@@ -652,7 +630,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773254315200</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="add selection">
+      <option name="closed" value="true" />
+      <created>1773307048019</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1773307048019</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -682,7 +668,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="change carousel images" />
     <MESSAGE value="update projects images/videos" />
     <MESSAGE value="review" />
     <MESSAGE value="update video" />
@@ -707,7 +692,8 @@
     <MESSAGE value="articles" />
     <MESSAGE value="init project" />
     <MESSAGE value="showreel" />
-    <option name="LAST_COMMIT_MESSAGE" value="showreel" />
+    <MESSAGE value="add selection" />
+    <option name="LAST_COMMIT_MESSAGE" value="add selection" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -55,13 +55,18 @@
 @media screen and (max-width: $tablet-bp) {
 
   .introduction-container {
-    padding: 0 0 0 0;
+    padding: 0 0 24px 0;
+    height: fit-content;
   }
 
   .selection__header {
     flex-direction: column;
     gap: 0;
     align-items: flex-start
+  }
+
+  .selection {
+    gap: 16px;
   }
 
   .selection__view-more {
@@ -74,5 +79,10 @@
 
   .showreel {
     display: none;
+  }
+
+  .lastly {
+    margin-top: 24px;
+    margin-bottom: 24px;
   }
 }
