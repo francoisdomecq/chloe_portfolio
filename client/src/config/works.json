@@ -1,6 +1,7 @@
 [
   {
     "id": "1",
+    "index":6,
     "title": "Odette, la cuisine du souvenir",
     "selected": {
       "sourceDesktop": "/projects/ODETTE/ODETTE_SELECTED_DESKTOP.mp4",
@@ -26,7 +27,12 @@
       ],
       "fonts": "Minion Pro, an Adobe Original Typeface designed by Robert Slimbach / Satoshi designed by Deni Anggara for the Indian Type Foundry / Odette designed by Chloé Gaillard, a personal typeface design project"
     },
-    "carouselImage": "/projects/VIGNETAGE_CARROUSEL/ODETTE.jpg",
+    "carousel": {
+      "sourceDesktop": "/projects/WORKS_DESKTOP/ODETTE.mp4",
+      "sourceMobile": "/projects/WORKS_MOBILE/ODETTE.jpg",
+      "mediaDesktop": "VIDEO",
+      "mediaMobile": "IMAGE"
+    },
     "date": "2024",
     "content": [
       {
@@ -132,73 +138,15 @@
     ]
   },
   {
-    "id": "2",
-    "title": "FullMoon",
-    "description": {
-      "title": "FullMoon",
-      "subtitle": [
-        "Branding",
-        "Typeface design"
-      ],
-      "content": [
-        "Developed an elegant and refined visual identity for a luxury travel agency specializing in honeymoons. The branding combines sophistication and romance, capturing the essence of exclusive destinations and unique experiences offered by the agency. A custom typeface was designed to reflect the distinctive and high-end character of the brand, while evoking the intimacy and elegance sought by honeymooning couples."
-      ],
-      "skills": [
-        "Typeface design",
-        "branding",
-        "visual",
-        "identity"
-      ],
-      "fonts": "Inconsolata by Raph Levien for Google"
-    },
-    "carouselImage": "/projects/VIGNETAGE_CARROUSEL/FULLMOON.jpg",
-    "date": "2024",
-    "content": [
-      {
-        "id": "1",
-        "type": "IMAGE",
-        "source": "/projects/FULLMOON/FULLMOON_1.jpg"
-      },
-      {
-        "id": "2",
-        "type": "IMAGE",
-        "source": "/projects/FULLMOON/FULLMOON_2.jpg"
-      },
-      {
-        "id": "3",
-        "type": "IMAGE",
-        "source": "/projects/FULLMOON/FULLMOON_3.jpg"
-      },
-      {
-        "id": "4",
-        "type": "IMAGE",
-        "source": "/projects/FULLMOON/FULLMOON_4.jpg"
-      },
-      {
-        "id": "5",
-        "type": "IMAGE",
-        "source": "/projects/FULLMOON/FULLMOON_5.jpg"
-      },
-      {
-        "id": "6",
-        "type": "IMAGE",
-        "source": "/projects/FULLMOON/FULLMOON_6.jpg"
-      },
-      {
-        "id": "7",
-        "type": "IMAGE",
-        "source": "/projects/FULLMOON/FULLMOON_7.jpg"
-      },
-      {
-        "id": "8",
-        "type": "IMAGE",
-        "source": "/projects/FULLMOON/FULLMOON_8.jpg"
-      }
-    ]
-  },
-  {
     "id": "3",
+    "index":12,
     "title": "XTRM Salomon",
+    "carousel": {
+      "sourceDesktop": "/projects/WORKS_DESKTOP/SALOMON.mp4",
+      "sourceMobile": "/projects/WORKS_MOBILE/SALOMON.jpg",
+      "mediaDesktop": "VIDEO",
+      "mediaMobile": "IMAGE"
+    },
     "description": {
       "title": "XTRM by Salomon",
       "subtitle": [
@@ -217,7 +165,6 @@
       "fonts": "Aktiv Grotesk by Dalton Maag for Adobe Fonts"
     },
     "date": "2024",
-    "carouselImage": "/projects/VIGNETAGE_CARROUSEL/XTRM.jpg",
     "content": [
       {
         "id": "1",
@@ -273,6 +220,7 @@
   },
   {
     "id": "4",
+    "index":10,
     "title": "Chloé",
     "description": {
       "title": "Chloé",
@@ -292,7 +240,12 @@
       "fonts": "Patron by Timo Gaessner for Milieu Grotesque"
     },
     "date": "2023",
-    "carouselImage": "/projects/VIGNETAGE_CARROUSEL/CHLOE.jpg",
+    "carousel": {
+      "sourceDesktop": "/projects/WORKS_DESKTOP/CHLOE.mp4",
+      "sourceMobile": "/projects/WORKS_MOBILE/CHLOE.jpg",
+      "mediaDesktop": "VIDEO",
+      "mediaMobile": "IMAGE"
+    },
     "content": [
       {
         "id": "1",
@@ -353,6 +306,7 @@
   },
   {
     "id": "5",
+    "index":11,
     "title": "Pangram Pangram Foundry",
     "description": {
       "title": "PangramPangram Foundry",
@@ -374,7 +328,12 @@
       "fonts": "Several fonts created by PangramPangram"
     },
     "date": "2022",
-    "carouselImage": "/projects/VIGNETAGE_CARROUSEL/PPF.jpg",
+    "carousel": {
+      "sourceDesktop": "/projects/WORKS_DESKTOP/PANGRAM.mp4",
+      "sourceMobile": "/projects/WORKS_MOBILE/PANGRAM.jpg",
+      "mediaDesktop": "VIDEO",
+      "mediaMobile": "IMAGE"
+    },
     "content": [
       {
         "id": "1",
@@ -415,6 +374,7 @@
   },
   {
     "id": "6",
+    "index":7,
     "title": "Jardins Statuaires",
     "description": {
       "title": "Jardins Statuaires",
@@ -432,7 +392,12 @@
       "fonts": "Fanwood by Barry Schwartz for The league of moveable type"
     },
     "date": "2023",
-    "carouselImage": "/projects/VIGNETAGE_CARROUSEL/JARDINS_STATUAIRES.jpg",
+    "carousel": {
+      "sourceDesktop": "/projects/WORKS_DESKTOP/JARDINS_STATUAIRES.jpg",
+      "sourceMobile": "/projects/WORKS_MOBILE/JARDINS_STATUAIRES.jpg",
+      "mediaDesktop": "IMAGE",
+      "mediaMobile": "IMAGE"
+    },
     "content": [
       {
         "id": "1",
@@ -478,6 +443,7 @@
   },
   {
     "id": "7",
+    "index":4,
     "title": "Hermès",
     "selected": {
       "sourceDesktop": "/projects/HERMES/HERMES_SELECTED_DESKTOP.jpg",
@@ -517,7 +483,12 @@
       ]
     },
     "date": "2023",
-    "carouselImage": "/projects/VIGNETAGE_CARROUSEL/HERMES.jpg",
+    "carousel": {
+      "sourceDesktop": "/projects/WORKS_DESKTOP/HERMES.jpg",
+      "sourceMobile": "/projects/WORKS_MOBILE/HERMES.jpg",
+      "mediaDesktop": "IMAGE",
+      "mediaMobile": "IMAGE"
+    },
     "content": [
       {
         "id": "1",
@@ -568,6 +539,7 @@
   },
   {
     "id": "8",
+    "index":9,
     "title": "Mister Bun's",
     "description": {
       "title": "Mr. Bun’s",
@@ -586,7 +558,12 @@
       "fonts": "Bevellier, display typography designed by Indian Type Foundry"
     },
     "date": "2022",
-    "carouselImage": "/projects/VIGNETAGE_CARROUSEL/BUNS.jpg",
+    "carousel": {
+      "sourceDesktop": "/projects/WORKS_DESKTOP/M_BUNS.jpg",
+      "sourceMobile": "/projects/WORKS_MOBILE/M_BUNS.jpg",
+      "mediaDesktop": "IMAGE",
+      "mediaMobile": "IMAGE"
+    },
     "content": [
       {
         "id": "1",
@@ -642,6 +619,7 @@
   },
   {
     "id": "10",
+    "index":3,
     "title": "Kaolyn",
     "selected": {
       "sourceDesktop": "/projects/KAOLYN/KAOLYN_SELECTED_DESKTOP.gif",
@@ -669,7 +647,12 @@
       "fonts": "Recia Variable, a variable font designed by Indian Type Foundry "
     },
     "date": "2025",
-    "carouselImage": "/projects/VIGNETAGE_CARROUSEL/KAOLYN.jpg",
+    "carousel": {
+      "sourceDesktop": "/projects/WORKS_DESKTOP/KAOLYN.gif",
+      "sourceMobile": "/projects/WORKS_MOBILE/KAOLYN.jpg",
+      "mediaDesktop": "IMAGE",
+      "mediaMobile": "IMAGE"
+    },
     "content": [
       {
         "id": "1",
@@ -720,6 +703,7 @@
   },
   {
     "id": "9",
+    "index":5,
     "title": "Communitee 2 Adidas X CaminoTV",
     "description": {
       "title": "Communitee 2 Adidas X CaminoTV",
@@ -736,7 +720,12 @@
       "fonts": "hand-drawn typography"
     },
     "date": "2025",
-    "carouselImage": "/projects/VIGNETAGE_CARROUSEL/ADIDAS.jpg",
+    "carousel": {
+      "sourceDesktop": "/projects/WORKS_DESKTOP/ADIDAS.mov",
+      "sourceMobile": "/projects/WORKS_MOBILE/ADIDAS.jpg",
+      "mediaDesktop": "VIDEO",
+      "mediaMobile": "IMAGE"
+    },
     "content": [
       {
         "id": "1",
@@ -782,8 +771,15 @@
   },
   {
     "id": "11",
+    "index":8,
     "title": "Payfit",
     "theme": "dark",
+    "selected": {
+      "sourceDesktop": "/projects/PAYFIT/PAYFIT_SELECTED_DESKTOP.mp4",
+      "sourceMobile": "/projects/PAYFIT/PAYFIT_SELECTED_MOBILE.jpg",
+      "mediaDesktop": "VIDEO",
+      "mediaMobile": "IMAGE"
+    },
     "description": {
       "title": "Payfit",
       "subtitle": [
@@ -804,7 +800,12 @@
       "fonts": "hand-drawn typography"
     },
     "date": "2025",
-    "carouselImage": "/projects/VIGNETAGE_CARROUSEL/PAYFIT.png",
+    "carousel": {
+      "sourceDesktop": "/projects/WORKS_DESKTOP/PAYFIT.mp4",
+      "sourceMobile": "/projects/WORKS_MOBILE/PAYFIT.jpg",
+      "mediaDesktop": "VIDEO",
+      "mediaMobile": "IMAGE"
+    },
     "content": [
       {
         "id": "1",
@@ -860,6 +861,7 @@
   },
   {
     "id": "12",
+    "index":2,
     "title": "Kaze",
     "selected": {
       "sourceDesktop": "/projects/KAZE/KAZE_SELECTED_DESKTOP.mp4",
@@ -887,7 +889,12 @@
       "fonts": "hand-drawn typography"
     },
     "date": "2025",
-    "carouselImage": "/projects/VIGNETAGE_CARROUSEL/PAYFIT.png",
+    "carousel": {
+      "sourceDesktop": "/projects/WORKS_DESKTOP/KAZE.mp4",
+      "sourceMobile": "/projects/WORKS_MOBILE/KAZE.jpg",
+      "mediaDesktop": "VIDEO",
+      "mediaMobile": "IMAGE"
+    },
     "content": [
       {
         "id": "1",
@@ -960,6 +967,7 @@
   },
   {
     "id": "13",
+    "index":1,
     "title": "Aaryz",
     "selected": {
       "sourceDesktop": "/projects/AARYZ/AARYZ_SELECTED_DESKTOP.jpg",
@@ -987,7 +995,12 @@
       "fonts": "hand-drawn typography"
     },
     "date": "2025",
-    "carouselImage": "/projects/VIGNETAGE_CARROUSEL/PAYFIT.png",
+    "carousel": {
+      "sourceDesktop": "/projects/WORKS_DESKTOP/AARYZ.jpg",
+      "sourceMobile": "/projects/WORKS_MOBILE/AARYZ.jpg",
+      "mediaDesktop": "IMAGE",
+      "mediaMobile": "IMAGE"
+    },
     "content": [
       {
         "id": "1",

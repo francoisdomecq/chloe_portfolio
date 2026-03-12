@@ -5,7 +5,8 @@ import ReactPlayer from "react-player";
 
 const SelectionGrid = () => {
   const filteredWorks: Project[]= works.filter(work=>!!work.selected)
-const isDesktop = window.innerWidth > 768;
+  const isDesktop = window.innerWidth > 768;
+
   const renderWork= (work:Project)=>{
     if(isDesktop){
       return (

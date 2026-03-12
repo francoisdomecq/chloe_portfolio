@@ -4,34 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28fdb4fd-86ad-43a7-a703-a905b553dc09" name="Changes" comment="improve responsiveness">
-      <change afterPath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_3.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_4.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_7.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_9.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/domains/core/components/page-transition/page-transition-context.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/domains/core/components/page-transition/page-transition-overlay.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/domains/core/components/page-transition/page-transition-overlay.tsx" afterDir="false" />
+    <list default="true" id="28fdb4fd-86ad-43a7-a703-a905b553dc09" name="Changes" comment="add kaze">
+      <change afterPath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_SELECTED_DESKTOP.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_DESKTOP/AARYZ.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_DESKTOP/ADIDAS.mov" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_DESKTOP/CHLOE.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_DESKTOP/HERMES.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_DESKTOP/JARDINS_STATUAIRES.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_DESKTOP/KAOLYN.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_DESKTOP/KAZE.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_DESKTOP/M_BUNS.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_DESKTOP/ODETTE.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_DESKTOP/PANGRAM.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_DESKTOP/PAYFIT.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_DESKTOP/SALOMON.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/AARYZ.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/ADIDAS.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/CHLOE.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/HERMES.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/JARDINS_STATUAIRES.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/KAOLYN.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/KAZE.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/M_BUNS.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/ODETTE.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/PANGRAM.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/PAYFIT.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/SALOMON.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_SELECTED_DESKTOP.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_SELECTED_DESKTOP.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL/ADIDAS.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL/BUNS.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL/CHLOE.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL/FULLMOON.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL/HERMES.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL/JARDINS_STATUAIRES.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL/KAOLYN.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL/ODETTE.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL/PAYFIT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL/PPF.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL/XTRM.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/config/works.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/config/works.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/header/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/header/header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/works/pages/project/project.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/pages/project/project.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/works/pages/project/project.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/pages/project/project.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/works/pages/projects/projects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/pages/projects/projects.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/selection-grid/selection-grid.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/selection-grid/selection-grid.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/domains/works/pages/projects/projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/pages/projects/projects.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/works/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/types/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +152,7 @@
     "git-widget-placeholder": "design-rework",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/public/projects/KAZE",
+    "last_opened_file_path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/public/projects",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.stylelint": "true",
@@ -157,18 +172,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/public/projects" />
       <recent name="$PROJECT_DIR$/client/public/projects/KAZE" />
       <recent name="$PROJECT_DIR$/client/public/projects/AARYZ" />
       <recent name="$PROJECT_DIR$/client/public/projects/KAOLYN" />
       <recent name="$PROJECT_DIR$/client/public/projects/HERMES" />
-      <recent name="$PROJECT_DIR$/client/public/projects/ODETTE" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/public/projects/PAYFIT" />
+      <recent name="$PROJECT_DIR$/client/public/projects/PAYFIT_SELECTED_DESKTOP.mp4" />
       <recent name="$PROJECT_DIR$/client/src/domains/works/pages" />
       <recent name="$PROJECT_DIR$/client/public/projects/CHLOE" />
       <recent name="$PROJECT_DIR$/client/src/config/i18n" />
-      <recent name="$PROJECT_DIR$/client/src/config/core/json" />
-      <recent name="$PROJECT_DIR$/client/src/domains/core/components" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -269,15 +284,7 @@
       <workItem from="1773304455943" duration="4810000" />
       <workItem from="1773319213738" duration="2511000" />
       <workItem from="1773322125866" duration="1621000" />
-      <workItem from="1773339083109" duration="1068000" />
-    </task>
-    <task id="LOCAL-00034" summary="remove cursor on mobile">
-      <option name="closed" value="true" />
-      <created>1729787221969</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1729787221969</updated>
+      <workItem from="1773339083109" duration="2330000" />
     </task>
     <task id="LOCAL-00035" summary="add project navigation and refacto contact page">
       <option name="closed" value="true" />
@@ -663,7 +670,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773322187484</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="add kaze">
+      <option name="closed" value="true" />
+      <created>1773340182983</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1773340182983</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -693,7 +708,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="review" />
     <MESSAGE value="update video" />
     <MESSAGE value="fix mobile navigation" />
     <MESSAGE value="add adidas project" />
@@ -718,7 +732,8 @@
     <MESSAGE value="showreel" />
     <MESSAGE value="add selection" />
     <MESSAGE value="improve responsiveness" />
-    <option name="LAST_COMMIT_MESSAGE" value="improve responsiveness" />
+    <MESSAGE value="add kaze" />
+    <option name="LAST_COMMIT_MESSAGE" value="add kaze" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

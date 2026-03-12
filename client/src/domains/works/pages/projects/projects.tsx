@@ -2,24 +2,27 @@ import {PortfolioPage} from "@core/index";
 import {useTranslation} from "react-i18next";
 import "./projects.scss"
 import works from "@config/works.json"
-import {useCallback, useEffect, useRef, useState} from "react";
+import {useCallback, useEffect, useMemo, useRef, useState} from "react";
 import {Project} from "@domains/works/types";
 import {usePageTransition} from "@domains/core/components/page-transition/page-transition-context";
+import ReactPlayer from "react-player";
 
 const DESKTOP_BP = 960;
 
 const Projects=()=>{
   const {t}=useTranslation("works")
+
   const [hoveredProject, setHoveredProject]=useState<Project|undefined>(undefined)
   const [isGridVisible, setIsGridVisible]=useState(true)
   const [isDesktop, setIsDesktop]=useState(window.innerWidth >= DESKTOP_BP)
+
   const gridRef = useRef<HTMLDivElement>(null)
   const {navigateWithTransition,setTransitionImgSrc} = usePageTransition()
 
   const handleProjectClick = useCallback((e: React.MouseEvent, project: Project) => {
     e.preventDefault();
     navigateWithTransition(`/works/${project.id}`);
-    setTransitionImgSrc(project.carouselImage);
+    //setTransitionImgSrc(project.);
   }, [navigateWithTransition]);
 
   useEffect(() => {
@@ -70,6 +73,34 @@ const Projects=()=>{
     return () => observer.disconnect();
   }, [isDesktop]);
 
+  const renderWork= (work:Project)=>{
+    if(isDesktop){
+      return (
+        <a href={`/works/${work.id}`} className="projects-grid__project" onMouseEnter={()=>setHoveredProject(work)} onMouseLeave={()=>setHoveredProject(undefined)} key={work.id} onClick={(e) => handleProjectClick(e, work)}>
+          {work.carousel?.mediaDesktop === "VIDEO" ?
+            <ReactPlayer src={work.carousel.sourceDesktop}  width="100%" height="100%" className="selection-grid__item" muted autoPlay loop controls={false}/>
+            :
+            <img alt={work.title} src={work.carousel?.sourceDesktop} className="selection-grid__item"/>
+          }
+        </a>
+      )
+    }
+    return (
+      <a href={`/works/${work.id}`} className="projects-grid__project" onMouseEnter={()=>setHoveredProject(work)} onMouseLeave={()=>setHoveredProject(undefined)} key={work.id} onClick={(e) => handleProjectClick(e, work)}>
+        {work.carousel?.mediaMobile === "VIDEO" ?
+          <ReactPlayer src={work.carousel.sourceMobile} muted autoPlay loop controls={false}/>
+          :
+          <img src={work.carousel?.sourceMobile} alt={work.title} className="selection-grid__item"/>
+        }
+      </a>
+    )
+  }
+
+  const sortedWorks= useMemo(()=>
+    works.sort((workA,workB)=>workA.index - workB.index)
+  ,[works]
+  )
+
   return(
     <PortfolioPage className="projects">
       <div className={`page-title ${isGridVisible ? "" : "page-title--hidden"}`} id="projects">
@@ -81,12 +112,7 @@ const Projects=()=>{
         </div>
       </div>
       <div className="projects-grid" ref={gridRef}>
-        {works.map((project:Project)=>(
-          <a href={`/works/${project.id}`} className="projects-grid__project" onMouseEnter={()=>setHoveredProject(project)} onMouseLeave={()=>setHoveredProject(undefined)} key={project.id} onClick={(e) => handleProjectClick(e, project)}>
-            <span className="project__title">{project.title}</span>
-            <img width="80%" src={project.carouselImage} alt={project.title}/>
-          </a>
-        ))}
+        {sortedWorks.map(renderWork)}
       </div>
     </PortfolioPage>
   )

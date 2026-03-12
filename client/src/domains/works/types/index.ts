@@ -27,11 +27,12 @@ interface ProjectDescription {
 
 interface Project {
   id: string;
+  index:number;
   title: string;
   selected?: SelectedProject;
+  carousel:SelectedProject;
   description: ProjectDescription;
   date: string;
-  carouselImage: string;
   content: ProjectContent[];
   theme?: string;
 }
