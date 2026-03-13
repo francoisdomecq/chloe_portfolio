@@ -1,4 +1,7 @@
 .page-transition-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: fixed;
   top: 0;
   left: 0;
@@ -17,6 +20,8 @@
   justify-content: center;
 }
 
-.page-transition-image {
-
+.page-transition-title {
+  font-family: var(--title-font);
+  font-weight: 400;
+  font-size: calc(var(--font-size-h1) * 3);
 }

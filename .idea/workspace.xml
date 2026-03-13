@@ -5,45 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28fdb4fd-86ad-43a7-a703-a905b553dc09" name="Changes" comment="add kaze">
-      <change afterPath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_SELECTED_DESKTOP.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_DESKTOP/AARYZ.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_DESKTOP/ADIDAS.mov" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_DESKTOP/CHLOE.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_DESKTOP/HERMES.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_DESKTOP/JARDINS_STATUAIRES.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_DESKTOP/KAOLYN.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_DESKTOP/KAZE.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_DESKTOP/M_BUNS.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_DESKTOP/ODETTE.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_DESKTOP/PANGRAM.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_DESKTOP/PAYFIT.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_DESKTOP/SALOMON.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/AARYZ.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/ADIDAS.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/CHLOE.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/HERMES.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/JARDINS_STATUAIRES.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/KAOLYN.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/KAZE.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/M_BUNS.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/ODETTE.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/PANGRAM.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/PAYFIT.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/SALOMON.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_SELECTED_DESKTOP.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_SELECTED_DESKTOP.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL/ADIDAS.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL/BUNS.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL/CHLOE.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL/FULLMOON.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL/HERMES.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL/JARDINS_STATUAIRES.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL/KAOLYN.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL/ODETTE.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL/PAYFIT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL/PPF.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/VIGNETAGE_CARROUSEL/XTRM.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/explorations/BOURRICHE_DU_BASSIN_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/explorations/BOURRICHE_DU_BASSIN_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/explorations/BOURRICHE_DU_BASSIN_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/explorations/NIKE_CHRISTMAS_POPUP.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/explorations/PETER_PAN.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/FULLMOON/FULLMOON_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/FULLMOON/FULLMOON_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/FULLMOON/FULLMOON_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/FULLMOON/FULLMOON_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/FULLMOON/FULLMOON_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/FULLMOON/FULLMOON_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/FULLMOON/FULLMOON_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/FULLMOON/FULLMOON_8.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/config/works.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/config/works.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/header/header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/page-transition/page-transition-context.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/page-transition/page-transition-context.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/page-transition/page-transition-overlay.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/page-transition/page-transition-overlay.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/page-transition/page-transition-overlay.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/page-transition/page-transition-overlay.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/selection-grid/selection-grid.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/selection-grid/selection-grid.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/domains/works/pages/projects/projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/pages/projects/projects.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/domains/works/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/types/index.ts" afterDir="false" />
@@ -138,38 +118,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "design-rework",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/public/projects",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.stylelint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.stylelint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/server/node_modules/prettier",
-    "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "actions.on.save",
-    "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/server/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;design-rework&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/public/projects&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/francoisdmq/Documents/Personal/chloe_portfolio/server/node_modules/prettier&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/francoisdmq/Documents/Personal/chloe_portfolio/server/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/client/public/projects" />

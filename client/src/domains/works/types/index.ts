@@ -35,6 +35,10 @@ interface Project {
   date: string;
   content: ProjectContent[];
   theme?: string;
+  transition:{
+    backgroundColor:string;
+    color:string;
+  }
 }
 
 export type {Project, ProjectContent};

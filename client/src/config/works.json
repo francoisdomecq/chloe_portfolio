@@ -9,6 +9,10 @@
       "mediaDesktop": "VIDEO",
       "mediaMobile": "IMAGE"
     },
+    "transition": {
+      "backgroundColor": "#525737",
+      "color": "#DADAD3"
+    },
     "description": {
       "title": "Odette, la cuisine du souvenir",
       "subtitle": [
@@ -147,6 +151,10 @@
       "mediaDesktop": "VIDEO",
       "mediaMobile": "IMAGE"
     },
+    "transition": {
+      "backgroundColor": "black",
+      "color": "white"
+    },
     "description": {
       "title": "XTRM by Salomon",
       "subtitle": [
@@ -246,6 +254,10 @@
       "mediaDesktop": "VIDEO",
       "mediaMobile": "IMAGE"
     },
+    "transition": {
+      "backgroundColor": "#D3CEC4",
+      "color": "black"
+    },
     "content": [
       {
         "id": "1",
@@ -334,6 +346,10 @@
       "mediaDesktop": "VIDEO",
       "mediaMobile": "IMAGE"
     },
+    "transition": {
+      "backgroundColor": "#FF0068",
+      "color": "black"
+    },
     "content": [
       {
         "id": "1",
@@ -397,6 +413,10 @@
       "sourceMobile": "/projects/WORKS_MOBILE/JARDINS_STATUAIRES.jpg",
       "mediaDesktop": "IMAGE",
       "mediaMobile": "IMAGE"
+    },
+    "transition": {
+      "backgroundColor": "#333988",
+      "color": "#DEE9F7"
     },
     "content": [
       {
@@ -489,6 +509,10 @@
       "mediaDesktop": "IMAGE",
       "mediaMobile": "IMAGE"
     },
+    "transition": {
+      "backgroundColor": "#061F56",
+      "color": "white"
+    },
     "content": [
       {
         "id": "1",
@@ -564,6 +588,10 @@
       "mediaDesktop": "IMAGE",
       "mediaMobile": "IMAGE"
     },
+    "transition": {
+      "backgroundColor": "#078141",
+      "color": "#DED6CD"
+    },
     "content": [
       {
         "id": "1",
@@ -626,6 +654,10 @@
       "sourceMobile": "/projects/KAOLYN/KAOLYN_SELECTED_MOBILE.jpg",
       "mediaDesktop": "IMAGE",
       "mediaMobile": "IMAGE"
+    },
+    "transition": {
+      "backgroundColor": "#D5CEC9",
+      "color": "black"
     },
     "theme": "dark",
     "description": {
@@ -726,6 +758,10 @@
       "mediaDesktop": "VIDEO",
       "mediaMobile": "IMAGE"
     },
+    "transition": {
+      "backgroundColor": "rgb(23,57,99)",
+      "color": "#C9C9C9"
+    },
     "content": [
       {
         "id": "1",
@@ -779,6 +815,10 @@
       "sourceMobile": "/projects/PAYFIT/PAYFIT_SELECTED_MOBILE.jpg",
       "mediaDesktop": "VIDEO",
       "mediaMobile": "IMAGE"
+    },
+    "transition": {
+      "backgroundColor": "#D8C9E8",
+      "color": "black"
     },
     "description": {
       "title": "Payfit",
@@ -868,6 +908,10 @@
       "sourceMobile": "/projects/KAZE/KAZE_SELECTED_MOBILE.jpg",
       "mediaDesktop": "VIDEO",
       "mediaMobile": "IMAGE"
+    },
+    "transition": {
+      "backgroundColor": "#F5F2E6",
+      "color": "black"
     },
     "description": {
       "title": "Kaze",
@@ -974,6 +1018,10 @@
       "sourceMobile": "/projects/AARYZ/AARYZ_SELECTED_MOBILE.jpg",
       "mediaDesktop": "IMAGE",
       "mediaMobile": "IMAGE"
+    },
+    "transition": {
+      "backgroundColor": "#551E31",
+      "color": "#F7F5D4"
     },
     "description": {
       "title": "Kaze",

@@ -14,7 +14,7 @@ const SCROLL_THRESHOLD = 5;
 
 const Header = ({className, isHidden}: HeaderProps) => {
   const {t} = useTranslation("core");
-  const {navigateWithTransition}=usePageTransition();
+  const {navigateWithTransition,setTransitionProjectTitle}=usePageTransition();
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -63,7 +63,10 @@ const Header = ({className, isHidden}: HeaderProps) => {
             <a
               key={navTab.key}
               className="header__nav-link"
-              href={`/${navTab.key}`}
+              onClick={()=>{
+                navigateWithTransition(`/${navTab.key}`)
+                setTransitionProjectTitle(null)
+              }}
             >
               {t(`navbar.tabs.${navTab.key}`)}
             </a>

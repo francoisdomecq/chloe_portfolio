@@ -26,7 +26,7 @@ const curtainVariants = {
 };
 
 const PageTransitionOverlay = () => {
-  const {isTransitioning, transitionImgSrc} = usePageTransition();
+  const {isTransitioning, transitionProjectTitle} = usePageTransition();
 
   return (
     <AnimatePresence>
@@ -37,8 +37,12 @@ const PageTransitionOverlay = () => {
           initial="initial"
           animate="animate"
           exit="exit"
+          style={{
+            backgroundColor: transitionProjectTitle?.backgroundColor || "#CA4C35",
+          }}
         >
-          {transitionImgSrc && <img src={transitionImgSrc}/> }
+          {transitionProjectTitle &&
+          <h1 className="page-transition-title" style={{color:transitionProjectTitle.color}}>{transitionProjectTitle.title}</h1>}
         </motion.div>
       )}
     </AnimatePresence>

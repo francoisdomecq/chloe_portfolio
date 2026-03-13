@@ -2,15 +2,21 @@ import works from 'src/config/works.json'
 import {Project} from "@domains/works/types";
 import "./selection-grid.scss"
 import ReactPlayer from "react-player";
+import {usePageTransition} from "@components/page-transition/page-transition-context";
 
 const SelectionGrid = () => {
   const filteredWorks: Project[]= works.filter(work=>!!work.selected)
   const isDesktop = window.innerWidth > 768;
+  const {navigateWithTransition ,setTransitionProjectTitle}=usePageTransition();
 
   const renderWork= (work:Project)=>{
     if(isDesktop){
       return (
-        <a href={`/works/${work.id}`}>
+        <a href={`/works/${work.id}`} onClick={(e) => {
+          navigateWithTransition(`/works/${work.id}`)
+          setTransitionProjectTitle({title:work.title, backgroundColor:work.transition.backgroundColor,color:work.transition.color});
+          e.preventDefault();
+        }}>
           {work.selected?.mediaDesktop === "VIDEO" ?
             <ReactPlayer src={work.selected.sourceDesktop}  width="100%" height="100%" className="selection-grid__item" muted autoPlay loop controls={false}/>
             :

@@ -1,18 +1,24 @@
 import {createContext, useCallback, useContext, useMemo, useState} from "react";
 import {useNavigate} from "react-router-dom";
 
+interface ProjectTransition{
+  title:string;
+  backgroundColor:string;
+  color:string;
+}
+
 interface PageTransitionContextType {
   isTransitioning: boolean;
   navigateWithTransition: (to: string) => void;
-  setTransitionImgSrc: (src: string | null) => void;
-  transitionImgSrc: string | null;
+  setTransitionProjectTitle: (transition:ProjectTransition|null) => void;
+  transitionProjectTitle: ProjectTransition|null ;
 }
 
 const PageTransitionContext = createContext<PageTransitionContextType>({
   isTransitioning: false,
   navigateWithTransition: () => {},
-  setTransitionImgSrc: () => {},
-  transitionImgSrc: null,
+  setTransitionProjectTitle: () => {},
+  transitionProjectTitle: null,
 });
 
 const DESKTOP_BP = 960;
@@ -23,7 +29,7 @@ interface PageTransitionProviderProps {
 
 const PageTransitionProvider = ({children}: PageTransitionProviderProps) => {
   const [isTransitioning, setIsTransitioning] = useState(false);
-  const [transitionImgSrc, setTransitionImgSrc] = useState<string | null>(null);
+  const [transitionProjectTitle, setTransitionProjectTitle] = useState<ProjectTransition | null>(null);
   const navigate = useNavigate();
 
   const navigateWithTransition = useCallback((to: string) => {
@@ -51,9 +57,9 @@ const PageTransitionProvider = ({children}: PageTransitionProviderProps) => {
   const contextValue = useMemo(() => ({
     isTransitioning,
     navigateWithTransition,
-    setTransitionImgSrc,
-    transitionImgSrc,
-  }), [isTransitioning, navigateWithTransition,setTransitionImgSrc,transitionImgSrc]);
+    setTransitionProjectTitle,
+    transitionProjectTitle,
+  }), [isTransitioning, navigateWithTransition,setTransitionProjectTitle,transitionProjectTitle]);
 
   return (
     <PageTransitionContext.Provider value={contextValue}>

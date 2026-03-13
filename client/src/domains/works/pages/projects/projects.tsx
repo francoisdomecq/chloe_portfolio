@@ -17,12 +17,12 @@ const Projects=()=>{
   const [isDesktop, setIsDesktop]=useState(window.innerWidth >= DESKTOP_BP)
 
   const gridRef = useRef<HTMLDivElement>(null)
-  const {navigateWithTransition,setTransitionImgSrc} = usePageTransition()
+  const {navigateWithTransition,setTransitionProjectTitle} = usePageTransition()
 
   const handleProjectClick = useCallback((e: React.MouseEvent, project: Project) => {
     e.preventDefault();
     navigateWithTransition(`/works/${project.id}`);
-    //setTransitionImgSrc(project.);
+    setTransitionProjectTitle({title:project.title, backgroundColor:project.transition.backgroundColor,color:project.transition.color});
   }, [navigateWithTransition]);
 
   useEffect(() => {
