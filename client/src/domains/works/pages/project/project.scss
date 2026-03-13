@@ -3,12 +3,15 @@
   flex-direction: row;
   justify-content: space-between;
   color: black;
-  margin-bottom: 48px;
+  /* occuper toute la hauteur disponible dans portfolio-page__content */
+  flex: 1 1 0; /* <-- important: allow the project to grow to available height */
+  width: 100%;
+  min-height: 0;
 }
 
-.project__title {
+.project-project__title {
   font-size: calc(var(--font-size-h1) * 2);
-  font-family: var(--title-font);
+  font-family: var(--title-font), serif;
   font-weight: 400;
   color: black;
 }
@@ -18,7 +21,8 @@
   flex-direction: row;
   width: 100%;
   gap: 128px;
-  font-family: var(--text-font);
+  font-family: var(--text-font), sans-serif;
+  justify-content: space-between;
   font-size: var(--font-size-body-m);
 }
 
@@ -49,16 +53,14 @@
   display: flex;
   flex-direction: column;
   width: 50%;
-  gap: 64px;
+  gap: 32px;
+  position: relative;
+  top:0;
 }
 
 .divider {
   width: 120%;
   color: black;
-}
-
-.title {
-
 }
 
 .project-description__content {
@@ -81,13 +83,17 @@
 }
 
 .project__content {
+ width:45%;
+  right:0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
-  align-self: flex-end;
   gap: 32px;
   max-width: 50%;
+  height: 100%;
+  min-height: 0; /* allow shrinking inside flex container */
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 // --- Mobile & Tablet: stack everything vertically ---
@@ -95,14 +101,19 @@
   .project {
     flex-direction: column;
     gap: 48px;
+    min-height: 100%;
+    height:100%;
+    flex:unset;
   }
 
   .project__description {
     width: 100%;
     gap: 32px;
+    position: static; /* disable sticky on mobile */
+    top: auto;
   }
 
-  .project__title {
+  .project-project__title {
     font-size: var(--font-size-h1);
   }
 
@@ -132,6 +143,10 @@
   }
 
   .project__content {
+    display: flex;
+    min-height: 100%;
+    overflow-y: unset;
+    width: 100%;
     max-width: 100%;
     align-self: stretch;
   }
@@ -142,14 +157,3 @@
   }
 }
 
-// --- Tablet only ---
-@media screen and (min-width: $mobile-bp) and (max-width: $tablet-bp) {
-  .project__details {
-    gap: 24px;
-  }
-
-  .project__details-content {
-    flex-direction: row;
-    gap: 32px;
-  }
-}

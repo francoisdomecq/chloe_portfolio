@@ -5,36 +5,10 @@ import {Project as ProjectType} from "../../types";
 import {PortfolioPage} from "@core/index";
 import {ProjectContent, ProjectContentMediaType} from "@domains/old/projects_old/types";
 import ReactPlayer from "react-player";
-import {motion} from "framer-motion";
-
-const DESKTOP_BP = 960;
-
-const pageVariants = {
-  hidden: {opacity: 0, y: 40},
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.8,
-      ease: [0.25, 0.46, 0.45, 0.94],
-      staggerChildren: 0.1,
-    },
-  },
-};
-
-const childVariants = {
-  hidden: {opacity: 0, y: 30},
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94]},
-  },
-};
 
 const Project = () => {
   const params = useParams();
   const project:ProjectType|undefined = works.find(work=>work.id===params.id)
-  const isDesktop = window.innerWidth >= DESKTOP_BP;
 
   const renderProjectContent = (projectContent: ProjectContent) => {
     if (projectContent.type === ProjectContentMediaType.IMAGE) {
@@ -47,14 +21,9 @@ const Project = () => {
 
   return project && (
     <PortfolioPage >
-      <motion.div
-        className="project"
-        variants={isDesktop ? pageVariants : undefined}
-        initial={isDesktop ? "hidden" : undefined}
-        animate={isDesktop ? "visible" : undefined}
-      >
-        <motion.div className="project__description" variants={isDesktop ? childVariants : undefined}>
-          <h1 className="project__title">{project.title}</h1>
+      <div className="project">
+        <div className="project__description" >
+          <h1 className="project-project__title">{project.title}</h1>
           <div className="project__details">
             <p className="project-description__label">Détails</p>
             <div>
@@ -86,11 +55,11 @@ const Project = () => {
               {project.description?.coworkers?.map(content=><p key={content}>{content}</p>)}
             </div>
           </div>
-        </motion.div>
-        <motion.div className="project__content" variants={isDesktop ? childVariants : undefined}>
+        </div>
+        <div className="project__content" >
           {project.content.map(renderProjectContent)}
-        </motion.div>
-      </motion.div>
+        </div>
+      </div>
     </PortfolioPage>
   )
 }
