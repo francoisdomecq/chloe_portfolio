@@ -1,3 +1,4 @@
+import {useEffect, useState} from "react";
 import {useParams} from "react-router-dom";
 import {useTranslation} from "react-i18next";
 import works from "@config/works.json"
@@ -6,16 +7,32 @@ import {Project as ProjectType, ProjectContent, ProjectContentMediaType} from ".
 import {PortfolioPage} from "@core/index";
 import ReactPlayer from "react-player";
 
+const DESKTOP_BP = 1024;
+
 export const Project = () => {
   const params = useParams();
   const {t} = useTranslation("works");
   const project:ProjectType|undefined = works.find(work=>work.id===params.id)
+  const [isDesktop, setIsDesktop] = useState(window.innerWidth >= DESKTOP_BP);
+
+  useEffect(() => {
+    const handleResize = () => setIsDesktop(window.innerWidth >= DESKTOP_BP);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   const renderProjectContent = (projectContent: ProjectContent) => {
+    const {displayDesktop = true, displayMobile = true} = projectContent;
+
+    if (isDesktop && !displayDesktop) return null;
+    if (!isDesktop && !displayMobile) return null;
+
     if (projectContent.type === ProjectContentMediaType.IMAGE) {
-      return  <div className="image-displayer" id={projectContent.id}>
-        <img src={projectContent.source} className="image-displayer__image" alt={`project-${projectContent.source}`}/>
-      </div>
+      return (
+        <div className="image-displayer" id={projectContent.id}>
+          <img src={projectContent.source} className="image-displayer__image" alt={`project-${projectContent.source}`}/>
+        </div>
+      );
     }
     return <ReactPlayer className="react-player__tablet" width="100%" height="100%" src={projectContent.source} playing loop muted controls/>;
   };

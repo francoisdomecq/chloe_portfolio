@@ -14,6 +14,8 @@ interface ProjectContent {
   id: string;
   type: string;
   source: string;
+  displayMobile?:boolean;
+  displayDesktop?:boolean;
 }
 
 interface ProjectDescription {

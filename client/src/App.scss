@@ -1,8 +1,9 @@
+@use "./domains/core/theme/shared";
+
 :root {
   --default-icon-size: 16px;
-  font-size: 10px;
   scroll-behavior: smooth;
-  background-color: white;
+  background-color: var(--color-bg);
 }
 
 * {

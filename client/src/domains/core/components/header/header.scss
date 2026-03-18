@@ -1,33 +1,26 @@
-@import "../../theme/shared";
-
-$mobile-bp: 500px;
-$tablet-bp: 599px;
-$desktop-bp: 960px;
-
-/* ═══════════════════════════════════
-   Header bar
-   ═══════════════════════════════════ */
+// ─── Header bar ───────────────────────────────────
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 16px 24px;
+  padding: sp(sm) sp(md);
   width: 100%;
   max-width: 100vw;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 999;
-  color: var(--text-blue);
-  box-shadow: none;
+  color: var(--color-text);
   background-color: transparent;
+  box-shadow: none;
   border-radius: 0;
-  transition: top 0.4s cubic-bezier(0.4, 0, 0.2, 1),
-  width 0.4s cubic-bezier(0.4, 0, 0.2, 1),
-  left 0.4s cubic-bezier(0.4, 0, 0.2, 1),
-  background-color 0.4s ease,
-  border-radius 0.4s ease,
-  box-shadow 0.4s ease;
+  transition:
+    top 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    width 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    left 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 0.4s ease,
+    border-radius 0.4s ease,
+    box-shadow 0.4s ease;
 }
 
 .header--hidden {
@@ -36,32 +29,27 @@ $desktop-bp: 960px;
   transition: opacity 0.3s ease, visibility 0s 0.3s;
 }
 
-/* ── Logo ── */
+// ─── Logo ──────────────────────────────────────────
 .header__logo {
   font-family: var(--title-font);
   font-size: var(--font-size-h2);
   font-weight: 700;
-  color: var(--text-blue);
+  color: var(--color-text);
   white-space: nowrap;
   text-decoration: none;
   cursor: pointer;
 }
 
-/* ── Desktop nav (inline) ── */
+// ─── Desktop nav — masquée par défaut (mobile) ────
 .header__nav--desktop {
-  display: flex;
-  align-items: center;
-  gap: 32px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 48px;
+  display: none;
 }
 
 .header__nav-link {
   font-family: var(--title-font);
   font-size: var(--font-size-navbar);
   font-weight: 500;
-  color: var(--text-blue);
+  color: var(--color-text);
   text-decoration: none;
   letter-spacing: 0.05em;
   transition: opacity 0.2s ease;
@@ -71,9 +59,9 @@ $desktop-bp: 960px;
   }
 }
 
-/* ── Burger (mobile only) ── */
+// ─── Burger — visible par défaut (mobile) ─────────
 .header__burger {
-  display: none;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 5px;
@@ -86,157 +74,136 @@ $desktop-bp: 960px;
     display: block;
     width: 24px;
     height: 2px;
-    background-color: var(--text-blue);
+    background-color: var(--color-text);
     border-radius: 2px;
   }
 }
 
-/* ═══════════════════════════════════
-   Drawer (mobile only)
-   ═══════════════════════════════════ */
+// ─── Drawer — visible par défaut (mobile) ─────────
 .drawer {
-  display: none; /* caché en desktop */
+  display: block;
+  position: fixed;
+  top: sp(sm);
+  left: 12px;
+  right: 12px;
+  z-index: 1100;
+  background-color: rgba(255, 255, 255, 0.97);
+  border-radius: 20px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
+  padding: sp(md);
+  transform: translateY(-110%);
+  opacity: 0;
+  visibility: hidden;
+  transition:
+    transform 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 0.35s ease,
+    visibility 0s 0.4s;
+}
+
+.drawer--open {
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+  transition:
+    transform 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 0.35s ease,
+    visibility 0s 0s;
+}
+
+.drawer__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+
+.drawer__logo {
+  font-family: var(--title-font);
+  font-size: var(--font-size-h3);
+  font-weight: 700;
+  color: var(--color-text);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.drawer__close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: relative;
+
+  span {
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    background-color: var(--color-text);
+    border-radius: 2px;
+
+    &:first-child { transform: rotate(45deg); }
+    &:last-child  { transform: rotate(-45deg); }
+  }
+}
+
+.drawer__nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.drawer__nav-link {
+  font-family: var(--title-font);
+  font-size: var(--font-size-h3);
+  font-weight: 500;
+  color: var(--color-text);
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  transition: opacity 0.2s ease;
+
+  &:hover { opacity: 0.7; }
 }
 
 .drawer-backdrop {
-  display: none;
+  display: block;
+  position: fixed;
+  inset: 0;
+  z-index: 1099;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
-/* ═══════════════════════════════════
-   Responsive ≤ 960px
-   ═══════════════════════════════════ */
-@media screen and (max-width: $desktop-bp) {
+// ─── Desktop ≥ lg ──────────────────────────────────
+@include respond-to(lg) {
   .header {
-    padding: 14px 20px;
+    padding: sp(lg) sp(md);
   }
 
-  /* Masquer la nav desktop inline */
   .header__nav--desktop {
-    display: none;
+    display: flex;
+    align-items: center;
+    gap: sp(lg);
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: sp(xl);
   }
 
   .header__burger {
-    display: flex;
+    display: none;
   }
 
-  /* ── Drawer ── */
-  .drawer {
-    display: block;
-    position: fixed;
-    top: 16px;
-    left: 12px;
-    right: 12px;
-    z-index: 1100;
-    background-color: rgba(255, 255, 255, 0.97);
-    border-radius: 20px;
-    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
-    padding: 24px;
-    transform: translateY(-110%);
-    opacity: 0;
-    visibility: hidden;
-    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1),
-    opacity 0.35s ease,
-    visibility 0s 0.4s;
-  }
-
-  .drawer--open {
-    transform: translateY(0);
-    opacity: 1;
-    visibility: visible;
-    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1),
-    opacity 0.35s ease,
-    visibility 0s 0s;
-  }
-
-  /* ── Drawer header: logo left + close right ── */
-  .drawer__header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 28px;
-  }
-
-  .drawer__logo {
-    font-family: var(--title-font);
-    font-size: var(--font-size-h3);
-    font-weight: 700;
-    color: var(--text-blue);
-    text-decoration: none;
-    cursor: pointer;
-  }
-
-  .drawer__close {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 32px;
-    height: 32px;
-    background: none;
-    border: none;
-    cursor: pointer;
-    position: relative;
-
-    span {
-      position: absolute;
-      width: 20px;
-      height: 2px;
-      background-color: var(--text-blue);
-      border-radius: 2px;
-
-      &:first-child {
-        transform: rotate(45deg);
-      }
-
-      &:last-child {
-        transform: rotate(-45deg);
-      }
-    }
-  }
-
-  /* ── Drawer nav links ── */
-  .drawer__nav {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
-  }
-
-  .drawer__nav-link {
-    font-family: var(--title-font);
-    font-size: var(--font-size-h3);
-    font-weight: 500;
-    color: var(--text-blue);
-    text-decoration: none;
-    letter-spacing: 0.05em;
-    transition: opacity 0.2s ease;
-
-    &:hover {
-      opacity: 0.7;
-    }
-  }
-
-  /* ── Backdrop ── */
+  .drawer,
   .drawer-backdrop {
-    display: block;
-    position: fixed;
-    inset: 0;
-    z-index: 1099;
-    background-color: rgba(0, 0, 0, 0.2);
-  }
-}
-
-/* ═══════════════════════════════════
-   Desktop ≥ 960px
-   ═══════════════════════════════════ */
-@media screen and (min-width: $desktop-bp) {
-  .header {
-    padding: 20px 24px;
+    display: none;
   }
 
   .header--scrolled {
-    top: 16px;
-    left: 24px;
-    width: calc(100% - 48px);
+    top: sp(sm);
+    left: sp(md);
+    width: calc(100% - sp(xl));
     background-color: rgba(255, 255, 255, 0.85);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);

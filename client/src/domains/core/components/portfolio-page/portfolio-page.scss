@@ -1,12 +1,10 @@
-
-
 .portfolio-page {
   display: flex;
   flex-direction: column;
   justify-content: center;
   min-width: 100vw;
   min-height: 100vh;
-  padding: 64px 24px 24px;
+  padding: sp(2xl) sp(md) sp(md);
   overflow-x: clip;
 }
 
@@ -16,13 +14,8 @@
   flex-grow: 1;
 }
 
-@media screen and (min-width: $desktop-bp) {
+@include respond-to(lg) {
   .portfolio-page {
-    padding: 200px 24px 24px;
-    min-height: 100vh;
+    padding: 200px sp(md) sp(md);
   }
 }
-
-
-
-

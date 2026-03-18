@@ -689,7 +689,7 @@
       {
         "id": "1",
         "type": "IMAGE",
-        "source": "/projects/KAOLYN/KAOLYN_1.jpg"
+        "source": "/projects/KAOLYN/KAOLYN_1.gif"
       },
       {
         "id": "2",
@@ -699,12 +699,17 @@
       {
         "id": "3",
         "type": "IMAGE",
-        "source": "/projects/KAOLYN/KAOLYN_3.jpg"
+        "source": "/projects/KAOLYN/KAOLYN_3.gif"
       },
       {
         "id": "4",
         "type": "IMAGE",
         "source": "/projects/KAOLYN/KAOLYN_4.jpg"
+      },
+      {
+        "id": "9",
+        "type": "IMAGE",
+        "source": "/projects/KAOLYN/KAOLYN_9.gif"
       },
       {
         "id": "5",
@@ -713,23 +718,29 @@
       },
       {
         "id": "6",
-        "type": "VIDEO",
-        "source": "/projects/KAOLYN/KAOLYN_6.mp4"
+        "type": "IMAGE",
+        "source": "/projects/KAOLYN/KAOLYN_6.jpg"
       },
       {
         "id": "7",
         "type": "IMAGE",
-        "source": "/projects/KAOLYN/KAOLYN_7.jpg"
+        "source": "/projects/KAOLYN/KAOLYN_7.gif"
       },
       {
         "id": "8",
         "type": "IMAGE",
-        "source": "/projects/KAOLYN/KAOLYN_9.jpg"
+        "source": "/projects/KAOLYN/KAOLYN_8.jpg"
       },
       {
-        "id": "9",
+        "id": "9-bis",
         "type": "VIDEO",
-        "source": "/projects/KAOLYN/KAOLYN_10.mp4"
+        "source": "/projects/KAOLYN/KAOLYN_9.mp4",
+        "displayMobile": false
+      },
+      {
+        "id": "11",
+        "type": "IMAGE",
+        "source": "/projects/KAOLYN/KAOLYN_11.png"
       }
     ]
   },

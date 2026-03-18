@@ -1,58 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
-$mobile-bp: 500px;
-$tablet-bp: 599px;
-$desktop-bp: 960px;
-
 :root {
-  --grey-deep: #989898;
+  // Propriétés sémantiques
+  --color-accent:  #CA4C35;
+  --color-text:    black;
+  --color-bg:      white;
+  --color-muted:   #989898;
+
+  // Alias legacy (rétro-compatibilité)
+  --grey-deep:   #989898;
   --grey-deep-2: #808080;
-  --orange: #CA4C35;
-  --text-blue: black;
-}
+  --orange:      #CA4C35;
+  --text-blue:   black;
 
-
-:root {
-  color: black;
-  --title-font: 'Helvetica', sans-serif;
+  // Polices
+  --title-font:  'Helvetica', sans-serif;
   --button-font: 'Helvetica', sans-serif;
-  --text-font: 'Helvetica', sans-serif;
+  --text-font:   'Helvetica', sans-serif;
 
-  --font-size-h1: 2.4rem;
-  --font-size-h2: 1.8rem;
-  --font-size-h3: 1.6rem;
-  --font-size-h4: 1.4rem;
-  --font-size-subtitle: 1.2rem;
-  --font-size-button: 1.6rem;
-  --font-size-button-tertiary: 1.4rem;
-  --font-size-navbar: 1.1rem;
-  --font-size-select: 1.2rem;
-  --font-size-list-header: 1.3rem;
-  --font-size-key-figure: 4rem;
-
-  --font-size-body-l: 1.6rem;
-  --font-size-body-m: 1.4rem;
-  --font-size-body-s: 1.2rem;
-  --font-size-body-xs: 1.2rem;
+  // Tailles de police avec clamp() — responsive sans media query
+  --font-size-h1:              clamp(2.4rem, 4vw, 3.2rem);
+  --font-size-h2:              clamp(1.8rem, 3vw, 2.4rem);
+  --font-size-h3:              clamp(1.6rem, 2.5vw, 1.8rem);
+  --font-size-h4:              clamp(1.4rem, 2vw, 1.6rem);
+  --font-size-subtitle:        clamp(1.2rem, 1.8vw, 1.4rem);
+  --font-size-navbar:          clamp(1.1rem, 1.5vw, 1.6rem);
+  --font-size-button:          clamp(1.6rem, 2vw, 1.8rem);
+  --font-size-button-tertiary: clamp(1.4rem, 1.8vw, 1.6rem);
+  --font-size-select:          clamp(1.2rem, 1.5vw, 1.4rem);
+  --font-size-list-header:     1.3rem;
+  --font-size-key-figure:      clamp(3rem, 5vw, 4rem);
+  --font-size-body-l:          clamp(1.6rem, 2vw, 1.8rem);
+  --font-size-body-m:          clamp(1.4rem, 1.8vw, 1.6rem);
+  --font-size-body-s:          clamp(1.2rem, 1.5vw, 1.4rem);
+  --font-size-body-xs:         1.2rem;
 
   font-size: 10px;
-}
-
-@media screen and (min-width: $mobile-bp) {
-  :root {
-    --font-size-h1: 3.2rem;
-    --font-size-h2: 2.4rem;
-    --font-size-h3: 1.8rem;
-    --font-size-h4: 1.6rem;
-    --font-size-subtitle: 1.4rem;
-    --font-size-button: 1.8rem;
-    --font-size-button-tertiary: 1.6rem;
-    --font-size-navbar: 1.6rem;
-    --font-size-select: 1.4rem;
-
-    --font-size-body-l: 1.8rem;
-    --font-size-body-m: 1.6rem;
-    --font-size-body-s: 1.4rem;
-    --font-size-body-xs: 1.2rem;
-  }
+  color: var(--color-text);
 }

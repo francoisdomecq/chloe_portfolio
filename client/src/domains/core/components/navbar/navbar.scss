@@ -3,17 +3,17 @@
 }
 
 .navbar__light {
-  color: black
+  color: var(--color-text);
 }
 
 .navbar__dark {
-  color: white
+  color: var(--color-bg);
 }
 
 .navbar__nav-items {
   display: flex;
   list-style-type: none;
-  gap: 8px;
+  gap: sp(xs);
 }
 
 .navbar__nav-item {
@@ -24,11 +24,11 @@
   }
 
   &:hover {
-    color: var(--grey-deep-2);
+    color: var(--color-muted-2);
   }
 }
 
-@media screen and (min-width: $mobile-bp) {
+@include respond-to(sm) {
   .navbar__nav-item {
     font-size: var(--font-size-h2);
   }

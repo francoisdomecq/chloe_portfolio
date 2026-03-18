@@ -1,73 +1,75 @@
+// ─── Mobile (défaut) ──────────────────────────────
 .about-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
-  gap: 164px;
 }
 
 .about {
   display: flex;
   flex-direction: column;
-  gap: 64px;
-  max-width: 55%;
+  gap: sp(lg);
+  max-width: 100%;
 }
 
 .description {
-  color: var(--text-blue);
+  color: var(--color-text);
   font-size: var(--font-size-body-l);
 }
 
+// Photo mobile visible par défaut
 .picture {
-  max-width: 45%;
-  max-height: 400px
+  display: none;
 }
 
 .picture__mobile {
-  display: none;
+  display: block;
+  max-width: 50%;
+  max-height: 400px;
 }
 
 .skills-container {
   display: flex;
   flex-direction: column;
+  gap: 4px;
 }
 
 .skills {
-  font-size: calc(var(--font-size-h1) * 1.5);
+  font-size: calc(var(--font-size-h1) * 1.2);
   line-height: 1.1;
   font-weight: 400;
-  color: var(--grey-deep);
-  width:120%;
+  color: var(--color-muted);
+  width: 120%;
 }
 
 .skills-title {
   @extend .skills;
-  color: var(--text-blue);
+  color: var(--color-text);
 }
 
-@media screen and (max-width: $desktop-bp) {
+// ─── Desktop ≥ lg ─────────────────────────────────
+@include respond-to(lg) {
+  .about-container {
+    flex-direction: row;
+    gap: 164px;
+  }
+
   .about {
-    flex-direction: column;
-    gap: 32px;
-    max-width: 100%;
-  }
-
-  .skills {
-    font-size: calc(var(--font-size-h1) * 1.2);
-  }
-
-  .skills-container{
-    gap:4px;
-  }
-
-  .picture__mobile {
-    display: block;
-    max-width: 50%;
-    max-height: 400px;
+    max-width: 55%;
+    gap: sp(2xl);
   }
 
   .picture {
+    display: block;
+    max-width: 45%;
+    max-height: 400px;
+  }
+
+  .picture__mobile {
     display: none;
   }
 
-
+  .skills {
+    font-size: calc(var(--font-size-h1) * 1.5);
+  }
 }

@@ -1,7 +1,8 @@
+// ─── Mobile (défaut) — 2 colonnes ────────────────
 .selection-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 8px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: sp(xs);
 }
 
 .selection-grid__item {
@@ -12,9 +13,9 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: $mobile-bp) {
+// ─── Desktop ≥ lg — 3 colonnes ────────────────────
+@include respond-to(lg) {
   .selection-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
-
 }

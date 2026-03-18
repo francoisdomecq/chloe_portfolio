@@ -7,10 +7,10 @@ interface ArticleProps {
   article: ArticleType;
 }
 
-export const Article = ({article}: ArticleProps) => {
+export const  Article = ({article}: ArticleProps) => {
   const {t} = useTranslation("home");
   return (
-    <div className="article">
+    <a className="article" href={article.link} target="_blank" rel="noopener noreferrer">
       <hr className="article__separator"/>
       <div className="article__content">
         <p className="article__date">{article.date}</p>
@@ -24,11 +24,11 @@ export const Article = ({article}: ArticleProps) => {
               <h3 className="article__title">{article.website} /<br/> {article.title}</h3>
               <p className="article__article">{article.article}</p>
             </div>
-            <a target="_blank" className="article__read-more" href={article.link}>{t("home.lastly.read-more")}</a>
+            <span className="article__read-more">{t("home.lastly.read-more")}</span>
           </div>
         </div>
       </div>
-    </div>
+    </a>
   );
 };
 

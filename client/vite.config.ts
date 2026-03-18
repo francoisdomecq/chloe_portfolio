@@ -10,7 +10,7 @@ export default defineConfig({
   css: {
     preprocessorOptions: {
       scss: {
-        additionalData: '@use "/src/domains/core/theme/shared.scss" as *;',
+        additionalData: '@use "/src/domains/core/theme/variables" as *;',
       },
     },
   },

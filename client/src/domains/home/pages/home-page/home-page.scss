@@ -1,88 +1,91 @@
+// ─── Mobile (défaut) ──────────────────────────────
 .introduction-container {
-  padding: 0 0 0 47%;
+  padding: 0 0 sp(md) 0;
   line-height: 1.4;
-  height: 30vh;
-}
-
-.showreel {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 100vh;
-  object-fit: cover;
+  height: fit-content;
 }
 
 .introduction {
   align-self: flex-end;
-  color: var(--text-blue);
+  color: var(--color-text);
   max-width: 600px;
   font-size: var(--font-size-h2);
+}
+
+.showreel {
+  display: none;
 }
 
 .selection {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: sp(sm);
 }
 
 .selection__header {
   display: flex;
-  align-items: center;
-  gap: 16px;
+  flex-direction: column;
+  gap: 0;
+  align-items: flex-start;
 }
 
 .selection__title {
   font-size: calc(var(--font-size-h1) * 1.5);
-  color: black;
+  color: var(--color-text);
   font-weight: 400;
+  line-height: 1;
 }
 
 .selection__view-more {
   font-size: var(--font-size-body-l);
-  color: var(--grey-deep);
+  color: var(--color-muted);
   text-decoration: underline;
   cursor: pointer;
-  margin-top: 24px;
+  margin-top: 0;
 }
 
 .lastly {
   display: flex;
   flex-direction: column;
-  margin-bottom: 48px;
-  margin-top: 48px;
+  margin-top: sp(md);
+  margin-bottom: sp(md);
 }
 
-@media screen and (max-width: $tablet-bp) {
-
+// ─── Desktop ≥ lg ─────────────────────────────────
+@include respond-to(lg) {
   .introduction-container {
-    padding: 0 0 24px 0;
-    height: fit-content;
-  }
-
-  .selection__header {
-    flex-direction: column;
-    gap: 0;
-    align-items: flex-start
-  }
-
-  .selection {
-    gap: 16px;
-  }
-
-  .selection__view-more {
-    margin-top: 0;
-  }
-
-  .selection__title {
-    line-height: 1;
+    padding: 0 0 0 47%;
+    height: 30vh;
   }
 
   .showreel {
-    display: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+
+  .selection {
+    gap: sp(lg);
+  }
+
+  .selection__header {
+    flex-direction: row;
+    align-items: center;
+    gap: sp(sm);
+  }
+
+  .selection__view-more {
+    margin-top: sp(md);
+  }
+
+  .selection__title {
+    line-height: unset;
   }
 
   .lastly {
-    margin-top: 24px;
-    margin-bottom: 24px;
+    margin-top: sp(xl);
+    margin-bottom: sp(xl);
   }
 }
