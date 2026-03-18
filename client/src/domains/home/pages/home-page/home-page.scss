@@ -60,10 +60,17 @@
 
   .showreel {
     display: flex;
-    justify-content: center;
     width: 100%;
     height: 100vh;
-    object-fit: cover;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .showreel__inner {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transform-origin: center;
   }
 
   .selection {

@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c28653e-64fa-453d-a83b-0f4b7b6440b2" name="Changes" comment="refacto">
-      <change afterPath="$PROJECT_DIR$/client/src/domains/core/theme/_variables.scss" afterDir="false" />
+    <list default="true" id="3c28653e-64fa-453d-a83b-0f4b7b6440b2" name="Changes" comment="kaolyn">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/config/works.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/config/works.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/header/header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/page-transition/page-transition-context.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/page-transition/page-transition-context.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/page-transition/page-transition-overlay.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/page-transition/page-transition-overlay.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/selection-grid/selection-grid.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/selection-grid/selection-grid.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/works/pages/project/project.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/pages/project/project.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/works/pages/projects/projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/pages/projects/projects.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/works/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/types/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/utils/animations.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/utils/animations.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/home-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/home-page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/home-page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/home-page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773826904453</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="kaolyn">
+      <option name="closed" value="true" />
+      <created>1773829902647</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1773829902647</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +162,8 @@
     <MESSAGE value="ui" />
     <MESSAGE value="remove old" />
     <MESSAGE value="refacto" />
-    <option name="LAST_COMMIT_MESSAGE" value="refacto" />
+    <MESSAGE value="kaolyn" />
+    <option name="LAST_COMMIT_MESSAGE" value="kaolyn" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
