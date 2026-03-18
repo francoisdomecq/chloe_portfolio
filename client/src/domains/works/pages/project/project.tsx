@@ -40,38 +40,37 @@ export const Project = () => {
   return project && (
     <PortfolioPage >
       <div className="project">
-        <div className="project__description" >
-          <h1 className="project-project__title">{project.subtitle ?? project.title}</h1>
-          <div className="project__details">
-            <p className="project-description__label">{t("works.project.details")}</p>
-            <div>
-              <hr className="divider"/>
-              <div className="project__details-content">
-                <p className="project__details-content-label">{t("works.project.category")}</p>
-                <p>{t("works.project.category")}</p>
-              </div>
-              <hr className="divider"/>
+        <div className="project__description">
+          <h1 className="project__title">{project.subtitle ?? project.title}</h1>
 
-              <div className="project__details-content">
-                <p className="project__details-content-label">{t("works.project.services")}</p>
-                <div className="project-skills">
-                  {project.description.skills.map(skill=><p key={skill}>{skill}</p>)}</div>
-              </div>
-              <hr className="divider"/>
+          <div className="project__meta">
+            <div className="project__meta-item">
+              <span className="project__meta-label">{t("works.project.category")}</span>
+              <span className="project__meta-value">
+                {project.description.subtitle.join(" / ")}
+              </span>
+            </div>
 
-              <div className="project__details-content">
-                <p className="project__details-content-label">{t("works.project.date")}</p>
-                <p>{project.date}</p>
-              </div>
-              <hr className="divider"/>
+            <div className="project__meta-item">
+              <span className="project__meta-label">{t("works.project.services")}</span>
+              <span className="project__meta-value">
+                {project.description.skills.join(", ")}
+              </span>
+            </div>
+
+            <div className="project__meta-item">
+              <span className="project__meta-label">{t("works.project.date")}</span>
+              <span className="project__meta-value">{project.date}</span>
             </div>
           </div>
-          <div className="project__details">
-            <p className="project-description__label">{t("works.project.description")}</p>
-            <div className="project-description__content">
-              {project.description.content.map(content=><p className="project-description__text" key={content}>{content}</p>)}
-              {project.description?.coworkers?.map(content=><p key={content}>{content}</p>)}
-            </div>
+
+          <div className="project__body">
+            {project.description.content.map(content =>
+              <p className="project__body-text" key={content}>{content}</p>
+            )}
+            {project.description?.coworkers?.map(content =>
+              <p className="project__body-text" key={content}>{content}</p>
+            )}
           </div>
         </div>
         <div className="project__content" >
