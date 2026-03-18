@@ -2,7 +2,7 @@ import "./footer.scss";
 import {NAV_TABS} from "@components/navbar/navbar.config";
 import {useTranslation} from "react-i18next";
 
-const Footer = () => {
+export const Footer = () => {
   const {t} = useTranslation("core");
 
   return (
@@ -80,4 +80,3 @@ const Footer = () => {
   );
 }
 
-export default Footer;

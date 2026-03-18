@@ -4,7 +4,7 @@ import "./selection-grid.scss"
 import ReactPlayer from "react-player";
 import {usePageTransition} from "@components/page-transition/page-transition-context";
 
-const SelectionGrid = () => {
+export const SelectionGrid = () => {
   const filteredWorks: Project[]= works.filter(work=>!!work.selected)
   const isDesktop = window.innerWidth > 768;
   const {navigateWithTransition ,setTransitionProjectTitle}=usePageTransition();
@@ -41,4 +41,3 @@ const SelectionGrid = () => {
   )
 }
 
-export default SelectionGrid

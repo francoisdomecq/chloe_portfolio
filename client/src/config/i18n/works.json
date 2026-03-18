@@ -1,5 +1,12 @@
 {
   "works": {
-    "title": "Projets"
+    "title": "Projets",
+    "project": {
+      "details": "Détails",
+      "category": "Catégorie",
+      "services": "Services",
+      "date": "Date",
+      "description": "Description du projet"
+    }
   }
 }

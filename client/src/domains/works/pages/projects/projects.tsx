@@ -9,7 +9,7 @@ import ReactPlayer from "react-player";
 
 const DESKTOP_BP = 960;
 
-const Projects=()=>{
+export const Projects=()=>{
   const {t}=useTranslation("works")
 
   const [hoveredProject, setHoveredProject]=useState<Project|undefined>(undefined)
@@ -118,4 +118,3 @@ const Projects=()=>{
   )
 }
 
-export default Projects

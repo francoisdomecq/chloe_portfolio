@@ -1,39 +1,19 @@
-import {AnimatePresence, motion} from "framer-motion";
+import {AnimatePresence, motion, useReducedMotion} from "framer-motion";
 import {usePageTransition} from "./page-transition-context";
+import {curtainVariants, curtainVariantsReduced} from "@utils/animations";
 import "./page-transition-overlay.scss";
 
-const curtainVariants = {
-  initial: {
-    scaleY: 0,
-    transformOrigin: "bottom",
-  },
-  animate: {
-    scaleY: 1,
-    transformOrigin: "bottom",
-    transition: {
-      duration: 0.6,
-      ease: [0.76, 0, 0.24, 1],
-    },
-  },
-  exit: {
-    scaleY: 0,
-    transformOrigin: "top",
-    transition: {
-      duration: 0.6,
-      ease: [0.76, 0, 0.24, 1],
-    },
-  },
-};
-
-const PageTransitionOverlay = () => {
+export const PageTransitionOverlay = () => {
   const {isTransitioning, transitionProjectTitle} = usePageTransition();
+  const prefersReducedMotion = useReducedMotion();
+  const variants = prefersReducedMotion ? curtainVariantsReduced : curtainVariants;
 
   return (
     <AnimatePresence>
       {isTransitioning &&  (
         <motion.div
           className="page-transition-overlay"
-          variants={curtainVariants}
+          variants={variants}
           initial="initial"
           animate="animate"
           exit="exit"
@@ -49,4 +29,3 @@ const PageTransitionOverlay = () => {
   );
 };
 
-export default PageTransitionOverlay;

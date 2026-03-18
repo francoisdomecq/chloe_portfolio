@@ -4,15 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c28653e-64fa-453d-a83b-0f4b7b6440b2" name="Changes" comment="ui">
+    <list default="true" id="3c28653e-64fa-453d-a83b-0f4b7b6440b2" name="Changes" comment="remove old">
+      <change afterPath="$PROJECT_DIR$/CLAUDE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/config/works.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/config/works.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/about/pages/about/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/about/pages/about/about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/domains/about/pages/about/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/about/pages/about/about.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/works/pages/project/project.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/pages/project/project.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/footer/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/footer/footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/header/header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/navbar/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/navbar/navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/page-transition/page-transition-overlay.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/page-transition/page-transition-overlay.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/portfolio-page/portfolio-page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/portfolio-page/portfolio-page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/article/article.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/article/article.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/home-page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/home-page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/selection-grid/selection-grid.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/selection-grid/selection-grid.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/news/pages/news/news.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/news/pages/news/news.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/domains/works/pages/project/project.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/pages/project/project.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/works/pages/projects/projects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/pages/projects/projects.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/works/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/types/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/works/pages/projects/projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/pages/projects/projects.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,24 +34,24 @@
     </persistenceIdMap>
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="615" />
+    <option name="cachedIndexableFilesCount" value="540" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "francoisdomecq"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;francoisdomecq&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/francoisdomecq/chloe_portfolio.git",
-    "accountId": "6a3bb82f-7d89-4248-ad09-794836ff6995"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/francoisdomecq/chloe_portfolio.git&quot;,
+    &quot;accountId&quot;: &quot;6a3bb82f-7d89-4248-ad09-794836ff6995&quot;
   }
-}]]></component>
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -50,35 +59,37 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="3B1KTvxVA0SoK9m6vgtyFGaRSe4" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "design-rework",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/server/node_modules/prettier",
-    "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/server/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;design-rework&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/francoisdmq/Documents/Personal/chloe_portfolio/server/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/francoisdmq/Documents/Personal/chloe_portfolio/server/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -103,8 +114,18 @@
       <option name="presentableId" value="Default" />
       <updated>1773651151629</updated>
       <workItem from="1773651156727" duration="1194000" />
+      <workItem from="1773823134309" duration="566000" />
+      <workItem from="1773823727537" duration="2609000" />
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="remove old">
+      <option name="closed" value="true" />
+      <created>1773823222504</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1773823222504</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,7 +133,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ui" />
-    <option name="LAST_COMMIT_MESSAGE" value="ui" />
+    <MESSAGE value="remove old" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove old" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

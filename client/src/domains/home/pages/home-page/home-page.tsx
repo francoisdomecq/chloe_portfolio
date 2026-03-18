@@ -1,9 +1,9 @@
-import PortfolioPage from "@components/portfolio-page/portfolio-page";
+import { PortfolioPage } from "@components/portfolio-page/portfolio-page";
 import {useTranslation} from "react-i18next";
 import "./home-page.scss"
 import articles from './articles.json'
-import Article from "./article/article";
-import SelectionGrid from "./selection-grid/selection-grid";
+import { Article } from "./article/article";
+import { SelectionGrid } from "./selection-grid/selection-grid";
 import ReactPlayer from "react-player";
 
 export const HomePage = () => {

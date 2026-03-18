@@ -1,15 +1,15 @@
 import {motion} from "framer-motion";
 
 import "./portfolio-page.scss";
-import Header from "@components/header/header";
-import Footer from "@components/footer/footer";
+import { Header } from "@components/header/header";
+import { Footer } from "@components/footer/footer";
 
 interface PortfolioPageProps {
   children: React.ReactNode;
   className?: string;
 }
 
-const PortfolioPage = ({children, className = ""}: PortfolioPageProps) => {
+export const PortfolioPage = ({children, className = ""}: PortfolioPageProps) => {
   return (
     <>
       <Header/>
@@ -24,4 +24,3 @@ const PortfolioPage = ({children, className = ""}: PortfolioPageProps) => {
   );
 };
 
-export default PortfolioPage;

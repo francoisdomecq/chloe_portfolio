@@ -1,13 +1,14 @@
 import {useParams} from "react-router-dom";
+import {useTranslation} from "react-i18next";
 import works from "@config/works.json"
 import "./project.scss"
-import {Project as ProjectType} from "../../types";
+import {Project as ProjectType, ProjectContent, ProjectContentMediaType} from "../../types";
 import {PortfolioPage} from "@core/index";
-import {ProjectContent, ProjectContentMediaType} from "@domains/old/projects_old/types";
 import ReactPlayer from "react-player";
 
-const Project = () => {
+export const Project = () => {
   const params = useParams();
+  const {t} = useTranslation("works");
   const project:ProjectType|undefined = works.find(work=>work.id===params.id)
 
   const renderProjectContent = (projectContent: ProjectContent) => {
@@ -25,33 +26,33 @@ const Project = () => {
         <div className="project__description" >
           <h1 className="project-project__title">{project.subtitle ?? project.title}</h1>
           <div className="project__details">
-            <p className="project-description__label">Détails</p>
+            <p className="project-description__label">{t("works.project.details")}</p>
             <div>
               <hr className="divider"/>
               <div className="project__details-content">
-                <p className="project__details-content-label">Catégorie</p>
-                <p>Branding</p>
+                <p className="project__details-content-label">{t("works.project.category")}</p>
+                <p>{t("works.project.category")}</p>
               </div>
               <hr className="divider"/>
 
               <div className="project__details-content">
-                <p className="project__details-content-label">Services</p>
+                <p className="project__details-content-label">{t("works.project.services")}</p>
                 <div className="project-skills">
                   {project.description.skills.map(skill=><p key={skill}>{skill}</p>)}</div>
               </div>
               <hr className="divider"/>
 
               <div className="project__details-content">
-                <p className="project__details-content-label">Date</p>
+                <p className="project__details-content-label">{t("works.project.date")}</p>
                 <p>{project.date}</p>
               </div>
               <hr className="divider"/>
             </div>
           </div>
           <div className="project__details">
-            <p className="project-description__label">Description du projet</p>
+            <p className="project-description__label">{t("works.project.description")}</p>
             <div className="project-description__content">
-              {project.description.content.map(content=><p style={{width:"100%"}}key={content}>{content}</p>)}
+              {project.description.content.map(content=><p className="project-description__text" key={content}>{content}</p>)}
               {project.description?.coworkers?.map(content=><p key={content}>{content}</p>)}
             </div>
           </div>
@@ -64,4 +65,3 @@ const Project = () => {
   )
 }
 
-export default Project;

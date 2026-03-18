@@ -1,37 +1,46 @@
+import { lazy, Suspense } from "react";
 import {Route, Routes} from "react-router-dom";
 
 import {AppContextProvider} from "@config/contexts/app-context";
-import ScrollToTop from "./domains/old/core/components/scroll-to-top/scroll-to-top";
+import {PageTransitionProvider} from "@domains/core/components/page-transition/page-transition-context";
+import { PageTransitionOverlay } from "@domains/core/components/page-transition/page-transition-overlay";
 
 import "./App.scss";
-import {HomePage} from "./domains/home/pages/home-page/home-page";
-import Project from "@domains/works/pages/project/project";
-import Projects from "@domains/works/pages/projects/projects";
-import News from "@domains/news/pages/news/news";
-import About from "@domains/about/pages/about/about";
-import {PageTransitionProvider} from "@domains/core/components/page-transition/page-transition-context";
-import PageTransitionOverlay from "@domains/core/components/page-transition/page-transition-overlay";
 
-function App() {
+const HomePage = lazy(() =>
+  import("@domains/home/pages/home-page/home-page").then(m => ({ default: m.HomePage }))
+);
+const Projects = lazy(() =>
+  import("@domains/works/pages/projects/projects").then(m => ({ default: m.Projects }))
+);
+const Project = lazy(() =>
+  import("@domains/works/pages/project/project").then(m => ({ default: m.Project }))
+);
+const News = lazy(() =>
+  import("@domains/news/pages/news/news").then(m => ({ default: m.News }))
+);
+const About = lazy(() =>
+  import("@domains/about/pages/about/about").then(m => ({ default: m.About }))
+);
 
+export function App() {
   return (
     <div>
-      <ScrollToTop/>
       <PageTransitionProvider>
         <AppContextProvider>
           <PageTransitionOverlay/>
-          <Routes>
-            <Route path="/" element={<HomePage/>}/>
-            <Route path="/works" element={<Projects/>}/>
-            <Route path="/works/:id" element={<Project/>}/>
-            <Route path="/news" element={<News/>}/>
-            <Route path="/about" element={<About/>}/>
-          </Routes>
+          <Suspense fallback={null}>
+            <Routes>
+              <Route path="/" element={<HomePage/>}/>
+              <Route path="/works" element={<Projects/>}/>
+              <Route path="/works/:id" element={<Project/>}/>
+              <Route path="/news" element={<News/>}/>
+              <Route path="/about" element={<About/>}/>
+            </Routes>
+          </Suspense>
         </AppContextProvider>
       </PageTransitionProvider>
-
     </div>
   );
 }
 
-export default App;

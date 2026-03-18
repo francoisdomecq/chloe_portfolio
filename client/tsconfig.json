@@ -9,13 +9,13 @@
       "ESNext"
     ],
     "allowJs": false,
-    "skipLibCheck": false,
+    "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "module": "ESNext",
-    "moduleResolution": "Node",
+    "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
@@ -34,6 +34,9 @@
       "@domains/*": [
         "./src/domains/*"
       ],
+      "@utils/*": [
+        "./src/utils/*"
+      ],
     },
     "plugins": [
       {
@@ -44,12 +47,10 @@
     "types": [
       "react",
       "react-dom",
-      "node"
     ]
   },
   "exclude": [
     "./node_modules/*",
-    "./src/domains/old/*"
   ],
   "include": [
     "./src"

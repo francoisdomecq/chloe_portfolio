@@ -12,7 +12,7 @@ interface HeaderProps {
 
 const SCROLL_THRESHOLD = 5;
 
-const Header = ({className, isHidden}: HeaderProps) => {
+export const Header = ({className, isHidden}: HeaderProps) => {
   const {t} = useTranslation("core");
   const {navigateWithTransition,setTransitionProjectTitle}=usePageTransition();
   const [menuOpen, setMenuOpen] = useState(false);
@@ -128,4 +128,3 @@ const Header = ({className, isHidden}: HeaderProps) => {
   );
 };
 
-export default Header;

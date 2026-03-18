@@ -1,7 +1,7 @@
 import {PortfolioPage} from "@core/index";
 import {useTranslation} from "react-i18next";
 import "./about.scss"
-const About = ()=>{
+export const About = ()=>{
   const {t}=useTranslation("about")
   return (
     <PortfolioPage>
@@ -25,4 +25,3 @@ const About = ()=>{
   )
 }
 
-export default About;

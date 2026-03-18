@@ -1,8 +1,8 @@
 import i18next from "@config/i18n";
 
-import Footer from "./components/footer/footer";
-import Header from "./components/header/header";
-import PortfolioPage from "./components/portfolio-page/portfolio-page";
+import { Footer } from "./components/footer/footer";
+import { Header } from "./components/header/header";
+import { PortfolioPage } from "./components/portfolio-page/portfolio-page";
 import i18nCore from "@config/i18n/core.json";
 
 i18next.addResourceBundle("en", "core", i18nCore);

@@ -7,7 +7,7 @@ interface ArticleProps {
   article: ArticleType;
 }
 
-const Article = ({article}: ArticleProps) => {
+export const Article = ({article}: ArticleProps) => {
   const {t} = useTranslation("home");
   return (
     <div className="article">
@@ -32,4 +32,3 @@ const Article = ({article}: ArticleProps) => {
   );
 };
 
-export default Article;

@@ -1,6 +1,6 @@
 import {PortfolioPage} from "@core/index";
 
-const News = () => {
+export const News = () => {
   return (
     <PortfolioPage>
       <div></div>
@@ -8,4 +8,3 @@ const News = () => {
   )
 }
 
-export default News
