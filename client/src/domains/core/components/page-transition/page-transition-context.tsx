@@ -10,15 +10,11 @@ interface ProjectTransition{
 interface PageTransitionContextType {
   isTransitioning: boolean;
   navigateWithTransition: (to: string) => void;
-  setTransitionProjectTitle: (transition:ProjectTransition|null) => void;
-  transitionProjectTitle: ProjectTransition|null ;
 }
 
 const PageTransitionContext = createContext<PageTransitionContextType>({
   isTransitioning: false,
   navigateWithTransition: () => {},
-  setTransitionProjectTitle: () => {},
-  transitionProjectTitle: null,
 });
 
 const DESKTOP_BP = 960;
@@ -29,7 +25,6 @@ interface PageTransitionProviderProps {
 
 const PageTransitionProvider = ({children}: PageTransitionProviderProps) => {
   const [isTransitioning, setIsTransitioning] = useState(false);
-  const [transitionProjectTitle, setTransitionProjectTitle] = useState<ProjectTransition | null>(null);
   const navigate = useNavigate();
 
   const navigateWithTransition = useCallback((to: string) => {
@@ -57,9 +52,7 @@ const PageTransitionProvider = ({children}: PageTransitionProviderProps) => {
   const contextValue = useMemo(() => ({
     isTransitioning,
     navigateWithTransition,
-    setTransitionProjectTitle,
-    transitionProjectTitle,
-  }), [isTransitioning, navigateWithTransition,setTransitionProjectTitle,transitionProjectTitle]);
+  }), [isTransitioning, navigateWithTransition]);
 
   return (
     <PageTransitionContext.Provider value={contextValue}>

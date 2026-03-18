@@ -6,6 +6,8 @@ import "./project.scss"
 import {Project as ProjectType, ProjectContent, ProjectContentMediaType} from "../../types";
 import {PortfolioPage} from "@core/index";
 import ReactPlayer from "react-player";
+import {motion, useReducedMotion} from "framer-motion";
+import {fadeInUp, staggerContainer} from "@utils/animations";
 
 const DESKTOP_BP = 1024;
 
@@ -14,6 +16,7 @@ export const Project = () => {
   const {t} = useTranslation("works");
   const project:ProjectType|undefined = works.find(work=>work.id===params.id)
   const [isDesktop, setIsDesktop] = useState(window.innerWidth >= DESKTOP_BP);
+  const prefersReducedMotion = useReducedMotion();
 
   useEffect(() => {
     const handleResize = () => setIsDesktop(window.innerWidth >= DESKTOP_BP);
@@ -40,9 +43,22 @@ export const Project = () => {
   return project && (
     <PortfolioPage >
       <div className="project">
-        <div className="project__description" >
-          <h1 className="project-project__title">{project.subtitle ?? project.title}</h1>
-          <div className="project__details">
+        <motion.div
+          className="project__description"
+          variants={staggerContainer}
+          initial="hidden"
+          animate="visible"
+        >
+          <motion.h1
+            className="project-project__title"
+            variants={prefersReducedMotion ? undefined : fadeInUp}
+          >
+            {project.subtitle ?? project.title}
+          </motion.h1>
+          <motion.div
+            className="project__details"
+            variants={prefersReducedMotion ? undefined : fadeInUp}
+          >
             <p className="project-description__label">{t("works.project.details")}</p>
             <div>
               <hr className="divider"/>
@@ -65,15 +81,18 @@ export const Project = () => {
               </div>
               <hr className="divider"/>
             </div>
-          </div>
-          <div className="project__details">
+          </motion.div>
+          <motion.div
+            className="project__details"
+            variants={prefersReducedMotion ? undefined : fadeInUp}
+          >
             <p className="project-description__label">{t("works.project.description")}</p>
             <div className="project-description__content">
               {project.description.content.map(content=><p className="project-description__text" key={content}>{content}</p>)}
               {project.description?.coworkers?.map(content=><p key={content}>{content}</p>)}
             </div>
-          </div>
-        </div>
+          </motion.div>
+        </motion.div>
         <div className="project__content" >
           {project.content.map(renderProjectContent)}
         </div>

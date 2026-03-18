@@ -4,7 +4,7 @@ import {curtainVariants, curtainVariantsReduced} from "@utils/animations";
 import "./page-transition-overlay.scss";
 
 export const PageTransitionOverlay = () => {
-  const {isTransitioning, transitionProjectTitle} = usePageTransition();
+  const {isTransitioning} = usePageTransition();
   const prefersReducedMotion = useReducedMotion();
   const variants = prefersReducedMotion ? curtainVariantsReduced : curtainVariants;
 
@@ -17,12 +17,7 @@ export const PageTransitionOverlay = () => {
           initial="initial"
           animate="animate"
           exit="exit"
-          style={{
-            backgroundColor: transitionProjectTitle?.backgroundColor || "#CA4C35",
-          }}
         >
-          {transitionProjectTitle &&
-          <h1 className="page-transition-title" style={{color:transitionProjectTitle.color}}>{transitionProjectTitle.title}</h1>}
         </motion.div>
       )}
     </AnimatePresence>

@@ -7,14 +7,13 @@ import {usePageTransition} from "@components/page-transition/page-transition-con
 export const SelectionGrid = () => {
   const filteredWorks: Project[]= works.filter(work=>!!work.selected)
   const isDesktop = window.innerWidth > 768;
-  const {navigateWithTransition ,setTransitionProjectTitle}=usePageTransition();
+  const {navigateWithTransition }=usePageTransition();
 
   const renderWork= (work:Project)=>{
     if(isDesktop){
       return (
         <a href={`/works/${work.id}`} onClick={(e) => {
           navigateWithTransition(`/works/${work.id}`)
-          setTransitionProjectTitle({title:work.title, backgroundColor:work.transition.backgroundColor,color:work.transition.color});
           e.preventDefault();
         }}>
           {work.selected?.mediaDesktop === "VIDEO" ?

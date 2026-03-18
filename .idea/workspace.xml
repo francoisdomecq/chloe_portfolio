@@ -5,43 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c28653e-64fa-453d-a83b-0f4b7b6440b2" name="Changes" comment="refacto">
-      <change afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_9.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/domains/core/theme/_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/CURSOR-97-dark.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/CURSOR-97.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_10.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_6.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/config/works.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/config/works.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/about/pages/about/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/about/pages/about/about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/footer/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/footer/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/header/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/navbar/navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/navbar/navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/portfolio-page/portfolio-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/portfolio-page/portfolio-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/theme/shared.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/theme/shared.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/article/article.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/article/article.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/article/article.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/article/article.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/articles.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/articles.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/home-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/home-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/selection-grid/selection-grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/selection-grid/selection-grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/works/pages/project/project.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/pages/project/project.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/header/header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/page-transition/page-transition-context.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/page-transition/page-transition-context.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/page-transition/page-transition-overlay.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/page-transition/page-transition-overlay.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/selection-grid/selection-grid.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/selection-grid/selection-grid.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/domains/works/pages/project/project.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/pages/project/project.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/works/pages/projects/projects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/pages/projects/projects.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/works/pages/projects/projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/pages/projects/projects.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/domains/works/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/types/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/utils/animations.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/utils/animations.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,30 +61,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "design-rework",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/public/projects/KAOLYN",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/server/node_modules/prettier",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/server/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;design-rework&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/public/projects/KAOLYN&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/francoisdmq/Documents/Personal/chloe_portfolio/server/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/francoisdmq/Documents/Personal/chloe_portfolio/server/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/client/public/projects/KAOLYN" />
@@ -172,6 +146,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ui" />

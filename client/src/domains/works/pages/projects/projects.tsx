@@ -7,7 +7,7 @@ import {Project} from "@domains/works/types";
 import {usePageTransition} from "@domains/core/components/page-transition/page-transition-context";
 import ReactPlayer from "react-player";
 
-const DESKTOP_BP = 960;
+const DESKTOP_BP = 1024;
 
 export const Projects=()=>{
   const {t}=useTranslation("works")
@@ -17,12 +17,11 @@ export const Projects=()=>{
   const [isDesktop, setIsDesktop]=useState(window.innerWidth >= DESKTOP_BP)
 
   const gridRef = useRef<HTMLDivElement>(null)
-  const {navigateWithTransition,setTransitionProjectTitle} = usePageTransition()
+  const {navigateWithTransition} = usePageTransition()
 
   const handleProjectClick = useCallback((e: React.MouseEvent, project: Project) => {
     e.preventDefault();
     navigateWithTransition(`/works/${project.id}`);
-    setTransitionProjectTitle({title:project.title, backgroundColor:project.transition.backgroundColor,color:project.transition.color});
   }, [navigateWithTransition]);
 
   useEffect(() => {
