@@ -29,6 +29,7 @@ interface Project {
   id: string;
   index:number;
   title: string;
+  subtitle?: string;
   selected?: SelectedProject;
   carousel:SelectedProject;
   description: ProjectDescription;

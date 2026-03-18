@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 64px;
+  gap: 164px;
 }
 
 .about {
@@ -26,11 +26,17 @@
   display: none;
 }
 
+.skills-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .skills {
   font-size: calc(var(--font-size-h1) * 1.5);
   line-height: 1.1;
   font-weight: 400;
-  color: var(--grey-deep)
+  color: var(--grey-deep);
+  width:120%;
 }
 
 .skills-title {
@@ -43,10 +49,14 @@
     flex-direction: column;
     gap: 32px;
     max-width: 100%;
-
   }
 
-  .description {
+  .skills {
+    font-size: calc(var(--font-size-h1) * 1.2);
+  }
+
+  .skills-container{
+    gap:4px;
   }
 
   .picture__mobile {

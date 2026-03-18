@@ -6,7 +6,7 @@
   /* occuper toute la hauteur disponible dans portfolio-page__content */
   flex: 1 1 0; /* <-- important: allow the project to grow to available height */
   width: 100%;
-  min-height: 0;
+  min-height: 100vh;
 }
 
 .project-project__title {
@@ -20,7 +20,7 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-  gap: 128px;
+  gap: 64px;
   font-family: var(--text-font), sans-serif;
   justify-content: space-between;
   font-size: var(--font-size-body-m);
@@ -43,6 +43,7 @@
   display: flex;
   flex-direction: column;
   align-self: flex-start;
+  text-align: end;
 }
 
 .project-description__label {
@@ -59,7 +60,7 @@
 }
 
 .divider {
-  width: 120%;
+  width: 100%;
   color: black;
 }
 
@@ -83,7 +84,7 @@
 }
 
 .project__content {
- width:45%;
+  width:45%;
   right:0;
   display: flex;
   flex-direction: column;
@@ -97,7 +98,7 @@
 }
 
 // --- Mobile & Tablet: stack everything vertically ---
-@media screen and (max-width: $desktop-bp) {
+@media screen and (max-width: 1150px) {
   .project {
     flex-direction: column;
     gap: 48px;
@@ -123,10 +124,9 @@
   }
 
   .project__details-content {
-    flex-direction: column;
+    flex-direction: row;
     gap: 8px;
     margin-left: 0;
-    min-width: unset;
   }
 
   .project-description__label {
@@ -156,4 +156,3 @@
     height: auto;
   }
 }
-

@@ -23,7 +23,7 @@ const Project = () => {
     <PortfolioPage >
       <div className="project">
         <div className="project__description" >
-          <h1 className="project-project__title">{project.title}</h1>
+          <h1 className="project-project__title">{project.subtitle ?? project.title}</h1>
           <div className="project__details">
             <p className="project-description__label">Détails</p>
             <div>
@@ -51,7 +51,7 @@ const Project = () => {
           <div className="project__details">
             <p className="project-description__label">Description du projet</p>
             <div className="project-description__content">
-              {project.description.content.map(content=><p key={content}>{content}</p>)}
+              {project.description.content.map(content=><p style={{width:"100%"}}key={content}>{content}</p>)}
               {project.description?.coworkers?.map(content=><p key={content}>{content}</p>)}
             </div>
           </div>
