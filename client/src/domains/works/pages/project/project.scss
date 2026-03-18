@@ -9,60 +9,69 @@
   width: 100%;
 }
 
-.project__title {
-  font-size: clamp(var(--font-size-h1), 6vw, calc(var(--font-size-h1) * 2));
+.project-project__title {
+  font-size: var(--font-size-h1);
   font-family: var(--title-font), serif;
   font-weight: 400;
   color: var(--color-text);
-  line-height: 1.05;
+}
+
+.project__details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: sp(sm);
+  font-family: var(--text-font), sans-serif;
+  font-size: var(--font-size-body-m);
+}
+
+.project__details-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: sp(xs);
+  margin-left: 0;
+}
+
+.project__details-content-label {
+  min-width: 120px;
+}
+
+.project-skills {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  text-align: end;
+}
+
+.project-description__label {
+  min-width: unset;
+  font-weight: 600;
 }
 
 .project__description {
   display: flex;
   flex-direction: column;
   width: 100%;
-  gap: sp(xl);
+  gap: sp(lg);
   position: static;
   top: auto;
 }
 
-.project__meta {
-  display: flex;
-  flex-direction: column;
-  gap: sp(lg);
-}
-
-.project__meta-item {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.project__meta-label {
-  font-family: var(--text-font), sans-serif;
-  font-size: var(--font-size-body-xs);
-  color: var(--color-muted);
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-}
-
-.project__meta-value {
-  font-family: var(--text-font), sans-serif;
-  font-size: var(--font-size-body-m);
+.divider {
+  width: 100%;
   color: var(--color-text);
 }
 
-.project__body {
+.project-description__content {
   display: flex;
   flex-direction: column;
-  gap: sp(sm);
+  width: 100%;
+  gap: sp(xs);
 }
 
-.project__body-text {
-  font-family: var(--text-font), sans-serif;
-  font-size: var(--font-size-body-m);
-  color: var(--color-text);
-  line-height: 1.6;
+.project-description__text {
+  width: 100%;
 }
 
 .image-displayer {
@@ -101,10 +110,36 @@
     height: auto;
   }
 
+  .project-project__title {
+    font-size: calc(var(--font-size-h1) * 2);
+  }
+
+  .project__details {
+    flex-direction: row;
+    gap: sp(2xl);
+    justify-content: space-between;
+  }
+
+  .project__details-content {
+    min-width: 200px;
+    gap: sp(2xl);
+    margin-left: sp(md);
+  }
+
+  .project-description__label {
+    min-width: 120px;
+    font-weight: 400;
+  }
+
   .project__description {
     width: 50%;
+    gap: sp(lg);
     position: relative;
     top: 0;
+  }
+
+  .project-description__content {
+    width: 80%;
   }
 
   .image-displayer__image {
