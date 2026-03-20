@@ -5,10 +5,9 @@ import articles from './articles.json'
 import { Article } from "./article/article";
 import { SelectionGrid } from "./selection-grid/selection-grid";
 import ReactPlayer from "react-player";
-import { useRef, useState, useEffect } from "react";
+import { useRef } from "react";
 import { motion, useScroll, useTransform, useReducedMotion } from "framer-motion";
-
-const DESKTOP_BP = 1024;
+import { useIsDesktop } from "@utils/useIsDesktop";
 import { usePageSeo } from "@utils/usePageSeo";
 
 export const HomePage = () => {
@@ -21,13 +20,7 @@ export const HomePage = () => {
   const showreelRef = useRef<HTMLDivElement>(null);
   const introContainerRef = useRef<HTMLDivElement>(null);
   const prefersReducedMotion = useReducedMotion();
-  const [isDesktop, setIsDesktop] = useState(window.innerWidth >= DESKTOP_BP);
-
-  useEffect(() => {
-    const handleResize = () => setIsDesktop(window.innerWidth >= DESKTOP_BP);
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
+  const isDesktop = useIsDesktop();
   const introText = t("home.introduction");
 
   const { scrollYProgress } = useScroll({

@@ -1,4 +1,3 @@
-import {useEffect, useState} from "react";
 import {useParams} from "react-router-dom";
 import {useTranslation} from "react-i18next";
 import works from "@config/works.json"
@@ -9,21 +8,15 @@ import ReactPlayer from "react-player";
 import {motion, useReducedMotion} from "framer-motion";
 import {fadeInUp, staggerContainer} from "@utils/animations";
 import {usePageSeo} from "@utils/usePageSeo";
-
-const DESKTOP_BP = 1024;
+import {useIsDesktop} from "@utils/useIsDesktop";
+import {useEffect} from "react";
 
 export const Project = () => {
   const params = useParams();
   const {t} = useTranslation("works");
   const project:ProjectType|undefined = works.find(work=>work.id===params.id)
-  const [isDesktop, setIsDesktop] = useState(window.innerWidth >= DESKTOP_BP);
+  const isDesktop = useIsDesktop();
   const prefersReducedMotion = useReducedMotion();
-
-  useEffect(() => {
-    const handleResize = () => setIsDesktop(window.innerWidth >= DESKTOP_BP);
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
 
   const projectTitle = project ? `${project.title} — Chloé Gaillard` : "Chloé Gaillard";
   const projectDescription = project?.description.content[0]?.slice(0, 160) ?? "";
@@ -76,7 +69,7 @@ export const Project = () => {
     }
     return (
       <div key={projectContent.id ?? index} className="video-displayer">
-        <ReactPlayer className="react-player__tablet" width="100%" height="100%" src={projectContent.source} playing loop muted controls/>
+        <ReactPlayer className="react-player__tablet" width="100%" height="100%" src={projectContent.source} playing={isDesktop} loop muted controls/>
       </div>
     );
   };

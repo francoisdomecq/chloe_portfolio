@@ -787,9 +787,7 @@
     "theme": "dark",
     "selected": {
       "sourceDesktop": "/projects/PAYFIT/PAYFIT_SELECTED_DESKTOP.mp4",
-      "sourceMobile": "/projects/PAYFIT/PAYFIT_SELECTED_MOBILE.jpg",
-      "mediaDesktop": "VIDEO",
-      "mediaMobile": "IMAGE"
+      "mediaDesktop": "VIDEO"
     },
     "description": {
       "title": "Payfit",

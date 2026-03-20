@@ -2,6 +2,7 @@ import {Article as ArticleType} from "../../../types";
 import ReactPlayer from "react-player";
 import "./article.scss"
 import {useTranslation} from "react-i18next";
+import { useIsDesktop } from "@utils/useIsDesktop";
 
 interface ArticleProps {
   article: ArticleType;
@@ -9,15 +10,17 @@ interface ArticleProps {
 
 export const  Article = ({article}: ArticleProps) => {
   const {t} = useTranslation("home");
+  const isDesktop = useIsDesktop();
   return (
     <a className="article" href={article.link} target="_blank" rel="noopener noreferrer">
       <hr className="article__separator"/>
       <div className="article__content">
         <p className="article__date">{article.date}</p>
         <div className="article__media">
-          <div className="article__video">
+          {isDesktop && <div className="article__video">
             <ReactPlayer src={article.video} width={350} height={350} playing loop controls={false} muted/>
           </div>
+          }
           <img className="article__image" src={article.image} alt={article.title}/>
           <div className="article__description">
             <div className="article__description-content">

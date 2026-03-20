@@ -3,10 +3,11 @@ import {Project} from "@domains/works/types";
 import "./selection-grid.scss"
 import ReactPlayer from "react-player";
 import {useNavigate} from "react-router-dom";
+import {useIsDesktop} from "@utils/useIsDesktop";
 
 export const SelectionGrid = () => {
   const filteredWorks: Project[]= works.filter(work=>!!work.selected)
-  const isDesktop = window.innerWidth > 768;
+  const isDesktop = useIsDesktop();
   const navigate = useNavigate();
 
   const renderWork= (work:Project, index: number)=>{
@@ -24,12 +25,12 @@ export const SelectionGrid = () => {
         </a>
       )
     }
-    return (
+    return work.selected?.sourceMobile && (
       <a key={work.id} href={`/works/${work.id}`} aria-label={work.title}>
         {work.selected?.mediaMobile === "VIDEO" ?
           <video src={work.selected.sourceMobile} className="selection-grid__item" muted autoPlay loop playsInline/>
           :
-          <img src={work.selected?.sourceMobile} alt={work.title} className="selection-grid__item" loading={index === 0 ? "eager" : "lazy"}/>
+           <img src={work.selected?.sourceMobile} alt={work.title} className="selection-grid__item" loading={index === 0 ? "eager" : "lazy"}/>
         }
     </a>
     )

@@ -7,8 +7,7 @@ import {Project} from "@domains/works/types";
 import {useNavigate} from "react-router-dom";
 import ReactPlayer from "react-player";
 import { usePageSeo } from "@utils/usePageSeo";
-
-const DESKTOP_BP = 1024;
+import { useIsDesktop } from "@utils/useIsDesktop";
 
 export const Projects=()=>{
   const {t}=useTranslation("works")
@@ -19,7 +18,7 @@ export const Projects=()=>{
 
   const [hoveredProject, setHoveredProject]=useState<Project|undefined>(undefined)
   const [isGridVisible, setIsGridVisible]=useState(true)
-  const [isDesktop, setIsDesktop]=useState(window.innerWidth >= DESKTOP_BP)
+  const isDesktop = useIsDesktop();
 
   const gridRef = useRef<HTMLDivElement>(null)
   const navigate = useNavigate();
@@ -28,12 +27,6 @@ export const Projects=()=>{
     e.preventDefault();
     navigate(`/works/${project.id}`);
   }, [navigate]);
-
-  useEffect(() => {
-    const handleResize = () => setIsDesktop(window.innerWidth >= DESKTOP_BP);
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
 
   useEffect(() => {
     if (!isDesktop) return;

@@ -5,9 +5,9 @@ enum ProjectContentMediaType {
 
 interface SelectedProject{
   sourceDesktop:string;
-  sourceMobile:string;
+  sourceMobile?:string;
   mediaDesktop:string;
-  mediaMobile:string;
+  mediaMobile?:string;
 }
 
 interface ProjectContent {
