@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71b3a0f7-092e-44e5-84c8-c85149d99e54" name="Changes" comment="improve seo">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/config/works.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/config/works.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/article/article.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/article/article.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/home-page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/home-page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/selection-grid/selection-grid.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/selection-grid/selection-grid.tsx" afterDir="false" />
+    <list default="true" id="71b3a0f7-092e-44e5-84c8-c85149d99e54" name="Changes" comment="fix missing source + isDesktop videos">
       <change beforePath="$PROJECT_DIR$/client/src/domains/works/pages/project/project.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/pages/project/project.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/works/pages/projects/projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/pages/projects/projects.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/works/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/types/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,12 +69,21 @@
       <option name="project" value="LOCAL" />
       <updated>1774034016894</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix missing source + isDesktop videos">
+      <option name="closed" value="true" />
+      <created>1774040536479</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1774040536479</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="project designs" />
     <MESSAGE value="improve seo" />
-    <option name="LAST_COMMIT_MESSAGE" value="improve seo" />
+    <MESSAGE value="fix missing source + isDesktop videos" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix missing source + isDesktop videos" />
   </component>
 </project>

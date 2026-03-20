@@ -67,9 +67,16 @@ export const Project = () => {
         </div>
       );
     }
+    if (!isDesktop) {
+      return (
+        <div key={projectContent.id ?? index} className="video-displayer">
+          <video src={projectContent.source} controls playsInline loop muted/>
+        </div>
+      );
+    }
     return (
       <div key={projectContent.id ?? index} className="video-displayer">
-        <ReactPlayer className="react-player__tablet" width="100%" height="100%" src={projectContent.source} playing={isDesktop} loop muted controls/>
+        <ReactPlayer className="react-player__tablet" width="100%" height="100%" src={projectContent.source} playing loop muted controls/>
       </div>
     );
   };

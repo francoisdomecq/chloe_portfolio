@@ -85,6 +85,13 @@
 .video-displayer {
   width: 100%;
   aspect-ratio: 16 / 9;
+
+  video {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: contain;
+  }
 }
 
 .image-displayer__image {
