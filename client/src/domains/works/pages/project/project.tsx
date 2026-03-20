@@ -60,7 +60,7 @@ export const Project = () => {
             variants={prefersReducedMotion ? undefined : fadeInUp}
           >
             <p className="project-description__label">{t("works.project.details")}</p>
-            <div>
+            <div className="project-description-content__content">
               <hr className="divider"/>
               <div className="project__details-content">
                 <p className="project__details-content-label">{t("works.project.category")}</p>

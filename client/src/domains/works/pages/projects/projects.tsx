@@ -4,7 +4,7 @@ import "./projects.scss"
 import works from "@config/works.json"
 import {useCallback, useEffect, useMemo, useRef, useState} from "react";
 import {Project} from "@domains/works/types";
-import {usePageTransition} from "@domains/core/components/page-transition/page-transition-context";
+import {useNavigate} from "react-router-dom";
 import ReactPlayer from "react-player";
 
 const DESKTOP_BP = 1024;
@@ -17,12 +17,12 @@ export const Projects=()=>{
   const [isDesktop, setIsDesktop]=useState(window.innerWidth >= DESKTOP_BP)
 
   const gridRef = useRef<HTMLDivElement>(null)
-  const {navigateWithTransition} = usePageTransition()
+  const navigate = useNavigate();
 
   const handleProjectClick = useCallback((e: React.MouseEvent, project: Project) => {
     e.preventDefault();
-    navigateWithTransition(`/works/${project.id}`);
-  }, [navigateWithTransition]);
+    navigate(`/works/${project.id}`);
+  }, [navigate]);
 
   useEffect(() => {
     const handleResize = () => setIsDesktop(window.innerWidth >= DESKTOP_BP);

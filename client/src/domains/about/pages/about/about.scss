@@ -57,11 +57,12 @@
   .about-container {
     flex-direction: row;
     gap: 164px;
+    padding-bottom: 164px;
   }
 
   .about {
     max-width: 55%;
-    gap: sp(3xl);
+    gap: 300px;
   }
 
   .picture {

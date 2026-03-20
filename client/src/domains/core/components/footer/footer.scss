@@ -6,7 +6,7 @@
   max-width: 100vw;
   background-color: var(--color-accent);
   color: var(--color-bg);
-  padding: sp(3xl) sp(xs) 0;
+  padding: sp(3xl) sp(lg) 0;
   position: relative;
 }
 
@@ -167,7 +167,7 @@
 // ─── Desktop ≥ lg ────────────────────────────────
 @include respond-to(lg) {
   .footer {
-    padding: sp(3xl) sp(md) 0;
+    padding: sp(3xl) sp(2xl) 0;
   }
 
   .footer__content {

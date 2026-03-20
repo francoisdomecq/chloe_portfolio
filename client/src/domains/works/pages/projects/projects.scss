@@ -102,8 +102,8 @@
   }
 
   .projects-grid {
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: sp(2xl);
+    grid-template-columns: repeat(4, minmax(300px, 1fr));
+    gap: 128px;
   }
 
   .project__title {

@@ -29,9 +29,23 @@ const PageTransitionProvider = ({children}: PageTransitionProviderProps) => {
 
   const navigateWithTransition = useCallback((to: string) => {
     const isDesktop = window.innerWidth >= DESKTOP_BP;
+    const hashIndex = to.indexOf('#');
+    const path = hashIndex !== -1 ? to.slice(0, hashIndex) || '/' : to;
+    const hash = hashIndex !== -1 ? to.slice(hashIndex + 1) : null;
+
+    const scrollToHash = () => {
+      if (hash) {
+        setTimeout(() => {
+          document.getElementById(hash)?.scrollIntoView({ behavior: 'smooth' });
+        }, 100);
+      } else {
+        window.scrollTo(0, 0);
+      }
+    };
 
     if (!isDesktop) {
-      navigate(to);
+      navigate(path);
+      scrollToHash();
       return;
     }
 
@@ -39,8 +53,8 @@ const PageTransitionProvider = ({children}: PageTransitionProviderProps) => {
 
     // Navigate after the curtain covers the screen
     setTimeout(() => {
-      navigate(to);
-      window.scrollTo(0, 0);
+      navigate(path);
+      scrollToHash();
     }, 600);
 
     // Remove the curtain after navigation

@@ -1,9 +1,9 @@
 import {useCallback, useEffect, useState} from "react";
 import {useTranslation} from "react-i18next";
+import {useNavigate} from "react-router-dom";
 
 import "./header.scss";
 import {NAV_TABS} from "@components/navbar/navbar.config";
-import {usePageTransition} from "@components/page-transition/page-transition-context";
 
 interface HeaderProps {
   className?: string;
@@ -14,7 +14,7 @@ const SCROLL_THRESHOLD = 5;
 
 export const Header = ({className, isHidden}: HeaderProps) => {
   const {t} = useTranslation("core");
-  const {navigateWithTransition}=usePageTransition();
+  const navigate = useNavigate();
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -27,9 +27,20 @@ export const Header = ({className, isHidden}: HeaderProps) => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [handleScroll]);
 
+  const handleNavClick = (key: string) => {
+    if (key.startsWith("#")) {
+      navigate("/");
+      setTimeout(() => {
+        document.getElementById(key.slice(1))?.scrollIntoView({ behavior: "smooth" });
+      }, 100);
+    } else {
+      navigate(`/${key}`);
+    }
+  };
+
   const handleLogoClick = () => {
     setMenuOpen(false);
-    navigateWithTransition("/");
+    navigate("/");
   };
 
   return (
@@ -63,9 +74,7 @@ export const Header = ({className, isHidden}: HeaderProps) => {
             <a
               key={navTab.key}
               className="header__nav-link"
-              onClick={()=>{
-                navigateWithTransition(`/${navTab.key}`)
-              }}
+              onClick={() => handleNavClick(navTab.key)}
             >
               {t(`navbar.tabs.${navTab.key}`)}
             </a>
@@ -101,7 +110,7 @@ export const Header = ({className, isHidden}: HeaderProps) => {
             <a
               key={navTab.key}
               className="drawer__nav-link"
-              href={`${navTab.key}`}
+              href={`/${navTab.key}`}
               onClick={() => setMenuOpen(false)}
             >
               {t(`navbar.tabs.${navTab.key}`)}
@@ -126,4 +135,3 @@ export const Header = ({className, isHidden}: HeaderProps) => {
     </>
   );
 };
-

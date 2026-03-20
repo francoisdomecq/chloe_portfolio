@@ -126,6 +126,10 @@
     margin-left: sp(md);
   }
 
+  .project-description-content__content{
+    margin-right: 128px;
+  }
+
   .project-description__label {
     min-width: 120px;
     font-weight: 400;
@@ -140,6 +144,12 @@
 
   .project-description__content {
     width: 80%;
+  }
+
+  .divider {
+    margin-left: -128px;
+    margin-right: -128px;
+    width: calc(100% + 256px);
   }
 
   .image-displayer__image {
