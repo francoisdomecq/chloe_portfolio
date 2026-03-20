@@ -70,7 +70,9 @@ export const Project = () => {
     if (!isDesktop) {
       return (
         <div key={projectContent.id ?? index} className="video-displayer">
-          <video src={projectContent.source} controls playsInline loop muted/>
+          <video controls playsInline loop muted preload="metadata">
+            <source src={projectContent.source} type="video/mp4"/>
+          </video>
         </div>
       );
     }
