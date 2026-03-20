@@ -85,7 +85,7 @@ export const Projects=()=>{
     return (
       <a href={`/works/${work.id}`} className="projects-grid__project" onMouseEnter={()=>setHoveredProject(work)} onMouseLeave={()=>setHoveredProject(undefined)} key={work.id} onClick={(e) => handleProjectClick(e, work)}>
         {work.carousel?.mediaMobile === "VIDEO" ?
-          <ReactPlayer src={work.carousel.sourceMobile} width="100%" height="100%" className="selection-grid__item" muted autoPlay loop controls={false} config={{ file: { attributes: { playsInline: true } } }}/>
+          <ReactPlayer src={work.carousel.sourceMobile} width="100%" height="100%" className="selection-grid__item" muted autoPlay loop controls={false}/>
           :
           <img src={work.carousel?.sourceMobile} alt={work.title} className="selection-grid__item"/>
         }
