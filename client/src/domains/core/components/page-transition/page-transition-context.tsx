@@ -17,7 +17,7 @@ const PageTransitionContext = createContext<PageTransitionContextType>({
   navigateWithTransition: () => {},
 });
 
-const DESKTOP_BP = 960;
+const DESKTOP_BP = 1024;
 
 interface PageTransitionProviderProps {
   children: React.ReactNode;
