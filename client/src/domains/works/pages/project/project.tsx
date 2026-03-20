@@ -24,6 +24,31 @@ export const Project = () => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
+  useEffect(() => {
+    if (!isDesktop) return;
+
+    const content = document.querySelector<HTMLElement>(".project__content");
+    if (!content) return;
+
+    const handleWheel = (e: WheelEvent) => {
+      const { scrollTop, scrollHeight, clientHeight } = content;
+      const atBottom = scrollTop + clientHeight >= scrollHeight - 1;
+      const atPageTop = window.scrollY <= 0;
+      const scrollingDown = e.deltaY > 0;
+
+      const shouldInterceptDown = scrollingDown && !atBottom;
+      const shouldInterceptUp = !scrollingDown && atPageTop;
+
+      if (shouldInterceptDown || shouldInterceptUp) {
+        e.preventDefault();
+        content.scrollTop += e.deltaY;
+      }
+    };
+
+    window.addEventListener("wheel", handleWheel, { passive: false });
+    return () => window.removeEventListener("wheel", handleWheel);
+  }, [isDesktop]);
+
   const renderProjectContent = (projectContent: ProjectContent) => {
     const {displayDesktop = true, displayMobile = true} = projectContent;
 

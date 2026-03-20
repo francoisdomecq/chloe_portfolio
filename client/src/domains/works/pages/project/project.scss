@@ -161,8 +161,10 @@
     width: 45%;
     right: 0;
     max-width: 50%;
-    height: 100%;
+    position: sticky;
+    top: 0;
+    height: 100vh;
     min-height: 0;
-    overflow-y: auto;
+    overflow-y: hidden;
   }
 }
