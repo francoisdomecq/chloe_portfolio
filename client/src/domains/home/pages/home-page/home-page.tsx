@@ -5,11 +5,16 @@ import articles from './articles.json'
 import { Article } from "./article/article";
 import { SelectionGrid } from "./selection-grid/selection-grid";
 import ReactPlayer from "react-player";
-import { useRef, useEffect } from "react";
+import { useRef } from "react";
 import { motion, useScroll, useTransform, useReducedMotion } from "framer-motion";
+import { usePageSeo } from "@utils/usePageSeo";
 
 export const HomePage = () => {
   const {t}=useTranslation("home")
+  usePageSeo(
+    "Chloé Gaillard",
+    "Portfolio de Chloé Gaillard, designer graphique basée à Paris — direction artistique, identité visuelle, typographie et illustration."
+  );
 
   const showreelRef = useRef<HTMLDivElement>(null);
   const introContainerRef = useRef<HTMLDivElement>(null);

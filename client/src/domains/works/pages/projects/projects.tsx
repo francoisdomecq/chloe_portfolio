@@ -6,11 +6,16 @@ import {useCallback, useEffect, useMemo, useRef, useState} from "react";
 import {Project} from "@domains/works/types";
 import {useNavigate} from "react-router-dom";
 import ReactPlayer from "react-player";
+import { usePageSeo } from "@utils/usePageSeo";
 
 const DESKTOP_BP = 1024;
 
 export const Projects=()=>{
   const {t}=useTranslation("works")
+  usePageSeo(
+    "Projets — Chloé Gaillard",
+    "Découvrez les projets de Chloé Gaillard, designer graphique — identité visuelle, typographie, illustration et motion design."
+  );
 
   const [hoveredProject, setHoveredProject]=useState<Project|undefined>(undefined)
   const [isGridVisible, setIsGridVisible]=useState(true)

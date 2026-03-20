@@ -82,6 +82,11 @@
   justify-content: center;
 }
 
+.video-displayer {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
 .image-displayer__image {
   width: 100%;
   height: auto;

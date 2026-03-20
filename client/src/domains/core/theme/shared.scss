@@ -1,15 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
-
 :root {
   // Propriétés sémantiques
   --color-accent:  #CA4C35;
   --color-text:    black;
   --color-bg:      white;
-  --color-muted:   #989898;
+  --color-muted:   #666666;
 
   // Alias legacy (rétro-compatibilité)
-  --grey-deep:   #989898;
-  --grey-deep-2: #808080;
+  --grey-deep:   #666666;
+  --grey-deep-2: #595959;
   --orange:      #CA4C35;
   --text-blue:   black;
 

@@ -13,11 +13,11 @@ export const PortfolioPage = ({children, className = ""}: PortfolioPageProps) =>
   return (
     <>
       <Header/>
-      <div className={`portfolio-page ${className}`}>
+      <main className={`portfolio-page ${className}`}>
         <motion.div className="portfolio-page__content">
           {children}
         </motion.div>
-      </div>
+      </main>
       <Footer/>
     </>
 

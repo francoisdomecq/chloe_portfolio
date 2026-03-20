@@ -8,6 +8,7 @@ import {PortfolioPage} from "@core/index";
 import ReactPlayer from "react-player";
 import {motion, useReducedMotion} from "framer-motion";
 import {fadeInUp, staggerContainer} from "@utils/animations";
+import {usePageSeo} from "@utils/usePageSeo";
 
 const DESKTOP_BP = 1024;
 
@@ -23,6 +24,10 @@ export const Project = () => {
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
+
+  const projectTitle = project ? `${project.title} — Chloé Gaillard` : "Chloé Gaillard";
+  const projectDescription = project?.description.content[0]?.slice(0, 160) ?? "";
+  usePageSeo(projectTitle, projectDescription);
 
   useEffect(() => {
     if (!isDesktop) return;
@@ -49,20 +54,31 @@ export const Project = () => {
     return () => window.removeEventListener("wheel", handleWheel);
   }, [isDesktop]);
 
-  const renderProjectContent = (projectContent: ProjectContent) => {
+  const renderProjectContent = (projectContent: ProjectContent, index: number) => {
     const {displayDesktop = true, displayMobile = true} = projectContent;
 
     if (isDesktop && !displayDesktop) return null;
     if (!isDesktop && !displayMobile) return null;
 
     if (projectContent.type === ProjectContentMediaType.IMAGE) {
+      const isAboveFold = index < 2;
       return (
-        <div className="image-displayer" id={projectContent.id}>
-          <img src={projectContent.source} className="image-displayer__image" alt={`project-${projectContent.source}`}/>
+        <div key={projectContent.id ?? index} className="image-displayer" id={projectContent.id}>
+          <img
+            src={projectContent.source}
+            className="image-displayer__image"
+            alt={`${project?.title ?? ''} — image ${index + 1}`}
+            loading={isAboveFold ? "eager" : "lazy"}
+            fetchPriority={index === 0 ? "high" : "auto"}
+          />
         </div>
       );
     }
-    return <ReactPlayer className="react-player__tablet" width="100%" height="100%" src={projectContent.source} playing loop muted controls/>;
+    return (
+      <div key={projectContent.id ?? index} className="video-displayer">
+        <ReactPlayer className="react-player__tablet" width="100%" height="100%" src={projectContent.source} playing loop muted controls/>
+      </div>
+    );
   };
 
   return project && (
@@ -119,7 +135,7 @@ export const Project = () => {
           </motion.div>
         </motion.div>
         <div className="project__content" >
-          {project.content.map(renderProjectContent)}
+          {project.content.map((content, i) => renderProjectContent(content, i))}
         </div>
       </div>
     </PortfolioPage>

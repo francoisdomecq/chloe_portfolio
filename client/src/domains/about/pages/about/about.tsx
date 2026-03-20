@@ -3,11 +3,16 @@ import {useTranslation} from "react-i18next";
 import "./about.scss"
 import { useRef, useState } from "react";
 import { useScroll, useMotionValueEvent } from "framer-motion";
+import { usePageSeo } from "@utils/usePageSeo";
 
 const SKILL_KEYS = ["direction", "typography", "identity", "branding", "illustrations", "webdesign"] as const;
 
 export const About = ()=>{
   const {t}=useTranslation("about")
+  usePageSeo(
+    "About — Chloé Gaillard",
+    "Chloé Gaillard, designer graphique basée à Paris. Direction artistique, identité visuelle sur-mesure, typographie et illustration."
+  );
   const skillsRef = useRef<HTMLDivElement>(null);
   const [activeIndex, setActiveIndex] = useState(-1);
 

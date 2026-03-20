@@ -2,8 +2,6 @@ import { lazy, Suspense } from "react";
 import {Route, Routes} from "react-router-dom";
 
 import {AppContextProvider} from "@config/contexts/app-context";
-import {PageTransitionProvider} from "@domains/core/components/page-transition/page-transition-context";
-import { PageTransitionOverlay } from "@domains/core/components/page-transition/page-transition-overlay";
 import { ScrollToTop } from "@domains/core/components/scroll-to-top/scroll-to-top";
 
 import "./App.scss";
@@ -27,10 +25,8 @@ const About = lazy(() =>
 export function App() {
   return (
     <div>
-      <PageTransitionProvider>
         <AppContextProvider>
           <ScrollToTop/>
-          <PageTransitionOverlay/>
           <Suspense fallback={null}>
             <Routes>
               <Route path="/" element={<HomePage/>}/>
@@ -41,7 +37,6 @@ export function App() {
             </Routes>
           </Suspense>
         </AppContextProvider>
-      </PageTransitionProvider>
     </div>
   );
 }

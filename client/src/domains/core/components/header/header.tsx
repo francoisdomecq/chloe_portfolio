@@ -74,7 +74,8 @@ export const Header = ({className, isHidden}: HeaderProps) => {
             <a
               key={navTab.key}
               className="header__nav-link"
-              onClick={() => handleNavClick(navTab.key)}
+              href={`/${navTab.key}`}
+              onClick={(e) => { e.preventDefault(); handleNavClick(navTab.key); }}
             >
               {t(`navbar.tabs.${navTab.key}`)}
             </a>
