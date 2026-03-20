@@ -27,7 +27,7 @@ export const SelectionGrid = () => {
     return (
       <a key={work.id} href={`/works/${work.id}`} aria-label={work.title}>
         {work.selected?.mediaMobile === "VIDEO" ?
-          <ReactPlayer src={work.selected.sourceMobile} muted autoPlay loop controls={false}/>
+          <video src={work.selected.sourceMobile} className="selection-grid__item" muted autoPlay loop playsInline/>
           :
           <img src={work.selected?.sourceMobile} alt={work.title} className="selection-grid__item" loading={index === 0 ? "eager" : "lazy"}/>
         }

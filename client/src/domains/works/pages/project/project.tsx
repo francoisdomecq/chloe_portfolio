@@ -94,7 +94,8 @@ export const Project = () => {
             className="project-project__title"
             variants={prefersReducedMotion ? undefined : fadeInUp}
           >
-            {project.subtitle ?? project.title}
+            {project.subtitle && <>{project.subtitle} <br/> / {project.title}</>}
+            {!project.subtitle && project.title}
           </motion.h1>
           <motion.div
             className="project__details"

@@ -112,7 +112,11 @@ export const Header = ({className, isHidden}: HeaderProps) => {
               key={navTab.key}
               className="drawer__nav-link"
               href={`/${navTab.key}`}
-              onClick={() => setMenuOpen(false)}
+              onClick={(e) => {
+                e.preventDefault();
+                setMenuOpen(false);
+                handleNavClick(navTab.key);
+              }}
             >
               {t(`navbar.tabs.${navTab.key}`)}
             </a>
