@@ -56,13 +56,19 @@
 @include respond-to(lg) {
   .about-container {
     flex-direction: row;
-    gap: 164px;
+    gap: 80px;
     padding-bottom: 164px;
+    padding-left: 64px;
+  }
+
+  .description {
+    font-size: var(--font-size-h2);
   }
 
   .about {
-    max-width: 55%;
-    gap: 300px;
+    width: 100%;
+    max-width: 60%;
+    gap: 80px;
   }
 
   .picture {

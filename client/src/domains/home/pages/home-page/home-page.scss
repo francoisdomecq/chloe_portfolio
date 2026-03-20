@@ -1,8 +1,9 @@
 // ─── Mobile (défaut) ──────────────────────────────
 .introduction-container {
-  padding: 0 0 sp(md) 0;
+  padding: sp(md) 0 sp(md) 0;
   line-height: 1.4;
   height: fit-content;
+  max-width: 80%;
 }
 
 .introduction {
@@ -21,6 +22,7 @@
   display: flex;
   flex-direction: column;
   gap: sp(sm);
+  padding-top: sp(xl);
 }
 
 .selection__header {
@@ -50,6 +52,8 @@
   flex-direction: column;
   margin-top: sp(md);
   margin-bottom: sp(md);
+  padding-top: sp(xl);
+
 }
 
 // ─── Desktop ≥ lg ─────────────────────────────────
@@ -57,6 +61,7 @@
   .introduction-container {
     padding: 0 0 0 46.5%;
     height: 30vh;
+    max-width: 100%;
   }
 
   .showreel {
@@ -76,6 +81,7 @@
 
   .selection {
     gap: sp(lg);
+    padding-top: sp(xl);
   }
 
   .selection__header {
@@ -93,7 +99,7 @@
   }
 
   .lastly {
-    margin-top: sp(xl);
+    margin-top: sp(3xl);
     margin-bottom: sp(xl);
   }
 }

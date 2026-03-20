@@ -16,6 +16,6 @@
 
 @include respond-to(lg) {
   .portfolio-page {
-    padding: 200px sp(md) sp(md);
+    padding: 200px sp(2xl) sp(md);
   }
 }

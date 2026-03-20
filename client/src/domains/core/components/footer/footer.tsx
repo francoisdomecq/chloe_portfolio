@@ -40,7 +40,7 @@ export const Footer = () => {
               <h3 className="footer__column-title"> {t("footer.followMe")}</h3>
               <nav className="footer__social-nav">
                 <a
-                  href="https://www.instagram.com"
+                  href="https://www.instagram.com/_chloegaillard"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="footer__link"
@@ -48,7 +48,7 @@ export const Footer = () => {
                   {t("footer.instagram")}
                 </a>
                 <a
-                  href="https://www.linkedin.com"
+                  href="https://www.linkedin.com/in/chlo%C3%A9-gaillard-964313210/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="footer__link"

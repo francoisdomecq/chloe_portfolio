@@ -2,7 +2,7 @@ import {PortfolioPage} from "@core/index";
 import {useTranslation} from "react-i18next";
 import "./about.scss"
 import { useRef, useState } from "react";
-import { useScroll, useSpring, useMotionValueEvent } from "framer-motion";
+import { useScroll, useMotionValueEvent } from "framer-motion";
 
 const SKILL_KEYS = ["direction", "typography", "identity", "branding", "illustrations", "webdesign"] as const;
 
@@ -16,9 +16,7 @@ export const About = ()=>{
     offset: ["start end", "end start"],
   });
 
-  const smoothProgress = useSpring(scrollYProgress, { stiffness: 60, damping: 18 });
-
-  useMotionValueEvent(smoothProgress, "change", (v) => {
+  useMotionValueEvent(scrollYProgress, "change", (v) => {
     const index = Math.round(v * (SKILL_KEYS.length - 1));
     setActiveIndex(Math.max(0, Math.min(index, SKILL_KEYS.length - 1)));
   });

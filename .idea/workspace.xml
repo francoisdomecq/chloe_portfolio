@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c28653e-64fa-453d-a83b-0f4b7b6440b2" name="Changes" comment="scroll animation">
+    <list default="true" id="3c28653e-64fa-453d-a83b-0f4b7b6440b2" name="Changes" comment="projcet scroll">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/works/pages/project/project.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/pages/project/project.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/works/pages/project/project.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/pages/project/project.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/about/pages/about/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/about/pages/about/about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/about/pages/about/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/about/pages/about/about.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/footer/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/footer/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/footer/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/footer/footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/portfolio-page/portfolio-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/portfolio-page/portfolio-page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/home-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/home-page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/works/pages/projects/projects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/pages/projects/projects.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774011584100</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="projcet scroll">
+      <option name="closed" value="true" />
+      <created>1774012148738</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1774012148738</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,7 +194,8 @@
     <MESSAGE value="refacto" />
     <MESSAGE value="kaolyn" />
     <MESSAGE value="scroll animation" />
-    <option name="LAST_COMMIT_MESSAGE" value="scroll animation" />
+    <MESSAGE value="projcet scroll" />
+    <option name="LAST_COMMIT_MESSAGE" value="projcet scroll" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
