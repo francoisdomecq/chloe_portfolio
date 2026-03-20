@@ -8,7 +8,7 @@
 .about {
   display: flex;
   flex-direction: column;
-  gap: sp(lg);
+  gap: sp(2xl);
   max-width: 100%;
 }
 
@@ -40,6 +40,11 @@
   font-weight: 400;
   color: var(--color-muted);
   width: 120%;
+  transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+
+  &--active {
+    color: var(--color-text);
+  }
 }
 
 .skills-title {
@@ -56,7 +61,7 @@
 
   .about {
     max-width: 55%;
-    gap: sp(2xl);
+    gap: sp(3xl);
   }
 
   .picture {

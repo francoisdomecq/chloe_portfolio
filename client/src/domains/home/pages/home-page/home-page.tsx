@@ -5,14 +5,17 @@ import articles from './articles.json'
 import { Article } from "./article/article";
 import { SelectionGrid } from "./selection-grid/selection-grid";
 import ReactPlayer from "react-player";
-import { useRef } from "react";
+import { useRef, useEffect } from "react";
 import { motion, useScroll, useTransform, useReducedMotion } from "framer-motion";
 
 export const HomePage = () => {
   const {t}=useTranslation("home")
 
   const showreelRef = useRef<HTMLDivElement>(null);
+  const introContainerRef = useRef<HTMLDivElement>(null);
   const prefersReducedMotion = useReducedMotion();
+  const introText = t("home.introduction");
+
   const { scrollYProgress } = useScroll({
     target: showreelRef,
     offset: ["start end", "end start"],
@@ -22,8 +25,15 @@ export const HomePage = () => {
 
   return (
     <PortfolioPage>
-      <div className="introduction-container">
-        <p className="introduction">{t("home.introduction")}</p>
+      <div className="introduction-container" ref={introContainerRef}>
+        <motion.p
+          className="introduction"
+          initial={prefersReducedMotion ? false : { opacity: 0, y: 24 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, ease: [0.25, 0.1, 0.25, 1] }}
+        >
+          {introText}
+        </motion.p>
       </div>
       <div className="showreel" ref={showreelRef}>
         <motion.div
