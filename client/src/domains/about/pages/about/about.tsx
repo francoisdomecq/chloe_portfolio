@@ -46,7 +46,7 @@ export const About = ()=>{
             ))}
           </div>
         </div>
-        <img className="picture" src="projects/CHLOE/CHLOE_1.jpg"/>
+        <img className="picture" src="chlochlo.jpg"/>
       </div>
     </PortfolioPage>
   )
