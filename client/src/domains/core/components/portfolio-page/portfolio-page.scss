@@ -1,13 +1,11 @@
-@import 'src/domains/core/theme/breakpoints.scss';
-
 .portfolio-page {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 100vw;
+  min-width: 100vw;
   min-height: 100vh;
-  padding: 40px 16px 0;
-  background-color: black;
+  padding: sp(2xl) sp(md) sp(md);
+  overflow-x: clip;
 }
 
 .portfolio-page__content {
@@ -16,10 +14,9 @@
   flex-grow: 1;
 }
 
-
-@media screen and (min-width: $mobile-bp) {
+@include respond-to(lg) {
   .portfolio-page {
-    padding: 80px 24px 0;
-    min-height: 100vh;
+    padding: 200px sp(2xl) sp(md);
+    overflow-x: visible;
   }
 }

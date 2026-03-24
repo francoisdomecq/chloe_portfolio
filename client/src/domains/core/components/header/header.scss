@@ -1,45 +1,231 @@
-@import "../../theme/breakpoints";
-
+// ─── Header bar ───────────────────────────────────
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 16px;
+  padding: sp(sm) sp(md);
   width: 100%;
+  max-width: 100vw;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 999;
-  transition: top 0.3s;
-  border-bottom: 1px solid var(--grey-deep);
-  border-top: 1px solid var(--grey-deep);
-  background-color: black;
+  color: var(--color-text);
+  background-color: transparent;
+  box-shadow: none;
+  border-radius: 0;
+  transition:
+    top 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    width 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    left 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    right 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    padding 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 0.4s ease,
+    border-radius 0.4s ease,
+    box-shadow 0.4s ease;
 }
 
-.header__light {
-  background-color: white;
-  color: black;
+.header--hidden {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0s 0.3s;
 }
 
-.header__dark {
-  background-color: black;
-  color: white;
-}
-
-.header__title {
+// ─── Logo ──────────────────────────────────────────
+.header__logo {
   font-family: var(--title-font);
-  font-size: var(--font-size-h4);
-  font-weight: bold;
+  font-size: var(--font-size-h2);
+  font-weight: 700;
+  color: var(--color-text);
+  white-space: nowrap;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-@media screen and (min-width: $mobile-bp) {
+// ─── Desktop nav — masquée par défaut (mobile) ────
+.header__nav--desktop {
+  display: none;
+}
+
+.header__nav-link {
+  font-family: var(--title-font);
+  font-size: var(--font-size-navbar);
+  font-weight: 500;
+  color: var(--color-text);
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  transition: opacity 0.2s ease;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+// ─── Burger — visible par défaut (mobile) ─────────
+.header__burger {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+
+  span {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background-color: var(--color-text);
+    border-radius: 2px;
+  }
+}
+
+// ─── Drawer — visible par défaut (mobile) ─────────
+.drawer {
+  display: block;
+  position: fixed;
+  top: sp(sm);
+  left: 12px;
+  right: 12px;
+  z-index: 1100;
+  background-color: rgba(255, 255, 255, 0.97);
+  border-radius: 20px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
+  padding: sp(md);
+  transform: translateY(-110%);
+  opacity: 0;
+  visibility: hidden;
+  transition:
+    transform 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 0.35s ease,
+    visibility 0s 0.4s;
+}
+
+.drawer--open {
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+  transition:
+    transform 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 0.35s ease,
+    visibility 0s 0s;
+}
+
+.drawer__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+
+.drawer__logo {
+  font-family: var(--title-font);
+  font-size: var(--font-size-h3);
+  font-weight: 700;
+  color: var(--color-text);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.drawer__close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: relative;
+
+  span {
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    background-color: var(--color-text);
+    border-radius: 2px;
+
+    &:first-child { transform: rotate(45deg); }
+    &:last-child  { transform: rotate(-45deg); }
+  }
+}
+
+.drawer__nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.drawer__nav-link {
+  font-family: var(--title-font);
+  font-size: var(--font-size-h3);
+  font-weight: 500;
+  color: var(--color-text);
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  transition: opacity 0.2s ease;
+
+  &:hover { opacity: 0.7; }
+}
+
+.drawer-backdrop {
+  display: block;
+  position: fixed;
+  inset: 0;
+  z-index: 1099;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+// ─── Scrolled (mobile) ────────────────────────────
+.header--scrolled {
+  top: sp(sm);
+  left: 8%;
+  width: 84%;
+  padding-top: sp(xs);
+  padding-bottom: sp(xs);
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+}
+
+// ─── Desktop ≥ lg ──────────────────────────────────
+@include respond-to(lg) {
   .header {
-    padding: 16px 24px;
-    max-height: 72px;
-    gap: 24px;
+    padding: sp(lg) sp(md);
   }
 
-  .header__title {
-    font-size: var(--font-size-h2);
+  .header__nav--desktop {
+    display: flex;
+    align-items: center;
+    gap: sp(lg);
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: sp(xl);
+  }
+
+  .header__burger {
+    display: none;
+  }
+
+  .drawer,
+  .drawer-backdrop {
+    display: none;
+  }
+
+  .header--scrolled {
+    top: sp(sm);
+    left: 20%;
+    width: 60%;
+    padding-top: sp(sm);
+    padding-bottom: sp(sm);
+    background-color: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
   }
 }

@@ -1,49 +1,177 @@
-@import "src/domains/core/theme/breakpoints.scss";
-
 .footer {
   display: flex;
-  justify-content: space-between;
-  padding: 24px 0 16px;
-  position: relative;
-  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
   max-width: 100vw;
-  bottom: 0;
-  left: 0;
+  background-color: var(--color-accent);
+  color: var(--color-bg);
+  padding: sp(3xl) 0 0;
+  position: relative;
 }
 
-.footer__year {
-  font-size: var(--font-size-body-l);
-  color: white;
-}
-
-.network-links {
+.footer__content {
   display: flex;
-  gap: 12px;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 sp(md);
 }
 
-.network-links__link {
-  color: white;
-  font-size: var(--font-size-body-l);
+.footer__columns {
+  display: flex;
+  flex-direction: column;
+  gap: sp(xl);
+  width: 100%;
+}
+
+.footer__contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer__links {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: sp(xl);
+}
+
+.footer__title {
+  font-family: var(--title-font);
+  font-size: var(--font-size-h2);
+  font-weight: 400;
+  color: var(--color-bg);
+  text-align: left;
+  line-height: 1.3;
+  margin-bottom: sp(sm);
+  max-width: 310px;
+}
+
+.footer__cta-button {
+  display: inline-block;
+  background-color: var(--color-bg);
+  color: var(--color-accent);
+  font-family: var(--button-font);
+  font-size: var(--font-size-button);
+  padding: sp(xs) 52px;
+  border-radius: 50px;
   text-decoration: none;
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.2s ease;
 
   &:hover {
-    color: white;
+    transform: translateY(-2px);
   }
 }
 
-@media screen and (min-width: $tablet-bp) {
+.footer__column-title {
+  font-family: var(--title-font);
+  font-size: var(--font-size-h3);
+  font-weight: 700;
+  color: var(--color-bg);
+  margin-bottom: sp(sm);
+}
+
+.footer__sitemap-nav,
+.footer__social-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.footer__link {
+  color: var(--color-bg);
+  font-family: var(--text-font);
+  font-size: var(--font-size-body-m);
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+
+  &:hover {
+    opacity: 0.75;
+  }
+}
+
+.footer__divider {
+  width: 100%;
+  height: 2px;
+  background-color: var(--color-bg);
+  margin-top: auto;
+}
+
+.footer__bottom-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px sp(md);
+}
+
+.footer__bottom-left,
+.footer__bottom-right {
+  font-family: var(--text-font);
+  font-size: var(--font-size-body-xs);
+  color: var(--color-bg);
+}
+
+.footer__big-name {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-top: auto;
+  overflow-y: hidden;
+
+  span {
+    font-family: var(--title-font);
+    font-weight: 400;
+    color: var(--color-bg);
+    text-transform: uppercase;
+    font-size: 11vw;
+    letter-spacing: -0.02em;
+    white-space: nowrap;
+    line-height: 1;
+    transform: translateY(0.15em);
+    overflow-x: visible;
+  }
+}
+
+// ─── Tablette ≥ sm ────────────────────────────────
+@include respond-to(sm) {
+  .footer__columns {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .footer__contact {
+    flex: 1;
+  }
+
+  .footer__sitemap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 300px;
+  }
+
+  .footer__social {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+// ─── Desktop ≥ lg ────────────────────────────────
+@include respond-to(lg) {
   .footer {
-    padding: 24px 16px;
-    border-top: 1px solid var(--grey-deep);
-    border-bottom: 1px solid var(--grey-deep);
+    padding: 9rem sp(2xl) 0;
   }
 
-  .footer__year {
-    font-size: var(--font-size-h2);
-  }
-
-  .network-links__link {
-    font-size: var(--font-size-h2);
+  .footer__content {
+    gap: sp(2xl);
   }
 }
-

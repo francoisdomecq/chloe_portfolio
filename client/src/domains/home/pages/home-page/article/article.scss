@@ -1,0 +1,148 @@
+// ─── Mobile (défaut) ──────────────────────────────
+.article {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: sp(md);
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.article__separator {
+  margin-bottom: sp(xs);
+}
+
+.article__date {
+  font-size: var(--font-size-body-m);
+  color: var(--color-text);
+}
+
+.article__content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.article__media {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: auto;
+}
+
+// Mobile : image visible, vidéo masquée
+.article__video {
+  display: none;
+}
+
+.article__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.article__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.article__description-content {
+  display: flex;
+  flex-direction: column;
+  gap: sp(sm);
+}
+
+.article__title {
+  font-size: var(--font-size-h3);
+  font-weight: 400;
+  line-height: 1;
+  color: var(--color-text);
+}
+
+// Texte masqué sur mobile
+.article__article {
+  display: none;
+}
+
+.article__read-more {
+  font-size: var(--font-size-body-m);
+  color: var(--color-muted);
+  text-decoration: underline;
+  margin-top: sp(xs);
+}
+
+// ─── Tablette ≥ sm ────────────────────────────────
+@include respond-to(sm) {
+  .article__separator {
+    margin-bottom: sp(md);
+  }
+
+  .article__date {
+    min-width: 128px;
+  }
+
+  .article__content {
+    flex-direction: row;
+    gap: 8%;
+  }
+
+  .article__media {
+    flex-direction: row;
+    height: 260px;
+  }
+
+  .article__image {
+    width: 260px;
+    height: 260px;
+    aspect-ratio: unset;
+  }
+
+  .article__title {
+    font-size: var(--font-size-h2);
+  }
+
+  .article__article {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    text-overflow: ellipsis;
+    font-size: var(--font-size-body-m);
+    color: var(--color-muted);
+  }
+
+  .article__read-more {
+    margin-top: 0;
+  }
+}
+
+// ─── Desktop ≥ lg — vidéo à la place de l'image ──
+@include respond-to(lg) {
+  .article__content {
+    gap: 15%;
+  }
+
+  .article__media {
+    height: 350px;
+  }
+
+  .article__video {
+    display: block;
+    flex-shrink: 0;
+  }
+
+  .article__image {
+    display: none;
+  }
+
+  .article__title {
+    font-size: var(--font-size-h1);
+  }
+}

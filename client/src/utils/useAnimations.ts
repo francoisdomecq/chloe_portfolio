@@ -1,0 +1,27 @@
+import { useState, useEffect } from "react";
+
+/**
+ * Animates text reveal character by character.
+ * Returns the currently displayed string and a `done` flag.
+ */
+export const useTypewriter = (text: string, speed = 22) => {
+  const [displayed, setDisplayed] = useState("");
+  const [done, setDone] = useState(false);
+
+  useEffect(() => {
+    setDisplayed("");
+    setDone(false);
+    let i = 0;
+    const interval = setInterval(() => {
+      i++;
+      setDisplayed(text.slice(0, i));
+      if (i >= text.length) {
+        clearInterval(interval);
+        setDone(true);
+      }
+    }, speed);
+    return () => clearInterval(interval);
+  }, [text, speed]);
+
+  return { displayed, done };
+};

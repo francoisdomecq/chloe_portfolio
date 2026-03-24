@@ -1,0 +1,23 @@
+{
+  "header": {
+    "name": "Chloé Gaillard"
+  },
+  "navbar": {
+    "tabs": {
+      "works": "Projets",
+      "about": "À propos",
+      "#news": "Actualités"
+    }
+  },
+  "footer": {
+    "contactLabel": "Pour papoter, se rencontrer et échanger",
+    "contactButton": "Contact",
+    "siteMap": "Plan du site",
+    "home": "Accueil",
+    "followMe": "Pour me suivre",
+    "instagram": "Instagram",
+    "linkedin": "Linkedin",
+    "location": "Paris/France",
+    "languages": "EN/FR"
+  }
+}

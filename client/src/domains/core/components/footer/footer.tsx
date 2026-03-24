@@ -1,34 +1,82 @@
+import "./footer.scss";
+import {NAV_TABS} from "@components/navbar/navbar.config";
 import {useTranslation} from "react-i18next";
 
-import {motion} from "framer-motion";
-
-import "./footer.scss";
-
-const Footer = () => {
+export const Footer = () => {
   const {t} = useTranslation("core");
-  const currentYear = new Date().getFullYear();
+
   return (
-    <footer className="footer">
-            <span>
-                <p className="footer__year">{currentYear}®</p>
-            </span>
-      <div className="network-links">
-        <motion.a
-          className="network-links__link"
-          href="https://www.instagram.com/gaillardesign"
-          target="_blank"
-          rel="noreferrer"
-          whileHover={{scale: 1.1}}
-        >
-          {t("footer.instagram")}
-        </motion.a>
-        <motion.a className="network-links__link" href="behance.net/chloegaillard1 " target="_blank"
-                  whileHover={{scale: 1.1}}>{t("footer.behance")}</motion.a>
-        <motion.a className="network-links__link" href="https://www.linkedin.com/in/chlo%C3%A9-gaillard-964313210"
-                  target="_blank" rel="noreferrer" whileHover={{scale: 1.1}}>{t("footer.linkedin")}</motion.a>
+    <footer className="footer" >
+      <div className="footer__content">
+        <div className="footer__columns">
+          <div className="footer__contact">
+            <h2 className="footer__title">
+              {t("footer.contactLabel")}
+            </h2>
+            <a
+              href="mailto:chloegaillard3312@gmail.com"
+              className="footer__cta-button"
+            >
+              {t("footer.contactButton")}
+            </a>
+          </div>
+
+          <div className="footer__links">
+            <div className="footer__sitemap">
+              <h3 className="footer__column-title">
+                {t("footer.siteMap")}
+              </h3>
+              <nav className="footer__sitemap-nav">
+                <a  href="/" className="footer__link">
+                  {t("footer.home")}
+                </a>
+                {NAV_TABS.map(navTab=>
+                  <a  key={navTab.key} href={navTab.key} className="footer__link">{t(`navbar.tabs.${navTab.key}`)}</a>)
+                }
+              </nav>
+            </div>
+
+            <div className="footer__social">
+              <h3 className="footer__column-title"> {t("footer.followMe")}</h3>
+              <nav className="footer__social-nav">
+                <a
+                  href="https://www.instagram.com/_chloegaillard"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="footer__link"
+                >
+                  {t("footer.instagram")}
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/chlo%C3%A9-gaillard-964313210/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="footer__link"
+                >
+                  {t("footer.linkedin")}
+
+                </a>
+              </nav>
+            </div>
+          </div>
+
+        </div>
       </div>
+
+      <div className="footer__divider" />
+      <div className="footer__bottom-bar">
+        <span className="footer__bottom-left">
+                  {t("footer.location")}
+        </span>
+        <span className="footer__bottom-right">{t("footer.languages")}
+          , ©{new Date().getFullYear()}</span>
+      </div>
+      <div className="footer__big-name">
+        <span>Chloé Gaillard</span>
+      </div>
+
+
     </footer>
   );
-};
+}
 
-export default Footer;

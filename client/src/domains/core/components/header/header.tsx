@@ -1,71 +1,142 @@
-import {useContext, useEffect} from "react";
+import {useCallback, useEffect, useState} from "react";
 import {useTranslation} from "react-i18next";
-import {useLocation, useNavigate} from "react-router-dom";
-
-import {motion} from "framer-motion";
-
-import Navbar from "../navbar/navbar";
-
+import {useNavigate} from "react-router-dom";
 
 import "./header.scss";
-import {AppContext} from "../../../../config/contexts/app-context";
+import {NAV_TABS} from "@components/navbar/navbar.config";
 
 interface HeaderProps {
-  className?: string
+  className?: string;
+  isHidden?: boolean;
 }
 
-const Header = ({className}: HeaderProps) => {
-  const navigate = useNavigate();
-  const {t} = useTranslation("core");
-  const location = useLocation()
-  const {theme, handleChangeTheme} = useContext(AppContext)
+const SCROLL_THRESHOLD = 5;
 
-  const handleClickHeaderTitle = () => {
-    navigate("/");
-    handleChangeTheme("dark");
-    window.scroll(0, 0);
-  };
+export const Header = ({className, isHidden}: HeaderProps) => {
+  const {t} = useTranslation("core");
+  const navigate = useNavigate();
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  const handleScroll = useCallback(() => {
+    setScrolled(window.scrollY > SCROLL_THRESHOLD);
+  }, []);
 
   useEffect(() => {
-    if (location.pathname.includes('works')) {
-      let prevScrollpos = window.pageYOffset;
-      window.onscroll = () => {
-        const currentScrollPos = window.pageYOffset;
-        if (window.innerWidth > 900) {
-          const navbar = document.getElementById("header");
-          if (navbar) {
-            if (prevScrollpos > currentScrollPos) {
-              if (currentScrollPos < 100) {
-                navbar.classList.remove("background-color");
-                navbar.classList.add("background-transparent");
-              } else {
-                navbar.classList.add("background-color");
-              }
-              navbar.style.top = "0";
-            } else if (currentScrollPos <= 100) {
-              navbar.classList.add("background-color");
-            } else {
-              navbar.style.top = "-10%";
-            }
-            prevScrollpos = currentScrollPos;
-          }
-        }
-      };
-    } else {
-      window.onscroll = () => {
-      }
-    }
+    window.addEventListener("scroll", handleScroll, {passive: true});
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [handleScroll]);
 
-  }, [location]);
+  const handleNavClick = (key: string) => {
+    if (key.startsWith("#")) {
+      navigate("/");
+      setTimeout(() => {
+        document.getElementById(key.slice(1))?.scrollIntoView({ behavior: "smooth" });
+      }, 100);
+    } else {
+      navigate(`/${key}`);
+    }
+  };
+
+  const handleLogoClick = () => {
+    setMenuOpen(false);
+    navigate("/");
+  };
 
   return (
-    <motion.header className={`header ${className} header__${theme}`} id="header">
-      <div onClick={handleClickHeaderTitle}>
-        <h1 className="header__title">{t("header.name")}</h1>
+    <>
+      {/* ── Header bar ── */}
+      <header className={`header ${isHidden ? "header--hidden" : ""} ${scrolled ? "header--scrolled" : ""} ${className ?? ""}`}>
+        <a
+          className="header__logo"
+          href="/"
+          onClick={(e) => {
+            e.preventDefault();
+            handleLogoClick();
+          }}
+        >
+          {t("header.name")}
+        </a>
+
+        <button
+          className="header__burger"
+          onClick={() => setMenuOpen(true)}
+          aria-label="Open navigation"
+        >
+          <span/>
+          <span/>
+          <span/>
+        </button>
+
+        {/* Desktop nav (inline) */}
+        <nav className="header__nav header__nav--desktop">
+          {NAV_TABS.map((navTab) => (
+            <a
+              key={navTab.key}
+              className="header__nav-link"
+              href={`/${navTab.key}`}
+              onClick={(e) => { e.preventDefault(); handleNavClick(navTab.key); }}
+            >
+              {t(`navbar.tabs.${navTab.key}`)}
+            </a>
+          ))}
+        </nav>
+      </header>
+
+      {/* ── Mobile drawer ── */}
+      <div className={`drawer ${menuOpen ? "drawer--open" : ""}`}>
+        <div className="drawer__header">
+          <a
+            className="drawer__logo"
+            href="/"
+            onClick={(e) => {
+              e.preventDefault();
+              handleLogoClick();
+            }}
+          >
+            {t("header.name")}
+          </a>
+          <button
+            className="drawer__close"
+            onClick={() => setMenuOpen(false)}
+            aria-label="Close navigation"
+          >
+            <span/>
+            <span/>
+          </button>
+        </div>
+
+        <nav className="drawer__nav">
+          {NAV_TABS.map((navTab) => (
+            <a
+              key={navTab.key}
+              className="drawer__nav-link"
+              href={`/${navTab.key}`}
+              onClick={(e) => {
+                e.preventDefault();
+                setMenuOpen(false);
+                handleNavClick(navTab.key);
+              }}
+            >
+              {t(`navbar.tabs.${navTab.key}`)}
+            </a>
+          ))}
+        </nav>
       </div>
-      <Navbar/>
-    </motion.header>
+
+      {/* ── Backdrop ── */}
+      {menuOpen && (
+        <div
+          className="drawer-backdrop"
+          role="button"
+          tabIndex={-1}
+          aria-label="Close navigation"
+          onClick={() => setMenuOpen(false)}
+          onKeyDown={(e) => {
+            if (e.key === "Escape") setMenuOpen(false);
+          }}
+        />
+      )}
+    </>
   );
 };
-
-export default Header;

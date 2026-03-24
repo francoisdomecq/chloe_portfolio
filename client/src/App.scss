@@ -1,5 +1,13 @@
-@import "./domains/core/index.scss";
+@use "./domains/core/theme/shared";
+
+:root {
+  --default-icon-size: 16px;
+  scroll-behavior: smooth;
+  background-color: var(--color-bg);
+}
 
 * {
-  cursor: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }

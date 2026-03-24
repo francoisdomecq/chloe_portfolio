@@ -1,7 +1,14 @@
 [
   {
     "id": "1",
+    "index":6,
     "title": "Odette, la cuisine du souvenir",
+    "selected": {
+      "sourceDesktop": "/projects/ODETTE/ODETTE_SELECTED_DESKTOP.mp4",
+      "sourceMobile": "/projects/ODETTE/ODETTE_SELECTED_MOBILE.png",
+      "mediaDesktop": "VIDEO",
+      "mediaMobile": "IMAGE"
+    },
     "description": {
       "title": "Odette, la cuisine du souvenir",
       "subtitle": [
@@ -20,7 +27,12 @@
       ],
       "fonts": "Minion Pro, an Adobe Original Typeface designed by Robert Slimbach / Satoshi designed by Deni Anggara for the Indian Type Foundry / Odette designed by Chloé Gaillard, a personal typeface design project"
     },
-    "carouselImage": "/projects/VIGNETAGE_CARROUSEL/ODETTE.jpg",
+    "carousel": {
+      "sourceDesktop": "/projects/WORKS_DESKTOP/ODETTE.mp4",
+      "sourceMobile": "/projects/WORKS_MOBILE/ODETTE.jpg",
+      "mediaDesktop": "VIDEO",
+      "mediaMobile": "IMAGE"
+    },
     "date": "2024",
     "content": [
       {
@@ -126,73 +138,15 @@
     ]
   },
   {
-    "id": "2",
-    "title": "FullMoon",
-    "description": {
-      "title": "FullMoon",
-      "subtitle": [
-        "Branding",
-        "Typeface design"
-      ],
-      "content": [
-        "Developed an elegant and refined visual identity for a luxury travel agency specializing in honeymoons. The branding combines sophistication and romance, capturing the essence of exclusive destinations and unique experiences offered by the agency. A custom typeface was designed to reflect the distinctive and high-end character of the brand, while evoking the intimacy and elegance sought by honeymooning couples."
-      ],
-      "skills": [
-        "Typeface design",
-        "branding",
-        "visual",
-        "identity"
-      ],
-      "fonts": "Inconsolata by Raph Levien for Google"
-    },
-    "carouselImage": "/projects/VIGNETAGE_CARROUSEL/FULLMOON.jpg",
-    "date": "2024",
-    "content": [
-      {
-        "id": "1",
-        "type": "IMAGE",
-        "source": "/projects/FULLMOON/FULLMOON_1.jpg"
-      },
-      {
-        "id": "2",
-        "type": "IMAGE",
-        "source": "/projects/FULLMOON/FULLMOON_2.jpg"
-      },
-      {
-        "id": "3",
-        "type": "IMAGE",
-        "source": "/projects/FULLMOON/FULLMOON_3.jpg"
-      },
-      {
-        "id": "4",
-        "type": "IMAGE",
-        "source": "/projects/FULLMOON/FULLMOON_4.jpg"
-      },
-      {
-        "id": "5",
-        "type": "IMAGE",
-        "source": "/projects/FULLMOON/FULLMOON_5.jpg"
-      },
-      {
-        "id": "6",
-        "type": "IMAGE",
-        "source": "/projects/FULLMOON/FULLMOON_6.jpg"
-      },
-      {
-        "id": "7",
-        "type": "IMAGE",
-        "source": "/projects/FULLMOON/FULLMOON_7.jpg"
-      },
-      {
-        "id": "8",
-        "type": "IMAGE",
-        "source": "/projects/FULLMOON/FULLMOON_8.jpg"
-      }
-    ]
-  },
-  {
     "id": "3",
+    "index":12,
     "title": "XTRM Salomon",
+    "carousel": {
+      "sourceDesktop": "/projects/WORKS_DESKTOP/SALOMON.mp4",
+      "sourceMobile": "/projects/WORKS_MOBILE/SALOMON.jpg",
+      "mediaDesktop": "VIDEO",
+      "mediaMobile": "IMAGE"
+    },
     "description": {
       "title": "XTRM by Salomon",
       "subtitle": [
@@ -211,7 +165,6 @@
       "fonts": "Aktiv Grotesk by Dalton Maag for Adobe Fonts"
     },
     "date": "2024",
-    "carouselImage": "/projects/VIGNETAGE_CARROUSEL/XTRM.jpg",
     "content": [
       {
         "id": "1",
@@ -267,6 +220,7 @@
   },
   {
     "id": "4",
+    "index":10,
     "title": "Chloé",
     "description": {
       "title": "Chloé",
@@ -286,7 +240,12 @@
       "fonts": "Patron by Timo Gaessner for Milieu Grotesque"
     },
     "date": "2023",
-    "carouselImage": "/projects/VIGNETAGE_CARROUSEL/CHLOE.jpg",
+    "carousel": {
+      "sourceDesktop": "/projects/WORKS_DESKTOP/CHLOE.mp4",
+      "sourceMobile": "/projects/WORKS_MOBILE/CHLOE.jpg",
+      "mediaDesktop": "VIDEO",
+      "mediaMobile": "IMAGE"
+    },
     "content": [
       {
         "id": "1",
@@ -347,6 +306,7 @@
   },
   {
     "id": "5",
+    "index":11,
     "title": "Pangram Pangram Foundry",
     "description": {
       "title": "PangramPangram Foundry",
@@ -368,7 +328,12 @@
       "fonts": "Several fonts created by PangramPangram"
     },
     "date": "2022",
-    "carouselImage": "/projects/VIGNETAGE_CARROUSEL/PPF.jpg",
+    "carousel": {
+      "sourceDesktop": "/projects/WORKS_DESKTOP/PANGRAM.mp4",
+      "sourceMobile": "/projects/WORKS_MOBILE/PANGRAM.jpg",
+      "mediaDesktop": "VIDEO",
+      "mediaMobile": "IMAGE"
+    },
     "content": [
       {
         "id": "1",
@@ -409,6 +374,7 @@
   },
   {
     "id": "6",
+    "index":7,
     "title": "Jardins Statuaires",
     "description": {
       "title": "Jardins Statuaires",
@@ -426,7 +392,12 @@
       "fonts": "Fanwood by Barry Schwartz for The league of moveable type"
     },
     "date": "2023",
-    "carouselImage": "/projects/VIGNETAGE_CARROUSEL/JARDINS_STATUAIRES.jpg",
+    "carousel": {
+      "sourceDesktop": "/projects/WORKS_DESKTOP/JARDINS_STATUAIRES.jpg",
+      "sourceMobile": "/projects/WORKS_MOBILE/JARDINS_STATUAIRES.jpg",
+      "mediaDesktop": "IMAGE",
+      "mediaMobile": "IMAGE"
+    },
     "content": [
       {
         "id": "1",
@@ -472,7 +443,14 @@
   },
   {
     "id": "7",
+    "index":4,
     "title": "Hermès",
+    "selected": {
+      "sourceDesktop": "/projects/HERMES/HERMES_SELECTED_DESKTOP.jpg",
+      "sourceMobile": "/projects/HERMES/HERMES_SELECTED_MOBILE.jpg",
+      "mediaDesktop": "IMAGE",
+      "mediaMobile": "IMAGE"
+    },
     "description": {
       "title": "Hermès",
       "subtitle": [
@@ -505,7 +483,12 @@
       ]
     },
     "date": "2023",
-    "carouselImage": "/projects/VIGNETAGE_CARROUSEL/HERMES.jpg",
+    "carousel": {
+      "sourceDesktop": "/projects/WORKS_DESKTOP/HERMES.jpg",
+      "sourceMobile": "/projects/WORKS_MOBILE/HERMES.jpg",
+      "mediaDesktop": "IMAGE",
+      "mediaMobile": "IMAGE"
+    },
     "content": [
       {
         "id": "1",
@@ -556,6 +539,7 @@
   },
   {
     "id": "8",
+    "index":9,
     "title": "Mister Bun's",
     "description": {
       "title": "Mr. Bun’s",
@@ -574,7 +558,12 @@
       "fonts": "Bevellier, display typography designed by Indian Type Foundry"
     },
     "date": "2022",
-    "carouselImage": "/projects/VIGNETAGE_CARROUSEL/BUNS.jpg",
+    "carousel": {
+      "sourceDesktop": "/projects/WORKS_DESKTOP/M_BUNS.jpg",
+      "sourceMobile": "/projects/WORKS_MOBILE/M_BUNS.jpg",
+      "mediaDesktop": "IMAGE",
+      "mediaMobile": "IMAGE"
+    },
     "content": [
       {
         "id": "1",
@@ -630,7 +619,14 @@
   },
   {
     "id": "10",
+    "index":3,
     "title": "Kaolyn",
+    "selected": {
+      "sourceDesktop": "/projects/KAOLYN/KAOLYN_SELECTED_DESKTOP.gif",
+      "sourceMobile": "/projects/KAOLYN/KAOLYN_SELECTED_MOBILE.jpg",
+      "mediaDesktop": "IMAGE",
+      "mediaMobile": "IMAGE"
+    },
     "theme": "dark",
     "description": {
       "title": "Kaolyn",
@@ -651,12 +647,17 @@
       "fonts": "Recia Variable, a variable font designed by Indian Type Foundry "
     },
     "date": "2025",
-    "carouselImage": "/projects/VIGNETAGE_CARROUSEL/KAOLYN.jpg",
+    "carousel": {
+      "sourceDesktop": "/projects/WORKS_DESKTOP/KAOLYN.gif",
+      "sourceMobile": "/projects/WORKS_MOBILE/KAOLYN.jpg",
+      "mediaDesktop": "IMAGE",
+      "mediaMobile": "IMAGE"
+    },
     "content": [
       {
         "id": "1",
         "type": "IMAGE",
-        "source": "/projects/KAOLYN/KAOLYN_1.jpg"
+        "source": "/projects/KAOLYN/KAOLYN_1.gif"
       },
       {
         "id": "2",
@@ -666,12 +667,17 @@
       {
         "id": "3",
         "type": "IMAGE",
-        "source": "/projects/KAOLYN/KAOLYN_3.jpg"
+        "source": "/projects/KAOLYN/KAOLYN_3.gif"
       },
       {
         "id": "4",
         "type": "IMAGE",
         "source": "/projects/KAOLYN/KAOLYN_4.jpg"
+      },
+      {
+        "id": "9",
+        "type": "IMAGE",
+        "source": "/projects/KAOLYN/KAOLYN_9.gif"
       },
       {
         "id": "5",
@@ -680,28 +686,35 @@
       },
       {
         "id": "6",
-        "type": "VIDEO",
-        "source": "/projects/KAOLYN/KAOLYN_6.mp4"
+        "type": "IMAGE",
+        "source": "/projects/KAOLYN/KAOLYN_6.jpg"
       },
       {
         "id": "7",
         "type": "IMAGE",
-        "source": "/projects/KAOLYN/KAOLYN_7.jpg"
+        "source": "/projects/KAOLYN/KAOLYN_7.gif"
       },
       {
         "id": "8",
         "type": "IMAGE",
-        "source": "/projects/KAOLYN/KAOLYN_9.jpg"
+        "source": "/projects/KAOLYN/KAOLYN_8.jpg"
       },
       {
-        "id": "9",
+        "id": "9-bis",
         "type": "VIDEO",
-        "source": "/projects/KAOLYN/KAOLYN_10.mp4"
+        "source": "/projects/KAOLYN/KAOLYN_9.mp4",
+        "displayMobile": false
+      },
+      {
+        "id": "11",
+        "type": "IMAGE",
+        "source": "/projects/KAOLYN/KAOLYN_11.png"
       }
     ]
   },
   {
     "id": "9",
+    "index":5,
     "title": "Communitee 2 Adidas X CaminoTV",
     "description": {
       "title": "Communitee 2 Adidas X CaminoTV",
@@ -718,7 +731,12 @@
       "fonts": "hand-drawn typography"
     },
     "date": "2025",
-    "carouselImage": "/projects/VIGNETAGE_CARROUSEL/ADIDAS.jpg",
+    "carousel": {
+      "sourceDesktop": "/projects/WORKS_DESKTOP/ADIDAS.mov",
+      "sourceMobile": "/projects/WORKS_MOBILE/ADIDAS.jpg",
+      "mediaDesktop": "VIDEO",
+      "mediaMobile": "IMAGE"
+    },
     "content": [
       {
         "id": "1",
@@ -764,8 +782,13 @@
   },
   {
     "id": "11",
+    "index":8,
     "title": "Payfit",
     "theme": "dark",
+    "selected": {
+      "sourceDesktop": "/projects/PAYFIT/PAYFIT_SELECTED_DESKTOP.mp4",
+      "mediaDesktop": "VIDEO"
+    },
     "description": {
       "title": "Payfit",
       "subtitle": [
@@ -786,7 +809,12 @@
       "fonts": "hand-drawn typography"
     },
     "date": "2025",
-    "carouselImage": "/projects/VIGNETAGE_CARROUSEL/PAYFIT.png",
+    "carousel": {
+      "sourceDesktop": "/projects/WORKS_DESKTOP/PAYFIT.mp4",
+      "sourceMobile": "/projects/WORKS_MOBILE/PAYFIT.jpg",
+      "mediaDesktop": "VIDEO",
+      "mediaMobile": "IMAGE"
+    },
     "content": [
       {
         "id": "1",
@@ -839,5 +867,144 @@
         "source": "/projects/PAYFIT/PAYFIT_10.jpg"
       }
     ]
+  },
+  {
+    "id": "12",
+    "index":2,
+    "title": "Kaze",
+    "subtitle": "Le geste comme signature",
+    "selected": {
+      "sourceDesktop": "/projects/KAZE/KAZE_SELECTED_DESKTOP.mp4",
+      "sourceMobile": "/projects/KAZE/KAZE_SELECTED_MOBILE.jpg",
+      "mediaDesktop": "VIDEO",
+      "mediaMobile": "IMAGE"
+    },
+    "description": {
+      "title": "Kaze",
+      "subtitle": [
+        "Rebranding",
+        "DA 360°"
+      ],
+      "content": [
+        "PayFit is a SaaS application that automates payroll and HR management, helping businesses handle payslips, leave, and compliance effortlessly.",
+        "I led the rebranding of PayFit, focusing on a complete visual identity overhaul, the modernization of graphic elements, and ensuring brand communication aligned with the company's values and ambitions. This included designing a new logo, refining the typography, creating a fresh color palette, and developing a cohesive web design. Additionally, I worked on enhancing the brand’s digital presence, ensuring consistency across all touchpoints, and improving the user experience through a more intuitive and visually appealing interface."
+      ],
+      "skills": [
+        "Lettring",
+        "Visual identity",
+        "Motion",
+        "Webdesign",
+        "Illustration"
+      ],
+      "fonts": "hand-drawn typography"
+    },
+    "date": "2025",
+    "carousel": {
+      "sourceDesktop": "/projects/WORKS_DESKTOP/KAZE.mp4",
+      "sourceMobile": "/projects/WORKS_MOBILE/KAZE.jpg",
+      "mediaDesktop": "VIDEO",
+      "mediaMobile": "IMAGE"
+    },
+    "content": [
+      {
+        "id": "1",
+        "type": "IMAGE",
+        "source": "/projects/KAZE/KAZE_1.jpg"
+      },
+      {
+        "id": "2",
+        "type": "IMAGE",
+        "source": "/projects/KAZE/KAZE_2.jpg"
+      },
+      {
+        "id": "3",
+        "type": "VIDEO",
+        "source": "/projects/KAZE/KAZE_3.mp4"
+      },
+      {
+        "id": "3B",
+        "type": "VIDEO",
+        "source": "/projects/KAZE/KAZE_4.mp4"
+      },
+      {
+        "id": "4",
+        "type": "IMAGE",
+        "source": "/projects/KAZE/KAZE_5.jpg"
+      },
+      {
+        "id": "5",
+        "type": "IMAGE",
+        "source": "/projects/KAZE/KAZE_6.jpg"
+      },
+      {
+        "id": "6",
+        "type": "VIDEO",
+        "source": "/projects/KAZE/KAZE_7.mp4"
+      },
+      {
+        "id": "7",
+        "type": "IMAGE",
+        "source": "/projects/KAZE/KAZE_8.jpg"
+      },
+      {
+        "id": "8",
+        "type": "VIDEO",
+        "source": "/projects/KAZE/KAZE_9.mp4"
+      },
+      {
+        "id": "9",
+        "type": "IMAGE",
+        "source": "/projects/KAZE/KAZE_10.jpg"
+      },
+      {
+        "id": "10",
+        "type": "IMAGE",
+        "source": "/projects/KAZE/KAZE_11.gif"
+      },  {
+        "id": "11",
+        "type": "IMAGE",
+        "source": "/projects/KAZE/KAZE_12.jpg"
+      },  {
+        "id": "12",
+        "type": "IMAGE",
+        "source": "/projects/KAZE/KAZE_13.jpg"
+      },  {
+        "id": "13",
+        "type": "IMAGE",
+        "source": "/projects/KAZE/KAZE_14.jpg"
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "index":1,
+    "title": "Aaryz",
+    "selected": {
+      "sourceDesktop": "/projects/AARYZ/AARYZ_SELECTED_DESKTOP.jpg",
+      "sourceMobile": "/projects/AARYZ/AARYZ_SELECTED_MOBILE.jpg",
+      "mediaDesktop": "IMAGE",
+      "mediaMobile": "IMAGE"
+    },
+    "description": {
+      "title": "Kaze",
+      "subtitle": [
+        "Rebranding",
+        "DA 360°"
+      ],
+      "content": [
+      ],
+      "skills": [
+
+      ],
+      "fonts": "hand-drawn typography"
+    },
+    "date": "2026",
+    "carousel": {
+      "sourceDesktop": "/projects/WORKS_DESKTOP/AARYZ.jpg",
+      "sourceMobile": "/projects/WORKS_MOBILE/AARYZ.jpg",
+      "mediaDesktop": "IMAGE",
+      "mediaMobile": "IMAGE"
+    },
+    "content": []
   }
 ]
