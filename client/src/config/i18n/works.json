@@ -6,7 +6,13 @@
       "category": "Catégorie",
       "services": "Services",
       "date": "Date",
-      "description": "Description du projet"
+      "description": "Description du projet",
+      "comingSoon": {
+        "label": "En cours",
+        "title": "Projet en cours",
+        "message": "Les visuels de ce projet arrivent bientôt.",
+        "back": "Voir tous les projets"
+      }
     }
   }
 }

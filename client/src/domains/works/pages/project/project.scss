@@ -114,6 +114,58 @@
   -webkit-overflow-scrolling: touch;
 }
 
+// ─── Coming soon ──────────────────────────────────
+.project-coming-soon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  padding-top: sp(3xl);
+  min-height: 80vh;
+  gap: sp(lg);
+}
+
+.project-coming-soon__label {
+  font-family: var(--text-font);
+  font-size: var(--font-size-body-s);
+  color: var(--color-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+}
+
+.project-coming-soon__title {
+  font-family: var(--title-font);
+  font-size: calc(var(--font-size-h1) * 2);
+  font-weight: 400;
+  color: var(--color-text);
+  line-height: 1.1;
+}
+
+.project-coming-soon__message {
+  font-family: var(--text-font);
+  font-size: var(--font-size-body-l);
+  color: var(--color-muted);
+}
+
+.project-coming-soon__back {
+  margin-top: sp(sm);
+  display: inline-block;
+  background-color: var(--color-text);
+  color: var(--color-bg);
+  font-family: var(--button-font);
+  font-size: var(--font-size-button);
+  padding: sp(xs) sp(lg);
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+  }
+}
+
 // ─── Desktop ≥ lg — côte à côte ───────────────────
 @include respond-to(lg) {
   .project {

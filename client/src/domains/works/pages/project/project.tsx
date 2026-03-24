@@ -1,4 +1,4 @@
-import {useParams} from "react-router-dom";
+import {useParams, useNavigate} from "react-router-dom";
 import {useTranslation} from "react-i18next";
 import works from "@config/works.json"
 import "./project.scss"
@@ -14,6 +14,7 @@ import {useEffect} from "react";
 export const Project = () => {
   const params = useParams();
   const {t} = useTranslation("works");
+  const navigate = useNavigate();
   const project:ProjectType|undefined = works.find(work=>work.id===params.id)
   const isDesktop = useIsDesktop();
   const prefersReducedMotion = useReducedMotion();
@@ -82,6 +83,21 @@ export const Project = () => {
       </div>
     );
   };
+
+  if (project && (!project.content || project.content.length === 0)) {
+    return (
+      <PortfolioPage>
+        <div className="project-coming-soon">
+          <span className="project-coming-soon__label">{t("works.project.comingSoon.label")}</span>
+          <h1 className="project-coming-soon__title">{project.title}</h1>
+          <p className="project-coming-soon__message">{t("works.project.comingSoon.message")}</p>
+          <button className="project-coming-soon__back" onClick={() => navigate("/works")}>
+            {t("works.project.comingSoon.back")}
+          </button>
+        </div>
+      </PortfolioPage>
+    );
+  }
 
   return project && (
     <PortfolioPage >
