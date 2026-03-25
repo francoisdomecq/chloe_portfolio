@@ -2,6 +2,7 @@
   {
     "id": "1",
     "index":6,
+    "category": "Dessin de caractère et Édition ",
     "title": "Odette, la cuisine du souvenir",
     "selected": {
       "sourceDesktop": "/projects/ODETTE/ODETTE_SELECTED_DESKTOP.mp4",
@@ -16,14 +17,14 @@
         "Editorial project"
       ],
       "content": [
-        "This project blends typeface design and editorial work, resulting in a recipe book featuring the recipes of my great-great-grandmother. The book also serves as a type specimen, showcasing the process of creating a typeface based on her handwriting. This custom typography adds authenticity to the book, paying tribute to family heritage while providing a unique visual and emotional experience."
+        "Ce projet allie création typographique et travail éditorial, donnant naissance à un livre de recettes contenant les recettes de mon arrière-arrière-grand-mère. L'ouvrage fait également office de spécimen typographique, illustrant le processus de création d'une police de caractères inspirée de son écriture manuscrite. Cette typographie sur mesure confère une authenticité particulière au livre, rendant hommage à l'héritage familial tout en offrant une expérience visuelle et émotionnelle unique."
       ],
       "skills": [
-        "Typeface design",
-        "illustrations",
-        "editorial project",
-        "writing",
-        "research"
+        "Type design",
+        "Illustrations",
+        "Projet éditorial",
+        "Rédaction",
+        "Recherche"
       ],
       "fonts": "Minion Pro, an Adobe Original Typeface designed by Robert Slimbach / Satoshi designed by Deni Anggara for the Indian Type Foundry / Odette designed by Chloé Gaillard, a personal typeface design project"
     },
@@ -141,6 +142,7 @@
     "id": "3",
     "index":12,
     "title": "XTRM Salomon",
+    "category": "Campagne publicitaire et lettrage",
     "carousel": {
       "sourceDesktop": "/projects/WORKS_DESKTOP/SALOMON.mp4",
       "sourceMobile": "/projects/WORKS_MOBILE/SALOMON.jpg",
@@ -153,14 +155,14 @@
         "Advertising campaign"
       ],
       "content": [
-        "For Salomon, I developed the XTRM advertising campaign, aimed at athletes and adventurers who push the boundaries of performance in extreme environments. The concept of XTRM revolves around surpassing the ordinary through a fusion of cutting-edge innovation, durability, and futuristic design. Featuring key products such as trail running shoes, technical jackets, and ski equipment, the campaign highlights Salomon’s ability to equip athletes with advanced gear for the most demanding challenges.",
-        "The visual identity is defined by bold, sharp typography, intense colors like black, red, and cyan, and dynamic imagery capturing athletes in action within spectacular, rugged landscapes. XTRM embodies the spirit of exploration and the conquest of hostile terrains, reflecting Salomon’s mission to support every athlete in their pursuit of pushing personal limits."
+        "Pour Salomon, j’ai développé la campagne publicitaire XTRM, destinée aux athlètes et aux aventuriers qui repoussent les limites de la performance dans des environnements extrêmes. Le concept XTRM s’articule autour du dépassement de l’ordinaire grâce à une fusion entre innovation de pointe, durabilité et design futuriste. Mettant en avant des produits phares tels que des chaussures de trail, des vestes techniques et du matériel de ski, la campagne souligne la capacité de Salomon à équiper les athlètes d’un matériel de pointe pour relever les défis les plus exigeants.",
+        "L’identité visuelle se caractérise par une typographie audacieuse et nette, des couleurs intenses comme le noir, le rouge et le cyan, ainsi que des images dynamiques capturant des athlètes en action au sein de paysages spectaculaires et accidentés. XTRM incarne l’esprit d’exploration et la conquête de terrains hostiles, reflétant la mission de Salomon qui consiste à soutenir chaque athlète dans sa quête pour repousser ses limites personnelles."
       ],
       "skills": [
-        "Print advertising campaign",
-        "branding",
-        "editing video",
-        "advertising film"
+        "Campagne publicitaire print",
+        "Branding",
+        "Montage vidéo",
+        "Film publicitaire"
       ],
       "fonts": "Aktiv Grotesk by Dalton Maag for Adobe Fonts"
     },
@@ -222,6 +224,7 @@
     "id": "4",
     "index":10,
     "title": "Chloé",
+    "category": "Lettrage",
     "description": {
       "title": "Chloé",
       "subtitle": [
@@ -229,13 +232,13 @@
         "Typographic logo design"
       ],
       "content": [
-        "This personal branding project features a typographic logo I designed to represent my work. The keywords guiding the creation of this logotype were finesse, elegance, and poetry. My approach often involves storytelling through typography and type design, using these elements to convey messages and narratives within my projects. This logo encapsulates my artistic vision and passion for blending visual storytelling with refined design."
+        "Ce projet d'image de marque personnelle s'articule autour d'un logo typographique que j'ai conçu pour représenter mon travail. Les mots-clés qui ont guidé la création de ce logotype étaient la finesse, l'élégance et la poésie. Mon approche consiste souvent à raconter des histoires à travers la typographie et la création de polices, en utilisant ces éléments pour transmettre des messages et des récits au sein de mes projets. Ce logo incarne ma vision artistique et ma passion pour l'alliance entre la narration visuelle et un design raffiné."
       ],
       "skills": [
-        "logotypes",
-        "illustrations",
-        "branding",
-        "visual identity"
+        "Logotype",
+        "Illustrations",
+        "Branding",
+        "Identité visuelle"
       ],
       "fonts": "Patron by Timo Gaessner for Milieu Grotesque"
     },
@@ -308,6 +311,7 @@
     "id": "5",
     "index":11,
     "title": "Pangram Pangram Foundry",
+    "category": "Objet éditorial",
     "description": {
       "title": "PangramPangram Foundry",
       "subtitle": [
@@ -315,15 +319,15 @@
         "Editorial object"
       ],
       "content": [
-        "This project is a typographic specimen designed for the Pangram Pangram foundry. It takes the form of a package containing posters, each dedicated to a specific typeface. Each poster is composed of 8 postcards, reinforcing the foundry's ethos of sharing and accessibility. The design emphasizes the idea of spreading the foundry's fonts, encouraging users to explore and share the typefaces, thus amplifying creativity and collaboration within the design community."
+        "Ce projet est un spécimen typographique conçu pour la fonderie Pangram Pangram. Il se présente sous la forme d'un coffret contenant des affiches, chacune consacrée à une police de caractères spécifique. Chaque affiche est composée de 8 cartes postales, ce qui renforce la philosophie de partage et d'accessibilité de la fonderie. Le design met l'accent sur l'idée de diffuser les polices de la fonderie, en encourageant les utilisateurs à explorer et à partager ces polices, amplifiant ainsi la créativité et la collaboration au sein de la communauté du design."
       ],
       "skills": [
-        "editorial object",
-        "typography",
-        "layout",
-        "vinyle cutting",
-        "engraving",
-        "finishing"
+        "Objet éditorial",
+        "Typographie",
+        "Mise en page",
+        "Découpe vinyle",
+        "Gravure",
+        "Finition"
       ],
       "fonts": "Several fonts created by PangramPangram"
     },
@@ -376,18 +380,19 @@
     "id": "6",
     "index":7,
     "title": "Jardins Statuaires",
+    "category": "Édition",
     "description": {
       "title": "Jardins Statuaires",
       "subtitle": [
         "Editorial Project"
       ],
       "content": [
-        "This editorial project delves into the themes of attention and subtle details through the design of a leporello. The layout is centered around a horizontal line, symbolizing the horizon, which guides the reader throughout the text. This visual thread reinforces the content by subtly evoking ideas of observation and perspective. The design emphasizes delicacy and introspection, inviting a contemplative and attentive reading experience."
+        "Ce projet éditorial explore les thèmes de l'attention et des détails subtils à travers la conception d'un leporello. La mise en page s'articule autour d'une ligne horizontale, symbolisant l'horizon, qui guide le lecteur tout au long du texte. Ce fil conducteur visuel renforce le contenu en évoquant subtilement les notions d'observation et de perspective. Le design met l'accent sur la délicatesse et l'introspection, invitant à une lecture contemplative et attentive."
       ],
       "skills": [
-        "editorial object",
-        "photography",
-        "layout"
+        "Objet éditorial",
+        "Photographie",
+        "Mise en page"
       ],
       "fonts": "Fanwood by Barry Schwartz for The league of moveable type"
     },
@@ -445,6 +450,7 @@
     "id": "7",
     "index":4,
     "title": "Hermès",
+    "category": "Campagne publicitaire 360°",
     "selected": {
       "sourceDesktop": "/projects/HERMES/HERMES_SELECTED_DESKTOP.jpg",
       "sourceMobile": "/projects/HERMES/HERMES_SELECTED_MOBILE.jpg",
@@ -457,15 +463,16 @@
         "Advertising campaign"
       ],
       "content": [
-        "This project, created at Publicis EtNous, is the Christmas campaign for Hermès titled \"It's Time for a Joyful Show.\" The concept features Pegasus, the iconic figure of Hermès, traveling through the windows of an Hermès boutique. My role included helping to create mock-ups to pitch the concept to the client, writing the narrative of this magical journey, and contributing to the advertising film's concept. I also assisted the art directors during the photo shoot and filming, and took part in the post-production process before delivering the final project to the client. This was an enriching and exciting experience that taught me a lot about agency work, and it significantly boosted my confidence and professional growth."
+        "Ce projet, réalisé chez Publicis EtNous, est la campagne de Noël d'Hermès intitulée « It's Time for a Joyful Show ». Le concept met en scène Pégase, figure emblématique d'Hermès, qui traverse les vitrines d'une boutique Hermès. Mon rôle consistait notamment à aider à créer des maquettes pour présenter le concept au client, à rédiger le récit de ce voyage magique et à contribuer au concept du film publicitaire. J'ai également assisté les directeurs artistiques pendant la séance photo et le tournage, et j'ai participé au processus de post-production avant de livrer le projet final au client. Ce fut une expérience enrichissante et passionnante qui m'a beaucoup appris sur le travail en agence et qui a considérablement renforcé ma confiance en moi et favorisé mon développement professionnel."
       ],
       "skills": [
-        "Model drawings",
+        "Maquettes print",
+        "Maquettes print",
         "Storyboarding",
-        "Retouching",
-        "Assistant DA on shoot",
-        "Editing and colour grading",
-        "Research work"
+        "Retouches photo",
+        "Assistant DA",
+        "Edition et étalonnage des couleurs",
+        "Travail de recherche"
       ],
       "fonts": "Fanwood by Barry Schwartz for The league of moveable type",
       "coworkers": [
@@ -541,19 +548,20 @@
     "id": "8",
     "index":9,
     "title": "Mister Bun's",
+    "category": "Branding",
     "description": {
       "title": "Mr. Bun’s",
       "subtitle": [
-        "Visual Identity"
+        "Identité visuelle"
       ],
       "content": [
-        "This visual identity project was created for a small London snack shop with an innovative concept of sweet and savory brioche sandwiches. The entire art direction revolves around a playful mascot and a fun, lively spirit, capturing the originality and friendly atmosphere of the shop. The design aims to attract a young and dynamic audience while highlighting the unique and casual approach of the snack shop."
+        "Ce projet d'identité visuelle a été conçu pour une petite sandwicherie londonienne proposant un concept novateur de sandwichs sucrés et salés à base de brioche. L'ensemble de la direction artistique s'articule autour d'une mascotte espiègle et d'une ambiance ludique et dynamique, reflétant ainsi l'originalité et l'atmosphère conviviale de l'établissement. Le design vise à attirer un public jeune et dynamique tout en mettant en avant l'approche unique et décontractée de la sandwicherie."
       ],
       "skills": [
-        "packaging",
-        "branding",
-        "logotype",
-        "illustrations"
+        "Packaging",
+        "Branding",
+        "Logotype",
+        "Illustrations"
       ],
       "fonts": "Bevellier, display typography designed by Indian Type Foundry"
     },
@@ -621,6 +629,7 @@
     "id": "10",
     "index":3,
     "title": "Kaolyn",
+    "category": "Branding",
     "selected": {
       "sourceDesktop": "/projects/KAOLYN/KAOLYN_SELECTED_DESKTOP.gif",
       "sourceMobile": "/projects/KAOLYN/KAOLYN_SELECTED_MOBILE.jpg",
@@ -631,18 +640,18 @@
     "description": {
       "title": "Kaolyn",
       "subtitle": [
-        "Visual identity",
-        "AI"
+        "Identité visuelle",
+        "IA"
       ],
       "content": [
-        "KAOLYN is a studio that merges the craft of ceramics with a warm coffee shop experience. The visual identity is built on raw, geometric shapes inspired by the silhouettes of ceramic pieces, evoking manual craftsmanship and authenticity.",
-        "The bold typographic logo is uniquely designed: the counterforms of the letters subtly represent vases and ceramic objects, directly integrating the essence of the craft into the brand’s identity. This approach creates a visual dialogue between traditional craftsmanship and a contemporary aesthetic.\nThe vases used in the identity and graphic elements were generated using artificial intelligence software, bringing an innovative dimension to the project. These organic, sculptural forms, created by AI, reflect creative exploration and push the boundaries of ceramic design.",
-        "Each visual element contributes to conveying the spirit of KAOLYN: a place where people come to enjoy a good coffee as much as to discover unique, handcrafted objects."
+        "KAOLYN est un studio qui allie l'art de la céramique à l'ambiance chaleureuse d'un café. L'identité visuelle repose sur des formes brutes et géométriques inspirées des silhouettes des pièces en céramique, évoquant le savoir-faire artisanal et l'authenticité.",
+        "Le logo typographique audacieux est conçu de manière unique : les contreformes des lettres représentent subtilement des vases et des objets en céramique, intégrant ainsi directement l'essence même de l'artisanat dans l'identité de la marque. Cette approche crée un dialogue visuel entre l’artisanat traditionnel et une esthétique contemporaine. Les vases utilisés dans l’identité visuelle et les éléments graphiques ont été générés à l’aide d’un logiciel d’intelligence artificielle, apportant une dimension innovante au projet. Ces formes organiques et sculpturales, créées par l’IA, reflètent une exploration créative et repoussent les limites du design céramique. ",
+        "Chaque élément visuel contribue à transmettre l’esprit de KAOLYN : un lieu où l’on vient autant pour déguster un bon café que pour découvrir des objets uniques, fabriqués à la main."
       ],
       "skills": [
-        "Lettring",
-        "AI",
-        "Visual identity"
+        "Lettrage",
+        "IA",
+        "Identité visuelle"
       ],
       "fonts": "Recia Variable, a variable font designed by Indian Type Foundry "
     },
@@ -715,6 +724,7 @@
   {
     "id": "9",
     "index":5,
+    "category": "Design textile",
     "title": "Communitee 2 Adidas X CaminoTV",
     "description": {
       "title": "Communitee 2 Adidas X CaminoTV",
@@ -722,11 +732,10 @@
         "Product design"
       ],
       "content": [
-        "For the Communi-tee 2 competition, CaminoTV asked you to reinvent the iconic Adidas firebird by representing a place that you love, where you feel at home, and you should recognise the firebird model at first glance. For my entry, I imagined a place where you grow and rise, without restriction, symbolised by this phrase: ‘Home is where we rise’. This phrase evokes a place where you can be yourself, where you can become the best version of yourself. It's a reflection of a home that doesn't depend on a specific place, but on a state of mind. Like the Adidas brand, this jacket is an invitation to challenge yourself, to develop yourself. ‘Home’ evokes more than just a place, it's an environment where you can blossom and grow. My typography is based on handwritten letters similar to graffiti. This phrase sounds like a call to self-fulfilment. The word ‘RISE’ was built around the Adidas logo to draw a connection between this jacket and the brand."
+        "Dans le cadre du concours Communi-tee 2, CaminoTV vous a demandé de réinventer l'emblématique modèle Firebird d'Adidas en représentant un lieu que vous aimez, où vous vous sentez chez vous, tout en permettant de reconnaître le modèle Firebird au premier coup d'œil. Pour ma participation, j’ai imaginé un lieu où l’on grandit et s’épanouit sans contrainte, symbolisé par cette phrase : « Home is where we rise ». Cette phrase évoque un endroit où l’on peut être soi-même, où l’on peut devenir la meilleure version de soi-même. C’est le reflet d’un foyer qui ne dépend pas d’un lieu précis, mais d’un état d’esprit. À l’image de la marque Adidas, cette veste est une invitation à se dépasser, à s’épanouir. Le « chez-soi » évoque plus qu’un simple lieu, c’est un environnement où l’on peut s’épanouir et grandir. Ma typographie s’inspire de lettres manuscrites semblables à du graffiti. Cette phrase résonne comme un appel à l’épanouissement personnel. Le mot « RISE » a été placé autour du logo Adidas afin d’établir un lien entre cette veste et la marque. "
       ],
       "skills": [
-        "lettring",
-        "product design"
+        "Lettrage"
       ],
       "fonts": "hand-drawn typography"
     },
@@ -785,6 +794,7 @@
     "index":8,
     "title": "Payfit",
     "theme": "dark",
+    "category": "Branding",
     "selected": {
       "sourceDesktop": "/projects/PAYFIT/PAYFIT_SELECTED_DESKTOP.mp4",
       "mediaDesktop": "VIDEO"
@@ -796,12 +806,12 @@
         "DA 360°"
       ],
       "content": [
-        "PayFit is a SaaS application that automates payroll and HR management, helping businesses handle payslips, leave, and compliance effortlessly.",
-        "I led the rebranding of PayFit, focusing on a complete visual identity overhaul, the modernization of graphic elements, and ensuring brand communication aligned with the company's values and ambitions. This included designing a new logo, refining the typography, creating a fresh color palette, and developing a cohesive web design. Additionally, I worked on enhancing the brand’s digital presence, ensuring consistency across all touchpoints, and improving the user experience through a more intuitive and visually appealing interface."
+        "PayFit est une application SaaS qui automatise la gestion de la paie et des ressources humaines, aidant ainsi les entreprises à gérer sans effort les bulletins de paie, les congés et la conformité.",
+        "J'ai dirigé la refonte de l'image de marque de PayFit, en mettant l'accent sur une refonte complète de l'identité visuelle, la modernisation des éléments graphiques et la garantie d'une communication de marque en phase avec les valeurs et les ambitions de l'entreprise. Cela comprenait la conception d’un nouveau logo, le raffinement de la typographie, la création d’une nouvelle palette de couleurs et le développement d’un design web cohérent. De plus, j’ai travaillé à renforcer la présence numérique de la marque, en veillant à la cohérence sur tous les points de contact et en améliorant l’expérience utilisateur grâce à une interface plus intuitive et visuellement attrayante."
       ],
       "skills": [
-        "Lettring",
-        "Visual identity",
+        "Lettrage",
+        "Identité visuelle",
         "Motion",
         "Webdesign",
         "Illustration"
@@ -879,6 +889,7 @@
       "mediaDesktop": "VIDEO",
       "mediaMobile": "IMAGE"
     },
+    "category": "Branding",
     "description": {
       "title": "Kaze",
       "subtitle": [
@@ -886,15 +897,13 @@
         "DA 360°"
       ],
       "content": [
-        "PayFit is a SaaS application that automates payroll and HR management, helping businesses handle payslips, leave, and compliance effortlessly.",
-        "I led the rebranding of PayFit, focusing on a complete visual identity overhaul, the modernization of graphic elements, and ensuring brand communication aligned with the company's values and ambitions. This included designing a new logo, refining the typography, creating a fresh color palette, and developing a cohesive web design. Additionally, I worked on enhancing the brand’s digital presence, ensuring consistency across all touchpoints, and improving the user experience through a more intuitive and visually appealing interface."
       ],
       "skills": [
-        "Lettring",
-        "Visual identity",
-        "Motion",
+        "Direction artistique",
+        "Lettrage",
+        "Identité visuelle",
         "Webdesign",
-        "Illustration"
+        "Packaging"
       ],
       "fonts": "hand-drawn typography"
     },
@@ -986,7 +995,7 @@
       "mediaMobile": "IMAGE"
     },
     "description": {
-      "title": "Kaze",
+      "title": "Aaryz",
       "subtitle": [
         "Rebranding",
         "DA 360°"
@@ -994,7 +1003,9 @@
       "content": [
       ],
       "skills": [
-
+        "Logotype",
+        "Social Media",
+        "Illustration"
       ],
       "fonts": "hand-drawn typography"
     },

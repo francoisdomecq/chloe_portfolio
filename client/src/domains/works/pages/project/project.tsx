@@ -124,7 +124,7 @@ export const Project = () => {
               <hr className="divider"/>
               <div className="project__details-content">
                 <p className="project__details-content-label">{t("works.project.category")}</p>
-                <p>{t("works.project.category")}</p>
+                <p>{project.category}</p>
               </div>
               <hr className="divider"/>
 

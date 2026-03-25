@@ -32,6 +32,7 @@ interface Project {
   index:number;
   title: string;
   subtitle?: string;
+  category?: string;
   selected?: SelectedProject;
   carousel:SelectedProject;
   description: ProjectDescription;
