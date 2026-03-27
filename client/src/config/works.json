@@ -41,15 +41,11 @@
         "type": "IMAGE",
         "source": "/projects/ODETTE/ODETTE_1.jpg"
       },
-      {
-        "id": "1-2",
-        "type": "VIDEO",
-        "source": "/projects/ODETTE/VIDEO_ODETTE_1.mp4"
-      },
+
       {
         "id": "2",
-        "type": "IMAGE",
-        "source": "/projects/ODETTE/ODETTE_2.jpg"
+        "type": "VIDEO",
+        "source": "/projects/ODETTE/ODETTE_2.mp4"
       },
       {
         "id": "3",
@@ -60,11 +56,6 @@
         "id": "4",
         "type": "IMAGE",
         "source": "/projects/ODETTE/ODETTE_4.jpg"
-      },
-      {
-        "id": "4-5",
-        "type": "IMAGE",
-        "source": "/projects/ODETTE/ODETTE_4-5.jpg"
       },
       {
         "id": "5",
@@ -79,12 +70,7 @@
       {
         "id": "6",
         "type": "IMAGE",
-        "source": "/projects/ODETTE/ODETTE_6.jpg"
-      },
-      {
-        "id": "6-5",
-        "type": "VIDEO",
-        "source": "/projects/ODETTE/ODETTE_6-5.mp4"
+        "source": "/projects/ODETTE/ODETTE_6.gif"
       },
       {
         "id": "7",
@@ -99,7 +85,7 @@
       {
         "id": "9",
         "type": "IMAGE",
-        "source": "/projects/ODETTE/ODETTE_9.jpg"
+        "source": "/projects/ODETTE/ODETTE_9.gif"
       },
       {
         "id": "10",
@@ -109,7 +95,7 @@
       {
         "id": "11",
         "type": "IMAGE",
-        "source": "/projects/ODETTE/ODETTE_11.jpg"
+        "source": "/projects/ODETTE/ODETTE_11.gif"
       },
       {
         "id": "12",
@@ -118,23 +104,28 @@
       },
       {
         "id": "13",
-        "type": "VIDEO",
-        "source": "/projects/ODETTE/ODETTE_13.mp4"
+        "type": "IMAGE",
+        "source": "/projects/ODETTE/ODETTE_13.jpg"
       },
       {
         "id": "14",
         "type": "IMAGE",
-        "source": "/projects/ODETTE/ODETTE_14.jpg"
+        "source": "/projects/ODETTE/ODETTE_14.gif"
       },
       {
         "id": "15",
-        "type": "VIDEO",
-        "source": "/projects/ODETTE/ODETTE_15.mp4"
+        "type": "IMAGE",
+        "source": "/projects/ODETTE/ODETTE_15.gif"
       },
       {
         "id": "16",
         "type": "IMAGE",
         "source": "/projects/ODETTE/ODETTE_16.jpg"
+      },
+      {
+        "id": "17",
+        "type": "IMAGE",
+        "source": "/projects/ODETTE/ODETTE_17.gif"
       }
     ]
   },
@@ -407,42 +398,42 @@
       {
         "id": "1",
         "type": "IMAGE",
-        "source": "/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_1.jpg"
+        "source": "/projects/JARDINS_STATUAIRES/JARDINS_1.jpg"
       },
       {
         "id": "2",
         "type": "IMAGE",
-        "source": "/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_2.jpg"
+        "source": "/projects/JARDINS_STATUAIRES/JARDINS_2.jpg"
       },
       {
         "id": "3",
         "type": "IMAGE",
-        "source": "/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_3.jpg"
+        "source": "/projects/JARDINS_STATUAIRES/JARDINS_3.jpg"
       },
       {
         "id": "4",
         "type": "IMAGE",
-        "source": "/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_4.jpg"
+        "source": "/projects/JARDINS_STATUAIRES/JARDINS_4.gif"
       },
       {
         "id": "5",
         "type": "IMAGE",
-        "source": "/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_5.jpg"
+        "source": "/projects/JARDINS_STATUAIRES/JARDINS_5.jpg"
       },
       {
         "id": "6",
         "type": "IMAGE",
-        "source": "/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_6.jpg"
+        "source": "/projects/JARDINS_STATUAIRES/JARDINS_6.jpg"
       },
       {
         "id": "7",
         "type": "IMAGE",
-        "source": "/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_7.jpg"
+        "source": "/projects/JARDINS_STATUAIRES/JARDINS_7.jpg"
       },
       {
         "id": "8",
         "type": "IMAGE",
-        "source": "/projects/JARDINS_STATUAIRES/JARDINS_STATUAIRES_8.jpg"
+        "source": "/projects/JARDINS_STATUAIRES/JARDINS_8.jpg"
       }
     ]
   },
@@ -988,6 +979,7 @@
     "id": "13",
     "index":1,
     "title": "Aaryz",
+    "category": "Rebranding",
     "selected": {
       "sourceDesktop": "/projects/AARYZ/AARYZ_SELECTED_DESKTOP.jpg",
       "sourceMobile": "/projects/AARYZ/AARYZ_SELECTED_MOBILE.jpg",
@@ -1001,6 +993,8 @@
         "DA 360°"
       ],
       "content": [
+        "Ce projet de rebranding complet pour Aaryz, plateforme de mise en relation entre recruteurs et candidats, a donné lieu à une direction artistique 360° : création d'un logotype sur mesure, conception d'une mascotte illustrée dessinée à la main (une petite chouette à lunettes et chapeau), définition d'une palette chromatique forte autour du bordeaux profond et du crème, ainsi que la déclinaison de l'identité sur l'ensemble des supports de communication — digital, print et motion.",
+        "L'identité visuelle porte les deux signatures de la marque — « Voir juste. » et « Un œil pour le talent » — et s'applique aussi bien aux bannières événementielles et aux supports print qu'aux interfaces digitales et aux notifications mobiles, assurant une cohérence de marque sur tous les points de contact."
       ],
       "skills": [
         "Logotype",
@@ -1016,6 +1010,52 @@
       "mediaDesktop": "IMAGE",
       "mediaMobile": "IMAGE"
     },
-    "content": []
+    "content": [
+      {
+        "id": "1",
+        "type": "IMAGE",
+        "source": "/projects/AARYZ/AARYZ_1.gif"
+      },
+      {
+        "id": "2",
+        "type": "IMAGE",
+        "source": "/projects/AARYZ/AARYZ_2.jpg"
+      },
+      {
+        "id": "3",
+        "type": "IMAGE",
+        "source": "/projects/AARYZ/AARYZ_3.gif"
+      },
+      {
+        "id": "4",
+        "type": "IMAGE",
+        "source": "/projects/AARYZ/AARYZ_4.gif"
+      },
+      {
+        "id": "5",
+        "type": "VIDEO",
+        "source": "/projects/AARYZ/AARYZ_5.mp4"
+      },
+      {
+        "id": "6",
+        "type": "IMAGE",
+        "source": "/projects/AARYZ/AARYZ_6.gif"
+      },
+      {
+        "id": "7",
+        "type": "IMAGE",
+        "source": "/projects/AARYZ/AARYZ_7.jpg"
+      },
+      {
+        "id": "8",
+        "type": "IMAGE",
+        "source": "/projects/AARYZ/AARYZ_8.gif"
+      },
+      {
+        "id": "9",
+        "type": "IMAGE",
+        "source": "/projects/AARYZ/AARYZ_9.jpg"
+      }
+    ]
   }
 ]

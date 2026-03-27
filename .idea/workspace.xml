@@ -4,42 +4,188 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6eb5b1cc-e4c8-4a03-bc00-a59f2fd3c09c" name="Changes" comment="chlochlo">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/chlochlo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/chlochlo.jpg" afterDir="false" />
+    <list default="true" id="6eb5b1cc-e4c8-4a03-bc00-a59f2fd3c09c" name="Changes" comment="add new images">
+      <change beforePath="$PROJECT_DIR$/client/public/projects/AARYZ/AARYZ_1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/AARYZ/AARYZ_1.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/config/works.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/config/works.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/about/pages/about/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/about/pages/about/about.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/domains/works/pages/project/project.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/pages/project/project.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/works/pages/project/project.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/pages/project/project.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/works/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/types/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/Users/francoisdmq/Documents/Personal/chloe_portfolio" value="3BX0ne6dfCVOh30q27EkxOwD5YN" />
+    </persistenceIdMap>
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="545" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="design-rework" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "francoisdomecq"
+  }
+}]]></component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1774460764" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="design-rework" />
+                    <option name="lastUsedInstant" value="1774460763" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/francoisdomecq/chloe_portfolio.git",
+    "accountId": "6a3bb82f-7d89-4248-ad09-794836ff6995"
+  }
+}]]></component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="3BX0ne6dfCVOh30q27EkxOwD5YN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "git-widget-placeholder": "design-rework",
-    "last_opened_file_path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/public",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/public/projects/AARYZ",
+    "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "ts.external.directory.path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/node_modules/typescript/lib"
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/server/node_modules/prettier",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/public/projects/AARYZ" />
+      <recent name="$PROJECT_DIR$/client/public/projects/ODETTE" />
+      <recent name="$PROJECT_DIR$/client/public/projects/JARDINS_STATUAIRES" />
       <recent name="$PROJECT_DIR$/client/public" />
     </key>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.30387.90" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="translate projects">
+      <option name="closed" value="true" />
+      <created>1774460780445</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1774460780445</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6eb5b1cc-e4c8-4a03-bc00-a59f2fd3c09c" name="Changes" comment="translate projects" />
+      <created>1774620275756</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1774620275756</updated>
+      <workItem from="1774620278070" duration="1506000" />
+    </task>
+    <task id="LOCAL-00002" summary="add new images">
+      <option name="closed" value="true" />
+      <created>1774621299040</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1774621299040</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="translate projects" />
+    <MESSAGE value="add new images" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new images" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/domains/about/components/schools/schools.tsx</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>
