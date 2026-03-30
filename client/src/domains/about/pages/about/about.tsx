@@ -5,7 +5,7 @@ import { useRef, useState } from "react";
 import { useScroll, useMotionValueEvent } from "framer-motion";
 import { usePageSeo } from "@utils/usePageSeo";
 
-const SKILL_KEYS = ["direction", "typography", "identity", "social", "branding", "illustrations", "webdesign"] as const;
+const SKILL_KEYS = ["direction", "typography", "identity", "social", "branding", "illustration", "webdesign"] as const;
 
 export const About = ()=>{
   const {t}=useTranslation("about")

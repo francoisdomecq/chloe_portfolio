@@ -8,6 +8,7 @@ import ReactPlayer from "react-player";
 import {motion, useReducedMotion} from "framer-motion";
 import {fadeInUp, staggerContainer} from "@utils/animations";
 import {usePageSeo} from "@utils/usePageSeo";
+import {typo} from "@utils/typo";
 import {useIsDesktop} from "@utils/useIsDesktop";
 import {useEffect} from "react";
 
@@ -148,7 +149,7 @@ export const Project = () => {
           >
             <p className="project-description__label">{t("works.project.description")}</p>
             <div className="project-description__content">
-              {project.description.content.map(content=><p className="project-description__text" key={content}>{content}</p>)}
+              {project.description.content.map(content=><p className="project-description__text" key={content}>{typo(content)}</p>)}
             </div>
           </motion.div>
         </motion.div>
