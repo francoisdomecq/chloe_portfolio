@@ -29,6 +29,7 @@ interface ProjectDescription {
 
 interface Project {
   id: string;
+  slug: string;
   index:number;
   title: string;
   subtitle?: string;

@@ -15,7 +15,7 @@ export const Project = () => {
   const params = useParams();
   const {t} = useTranslation("works");
   const navigate = useNavigate();
-  const project:ProjectType|undefined = works.find(work=>work.id===params.id)
+  const project:ProjectType|undefined = works.find(work=>work.slug===params.slug)
   const isDesktop = useIsDesktop();
   const prefersReducedMotion = useReducedMotion();
 
@@ -149,7 +149,6 @@ export const Project = () => {
             <p className="project-description__label">{t("works.project.description")}</p>
             <div className="project-description__content">
               {project.description.content.map(content=><p className="project-description__text" key={content}>{content}</p>)}
-              {project.description?.coworkers?.map(content=><p key={content}>{content}</p>)}
             </div>
           </motion.div>
         </motion.div>

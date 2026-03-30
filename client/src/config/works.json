@@ -1,7 +1,8 @@
 [
   {
     "id": "1",
-    "index":6,
+    "slug": "odette",
+    "index": 6,
     "category": "Dessin de caractère et Édition ",
     "title": "Odette, la cuisine du souvenir",
     "selected": {
@@ -41,7 +42,6 @@
         "type": "IMAGE",
         "source": "/projects/ODETTE/ODETTE_1.jpg"
       },
-
       {
         "id": "2",
         "type": "VIDEO",
@@ -131,7 +131,8 @@
   },
   {
     "id": "3",
-    "index":12,
+    "slug": "xtrm-salomon",
+    "index": 12,
     "title": "XTRM Salomon",
     "category": "Campagne publicitaire et lettrage",
     "carousel": {
@@ -213,7 +214,8 @@
   },
   {
     "id": "4",
-    "index":10,
+    "slug": "chloe",
+    "index": 10,
     "title": "Chloé",
     "category": "Lettrage",
     "description": {
@@ -300,7 +302,8 @@
   },
   {
     "id": "5",
-    "index":11,
+    "slug": "pangram-pangram-foundry",
+    "index": 11,
     "title": "Pangram Pangram Foundry",
     "category": "Objet éditorial",
     "description": {
@@ -369,7 +372,8 @@
   },
   {
     "id": "6",
-    "index":7,
+    "slug": "jardins-statuaires",
+    "index": 7,
     "title": "Jardins Statuaires",
     "category": "Édition",
     "description": {
@@ -439,7 +443,8 @@
   },
   {
     "id": "7",
-    "index":4,
+    "slug": "hermes",
+    "index": 4,
     "title": "Hermès",
     "category": "Campagne publicitaire 360°",
     "selected": {
@@ -537,7 +542,8 @@
   },
   {
     "id": "8",
-    "index":9,
+    "slug": "mister-buns",
+    "index": 9,
     "title": "Mister Bun's",
     "category": "Branding",
     "description": {
@@ -618,7 +624,8 @@
   },
   {
     "id": "10",
-    "index":3,
+    "slug": "kaolyn",
+    "index": 3,
     "title": "Kaolyn",
     "category": "Branding",
     "selected": {
@@ -714,7 +721,8 @@
   },
   {
     "id": "9",
-    "index":5,
+    "slug": "communitee-adidas-x-caminotv",
+    "index": 5,
     "category": "Design textile",
     "title": "Communitee 2 Adidas X CaminoTV",
     "description": {
@@ -782,7 +790,8 @@
   },
   {
     "id": "11",
-    "index":8,
+    "slug": "payfit",
+    "index": 8,
     "title": "Payfit",
     "theme": "dark",
     "category": "Branding",
@@ -871,7 +880,8 @@
   },
   {
     "id": "12",
-    "index":2,
+    "slug": "kaze",
+    "index": 2,
     "title": "Kaze",
     "subtitle": "Le geste comme signature",
     "selected": {
@@ -887,8 +897,7 @@
         "Rebranding",
         "DA 360°"
       ],
-      "content": [
-      ],
+      "content": [],
       "skills": [
         "Direction artistique",
         "Lettrage",
@@ -960,15 +969,18 @@
         "id": "10",
         "type": "IMAGE",
         "source": "/projects/KAZE/KAZE_11.gif"
-      },  {
+      },
+      {
         "id": "11",
         "type": "IMAGE",
         "source": "/projects/KAZE/KAZE_12.jpg"
-      },  {
+      },
+      {
         "id": "12",
         "type": "IMAGE",
         "source": "/projects/KAZE/KAZE_13.jpg"
-      },  {
+      },
+      {
         "id": "13",
         "type": "IMAGE",
         "source": "/projects/KAZE/KAZE_14.jpg"
@@ -977,7 +989,8 @@
   },
   {
     "id": "13",
-    "index":1,
+    "slug": "aaryz",
+    "index": 1,
     "title": "Aaryz",
     "category": "Rebranding",
     "selected": {

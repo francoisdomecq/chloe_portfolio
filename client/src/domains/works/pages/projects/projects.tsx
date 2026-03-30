@@ -25,7 +25,7 @@ export const Projects=()=>{
 
   const handleProjectClick = useCallback((e: React.MouseEvent, project: Project) => {
     e.preventDefault();
-    navigate(`/works/${project.id}`);
+    navigate(`/works/${project.slug}`);
   }, [navigate]);
 
   useEffect(() => {
@@ -73,7 +73,7 @@ export const Projects=()=>{
   const renderWork= (work:Project)=>{
     if(isDesktop){
       return (
-        <a href={`/works/${work.id}`} className="projects-grid__project" onMouseEnter={()=>setHoveredProject(work)} onMouseLeave={()=>setHoveredProject(undefined)} key={work.id} onClick={(e) => handleProjectClick(e, work)}>
+        <a href={`/works/${work.slug}`} className="projects-grid__project" onMouseEnter={()=>setHoveredProject(work)} onMouseLeave={()=>setHoveredProject(undefined)} key={work.id} onClick={(e) => handleProjectClick(e, work)}>
           {work.carousel?.mediaDesktop === "VIDEO" ?
             <ReactPlayer src={work.carousel.sourceDesktop}  width="100%" height="100%" className="selection-grid__item" muted autoPlay loop controls={false}/>
             :
@@ -83,7 +83,7 @@ export const Projects=()=>{
       )
     }
     return (
-      <a href={`/works/${work.id}`} className="projects-grid__project" onMouseEnter={()=>setHoveredProject(work)} onMouseLeave={()=>setHoveredProject(undefined)} key={work.id} onClick={(e) => handleProjectClick(e, work)}>
+      <a href={`/works/${work.slug}`} className="projects-grid__project" onMouseEnter={()=>setHoveredProject(work)} onMouseLeave={()=>setHoveredProject(undefined)} key={work.id} onClick={(e) => handleProjectClick(e, work)}>
         {work.carousel?.mediaMobile === "VIDEO" ?
           <ReactPlayer src={work.carousel.sourceMobile} width="100%" height="100%" className="selection-grid__item" muted autoPlay loop controls={false}/>
           :

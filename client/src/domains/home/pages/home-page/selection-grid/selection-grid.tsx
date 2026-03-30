@@ -13,9 +13,9 @@ export const SelectionGrid = () => {
   const renderWork= (work:Project, index: number)=>{
     if(isDesktop){
       return (
-        <a key={work.id} href={`/works/${work.id}`} aria-label={work.title} onClick={(e) => {
+        <a key={work.id} href={`/works/${work.slug}`} aria-label={work.title} onClick={(e) => {
           e.preventDefault();
-          navigate(`/works/${work.id}`);
+          navigate(`/works/${work.slug}`);
         }}>
           {work.selected?.mediaDesktop === "VIDEO" ?
             <ReactPlayer src={work.selected.sourceDesktop}  width="100%" height="100%" className="selection-grid__item" muted autoPlay loop controls={false}/>
@@ -26,7 +26,7 @@ export const SelectionGrid = () => {
       )
     }
     return work.selected?.sourceMobile && (
-      <a key={work.id} href={`/works/${work.id}`} aria-label={work.title}>
+      <a key={work.id} href={`/works/${work.slug}`} aria-label={work.title}>
         {work.selected?.mediaMobile === "VIDEO" ?
           <video src={work.selected.sourceMobile} className="selection-grid__item" muted autoPlay loop playsInline/>
           :
