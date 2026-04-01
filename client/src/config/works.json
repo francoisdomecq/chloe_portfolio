@@ -7,7 +7,7 @@
     "title": "Odette, la cuisine du souvenir",
     "selected": {
       "sourceDesktop": "/projects/ODETTE/ODETTE_SELECTED_DESKTOP.mp4",
-      "sourceMobile": "/projects/ODETTE/ODETTE_SELECTED_MOBILE.png",
+      "sourceMobile": "/projects/ODETTE/ODETTE_SELECTED_MOBILE.gif",
       "mediaDesktop": "VIDEO",
       "mediaMobile": "IMAGE"
     },
@@ -630,7 +630,7 @@
     "category": "Branding",
     "selected": {
       "sourceDesktop": "/projects/KAOLYN/KAOLYN_SELECTED_DESKTOP.gif",
-      "sourceMobile": "/projects/KAOLYN/KAOLYN_SELECTED_MOBILE.jpg",
+      "sourceMobile": "/projects/KAOLYN/KAOLYN_SELECTED_MOBILE.gif",
       "mediaDesktop": "IMAGE",
       "mediaMobile": "IMAGE"
     },
@@ -797,7 +797,9 @@
     "category": "Branding",
     "selected": {
       "sourceDesktop": "/projects/PAYFIT/PAYFIT_SELECTED_DESKTOP.mp4",
-      "mediaDesktop": "VIDEO"
+      "mediaDesktop": "VIDEO",
+      "sourceMobile": "/projects/PAYFIT/PAYFIT_SELECTED_MOBILE.gif",
+      "mediaMobile": "IMAGE"
     },
     "description": {
       "title": "Payfit",
@@ -886,7 +888,7 @@
     "subtitle": "Le geste comme signature",
     "selected": {
       "sourceDesktop": "/projects/KAZE/KAZE_SELECTED_DESKTOP.mp4",
-      "sourceMobile": "/projects/KAZE/KAZE_SELECTED_MOBILE.jpg",
+      "sourceMobile": "/projects/KAZE/KAZE_SELECTED_MOBILE.gif",
       "mediaDesktop": "VIDEO",
       "mediaMobile": "IMAGE"
     },
@@ -998,8 +1000,8 @@
     "title": "Aaryz",
     "category": "Rebranding",
     "selected": {
-      "sourceDesktop": "/projects/AARYZ/AARYZ_SELECTED_DESKTOP.jpg",
-      "sourceMobile": "/projects/AARYZ/AARYZ_SELECTED_MOBILE.jpg",
+      "sourceDesktop": "/projects/AARYZ/AARYZ_SELECTED_MOBILE.gif",
+      "sourceMobile": "/projects/AARYZ/AARYZ_SELECTED_MOBILE.gif",
       "mediaDesktop": "IMAGE",
       "mediaMobile": "IMAGE"
     },

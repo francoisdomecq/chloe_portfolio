@@ -4,32 +4,109 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3553796-2a6e-4666-9c4b-e51a3a42a34d" name="Changes" comment="add project slug">
-      <change beforePath="$PROJECT_DIR$/client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/theme/shared.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/theme/shared.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/works/pages/project/project.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/pages/project/project.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="d3553796-2a6e-4666-9c4b-e51a3a42a34d" name="Changes" comment="aaryz description">
+      <change afterPath="$PROJECT_DIR$/client/public/projects/AARYZ/AARYZ_SELECTED_MOBILE.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/CHLOE/CHLOE.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/JARDINS_STATUAIRES/JARDINS_SELECTED_MOBILE.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_LINKEDIN_2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_SELECTED_MOBILE.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_SELECTED_MOBILE.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_SELECTED_MOBILE.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_SELECTED_MOBILE.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/AARYZ/AARYZ_SELECTED_MOBILE.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_ARTICLE_MOBILE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_SELECTED_MOBILE.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_SELECTED_MOBILE.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_SELECTED_MOBILE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/config/works.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/config/works.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/footer/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/footer/footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/articles.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/articles.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/Users/francoisdmq/Documents/Personal/chloe_portfolio" value="3BkrWQ4m18cvFeQaH1zeMdCew5K" />
+    </persistenceIdMap>
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="553" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "francoisdomecq"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/francoisdomecq/chloe_portfolio.git",
+    "accountId": "6a3bb82f-7d89-4248-ad09-794836ff6995"
+  }
+}]]></component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="3BkrWQ4m18cvFeQaH1zeMdCew5K" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/public/projects/KAOLYN",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "ts.external.directory.path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/node_modules/typescript/lib"
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/server/node_modules/prettier",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/public/projects/KAOLYN" />
+      <recent name="$PROJECT_DIR$/client/public/projects/PAYFIT" />
+      <recent name="$PROJECT_DIR$/client/public/projects/AARYZ" />
+      <recent name="$PROJECT_DIR$/client/public/projects/KAZE" />
+      <recent name="$PROJECT_DIR$/client/public/projects/JARDINS_STATUAIRES" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.30387.90" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="add project slug">
       <option name="closed" value="true" />
@@ -39,11 +116,57 @@
       <option name="project" value="LOCAL" />
       <updated>1774879107635</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update typo">
+      <option name="closed" value="true" />
+      <created>1774879489935</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1774879489935</updated>
+    </task>
+    <task id="LOCAL-00003" summary="kaze description">
+      <option name="closed" value="true" />
+      <created>1774888012618</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1774888012618</updated>
+    </task>
+    <task id="LOCAL-00004" summary="aaryz description">
+      <option name="closed" value="true" />
+      <created>1775026197411</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1775026197411</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d3553796-2a6e-4666-9c4b-e51a3a42a34d" name="Changes" comment="aaryz description" />
+      <created>1775043940272</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1775043940272</updated>
+      <workItem from="1775043942557" duration="1422000" />
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add project slug" />
-    <option name="LAST_COMMIT_MESSAGE" value="add project slug" />
+    <MESSAGE value="update typo" />
+    <MESSAGE value="kaze description" />
+    <MESSAGE value="aaryz description" />
+    <option name="LAST_COMMIT_MESSAGE" value="aaryz description" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>

@@ -31,7 +31,7 @@ export const Footer = () => {
                   {t("footer.home")}
                 </a>
                 {NAV_TABS.map(navTab=>
-                  <a  key={navTab.key} href={navTab.key} className="footer__link">{t(`navbar.tabs.${navTab.key}`)}</a>)
+                  <a key={navTab.key} href={`/${navTab.key}`} className="footer__link">{t(`navbar.tabs.${navTab.key}`)}</a>)
                 }
               </nav>
             </div>
