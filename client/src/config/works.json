@@ -487,7 +487,7 @@
   {
     "id": "9",
     "slug": "communitee-adidas-x-caminotv",
-    "index": 5,
+    "index": 8,
     "category": "Design textile",
     "title": "Communitee 2 Adidas X CaminoTV",
     "description": {
@@ -556,7 +556,7 @@
   {
     "id": "11",
     "slug": "payfit",
-    "index": 8,
+    "index": 9,
     "title": "Payfit",
     "theme": "dark",
     "category": "Branding",
@@ -845,7 +845,7 @@
   {
     "id": "14",
     "slug": "barenia-hermes",
-    "index": 9,
+    "index": 4,
     "title": "Barénia Hermès",
     "category": "Campagne publicitaire 360°",
     "description": {
@@ -872,7 +872,8 @@
         "Anastasiia Duvallié - Photographe (beautyshot)",
         "Kevin Aldrich - Assistant photo",
         "Tsuvasa Saïkusa - Digital operator"
-      ]
+      ],
+      "fonts": ""
     },
     "date": "2024",
     "carousel": {
