@@ -100,6 +100,7 @@ export const Project = () => {
     );
   }
 
+  const projectCoworkers = project?.description?.coworkers?.join(', ');
   return project && (
     <PortfolioPage >
       <div className="project">
@@ -150,6 +151,8 @@ export const Project = () => {
             <p className="project-description__label">{t("works.project.description")}</p>
             <div className="project-description__content">
               {project.description.content.map(content=><p className="project-description__text" key={content}>{typo(content)}</p>)}
+              <p className="project-description__coworkers">{projectCoworkers}</p>
+
             </div>
           </motion.div>
         </motion.div>

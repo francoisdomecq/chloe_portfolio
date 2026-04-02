@@ -118,29 +118,34 @@
 }
 
 .footer__big-name {
-  width: 100%;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  margin-top: auto;
-  overflow-y: hidden;
-
-  span {
-    font-family: var(--title-font);
-    font-weight: 400;
-    color: var(--color-bg);
-    text-transform: uppercase;
-    font-size: 11vw;
-    letter-spacing: -0.02em;
-    white-space: nowrap;
-    line-height: 1;
-    transform: translateY(0.15em);
-    overflow-x: visible;
-  }
+  display:none;
 }
 
 // ─── Tablette ≥ sm ────────────────────────────────
 @include respond-to(sm) {
+
+  .footer__big-name {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: auto;
+    overflow-y: hidden;
+
+    span {
+      font-family: var(--title-font);
+      font-weight: 400;
+      color: var(--color-bg);
+      text-transform: uppercase;
+      font-size: 11vw;
+      letter-spacing: -0.02em;
+      white-space: nowrap;
+      line-height: 1;
+      transform: translateY(0.15em);
+      overflow-x: visible;
+    }
+  }
+
   .footer__columns {
     flex-direction: row;
     justify-content: space-between;

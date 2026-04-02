@@ -31,7 +31,7 @@
     },
     "carousel": {
       "sourceDesktop": "/projects/WORKS_DESKTOP/ODETTE.mp4",
-      "sourceMobile": "/projects/WORKS_MOBILE/ODETTE.jpg",
+      "sourceMobile": "/projects/WORKS_MOBILE/ODETTE.gif",
       "mediaDesktop": "VIDEO",
       "mediaMobile": "IMAGE"
     },
@@ -130,89 +130,6 @@
     ]
   },
   {
-    "id": "3",
-    "slug": "xtrm-salomon",
-    "index": 12,
-    "title": "XTRM Salomon",
-    "category": "Campagne publicitaire et lettrage",
-    "carousel": {
-      "sourceDesktop": "/projects/WORKS_DESKTOP/SALOMON.mp4",
-      "sourceMobile": "/projects/WORKS_MOBILE/SALOMON.jpg",
-      "mediaDesktop": "VIDEO",
-      "mediaMobile": "IMAGE"
-    },
-    "description": {
-      "title": "XTRM by Salomon",
-      "subtitle": [
-        "Advertising campaign"
-      ],
-      "content": [
-        "Pour Salomon, j’ai développé la campagne publicitaire XTRM, destinée aux athlètes et aux aventuriers qui repoussent les limites de la performance dans des environnements extrêmes. Le concept XTRM s’articule autour du dépassement de l’ordinaire grâce à une fusion entre innovation de pointe, durabilité et design futuriste. Mettant en avant des produits phares tels que des chaussures de trail, des vestes techniques et du matériel de ski, la campagne souligne la capacité de Salomon à équiper les athlètes d’un matériel de pointe pour relever les défis les plus exigeants.",
-        "L’identité visuelle se caractérise par une typographie audacieuse et nette, des couleurs intenses comme le noir, le rouge et le cyan, ainsi que des images dynamiques capturant des athlètes en action au sein de paysages spectaculaires et accidentés. XTRM incarne l’esprit d’exploration et la conquête de terrains hostiles, reflétant la mission de Salomon qui consiste à soutenir chaque athlète dans sa quête pour repousser ses limites personnelles."
-      ],
-      "skills": [
-        "Campagne publicitaire print",
-        "Branding",
-        "Montage vidéo",
-        "Film publicitaire"
-      ],
-      "fonts": "Aktiv Grotesk by Dalton Maag for Adobe Fonts"
-    },
-    "date": "2024",
-    "content": [
-      {
-        "id": "1",
-        "type": "IMAGE",
-        "source": "/projects/XTRM/XTRM_1.jpg"
-      },
-      {
-        "id": "2",
-        "type": "IMAGE",
-        "source": "/projects/XTRM/XTRM_2.jpg"
-      },
-      {
-        "id": "3",
-        "type": "IMAGE",
-        "source": "/projects/XTRM/XTRM_3.jpg"
-      },
-      {
-        "id": "4",
-        "type": "IMAGE",
-        "source": "/projects/XTRM/XTRM_4.jpg"
-      },
-      {
-        "id": "5",
-        "type": "VIDEO",
-        "source": "/projects/XTRM/XTRM_5.mp4"
-      },
-      {
-        "id": "6",
-        "type": "IMAGE",
-        "source": "/projects/XTRM/XTRM_6.jpg"
-      },
-      {
-        "id": "7",
-        "type": "IMAGE",
-        "source": "/projects/XTRM/XTRM_7.jpg"
-      },
-      {
-        "id": "8",
-        "type": "VIDEO",
-        "source": "/projects/XTRM/XTRM_8.mp4"
-      },
-      {
-        "id": "9",
-        "type": "IMAGE",
-        "source": "/projects/XTRM/XTRM_9.jpg"
-      },
-      {
-        "id": "10",
-        "type": "IMAGE",
-        "source": "/projects/XTRM/XTRM_10.jpg"
-      }
-    ]
-  },
-  {
     "id": "4",
     "slug": "chloe",
     "index": 10,
@@ -301,76 +218,6 @@
     ]
   },
   {
-    "id": "5",
-    "slug": "pangram-pangram-foundry",
-    "index": 11,
-    "title": "Pangram Pangram Foundry",
-    "category": "Objet éditorial",
-    "description": {
-      "title": "PangramPangram Foundry",
-      "subtitle": [
-        "Typographic specimen",
-        "Editorial object"
-      ],
-      "content": [
-        "Ce projet est un spécimen typographique conçu pour la fonderie Pangram Pangram. Il se présente sous la forme d'un coffret contenant des affiches, chacune consacrée à une police de caractères spécifique. Chaque affiche est composée de 8 cartes postales, ce qui renforce la philosophie de partage et d'accessibilité de la fonderie. Le design met l'accent sur l'idée de diffuser les polices de la fonderie, en encourageant les utilisateurs à explorer et à partager ces polices, amplifiant ainsi la créativité et la collaboration au sein de la communauté du design."
-      ],
-      "skills": [
-        "Objet éditorial",
-        "Typographie",
-        "Mise en page",
-        "Découpe vinyle",
-        "Gravure",
-        "Finition"
-      ],
-      "fonts": "Several fonts created by PangramPangram"
-    },
-    "date": "2022",
-    "carousel": {
-      "sourceDesktop": "/projects/WORKS_DESKTOP/PANGRAM.mp4",
-      "sourceMobile": "/projects/WORKS_MOBILE/PANGRAM.jpg",
-      "mediaDesktop": "VIDEO",
-      "mediaMobile": "IMAGE"
-    },
-    "content": [
-      {
-        "id": "1",
-        "type": "IMAGE",
-        "source": "/projects/PPF/PPF_1.jpg"
-      },
-      {
-        "id": "2",
-        "type": "IMAGE",
-        "source": "/projects/PPF/PPF_2.jpg"
-      },
-      {
-        "id": "3",
-        "type": "IMAGE",
-        "source": "/projects/PPF/PPF_3.jpg"
-      },
-      {
-        "id": "4",
-        "type": "IMAGE",
-        "source": "/projects/PPF/PPF_4.jpg"
-      },
-      {
-        "id": "5",
-        "type": "IMAGE",
-        "source": "/projects/PPF/PPF_5.jpg"
-      },
-      {
-        "id": "6",
-        "type": "VIDEO",
-        "source": "/projects/PPF/PPF_6.mp4"
-      },
-      {
-        "id": "7",
-        "type": "IMAGE",
-        "source": "/projects/PPF/PPF_7.jpg"
-      }
-    ]
-  },
-  {
     "id": "6",
     "slug": "jardins-statuaires",
     "index": 7,
@@ -443,9 +290,9 @@
   },
   {
     "id": "7",
-    "slug": "hermes",
+    "slug": "noel-hermes",
     "index": 4,
-    "title": "Hermès",
+    "title": "Noël Hermès",
     "category": "Campagne publicitaire 360°",
     "selected": {
       "sourceDesktop": "/projects/HERMES/HERMES_SELECTED_DESKTOP.jpg",
@@ -541,88 +388,6 @@
     ]
   },
   {
-    "id": "8",
-    "slug": "mister-buns",
-    "index": 9,
-    "title": "Mister Bun's",
-    "category": "Branding",
-    "description": {
-      "title": "Mr. Bun’s",
-      "subtitle": [
-        "Identité visuelle"
-      ],
-      "content": [
-        "Ce projet d'identité visuelle a été conçu pour une petite sandwicherie londonienne proposant un concept novateur de sandwichs sucrés et salés à base de brioche. L'ensemble de la direction artistique s'articule autour d'une mascotte espiègle et d'une ambiance ludique et dynamique, reflétant ainsi l'originalité et l'atmosphère conviviale de l'établissement. Le design vise à attirer un public jeune et dynamique tout en mettant en avant l'approche unique et décontractée de la sandwicherie."
-      ],
-      "skills": [
-        "Packaging",
-        "Branding",
-        "Logotype",
-        "Illustrations"
-      ],
-      "fonts": "Bevellier, display typography designed by Indian Type Foundry"
-    },
-    "date": "2022",
-    "carousel": {
-      "sourceDesktop": "/projects/WORKS_DESKTOP/M_BUNS.jpg",
-      "sourceMobile": "/projects/WORKS_MOBILE/M_BUNS.jpg",
-      "mediaDesktop": "IMAGE",
-      "mediaMobile": "IMAGE"
-    },
-    "content": [
-      {
-        "id": "1",
-        "type": "IMAGE",
-        "source": "/projects/BUNS/BUNS_1.jpg"
-      },
-      {
-        "id": "2",
-        "type": "IMAGE",
-        "source": "/projects/BUNS/BUNS_2.jpg"
-      },
-      {
-        "id": "3",
-        "type": "IMAGE",
-        "source": "/projects/BUNS/BUNS_3.jpg"
-      },
-      {
-        "id": "4",
-        "type": "IMAGE",
-        "source": "/projects/BUNS/BUNS_4.jpg"
-      },
-      {
-        "id": "5",
-        "type": "IMAGE",
-        "source": "/projects/BUNS/BUNS_5.jpg"
-      },
-      {
-        "id": "6",
-        "type": "IMAGE",
-        "source": "/projects/BUNS/BUNS_6.jpg"
-      },
-      {
-        "id": "7",
-        "type": "IMAGE",
-        "source": "/projects/BUNS/BUNS_7.jpg"
-      },
-      {
-        "id": "8",
-        "type": "IMAGE",
-        "source": "/projects/BUNS/BUNS_8.jpg"
-      },
-      {
-        "id": "9",
-        "type": "IMAGE",
-        "source": "/projects/BUNS/BUNS_9.jpg"
-      },
-      {
-        "id": "10",
-        "type": "IMAGE",
-        "source": "/projects/BUNS/BUNS_10.jpg"
-      }
-    ]
-  },
-  {
     "id": "10",
     "slug": "kaolyn",
     "index": 3,
@@ -656,7 +421,7 @@
     "date": "2025",
     "carousel": {
       "sourceDesktop": "/projects/WORKS_DESKTOP/KAOLYN.gif",
-      "sourceMobile": "/projects/WORKS_MOBILE/KAOLYN.jpg",
+      "sourceMobile": "/projects/WORKS_MOBILE/KAOLYN.gif",
       "mediaDesktop": "IMAGE",
       "mediaMobile": "IMAGE"
     },
@@ -741,7 +506,7 @@
     "date": "2025",
     "carousel": {
       "sourceDesktop": "/projects/WORKS_DESKTOP/ADIDAS.mov",
-      "sourceMobile": "/projects/WORKS_MOBILE/ADIDAS.jpg",
+      "sourceMobile": "/projects/WORKS_MOBILE/ADIDAS.gif",
       "mediaDesktop": "VIDEO",
       "mediaMobile": "IMAGE"
     },
@@ -823,7 +588,7 @@
     "date": "2025",
     "carousel": {
       "sourceDesktop": "/projects/WORKS_DESKTOP/PAYFIT.mp4",
-      "sourceMobile": "/projects/WORKS_MOBILE/PAYFIT.jpg",
+      "sourceMobile": "/projects/WORKS_MOBILE/PAYFIT.gif",
       "mediaDesktop": "VIDEO",
       "mediaMobile": "IMAGE"
     },
@@ -916,7 +681,7 @@
     "date": "2025",
     "carousel": {
       "sourceDesktop": "/projects/WORKS_DESKTOP/KAZE.mp4",
-      "sourceMobile": "/projects/WORKS_MOBILE/KAZE.jpg",
+      "sourceMobile": "/projects/WORKS_MOBILE/KAZE.gif",
       "mediaDesktop": "VIDEO",
       "mediaMobile": "IMAGE"
     },
@@ -1025,7 +790,7 @@
     "date": "2026",
     "carousel": {
       "sourceDesktop": "/projects/WORKS_DESKTOP/AARYZ.jpg",
-      "sourceMobile": "/projects/WORKS_MOBILE/AARYZ.jpg",
+      "sourceMobile": "/projects/WORKS_MOBILE/AARYZ.gif",
       "mediaDesktop": "IMAGE",
       "mediaMobile": "IMAGE"
     },
@@ -1074,6 +839,83 @@
         "id": "9",
         "type": "IMAGE",
         "source": "/projects/AARYZ/AARYZ_9.jpg"
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "slug": "barenia-hermes",
+    "index": 9,
+    "title": "Barénia Hermès",
+    "category": "Campagne publicitaire 360°",
+    "description": {
+      "title": "Barénia Hermès",
+      "subtitle": [
+        "Advertising campaign",
+        "Beautyshot"
+      ],
+      "content": [
+        "Campagne lancement Eau de parfum Barénia, par Hermès. Assistante de direction artistique sur la phase de conception et de production des beautyshots, puis direction artistique du shooting beautyshot. Participation à l'élaboration de l'univers créatif et pilotage de l'image sur le plateau, en cohérence avec l'identité de la maison."
+      ],
+      "skills": [
+        "Direction artistique",
+        "Beautyshot",
+        "Production",
+        "Assistant DA"
+      ],
+      "coworkers": [
+        "Publicis EtNous - Agence",
+        "Hermès - Client",
+        "Fabien Mouillard - Directeur de création",
+        "Maud Lepetit - Direction artistique",
+        "Camille Salus - Direction artistique",
+        "Anastasiia Duvallié - Photographe (beautyshot)",
+        "Kevin Aldrich - Assistant photo",
+        "Tsuvasa Saïkusa - Digital operator"
+      ]
+    },
+    "date": "2024",
+    "carousel": {
+      "sourceDesktop": "/projects/WORKS_DESKTOP/BARENIA_DESKTOP.jpg",
+      "sourceMobile": "/projects/WORKS_MOBILE/BARENIA_MOBILE.jpg",
+      "mediaDesktop": "IMAGE",
+      "mediaMobile": "IMAGE"
+    },
+    "content": [
+      {
+        "id": "1",
+        "type": "IMAGE",
+        "source": "/projects/BARENIA/BARENIA_1.jpg"
+      },
+      {
+        "id": "2",
+        "type": "IMAGE",
+        "source": "/projects/BARENIA/BARENIA_2.jpg"
+      },
+      {
+        "id": "3",
+        "type": "IMAGE",
+        "source": "/projects/BARENIA/BARENIA_3.jpg"
+      },
+      {
+        "id": "4",
+        "type": "IMAGE",
+        "source": "/projects/BARENIA/BARENIA_4.jpg"
+      },
+      {
+        "id": "5",
+        "type": "IMAGE",
+        "source": "/projects/BARENIA/BARENIA_5.jpg"
+      },
+      {
+        "id": "6",
+        "type": "IMAGE",
+        "source": "/projects/BARENIA/BARENIA_6.jpg"
+      },
+      {
+        "id": "7",
+        "type": "IMAGE",
+        "source": "/projects/BARENIA/BARENIA_7.jpg"
       }
     ]
   }

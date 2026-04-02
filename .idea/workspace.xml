@@ -4,24 +4,65 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3553796-2a6e-4666-9c4b-e51a3a42a34d" name="Changes" comment="aaryz description">
-      <change afterPath="$PROJECT_DIR$/client/public/projects/AARYZ/AARYZ_SELECTED_MOBILE.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/CHLOE/CHLOE.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/JARDINS_STATUAIRES/JARDINS_SELECTED_MOBILE.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_LINKEDIN_2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_SELECTED_MOBILE.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_SELECTED_MOBILE.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_SELECTED_MOBILE.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_SELECTED_MOBILE.gif" afterDir="false" />
+    <list default="true" id="d3553796-2a6e-4666-9c4b-e51a3a42a34d" name="Changes" comment="update files">
+      <change afterPath="$PROJECT_DIR$/client/public/projects/BARENIA/BARENIA_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/BARENIA/BARENIA_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/BARENIA/BARENIA_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/BARENIA/BARENIA_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/BARENIA/BARENIA_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/AARYZ.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/ADIDAS.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/BARENIA_MOBILE.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/KAOLYN.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/ODETTE.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/PAYFIT.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/AARYZ/AARYZ_SELECTED_MOBILE.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_ARTICLE_MOBILE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_SELECTED_MOBILE.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_SELECTED_MOBILE.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_SELECTED_MOBILE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/BUNS/BUNS_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/BUNS/BUNS_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/BUNS/BUNS_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/BUNS/BUNS_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/BUNS/BUNS_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/BUNS/BUNS_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/BUNS/BUNS_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/BUNS/BUNS_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/BUNS/BUNS_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/BUNS/BUNS_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PPF/PPF_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PPF/PPF_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PPF/PPF_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PPF/PPF_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PPF/PPF_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PPF/PPF_6.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PPF/PPF_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/WORKS_DESKTOP/M_BUNS.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/WORKS_DESKTOP/BARENIA_DESKTOP.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/WORKS_DESKTOP/PANGRAM.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/WORKS_DESKTOP/SALOMON.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/BARENIA/BARENIA_5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/AARYZ.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/BARENIA/BARENIA_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/ADIDAS.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/KAOLYN.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/KAZE.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/M_BUNS.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/KAZE.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/ODETTE.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/PANGRAM.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/PAYFIT.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/SALOMON.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/XTRM/XTRM_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/XTRM/XTRM_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/XTRM/XTRM_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/XTRM/XTRM_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/XTRM/XTRM_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/XTRM/XTRM_5.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/XTRM/XTRM_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/XTRM/XTRM_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/XTRM/XTRM_8.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/XTRM/XTRM_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/config/i18n/works.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/config/i18n/works.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/config/works.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/config/works.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/footer/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/footer/footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/articles.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/articles.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/footer/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/footer/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/core/theme/shared.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/theme/shared.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/article/article.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/article/article.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/works/pages/project/project.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/pages/project/project.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/works/pages/project/project.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/pages/project/project.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +120,7 @@
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/public/projects/KAOLYN",
+    "last_opened_file_path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/public/projects/WORKS_DESKTOP",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -92,11 +133,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/public/projects/WORKS_DESKTOP" />
+      <recent name="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE" />
+      <recent name="$PROJECT_DIR$/client/public/projects" />
       <recent name="$PROJECT_DIR$/client/public/projects/KAOLYN" />
       <recent name="$PROJECT_DIR$/client/public/projects/PAYFIT" />
-      <recent name="$PROJECT_DIR$/client/public/projects/AARYZ" />
-      <recent name="$PROJECT_DIR$/client/public/projects/KAZE" />
-      <recent name="$PROJECT_DIR$/client/public/projects/JARDINS_STATUAIRES" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -146,9 +187,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1775043940272</updated>
-      <workItem from="1775043942557" duration="1422000" />
+      <workItem from="1775043942557" duration="4314000" />
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update files">
+      <option name="closed" value="true" />
+      <created>1775046742881</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1775046742881</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,7 +208,8 @@
     <MESSAGE value="update typo" />
     <MESSAGE value="kaze description" />
     <MESSAGE value="aaryz description" />
-    <option name="LAST_COMMIT_MESSAGE" value="aaryz description" />
+    <MESSAGE value="update files" />
+    <option name="LAST_COMMIT_MESSAGE" value="update files" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

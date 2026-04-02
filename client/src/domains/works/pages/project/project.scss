@@ -166,6 +166,10 @@
   }
 }
 
+.project-description__coworkers{
+  font-size: var(--font-size-body-s);
+}
+
 // ─── Desktop ≥ lg — côte à côte ───────────────────
 @include respond-to(lg) {
   .project {

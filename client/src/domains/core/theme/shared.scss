@@ -41,7 +41,7 @@
 p, li, blockquote {
   text-rendering: optimizeLegibility;
   font-feature-settings: "liga" 1, "kern" 1, "onum" 1;
-  hyphens: auto;
+  hyphens: none;
   overflow-wrap: break-word;
   orphans: 2;
   widows: 2;

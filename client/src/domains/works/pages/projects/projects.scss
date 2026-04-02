@@ -111,6 +111,21 @@
   .projects-grid {
     grid-template-columns: repeat(4, 1fr);
     gap: sp(xl);
+    align-items: start;
+  }
+
+  .projects-grid__project {
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .selection-grid__item {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
   .project__title {
