@@ -4,65 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3553796-2a6e-4666-9c4b-e51a3a42a34d" name="Changes" comment="update files">
-      <change afterPath="$PROJECT_DIR$/client/public/projects/BARENIA/BARENIA_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/BARENIA/BARENIA_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/BARENIA/BARENIA_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/BARENIA/BARENIA_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/BARENIA/BARENIA_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/AARYZ.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/ADIDAS.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/BARENIA_MOBILE.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/KAOLYN.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/ODETTE.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/PAYFIT.gif" afterDir="false" />
+    <list default="true" id="d3553796-2a6e-4666-9c4b-e51a3a42a34d" name="Changes" comment="fix build">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/BUNS/BUNS_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/BUNS/BUNS_10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/BUNS/BUNS_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/BUNS/BUNS_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/BUNS/BUNS_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/BUNS/BUNS_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/BUNS/BUNS_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/BUNS/BUNS_7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/BUNS/BUNS_8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/BUNS/BUNS_9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/PPF/PPF_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/PPF/PPF_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/PPF/PPF_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/PPF/PPF_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/PPF/PPF_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/PPF/PPF_6.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/PPF/PPF_7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/WORKS_DESKTOP/M_BUNS.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/WORKS_DESKTOP/BARENIA_DESKTOP.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/WORKS_DESKTOP/PANGRAM.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/WORKS_DESKTOP/SALOMON.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/BARENIA/BARENIA_5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/AARYZ.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/BARENIA/BARENIA_2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/ADIDAS.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/KAOLYN.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/KAZE.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/M_BUNS.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/KAZE.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/ODETTE.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/PANGRAM.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/PAYFIT.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/SALOMON.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/XTRM/XTRM_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/XTRM/XTRM_10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/XTRM/XTRM_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/XTRM/XTRM_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/XTRM/XTRM_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/XTRM/XTRM_5.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/XTRM/XTRM_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/XTRM/XTRM_7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/XTRM/XTRM_8.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/projects/XTRM/XTRM_9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/config/i18n/works.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/config/i18n/works.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/config/works.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/config/works.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/footer/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/footer/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/theme/shared.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/theme/shared.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/article/article.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/article/article.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/works/pages/project/project.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/pages/project/project.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/works/pages/project/project.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/works/pages/project/project.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/config/i18n/about.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/config/i18n/about.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/about/pages/about/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/about/pages/about/about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/about/pages/about/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/about/pages/about/about.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,24 +21,24 @@
     </persistenceIdMap>
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="553" />
+    <option name="cachedIndexableFilesCount" value="533" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "francoisdomecq"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;francoisdomecq&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/francoisdomecq/chloe_portfolio.git",
-    "accountId": "6a3bb82f-7d89-4248-ad09-794836ff6995"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/francoisdomecq/chloe_portfolio.git&quot;,
+    &quot;accountId&quot;: &quot;6a3bb82f-7d89-4248-ad09-794836ff6995&quot;
   }
-}]]></component>
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -100,37 +46,37 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="3BkrWQ4m18cvFeQaH1zeMdCew5K" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/public/projects/WORKS_DESKTOP",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/server/node_modules/prettier",
-    "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/public/projects/WORKS_DESKTOP&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/francoisdmq/Documents/Personal/chloe_portfolio/server/node_modules/prettier&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/client/public/projects/WORKS_DESKTOP" />
@@ -187,7 +133,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1775043940272</updated>
-      <workItem from="1775043942557" duration="4314000" />
+      <workItem from="1775043942557" duration="7268000" />
+      <workItem from="1776068634926" duration="416000" />
     </task>
     <task id="LOCAL-00005" summary="update files">
       <option name="closed" value="true" />
@@ -197,11 +144,38 @@
       <option name="project" value="LOCAL" />
       <updated>1775046742881</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update projects">
+      <option name="closed" value="true" />
+      <created>1775124300527</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1775124300529</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix build">
+      <option name="closed" value="true" />
+      <created>1775127700271</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1775127700271</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add project slug" />
@@ -209,7 +183,9 @@
     <MESSAGE value="kaze description" />
     <MESSAGE value="aaryz description" />
     <MESSAGE value="update files" />
-    <option name="LAST_COMMIT_MESSAGE" value="update files" />
+    <MESSAGE value="update projects" />
+    <MESSAGE value="fix build" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix build" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
