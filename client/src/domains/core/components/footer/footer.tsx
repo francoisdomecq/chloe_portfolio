@@ -16,6 +16,7 @@ export const Footer = () => {
             <a
               href="mailto:chloegaillard3312@gmail.com"
               className="footer__cta-button"
+
             >
               {t("footer.contactButton")}
             </a>

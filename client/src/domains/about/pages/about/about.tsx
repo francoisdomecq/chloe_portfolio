@@ -16,7 +16,6 @@ export const About = ()=>{
     <PortfolioPage>
       <div className="about-container">
         <div className="about">
-          <p className="description">{t("about.description")}</p>
           <div className="skills-container">
             <h2 className="skills-title">{t("about.skills")}</h2>
             {SKILL_KEYS.map((key) => (

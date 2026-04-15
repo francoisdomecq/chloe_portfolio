@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 100vh;
+  min-height: auto;
   max-width: 100vw;
   background-color: var(--color-accent);
   color: var(--color-bg);
@@ -99,7 +99,7 @@
   width: 100%;
   height: 2px;
   background-color: var(--color-bg);
-  margin-top: auto;
+  margin-top: 80px;
 }
 
 .footer__bottom-bar {
@@ -123,6 +123,14 @@
 
 // ─── Tablette ≥ sm ────────────────────────────────
 @include respond-to(sm) {
+  .footer {
+    min-height: 100vh;
+  }
+
+  .footer__divider {
+    margin-top: auto;
+  }
+
 
   .footer__big-name {
     width: 100%;
