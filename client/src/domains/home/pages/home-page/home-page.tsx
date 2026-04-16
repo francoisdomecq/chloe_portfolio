@@ -33,10 +33,6 @@ export const HomePage = () => {
   return (
     <PortfolioPage className="home">
       <div className="selection">
-        <div className="selection__header">
-          <h2 className="selection__title">{t("home.selection.title")}</h2>
-          <a href="/works" className="selection__view-more">{t("home.selection.view-more")}</a>
-        </div>
         <SelectionGrid/>
       </div>
       <div className="introduction-container" ref={introContainerRef}>
