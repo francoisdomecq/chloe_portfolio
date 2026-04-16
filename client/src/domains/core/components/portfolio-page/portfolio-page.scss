@@ -17,6 +17,6 @@
 @include respond-to(lg) {
   .portfolio-page {
     padding: 180px sp(2xl) sp(md);
-    overflow-x: visible;
+    overflow-x: clip;
   }
 }

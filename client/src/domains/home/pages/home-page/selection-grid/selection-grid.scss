@@ -3,6 +3,11 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: sp(xs);
+  max-width: 100%;
+}
+
+.selection-grid > a {
+  min-width: 0;
 }
 
 .selection-grid__item {
@@ -11,11 +16,13 @@
   display: block;
   object-fit: cover;
   cursor: pointer;
+  max-width: 100%;
 }
 
 // ─── Desktop ≥ lg — 3 colonnes ────────────────────
 @include respond-to(lg) {
   .selection-grid {
     grid-template-columns: repeat(3, 1fr);
+    padding-right: 64px;
   }
 }

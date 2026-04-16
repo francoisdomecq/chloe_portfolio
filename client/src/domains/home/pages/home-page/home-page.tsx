@@ -31,16 +31,16 @@ export const HomePage = () => {
   const borderRadius = useTransform(scrollYProgress, [0, 0.35, 0.65, 1], [16, 0, 0, 16]);
 
   return (
-    <PortfolioPage>
+    <PortfolioPage className="home">
+      <div className="selection">
+        <div className="selection__header">
+          <h2 className="selection__title">{t("home.selection.title")}</h2>
+          <a href="/works" className="selection__view-more">{t("home.selection.view-more")}</a>
+        </div>
+        <SelectionGrid/>
+      </div>
       <div className="introduction-container" ref={introContainerRef}>
-        <motion.p
-          className="introduction"
-          initial={prefersReducedMotion ? false : { opacity: 0, y: 24 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, ease: [0.25, 0.1, 0.25, 1] }}
-        >
-          {introText}
-        </motion.p>
+
       </div>
       <div className="showreel" ref={showreelRef}>
         {isDesktop && (
@@ -52,13 +52,7 @@ export const HomePage = () => {
           </motion.div>
         )}
       </div>
-      <div className="selection">
-        <div className="selection__header">
-          <h2 className="selection__title">{t("home.selection.title")}</h2>
-          <a href="/works" className="selection__view-more">{t("home.selection.view-more")}</a>
-        </div>
-        <SelectionGrid/>
-      </div>
+
       <div className="lastly" id="news">
         <h2 className="selection__title">{t("home.lastly.title")}</h2>
         {articles.map(article=><Article key={article.title} article={article}/>)}

@@ -58,12 +58,10 @@
 
 // ─── Desktop ≥ lg ─────────────────────────────────
 @include respond-to(lg) {
-  .introduction-container {
-    padding: 0 0 0 45.5%;
-    height: 25vh;
-    max-width: 100%;
+  .home{
+    padding-top: 64px;
+    padding-right: 200px;
   }
-
   .showreel {
     display: flex;
     position: relative;
@@ -73,6 +71,7 @@
     height: 100vh;
     align-items: center;
     justify-content: center;
+    margin-top: sp(2xl);
   }
 
   .showreel__inner {
