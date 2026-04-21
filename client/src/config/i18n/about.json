@@ -1,13 +1,19 @@
 {
   "about": {
-    "description": "Je fais partie de celles et ceux qui pensent que le design graphique \nne commence pas par une réponse évidente. Pour moi, il se construit \nà la croisée de deux éléments essentiels : l’expérimentation \net l’échange. Des croquis, des essais, des formes qui apparaissent puis disparaissent ; un terrain où les idées se construisent progressivement, à la recherche de sens. Chaque projet devient alors une conversation, un dialogue fait d’allers-retours, d’écoute \net d’ajustements. De cette collaboration naissent des identités uniques, pensées pour durer, profondément liées à l’histoire de celles et ceux qui les portent. Systèmes graphiques singuliers, typographies ou illustrations sur mesure m’invitent à m’imprégner d’un univers, \nà plonger dans les archives et à découvrir le travail d’autres studios \net designers. Je vois ainsi chaque projet comme un nouveau terrain d’exploration.",
-    "skills": "Mes services",
+    "name": "Chloé Gaillard",
+    "bio": "Designer graphique basée à Paris, diplômée de l'école ECV Bordeaux. Mon approche mêle rigueur typographique, sens du récit visuel et attention au détail. Je travaille sur des projets d'identité visuelle, de typographie, d'édition et de direction artistique — pour des marques qui ont quelque chose à dire.",
+    "email": "chloegaillard3312@gmail.com",
+    "skillsLabel": "Compétences",
     "direction": "Direction artistique",
-    "typography": "Typographie custom",
+    "typography": "Typographie & lettrage",
     "identity": "Identité visuelle",
+    "webdesign": "Webdesign",
+    "social": "Réseaux sociaux",
     "branding": "Branding",
     "illustration": "Illustration",
-    "webdesign": "Webdesign",
-    "social": "Social Media"
+    "clientsLabel": "Clients & collaborations",
+    "clients": "Hermès, Publicis EtNous, Aaryz, Kaze",
+    "pressLabel": "Presse",
+    "press": "It's Nice That  ·  The Brand Identity"
   }
 }

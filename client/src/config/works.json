@@ -839,6 +839,11 @@
         "id": "9",
         "type": "IMAGE",
         "source": "/projects/AARYZ/AARYZ_9.jpg"
+      },
+      {
+        "id": "10",
+        "type": "VIDEO",
+        "source": "/projects/AARYZ/aaryz_10.mp4"
       }
     ]
   },
