@@ -44,3 +44,19 @@ export const curtainVariantsReduced: Variants = {
   animate: { opacity: 1, transition: { duration: 0.15 } },
   exit: { opacity: 0, transition: { duration: 0.15 } },
 };
+
+export const slideInLeft: Variants = {
+  hidden: { x: -120, opacity: 0 },
+  visible: {
+    x: 0,
+    opacity: 1,
+    transition: { duration: 0.55, ease: [0.25, 0.1, 0.25, 1] },
+  },
+};
+
+export const skillsStagger: Variants = {
+  hidden: {},
+  visible: {
+    transition: { staggerChildren: 0.07, delayChildren: 0.05 },
+  },
+};

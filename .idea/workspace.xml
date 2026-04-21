@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3553796-2a6e-4666-9c4b-e51a3a42a34d" name="Changes" comment="various fixes">
+    <list default="true" id="d3553796-2a6e-4666-9c4b-e51a3a42a34d" name="Changes" comment="refacto about">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/core/components/portfolio-page/portfolio-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/core/components/portfolio-page/portfolio-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/home-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/home-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/home-page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/home-page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/selection-grid/selection-grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/home/pages/home-page/selection-grid/selection-grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/domains/about/pages/about/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/about/pages/about/about.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/utils/animations.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/utils/animations.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,36 +53,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/public/projects/WORKS_DESKTOP&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/francoisdmq/Documents/Personal/chloe_portfolio/server/node_modules/prettier&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/public/projects/AARYZ",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/server/node_modules/prettier",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/public/projects/AARYZ" />
       <recent name="$PROJECT_DIR$/client/public/projects/WORKS_DESKTOP" />
       <recent name="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE" />
       <recent name="$PROJECT_DIR$/client/public/projects" />
       <recent name="$PROJECT_DIR$/client/public/projects/KAOLYN" />
-      <recent name="$PROJECT_DIR$/client/public/projects/PAYFIT" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -135,7 +133,8 @@
       <option name="presentableId" value="Default" />
       <updated>1775043940272</updated>
       <workItem from="1775043942557" duration="7268000" />
-      <workItem from="1776068634926" duration="8452000" />
+      <workItem from="1776068634926" duration="11194000" />
+      <workItem from="1776755407140" duration="3322000" />
     </task>
     <task id="LOCAL-00005" summary="update files">
       <option name="closed" value="true" />
@@ -185,7 +184,31 @@
       <option name="project" value="LOCAL" />
       <updated>1776276009750</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="home">
+      <option name="closed" value="true" />
+      <created>1776359911970</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1776359911970</updated>
+    </task>
+    <task id="LOCAL-00012" summary="home">
+      <option name="closed" value="true" />
+      <created>1776362277000</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1776362277000</updated>
+    </task>
+    <task id="LOCAL-00013" summary="refacto about">
+      <option name="closed" value="true" />
+      <created>1776758346189</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1776758346189</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,7 +234,9 @@
     <MESSAGE value="update projects" />
     <MESSAGE value="fix build" />
     <MESSAGE value="various fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="various fixes" />
+    <MESSAGE value="home" />
+    <MESSAGE value="refacto about" />
+    <option name="LAST_COMMIT_MESSAGE" value="refacto about" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

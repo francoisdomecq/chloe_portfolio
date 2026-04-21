@@ -36,8 +36,12 @@ export const Project = () => {
       const atPageTop = window.scrollY <= 0;
       const scrollingDown = e.deltaY > 0;
 
-      const shouldInterceptDown = scrollingDown && !atBottom;
-      const shouldInterceptUp = !scrollingDown && atPageTop;
+      // Only intercept once the description is fully in view
+      const descEl = document.querySelector<HTMLElement>(".project__description");
+      const descFullyVisible = !descEl || descEl.getBoundingClientRect().bottom <= window.innerHeight + 1;
+
+      const shouldInterceptDown = scrollingDown && !atBottom && descFullyVisible;
+      const shouldInterceptUp = !scrollingDown && atPageTop && scrollTop > 0;
 
       if (shouldInterceptDown || shouldInterceptUp) {
         e.preventDefault();
