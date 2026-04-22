@@ -6,8 +6,117 @@
   <component name="ChangeListManager">
     <list default="true" id="d3553796-2a6e-4666-9c4b-e51a3a42a34d" name="Changes" comment="refacto about">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/domains/about/pages/about/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/domains/about/pages/about/about.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/utils/animations.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/utils/animations.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/AARYZ/AARYZ_1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/AARYZ/AARYZ_1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/AARYZ/AARYZ_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/AARYZ/AARYZ_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/AARYZ/AARYZ_3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/AARYZ/AARYZ_3.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/AARYZ/AARYZ_4.gif" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/AARYZ/AARYZ_4.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/AARYZ/AARYZ_5.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/AARYZ/AARYZ_5.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/AARYZ/AARYZ_6.gif" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/AARYZ/AARYZ_6.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/AARYZ/AARYZ_7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/AARYZ/AARYZ_7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/AARYZ/AARYZ_8.gif" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/AARYZ/AARYZ_8.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/AARYZ/AARYZ_9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/AARYZ/AARYZ_9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/AARYZ/AARYZ_SELECTED_DESKTOP.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/AARYZ/AARYZ_SELECTED_DESKTOP.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/AARYZ/AARYZ_SELECTED_MOBILE.gif" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/AARYZ/AARYZ_SELECTED_MOBILE.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/AARYZ/aaryz_10.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/AARYZ/aaryz_10.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ADIDAS/ADIDAS_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/ADIDAS/ADIDAS_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ADIDAS/ADIDAS_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/ADIDAS/ADIDAS_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ADIDAS/ADIDAS_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/ADIDAS/ADIDAS_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ADIDAS/ADIDAS_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/ADIDAS/ADIDAS_5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ADIDAS/ADIDAS_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/ADIDAS/ADIDAS_6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ADIDAS/ADIDAS_7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/ADIDAS/ADIDAS_7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ADIDAS/ADIDAS_8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/ADIDAS/ADIDAS_8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/BARENIA/BARENIA_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/BARENIA/BARENIA_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/BARENIA/BARENIA_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/BARENIA/BARENIA_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/BARENIA/BARENIA_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/BARENIA/BARENIA_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/BARENIA/BARENIA_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/BARENIA/BARENIA_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/BARENIA/BARENIA_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/BARENIA/BARENIA_5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/BARENIA/BARENIA_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/BARENIA/BARENIA_6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/BARENIA/BARENIA_7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/BARENIA/BARENIA_7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/CHLOE/CHLOE.gif" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/CHLOE/CHLOE.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/CHLOE/CHLOE_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/CHLOE/CHLOE_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/CHLOE/CHLOE_10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/CHLOE/CHLOE_10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/CHLOE/CHLOE_11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/CHLOE/CHLOE_11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/CHLOE/CHLOE_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/CHLOE/CHLOE_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/CHLOE/CHLOE_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/CHLOE/CHLOE_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/CHLOE/CHLOE_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/CHLOE/CHLOE_5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/CHLOE/CHLOE_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/CHLOE/CHLOE_6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/CHLOE/CHLOE_7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/CHLOE/CHLOE_7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/CHLOE/CHLOE_8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/CHLOE/CHLOE_8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/CHLOE/CHLOE_9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/CHLOE/CHLOE_9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/GAILLARD_CHLOE_SHOWREEL_24.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/GAILLARD_CHLOE_SHOWREEL_24.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/HERMES/HERMES_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/HERMES/HERMES_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/HERMES/HERMES_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/HERMES/HERMES_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/HERMES/HERMES_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/HERMES/HERMES_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/HERMES/HERMES_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/HERMES/HERMES_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/HERMES/HERMES_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/HERMES/HERMES_5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/HERMES/HERMES_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/HERMES/HERMES_6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/HERMES/HERMES_8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/HERMES/HERMES_8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/HERMES/HERMES_SELECTED_DESKTOP.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/HERMES/HERMES_SELECTED_DESKTOP.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/HERMES/HERMES_SELECTED_MOBILE.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/HERMES/HERMES_SELECTED_MOBILE.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/JARDINS_STATUAIRES/JARDINS_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/JARDINS_STATUAIRES/JARDINS_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/JARDINS_STATUAIRES/JARDINS_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/JARDINS_STATUAIRES/JARDINS_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/JARDINS_STATUAIRES/JARDINS_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/JARDINS_STATUAIRES/JARDINS_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/JARDINS_STATUAIRES/JARDINS_4.gif" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/JARDINS_STATUAIRES/JARDINS_4.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/JARDINS_STATUAIRES/JARDINS_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/JARDINS_STATUAIRES/JARDINS_5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/JARDINS_STATUAIRES/JARDINS_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/JARDINS_STATUAIRES/JARDINS_6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/JARDINS_STATUAIRES/JARDINS_7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/JARDINS_STATUAIRES/JARDINS_7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/JARDINS_STATUAIRES/JARDINS_8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/JARDINS_STATUAIRES/JARDINS_8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/JARDINS_STATUAIRES/JARDINS_SELECTED_MOBILE.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/JARDINS_STATUAIRES/JARDINS_SELECTED_MOBILE.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_11.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_3.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_7.gif" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_7.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_9.gif" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_9.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_LINKEDIN_2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_LINKEDIN_2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_SELECTED_DESKTOP.gif" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_SELECTED_DESKTOP.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_SELECTED_MOBILE.gif" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/KAOLYN/KAOLYN_SELECTED_MOBILE.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_11.gif" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_11.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_SELECTED_MOBILE.gif" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/KAZE/KAZE_SELECTED_MOBILE.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_11.gif" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_11.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_14.gif" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_14.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_15.gif" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_15.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_16.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_17.gif" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_17.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_6.gif" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_6.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_9.gif" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_9.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_SELECTED_MOBILE.gif" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/ODETTE/ODETTE_SELECTED_MOBILE.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_SELECTED_MOBILE.gif" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/PAYFIT/PAYFIT_SELECTED_MOBILE.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/WORKS_DESKTOP/BARENIA_DESKTOP.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/WORKS_DESKTOP/BARENIA_DESKTOP.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/WORKS_DESKTOP/HERMES.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/WORKS_DESKTOP/HERMES.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/WORKS_DESKTOP/KAOLYN.gif" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/WORKS_DESKTOP/KAOLYN.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/AARYZ.gif" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/AARYZ.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/ADIDAS.gif" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/ADIDAS.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/BARENIA_MOBILE.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/BARENIA_MOBILE.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/KAOLYN.gif" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/KAOLYN.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/KAZE.gif" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/KAZE.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/ODETTE.gif" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/ODETTE.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/PAYFIT.gif" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE/PAYFIT.gif" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +174,7 @@
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/public/projects/AARYZ",
+    "last_opened_file_path": "/Users/francoisdmq/Documents/Personal/chloe_portfolio/client/public/projects",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -78,11 +187,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/client/public/projects/AARYZ" />
-      <recent name="$PROJECT_DIR$/client/public/projects/WORKS_DESKTOP" />
-      <recent name="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE" />
       <recent name="$PROJECT_DIR$/client/public/projects" />
-      <recent name="$PROJECT_DIR$/client/public/projects/KAOLYN" />
+      <recent name="$PROJECT_DIR$/client/public/projects/AARYZ" />
+      <recent name="$PROJECT_DIR$/client/public/projects/ADIDAS" />
+      <recent name="$PROJECT_DIR$/client/public/projects/WORKS_MOBILE" />
+      <recent name="$PROJECT_DIR$/client/public/projects/ODETTE" />
     </key>
   </component>
   <component name="SharedIndexes">
